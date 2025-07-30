@@ -1,4 +1,74 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hola, {name} en espanol!"
+	"hello_world": "Hello, {name} from es!",
+	"nav": {
+		"home": "Inicio",
+		"services": "Servicios",
+		"portfolio": "Portafolio",
+		"about": "Acerca de",
+		"contact": "Obtener Cotización"
+	},
+	"hero": {
+		"title": "Construyendo Sueños en Realidad",
+		"subtitle": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
+		"cta_primary": "Comience Su Proyecto",
+		"cta_secondary": "Ver Nuestra Historia"
+	},
+	"services": {
+		"title": "Nuestros Servicios",
+		"kitchen": "Renovaciones de Cocina",
+		"bathroom": "Remodelación de Baños",
+		"whole_home": "Renovaciones de Casa Completa",
+		"commercial": "Construcción Comercial",
+		"subtitle": "Desde el concepto hasta la finalización, entregamos artesanía excepcional en todos los aspectos de la construcción residencial y comercial.",
+		"millwork": {
+			"title": "Carpintería Personalizada",
+			"description": "Carpintería artesanal y muebles empotrados que añaden carácter y funcionalidad a cualquier espacio.",
+			"features": {
+				"storage": "Almacenamiento Empotrado",
+				"molding": "Molduras de Corona",
+				"trim": "Molduras Personalizadas"
+			},
+			"feature1": "Almacenamiento Empotrado",
+			"feature2": "Molduras de Corona",
+			"feature3": "Molduras Personalizadas"
+		},
+		"design": {
+			"title": "Consulta de Diseño",
+			"description": "Orientación experta en diseño para ayudarte a visualizar y planificar tu proyecto de renovación perfecto.",
+			"features": {
+				"renderings": "Renderizados 3D",
+				"materials": "Selección de Materiales",
+				"planning": "Planificación de Proyectos"
+			},
+			"feature1": "Renderizados 3D",
+			"feature2": "Selección de Materiales",
+			"feature3": "Planificación de Proyectos"
+		},
+		"learn_more": "Saber Más"
+	},
+	"portfolio": {
+		"title": "Nuestro Portafolio",
+		"view_project": "Ver Proyecto"
+	},
+	"contact": {
+		"title": "Contáctanos",
+		"get_estimate": "Obtener Cotización Gratis",
+		"phone": "Teléfono",
+		"email": "Correo Electrónico"
+	},
+	"company": {
+		"name": "World Detail Specialist",
+		"short_name": "WDS"
+	},
+	"meta": {
+		"home_title": "Renovación y Construcción de Casas en Miami | World Detail Specialist",
+		"home_description": "Contratistas galardonados transformando hogares y negocios del sur de Florida. Vea nuestro trabajo y obtenga una cotización gratuita hoy."
+	},
+	"stats": {
+		"projects_completed": "Proyectos Completados",
+		"years_experience": "Años de Experiencia",
+		"happy_clients": "Clientes Satisfechos",
+		"average_rating": "Calificación Promedio"
+	}
 }

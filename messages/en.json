@@ -1,4 +1,74 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from en!"
+	"hello_world": "Hello, {name} from en!",
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"about": "About",
+		"contact": "Get Estimate"
+	},
+	"hero": {
+		"title": "Building Dreams Into Reality",
+		"subtitle": "South Florida's premier construction company, transforming homes and commercial spaces with unmatched craftsmanship and innovation.",
+		"cta_primary": "Start Your Project",
+		"cta_secondary": "Watch Our Story"
+	},
+	"services": {
+		"title": "Our Services",
+		"kitchen": "Kitchen Renovations",
+		"bathroom": "Bathroom Remodeling",
+		"whole_home": "Whole Home Renovations",
+		"commercial": "Commercial Construction",
+		"subtitle": "From concept to completion, we deliver exceptional craftsmanship across all aspects of residential and commercial construction.",
+		"millwork": {
+			"title": "Custom Millwork",
+			"description": "Handcrafted millwork and built-ins that add character and functionality to any space.",
+			"features": {
+				"storage": "Built-in Storage",
+				"molding": "Crown Molding",
+				"trim": "Custom Trim"
+			},
+			"feature1": "Built-in Storage",
+			"feature2": "Crown Molding",
+			"feature3": "Custom Trim"
+		},
+		"design": {
+			"title": "Design Consultation",
+			"description": "Expert design guidance to help you visualize and plan your perfect renovation project.",
+			"features": {
+				"renderings": "3D Renderings",
+				"materials": "Material Selection",
+				"planning": "Project Planning"
+			},
+			"feature1": "3D Renderings",
+			"feature2": "Material Selection",
+			"feature3": "Project Planning"
+		},
+		"learn_more": "Learn More"
+	},
+	"portfolio": {
+		"title": "Our Portfolio",
+		"view_project": "View Project"
+	},
+	"contact": {
+		"title": "Contact Us",
+		"get_estimate": "Get Free Estimate",
+		"phone": "Phone",
+		"email": "Email"
+	},
+	"company": {
+		"name": "World Detail Specialist",
+		"short_name": "WDS"
+	},
+	"meta": {
+		"home_title": "Miami Home Renovation & Construction | World Detail Specialist",
+		"home_description": "Award-winning contractors transforming South-Florida homes & businesses. See our work & get a free estimate today."
+	},
+	"stats": {
+		"projects_completed": "Projects Completed",
+		"years_experience": "Years Experience",
+		"happy_clients": "Happy Clients",
+		"average_rating": "Average Rating"
+	}
 }

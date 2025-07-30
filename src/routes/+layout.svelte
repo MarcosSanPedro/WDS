@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import Navigation from '$lib/components/layout/Navigation.svelte';
 
 	import { page } from '$app/state';
 	let { children } = $props();
@@ -11,4 +12,8 @@
 		<a href={localizeHref(page.url.pathname, { locale })}>{locale}</a>
 	{/each}
 </div>
-{@render children()}
+
+<Navigation />
+<main>
+	{@render children()}
+</main>

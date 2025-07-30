@@ -1,4 +1,6 @@
 <script lang="ts">
+	import * as m from '$lib/paraglide/messages';
+
 	interface Counts {
 		projects: number;
 		years: number;
@@ -85,25 +87,25 @@
 				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
 					{counts.projects}+
 				</div>
-				<div class="text-lg">Projects Completed</div>
+				<div class="text-lg">{m['stats.projects_completed']()}</div>
 			</div>
 			<div class="text-white">
 				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
 					{counts.years}+
 				</div>
-				<div class="text-lg">Years Experience</div>
+				<div class="text-lg">{m['stats.years_experience']()}</div>
 			</div>
 			<div class="text-white">
 				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
 					{counts.clients}+
 				</div>
-				<div class="text-lg">Happy Clients</div>
+				<div class="text-lg">{m['stats.happy_clients']()}</div>
 			</div>
 			<div class="text-white">
 				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
 					{counts.rating}★
 				</div>
-				<div class="text-lg">Average Rating</div>
+				<div class="text-lg">{m['stats.average_rating']()}</div>
 			</div>
 		</div>
 	</div>

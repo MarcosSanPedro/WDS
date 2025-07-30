@@ -1,8 +1,9 @@
 <script lang="ts">
     import { ArrowRight, Play } from 'lucide-svelte';
+    import * as m from '$lib/paraglide/messages';
   
     let typewriterText = $state('');
-    const fullText = 'Building Dreams Into Reality';
+    const fullText = m['hero.title']();
   
     // Typewriter effect using $effect
     $effect(() => {
@@ -36,17 +37,17 @@
         {typewriterText}<span class="animate-pulse">|</span>
       </h1>
       <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-        South Florida's premier construction company, transforming homes and commercial spaces with unmatched craftsmanship and innovation.
+        {m['hero.subtitle']()}
       </p>
       
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <button class="bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-300 hover:scale-105 flex items-center gap-2">
-          Start Your Project
+          {m['hero.cta_primary']()}
           <ArrowRight size={20} />
         </button>
         <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#1A365D] transition-all duration-300 flex items-center gap-2">
           <Play size={20} />
-          Watch Our Story
+          {m['hero.cta_secondary']()}
         </button>
       </div>
     </div>
