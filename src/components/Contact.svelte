@@ -52,13 +52,14 @@
             Start Your Project
           </h3>
           
-          <form on:submit={handleSubmit} class="space-y-6">
+          <form onsubmit={handleSubmit} class="space-y-6">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label class="block text-[#1A365D] font-semibold mb-2">
+                <label for="name" class="block text-[#1A365D] font-semibold mb-2">
                   Full Name *
                 </label>
                 <input
+                  id="name"
                   type="text"
                   name="name"
                   bind:value={formData.name}
@@ -68,10 +69,11 @@
                 />
               </div>
               <div>
-                <label class="block text-[#1A365D] font-semibold mb-2">
+                <label for="email" class="block text-[#1A365D] font-semibold mb-2">
                   Email Address *
                 </label>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   bind:value={formData.email}
@@ -84,10 +86,11 @@
   
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label class="block text-[#1A365D] font-semibold mb-2">
+                <label for="phone" class="block text-[#1A365D] font-semibold mb-2">
                   Phone Number
                 </label>
                 <input
+                  id="phone"
                   type="tel"
                   name="phone"
                   bind:value={formData.phone}
@@ -96,10 +99,11 @@
                 />
               </div>
               <div>
-                <label class="block text-[#1A365D] font-semibold mb-2">
+                <label for="projectType" class="block text-[#1A365D] font-semibold mb-2">
                   Project Type *
                 </label>
                 <select
+                  id="projectType"
                   name="projectType"
                   bind:value={formData.projectType}
                   required
@@ -116,10 +120,11 @@
             </div>
   
             <div>
-              <label class="block text-[#1A365D] font-semibold mb-2">
+              <label for="budget" class="block text-[#1A365D] font-semibold mb-2">
                 Estimated Budget
               </label>
               <select
+                id="budget"
                 name="budget"
                 bind:value={formData.budget}
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AD55] focus:border-transparent transition-all duration-200"
@@ -133,17 +138,18 @@
             </div>
   
             <div>
-              <label class="block text-[#1A365D] font-semibold mb-2">
+              <label for="message" class="block text-[#1A365D] font-semibold mb-2">
                 Project Details *
               </label>
               <textarea
+                id="message"
                 name="message"
                 bind:value={formData.message}
                 required
                 rows="4"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AD55] focus:border-transparent transition-all duration-200"
                 placeholder="Tell us about your project vision, timeline, and any specific requirements..."
-              />
+              ></textarea>
             </div>
   
             <button
