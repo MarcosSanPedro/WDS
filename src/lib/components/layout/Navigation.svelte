@@ -21,13 +21,16 @@
 		closeMobileMenu();
 	}
 
+	// Check if we're on the home page
+	$: isHomePage = $page.url.pathname === '/';
+
 	function handleNavigation(href: string) {
 		closeMobileMenu();
 		goto(href);
 	}
 </script>
 
-<nav class="fixed w-full z-50 transition-all duration-300 {$isScrolled ? 'bg-[#1A365D]/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}">
+<nav class="fixed w-full z-50 transition-all duration-300 {$isScrolled || !isHomePage ? 'bg-[#1A365D]/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex justify-between items-center h-16">
 			<div class="flex-shrink-0">

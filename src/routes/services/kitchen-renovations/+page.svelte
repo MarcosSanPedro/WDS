@@ -188,10 +188,11 @@
       <div class="bg-white rounded-lg shadow-lg p-8">
         <div class="space-y-8">
           <div>
-            <label class="block text-[#1A365D] font-semibold mb-4">
+            <label for="kitchen-size" class="block text-[#1A365D] font-semibold mb-4">
               Kitchen Size: {budgetRange.size} sq ft
             </label>
             <input
+              id="kitchen-size"
               type="range"
               min="100"
               max="500"
@@ -201,10 +202,11 @@
           </div>
           
           <div>
-            <label class="block text-[#1A365D] font-semibold mb-4">
+            <label for="appliance-level" class="block text-[#1A365D] font-semibold mb-4">
               Appliance Level
             </label>
             <select
+              id="appliance-level"
               bind:value={budgetRange.appliances}
               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AD55] focus:border-transparent"
             >
@@ -215,10 +217,11 @@
           </div>
           
           <div>
-            <label class="block text-[#1A365D] font-semibold mb-4">
+            <label for="finish-level" class="block text-[#1A365D] font-semibold mb-4">
               Finish Level
             </label>
             <select
+              id="finish-level"
               bind:value={budgetRange.finishes}
               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AD55] focus:border-transparent"
             >
