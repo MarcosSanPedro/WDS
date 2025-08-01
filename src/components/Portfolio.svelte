@@ -1,26 +1,27 @@
 <script lang="ts">
 	import { ChevronLeft, ChevronRight } from 'lucide-svelte';
+	import * as m from '$lib/paraglide/messages';
 
 	let currentProject = $state(0);
 
 	const projects = [
 		{
 			title: 'Modern Miami Kitchen',
-			category: 'Kitchen Renovation',
+			category: m['services.kitchen'](),
 			image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			beforeImage: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			description: 'Complete transformation featuring custom cabinetry, quartz countertops, and premium appliances.'
 		},
 		{
 			title: 'Luxury Bathroom Suite',
-			category: 'Bathroom Remodeling',
+			category: m['services.bathroom'](),
 			image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			beforeImage: 'https://images.pexels.com/photos/1358912/pexels-photo-1358912.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			description: 'Spa-inspired design with marble finishes, rainfall shower, and heated floors.'
 		},
 		{
 			title: 'Contemporary Office Space',
-			category: 'Commercial Construction',
+			category: m['services.commercial'](),
 			image: 'https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			beforeImage: 'https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
 			description: 'Modern office buildout with open floor plan, custom millwork, and efficient lighting.'
@@ -40,7 +41,7 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
 			<h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-4">
-				Featured Projects
+				{m['portfolio.title']()}
 			</h2>
 			<p class="text-xl text-[#718096] max-w-3xl mx-auto">
 				Explore our portfolio of exceptional projects that showcase our commitment to quality and innovation.
@@ -112,7 +113,7 @@
 							{projects[currentProject].description}
 						</p>
 						<button class="bg-[#F6AD55] text-[#1A365D] px-8 py-3 rounded-lg font-semibold hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-105 self-start">
-							View Case Study
+							{m['portfolio.view_project']()}
 						</button>
 					</div>
 				</div>

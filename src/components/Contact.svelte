@@ -1,5 +1,6 @@
 <script lang="ts">
     import { Phone, Mail, MapPin, Clock } from 'lucide-svelte';
+    import * as m from '$lib/paraglide/messages';
   
     interface FormData {
       name: string;
@@ -38,7 +39,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
-          Get Your Free Estimate
+          {m['contact.title']()}
         </h2>
         <p class="text-xl text-white/80 max-w-3xl mx-auto">
           Ready to transform your space? Contact us today for a free consultation and estimate.
@@ -110,10 +111,10 @@
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AD55] focus:border-transparent transition-all duration-200"
                 >
                   <option value="">Select project type</option>
-                  <option value="kitchen">Kitchen Renovation</option>
-                  <option value="bathroom">Bathroom Remodeling</option>
-                  <option value="whole-home">Whole Home Renovation</option>
-                  <option value="commercial">Commercial Construction</option>
+                  <option value="kitchen">{m['services.kitchen']()}</option>
+                  <option value="bathroom">{m['services.bathroom']()}</option>
+                  <option value="whole-home">{m['services.whole_home']()}</option>
+                  <option value="commercial">{m['services.commercial']()}</option>
                   <option value="other">Other</option>
                 </select>
               </div>
@@ -156,7 +157,7 @@
               type="submit"
               class="w-full bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-[1.02]"
             >
-              Get My Free Estimate
+              {m['contact.get_estimate']()}
             </button>
           </form>
         </div>
@@ -174,7 +175,7 @@
                   <Phone class="w-6 h-6 text-[#1A365D]" />
                 </div>
                 <div>
-                  <div class="text-white font-semibold">Phone</div>
+                  <div class="text-white font-semibold">{m['contact.phone']()}</div>
                   <div class="text-white/80">(305) 555-0123</div>
                 </div>
               </div>
@@ -184,7 +185,7 @@
                   <Mail class="w-6 h-6 text-[#1A365D]" />
                 </div>
                 <div>
-                  <div class="text-white font-semibold">Email</div>
+                  <div class="text-white font-semibold">{m['contact.email']()}</div>
                   <div class="text-white/80">info@wdsbuilders.com</div>
                 </div>
               </div>

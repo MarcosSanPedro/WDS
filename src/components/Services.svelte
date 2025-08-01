@@ -1,42 +1,43 @@
 <script lang="ts">
 	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb } from 'lucide-svelte';
+	import * as m from '$lib/paraglide/messages';
 
 	const services = [
 		{
 			icon: Home,
-			title: 'Kitchen Renovations',
+			title: m['services.kitchen'](),
 			description: 'Transform your kitchen into a culinary masterpiece with custom cabinetry, premium countertops, and modern appliances.',
 			features: ['Custom Cabinetry', 'Premium Countertops', 'Modern Appliances']
 		},
 		{
 			icon: Building,
-			title: 'Bathroom Remodeling',
+			title: m['services.bathroom'](),
 			description: 'Create your personal spa retreat with luxury fixtures, elegant tilework, and sophisticated design.',
 			features: ['Luxury Fixtures', 'Custom Tilework', 'Spa-like Design']
 		},
 		{
 			icon: Wrench,
-			title: 'Whole Home Renovations',
+			title: m['services.whole_home'](),
 			description: 'Complete home transformations that enhance both functionality and aesthetic appeal throughout your space.',
 			features: ['Complete Makeovers', 'Structural Changes', 'Interior Design']
 		},
 		{
 			icon: Hammer,
-			title: 'Commercial Construction',
+			title: m['services.commercial'](),
 			description: 'Professional commercial spaces that reflect your brand and optimize workflow for maximum efficiency.',
 			features: ['Office Buildouts', 'Retail Spaces', 'Restaurants']
 		},
 		{
 			icon: PaintBucket,
-			title: 'Custom Millwork',
-			description: 'Handcrafted millwork and built-ins that add character and functionality to any space.',
-			features: ['Built-in Storage', 'Crown Molding', 'Custom Trim']
+			title: m['services.millwork.title'](),
+			description: m['services.millwork.description'](),
+			features: [m['services.millwork.features.storage'](), m['services.millwork.features.molding'](), m['services.millwork.features.trim']()]
 		},
 		{
 			icon: Lightbulb,
-			title: 'Design Consultation',
-			description: 'Expert design guidance to help you visualize and plan your perfect renovation project.',
-			features: ['3D Renderings', 'Material Selection', 'Project Planning']
+			title: m['services.design.title'](),
+			description: m['services.design.description'](),
+			features: [m['services.design.features.renderings'](), m['services.design.features.materials'](), m['services.design.features.planning']()]
 		}
 	];
 </script>
@@ -45,10 +46,10 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
 			<h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-4">
-				Our Services
+				{m['services.title']()}
 			</h2>
 			<p class="text-xl text-[#718096] max-w-3xl mx-auto">
-				From concept to completion, we deliver exceptional craftsmanship across all aspects of residential and commercial construction.
+				{m['services.subtitle']()}
 			</p>
 		</div>
 
@@ -75,7 +76,7 @@
 						{/each}
 					</ul>
 					<button class="text-[#F6AD55] font-semibold hover:text-[#1A365D] transition-colors duration-200 flex items-center">
-						Learn More →
+						{m['services.learn_more']()} →
 					</button>
 				</div>
 			{/each}
