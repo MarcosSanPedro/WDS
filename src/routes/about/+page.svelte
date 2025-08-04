@@ -145,7 +145,7 @@
 	</section>
 
 	<!-- Team Grid -->
-	<section class="py-20 bg-white">
+	<!-- <section class="py-20 bg-white">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<h2 class="text-3xl md:text-4xl font-bold text-[#1A365D] mb-12 text-center">
 				Meet Our Team
@@ -176,7 +176,7 @@
 				{/each}
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Values -->
 	<section class="py-20 bg-[#F7FAFC]">
@@ -224,7 +224,7 @@
 	</section>
 
 	<!-- Behind the Scenes Video Banner -->
-	<section class="py-20 bg-[#1A365D] text-white">
+	<!-- <section class="py-20 bg-[#1A365D] text-white">
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 			<h2 class="text-3xl md:text-4xl font-bold mb-6">
 				See Us in Action
@@ -247,5 +247,5 @@
 				Work With Our Team
 			</a>
 		</div>
-	</section>
+	</section> -->
 </main>

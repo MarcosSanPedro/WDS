@@ -12,7 +12,6 @@
 			project: 'Kitchen Renovation',
 			rating: 5,
 			text: 'WDS transformed our outdated kitchen into a modern masterpiece. Their attention to detail and professionalism exceeded our expectations. The project was completed on time and within budget.',
-			image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
 		},
 		{
 			name: 'Michael Rodriguez',
@@ -20,7 +19,6 @@
 			project: 'Whole Home Renovation',
 			rating: 5,
 			text: 'From concept to completion, the WDS team delivered exceptional results. Our home feels brand new, and the quality of workmanship is outstanding. Highly recommend their services.',
-			image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
 		},
 		{
 			name: 'Jennifer Davis',
@@ -28,7 +26,6 @@
 			project: 'Bathroom Remodeling',
 			rating: 5,
 			text: 'Our master bathroom renovation was flawless. WDS created a spa-like retreat that we enjoy every day. Their team was professional, clean, and respectful throughout the process.',
-			image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
 		}
 	];
 
@@ -64,11 +61,7 @@
 			<div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
 				<div class="flex flex-col md:flex-row items-center gap-8">
 					<div class="flex-shrink-0">
-						<img
-							src={testimonials[currentTestimonial].image}
-							alt={testimonials[currentTestimonial].name}
-							class="w-24 h-24 rounded-full object-cover border-4 border-[#F6AD55]"
-						/>
+						
 					</div>
 					
 					<div class="flex-1 text-center md:text-left">

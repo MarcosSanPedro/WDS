@@ -78,9 +78,9 @@
 		</div>
 
 		<div class="text-center mt-12">
-			<button class="bg-[#1A365D] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#1A365D]/90 transition-all duration-200 hover:scale-105">
+			<a href="/contact" class="bg-[#1A365D] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#1A365D]/90 transition-all duration-200 hover:scale-105">
 				Start Your Project Today
-			</button>
+			</a>
 		</div>
 	</div>
 </section>
