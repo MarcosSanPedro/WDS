@@ -13,28 +13,28 @@
 			icon: Building,
 			title: 'Bathroom Remodeling',
 			description: 'Create a spa-like retreat with stylish fixtures and flawless waterproofing.',
-			link: '/services/bathroom-remodeling',
+			link: '/',
 			image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 		},
 		{
 			icon: Wrench,
 			title: 'Whole Home Renovations',
 			description: 'Complete home transformations that enhance both functionality and aesthetic appeal throughout your space.',
-			link: '/services/whole-home-renovations',
+			link: '/',
 			image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 		},
 		{
 			icon: Hammer,
 			title: 'Commercial Construction',
 			description: 'Professional commercial spaces that reflect your brand and optimize workflow for maximum efficiency.',
-			link: '/services/commercial-construction',
+			link: '/',
 			image: 'https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 		},
 		{
 			icon: PaintBucket,
 			title: 'Custom Millwork',
 			description: 'Handcrafted millwork and built-ins that add character and functionality to any space.',
-			link: '/services/kitchen-renovations',
+			link: '/',
 			image: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 		},
 		{
