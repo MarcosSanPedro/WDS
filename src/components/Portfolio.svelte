@@ -110,7 +110,7 @@
                     
                     <div class="flex items-center gap-3">
                         <button
-                            on:click={prevProject}
+                            onclick={prevProject}
                             class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white transition-all duration-200 hover:scale-105"
                             aria-label="Previous project"
                         >
@@ -120,7 +120,7 @@
                         <div class="flex gap-2">
                             {#each projects as _, index}
                                 <button
-                                    on:click={() => { currentProject = index; restartAnimation(); }}
+                                    onclick={() => { currentProject = index; restartAnimation(); }}
                                     class="w-2 h-2 rounded-full transition-all duration-300 {index === currentProject ? 'bg-orange-400 w-8' : 'bg-slate-600 hover:bg-slate-500'}"
                                     aria-label="Go to project {index + 1}"
                                 ></button>
@@ -128,7 +128,7 @@
                         </div>
                         
                         <button
-                            on:click={nextProject}
+                            onclick={nextProject}
                             class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white transition-all duration-200 hover:scale-105"
                             aria-label="Next project"
                         >
@@ -224,7 +224,7 @@
         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             {#each projects as project, index}
                 <button
-                    on:click={() => { currentProject = index; restartAnimation(); }}
+                    onclick={() => { currentProject = index; restartAnimation(); }}
                     class="group relative overflow-hidden rounded-2xl transition-all duration-300 ease-in-out {index === currentProject ? 'ring-4 ring-orange-400 scale-105' : 'hover:scale-102'}"
                 >
                     <img

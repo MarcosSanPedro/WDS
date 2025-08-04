@@ -13,13 +13,13 @@
           {m['footer.company_description']()}
         </p>
         <div class="flex space-x-4">
-          <a href="#" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
             <Facebook size={20} />
           </a>
-          <a href="#" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
             <Instagram size={20} />
           </a>
-          <a href="#" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
             <Linkedin size={20} />
           </a>
         </div>

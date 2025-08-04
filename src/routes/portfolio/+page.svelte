@@ -163,7 +163,7 @@
 								{project.description}
 							</p>
 							<a
-								href="/portfolio/{project.id}"
+								href="/portfolio/"
 								class="inline-flex items-center text-[#F6AD55] font-semibold hover:text-[#1A365D] transition-colors duration-200"
 							>
 								View Case Study →
