@@ -66,3 +66,29 @@ export interface Stat {
 	label: string;
 	suffix?: string;
 }
+
+
+export type StyleKey = 'modern' | 'traditional' | 'contemporary';
+
+export interface Services {
+  slug: string;                // kitchen-renovations
+  title: string;               // “Kitchen Renovations”
+  meta: {
+    description: string;
+    heroImage: string;
+    priceTag: string;          // “From $25k”
+    timeline: string;          // “4–8 weeks”
+  };
+  overview: {
+    heading: string;
+    paragraph: string;
+  };
+  process: { title: string; desc: string }[];
+  styles: Record<StyleKey, string[]>;   // galerías
+  faqs: { question: string; answer: string }[];
+  cta: {
+    heading: string;
+    subheading: string;
+    button: string;
+  };
+}
