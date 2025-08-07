@@ -10,7 +10,7 @@
 		Users
 	} from 'lucide-svelte';
 	import * as m from '$lib/paraglide/messages';
-	import { services } from '../cms';
+	import { services } from '../../cms';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 
@@ -286,7 +286,7 @@
 				</div>
 			</div>
 
-			<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+			<!-- <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
 				{#each data.styles[activeTab] as image, index}
 					<div class="aspect-video overflow-hidden rounded-lg shadow-lg">
 						<img
@@ -296,8 +296,8 @@
 						/>
 					</div>
 				{/each}
-			</div>
-		</div>
+			</div>-->
+		</div> 
 	</section>
 
 	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">

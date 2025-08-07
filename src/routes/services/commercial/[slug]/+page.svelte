@@ -4,20 +4,23 @@
 		ChevronDown,
 		ChevronUp,
 		Droplet,
-		Play,
-		Star,
 		Thermometer,
 		Users
 	} from 'lucide-svelte';
-	import * as m from '$lib/paraglide/messages';
-	import { services } from '../cms';
+	import { services } from '../../cms';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 
 	let activeTab = $state<'modern' | 'traditional' | 'contemporary' | string>('modern');
 	let openFaq = $state<number | null>(null);
 
+
+
 	let data = services[page.params.slug as keyof typeof services];
+
+	console.log(data)
+
+
 	const trends = [
 		{
 			title: 'Rainfall Showers',
@@ -287,7 +290,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-				{#each data.styles[activeTab] as image, index}
+				<!-- {#each data.styles[activeTab] as image, index}
 					<div class="aspect-video overflow-hidden rounded-lg shadow-lg">
 						<img
 							src={image}
@@ -295,7 +298,7 @@
 							class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
 						/>
 					</div>
-				{/each}
+				{/each} -->
 			</div>
 		</div>
 	</section>
