@@ -6,42 +6,42 @@
 		icon: Home,
 		title: 'Kitchen Remodels',
 		description: 'Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle.',
-		link: '/services/commercial/kitchen-remodels',
+		link: '/services/commercial/kitchen-renovations',
 		image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Building,
 		title: 'Bathroom Renovations',
 		description: 'Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts.',
-		link: '/bathroom-renovations',
+		link: '/services/commercial/bathroom-renovations',
 		image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Plus,
 		title: 'Home Additions',
 		description: 'Seamlessly expand your living space with beautifully integrated new rooms & features.',
-		link: '/home-additions',
+		link: '/services/commercial/home-additions',
 		image: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Layers,
 		title: 'Basement Finishing',
 		description: 'Transform your basement into a functional living space for entertainment or guests.',
-		link: '/basement-finishing',
+		link: '/services/commercial/basement-finishing',
 		image: 'https://images.pexels.com/photos/373548/pexels-photo-373548.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Sun,
 		title: 'Deck & Patio Construction',
 		description: 'Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests.',
-		link: '/deck-patio-construction',
+		link: '/services/commercial/deck-patio-construction',
 		image: 'https://images.pexels.com/photos/238385/pexels-photo-238385.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Wrench,
 		title: 'Whole-Home Renovations',
 		description: 'Complete transformations that enhance both the beauty & function of your entire home.',
-		link: '/whole-home-renovations',
+		link: '/services/commercial/whole-home-renovations',
 		image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	}
 ];

@@ -1,4 +1,9 @@
-// Core data types for the WDS application
+import type { SvelteComponent } from 'svelte';
+
+export type SvelteComponentType = new (...args: any) => SvelteComponent;
+
+
+import type { Icon } from "lucide-svelte";
 
 export interface Project {
 	id: string;
@@ -70,21 +75,37 @@ export interface Stat {
 
 export type StyleKey = 'modern' | 'traditional' | 'contemporary';
 
+
+
 export interface Services {
-  slug: string;                // kitchen-renovations
-  title: string;               // “Kitchen Renovations”
+  slug: string; // e.g., "kitchen-renovations"
+  title: string; // e.g., "Kitchen Renovations"
+  goldTittle: string;
+  subTittle: string;
   meta: {
     description: string;
     heroImage: string;
-    priceTag: string;          // “From $25k”
-    timeline: string;          // “4–8 weeks”
+    priceTag: string; // e.g., "From $25k"
+    timeline: string; // e.g., "4–8 weeks"
   };
   overview: {
     heading: string;
     paragraph: string;
   };
+  trends: {
+    title: string;
+    description: string;
+    icon: SvelteComponentType;
+  }[];
+  featuresTittle: string;
+  featuresSubtittle: string;
+  features: {
+    title: string;
+    description: string;
+	icon: SvelteComponentType;
+  }[];
   process: { title: string; desc: string }[];
-  styles: Record<StyleKey, string[]>;   // galerías
+  styles: Record<StyleKey, string[]>; // galleries
   faqs: { question: string; answer: string }[];
   cta: {
     heading: string;
