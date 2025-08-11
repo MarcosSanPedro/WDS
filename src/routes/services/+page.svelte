@@ -142,7 +142,7 @@
             <div 
               class="group text-center p-6 rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <div class="inline-flex p-4 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div class="inline-flex p-4 bg-gradient-to-br from-[#F6AD55] to-[#F6AD95] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 <reason.icon class="w-8 h-8 text-white" />
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-900 transition-colors duration-300">

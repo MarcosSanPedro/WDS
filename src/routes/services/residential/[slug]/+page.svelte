@@ -1,60 +1,16 @@
 <script lang="ts">
-	import {
-		Check,
-		ChevronDown,
-		ChevronUp,
-		Droplet,
-		Play,
-		Star,
-		Thermometer,
-		Users
-	} from 'lucide-svelte';
-	import * as m from '$lib/paraglide/messages';
+	import { Check, ChevronDown, ChevronUp, Droplet, Thermometer, Users } from 'lucide-svelte';
 	import { services } from '../../cms';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
+	import Process from '../../../../components/Process.svelte';
 
 	let activeTab = $state<'modern' | 'traditional' | 'contemporary' | string>('modern');
 	let openFaq = $state<number | null>(null);
 
 	let data = services[page.params.slug as keyof typeof services];
-	const trends = [
-		{
-			title: 'Rainfall Showers',
-			description:
-				'Luxurious shower experiences with multiple spray patterns and water-saving technology.',
-			icon: Droplet
-		},
-		{
-			title: 'Heated Floors',
-			description: 'Radiant floor heating for comfort and luxury in any weather.',
-			icon: Thermometer
-		},
-		{
-			title: 'Floating Vanities',
-			description: 'Modern, space-saving designs that create an airy, contemporary feel.',
-			icon: Users
-		}
-	];
 
-	const features = [
-		{
-			title: 'Walk-in Showers',
-			description: 'Barrier-free entry with non-slip surfaces and built-in seating options.'
-		},
-		{
-			title: 'Grab Bars',
-			description: 'Stylish, sturdy support bars that blend seamlessly with your design.'
-		},
-		{
-			title: 'Comfort Height Fixtures',
-			description: 'Toilets and vanities at optimal heights for easier use.'
-		},
-		{
-			title: 'Wide Doorways',
-			description: 'Accessible entry points that accommodate all mobility needs.'
-		}
-	];
+	console.log(data);
 
 	const materials = {
 		cabinetry: {
@@ -75,6 +31,63 @@
 		}
 	};
 
+
+	type FinishKey = 'natural' | 'honey' | 'green' | 'yellow' | 'black' | 'red' | 'orange'| 'purple';
+
+	type Finish = {
+		name: string;
+		preview: string; // hex
+		image: string;   // image URL
+	};
+
+	const finishes = {
+		natural: {
+			name: 'Natural Clear',
+			preview: '#D2B48C',
+			image: '/colorSelectorImg/beige.jpg'
+		},
+		honey: {
+			name: 'Honey Stain',
+			preview: '#CD853F',
+			image: '/colorSelectorImg/honey.jpg'
+		},
+		green: {
+			name: 'Green',
+			preview: '#218542',
+			image: '/colorSelectorImg/green.jpg'
+		},
+		yellow: {
+			name: 'Light Yellow',
+			preview: '#ebeb5b',
+			image: '/colorSelectorImg/light-yellow.jpg'
+		},
+
+		black: {
+			name: 'Black Stain',
+			preview: '#2F2F2F',
+			image: '/colorSelectorImg/stain-black.jpg'
+		},
+		red: {
+			name: 'Light Red',
+			preview: '#f15b5b',
+			image: '/colorSelectorImg/light-red.jpg'
+		},
+		orange: {
+			name: 'Orange Paint',
+			preview: '#ea6a15',
+			image: '/colorSelectorImg/orange.jpg'
+		},
+		purple: {
+			name: 'Purple Paint',
+			preview: '#8E44AD',
+			image: '/colorSelectorImg/purple.jpg'
+		}
+	}
+
+	let selectedFinish = $state<FinishKey>('natural');
+
+	const finishList = Object.entries(finishes) as [FinishKey, Finish][];
+
 	type MaterialKey = keyof typeof materials;
 	let selectedMaterial = $state<MaterialKey>('cabinetry');
 </script>
@@ -89,25 +102,24 @@
 
 <main class="pt-16">
 	<!-- Hero Section -->
-	<section class="from-navy to-navy-light relative bg-gradient-to-br py-24 text-white">
+	<section class=" bg-[#ea6a15] from-navy to-navy-light relative bg-gradient-to-br py-24 text-white">
 		<div class="absolute inset-0 bg-[#0b2549]"></div>
 		<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
 				<div>
 					<h1 class="mb-6 text-4xl font-bold whitespace-nowrap md:text-5xl">
-						Bathroom Remodeling
-						<span class="block pt-2 whitespace-normal text-[#F6AD55]">Create Your Personal Spa</span
+						{data.title}
+						<span class="block pt-2 whitespace-normal text-[#F6AD55]">{data.goldTittle}</span
 						>
 					</h1>
 					<p class="mb-8 text-xl text-gray-200">
-						Create your dream bathroom with our innovative remodeling solutions. From luxurious spa
-						retreats to functional family bathrooms, we design spaces that inspire relaxation.
+						{data.subTittle}
 					</p>
-					<button
+					<a href="/contact"
 						class="text-navy hover:bg-[#F6AD55]-light rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105"
 					>
-						Request Your Free Bathroom Quote
-					</button>
+						Request Your Free Quote
+					</a>
 				</div>
 				<div class="relative">
 					<img
@@ -130,7 +142,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
-				{#each trends as trend, index (index)}
+				{#each data.trends as trend, index (index)}
 					{@const Icon = trend.icon}
 
 					<div
@@ -171,7 +183,7 @@
 							<button
 								class={`rounded-lg px-6 py-3 font-semibold transition-all duration-300 ${
 									selectedMaterial === key
-										? 'bg-[#F6AD55] text-navy'
+										? 'text-navy bg-[#F6AD55]'
 										: 'text-navy bg-gradient-to-br from-slate-50 to-blue-50 hover:to-slate-300'
 								}`}
 								onclick={() => (selectedMaterial = key as MaterialKey)}
@@ -191,7 +203,7 @@
 						<div class="space-y-3">
 							{#each materials[selectedMaterial].options as option}
 								<div class="flex items-center space-x-3">
-									<Check class="text-[#F6AD55] h-5 w-5" />
+									<Check class="h-5 w-5 text-[#F6AD55]" />
 									<span class="text-navy">{option}</span>
 								</div>
 							{/each}
@@ -200,21 +212,49 @@
 				</div>
 
 				<!-- Visual & CTA -->
-				<div class="rounded-xl bg-gradient-to-br from-slate-50 to-blue-50 p-8">
-					<img
-						src="https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=600"
-						alt="Kitchen material showcase"
-						class="mb-6 h-80 w-full rounded-lg object-cover"
-					/>
-					<div class="text-center">
-						<p class="text-navy mb-2 font-semibold">Schedule a Material Consultation</p>
-						<p class="mb-4 text-gray-600">See and feel our premium materials in person</p>
-						<a
-							href="/contact"
-							class="bg-[#F6AD55] text-navy hover:bg-[#F6AD55] rounded-lg px-6 py-3 font-semibold transition-colors"
-						>
-							Book Consultation
-						</a>
+				<div class="rounded-xl bg-gradient-to-br from-slate-50 to-blue-50">
+					<!-- Large preview that swaps with selection -->
+					<figure class="mb-6">
+						<img
+							src={finishes[selectedFinish].image}
+							alt={`Sample: ${finishes[selectedFinish].name}`}
+							class="h-80 w-full rounded-t-lg object-cover shadow"
+							loading="eager"
+						/>
+						<figcaption class="mt-3 flex items-center justify-between text-sm text-gray-600 px-9">
+							<span class="font-semibold text-navy">{finishes[selectedFinish].name}</span>
+							<span class="inline-flex items-center gap-2"></span>
+							
+								<code class="text-gray-500">{finishes[selectedFinish].preview}</code>
+						</figcaption>
+					</figure>
+				
+					<!-- Swatches: no text on the chips -->
+					<div class="rounded-xl bg-white p-6 shadow-lg">
+						<h4 class="text-navy mb-4 text-lg font-bold">Finish Samples</h4>
+				
+						<div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3">
+							{#each finishList as [key, finish] (key)}
+								<button
+									onclick={() => (selectedFinish = key)}
+									class={`relative h-12 w-12 rounded-md border-2 transition
+										${selectedFinish === key
+											? 'border-[#F6AD55] ring-2 ring-[#F6AD55]/40'
+											: 'border-gray-200 hover:border-gray-300'}`}
+									style:background-color={finish.preview}
+									aria-label={finish.name}
+									aria-pressed={selectedFinish === key}
+									title={finish.name}
+								>
+									<!-- focus ring for keyboard users -->
+									</button>
+							{/each}
+						</div>
+				
+						<!-- Helper line; no labels on swatches -->
+						<p class="mt-4 text-xs text-gray-500">
+							Tip: Click a swatch to preview the matching sample photo above.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -222,7 +262,7 @@
 	</section>
 
 	<!-- Overview Section -->
-	<section class="bg-white py-20">
+	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
 		<div class="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
 			<h2 class="mb-8 text-3xl font-bold text-[#1A365D] md:text-4xl">
 				{data.overview.heading}
@@ -233,85 +273,20 @@
 		</div>
 	</section>
 
-	<!-- Process Section -->
-	<section class="bg-[#F7FAFC] py-20">
-		<div class="  px-4 sm:px-6 lg:px-8">
-			<h2 class="mb-12 text-center text-3xl font-bold text-[#1A365D] md:text-4xl">
-				Our Kitchen Renovation Process
-			</h2>
-
-			<div class="space-y-4 md:flex justify-center gap-10 ">
-				{#each [{ title: 'Initial Consultation', desc: 'We discuss your vision, needs, and budget in detail' }, { title: '3D Design Rendering', desc: 'See your new kitchen before construction begins' }, { title: 'Material Selection', desc: 'Choose from premium cabinets, countertops, and fixtures' }, { title: 'Construction Phase', desc: 'Expert craftsmen bring your design to life' }, { title: 'Final Reveal', desc: 'Walk through your completed dream kitchen' }] as step, index}
-					<div class="rounded-lg border-l-4 border-[#F6AD55] bg-white p-6 shadow-md md:w-80 md:p-4">
-						<div class="flex items-center">
-							<div
-								class="mr-4 flex h-8 w-8 items-center justify-center rounded-full bg-[#F6AD55] font-bold text-[#1A365D]"
-							>
-								{index + 1}
-							</div>
-							<div>
-								<h3 class="text-xl font-bold text-[#1A365D]">{step.title}</h3>
-								<p class="mt-1 text-[#718096]">{step.desc}</p>
-							</div>
-						</div>
-					</div>
-				{/each}
-			</div>
-		</div>
-	</section>
-
-	<!-- Style Gallery -->
-	<section class="bg-white py-20">
-		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-			<h2 class="mb-4 text-center text-3xl font-bold text-[#1A365D] md:text-4xl">
-				Choose a Style That Fits Your Life
-			</h2>
-			<p class="mb-12 text-center text-xl text-[#718096]">
-				Explore different design aesthetics to find your perfect match.
-			</p>
-
-			<div class="mb-8 flex justify-center">
-				<div class="flex space-x-2 rounded-lg bg-[#F7FAFC] p-2">
-					{#each Object.keys(data.styles) as style}
-						<button
-							onclick={() => (activeTab = style as 'modern' | 'traditional' | 'contemporary')}
-							class="rounded-lg px-6 py-3 font-semibold capitalize transition-all duration-200 {activeTab ===
-							style
-								? 'bg-[#F6AD55] text-[#1A365D]'
-								: 'text-[#718096] hover:text-[#1A365D]'}"
-						>
-							{style}
-						</button>
-					{/each}
-				</div>
-			</div>
-
-			<!-- <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-				{#each data.styles[activeTab] as image, index}
-					<div class="aspect-video overflow-hidden rounded-lg shadow-lg">
-						<img
-							src={image}
-							alt="{activeTab} kitchen style {index + 1}"
-							class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-						/>
-					</div>
-				{/each}
-			</div>-->
-		</div> 
-	</section>
+	<Process />
 
 	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mb-16 text-center">
-				<h2 class="text-navy mb-4 text-4xl font-bold">Universal Design & Accessibility</h2>
+				<h2 class="text-navy mb-4 text-4xl font-bold">{data.featuresTittle}</h2>
 				<p class="mx-auto max-w-3xl text-xl text-gray-600">
-					Create beautiful, accessible bathrooms that work for everyone.
+					{data.featuresSubtittle}
 				</p>
 			</div>
 
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-				{#each features as feature, index (index)}
-					{@const Icon = Check}
+				{#each data.features as feature, index (index)}
+					{@const Icon = feature.icon}
 					<div class="rounded-xl bg-white p-6 text-center shadow-lg">
 						<div
 							class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#F6AD55]"

@@ -1,48 +1,60 @@
 <script lang="ts">
-	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb, Plus, Layers, Sun } from 'lucide-svelte';
+	import {  Briefcase, Store, Factory, Wrench, Utensils, Building2 } from 'lucide-svelte';
 
 	const services = [
 	{
-		icon: Home,
-		title: 'Kitchen Remodels',
-		description: 'Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle.',
-		link: '/services/commercial/kitchen-renovations',
-		image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		icon: Briefcase,
+		title: 'Office Renovations',
+		description:
+			'Transform workspaces into modern, efficient, and inspiring environments that boost productivity and reflect your brand identity.',
+		link: '/services/commercial/office-renovations',
+		image:
+			'https://images.pexels.com/photos/3182778/pexels-photo-3182778.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
-		icon: Building,
-		title: 'Bathroom Renovations',
-		description: 'Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts.',
-		link: '/services/commercial/bathroom-renovations',
-		image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		icon: Store,
+		title: 'Retail Construction',
+		description:
+			'Design and build engaging retail spaces that attract customers, enhance shopping experiences, and maximize sales potential.',
+		link: '/services/commercial/retail-construction',
+		image:
+			'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
-		icon: Plus,
-		title: 'Home Additions',
-		description: 'Seamlessly expand your living space with beautifully integrated new rooms & features.',
-		link: '/services/commercial/home-additions',
-		image: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-	},
-	{
-		icon: Layers,
-		title: 'Basement Finishing',
-		description: 'Transform your basement into a functional living space for entertainment or guests.',
-		link: '/services/commercial/basement-finishing',
-		image: 'https://images.pexels.com/photos/373548/pexels-photo-373548.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-	},
-	{
-		icon: Sun,
-		title: 'Deck & Patio Construction',
-		description: 'Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests.',
-		link: '/services/commercial/deck-patio-construction',
-		image: 'https://images.pexels.com/photos/238385/pexels-photo-238385.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		icon: Factory,
+		title: 'Industrial Upgrades',
+		description:
+			'Modernize your facility with structural, electrical, and safety upgrades to improve efficiency, compliance, and productivity.',
+		link: '/services/commercial/industrial-upgrades',
+		image:
+			'https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Wrench,
-		title: 'Whole-Home Renovations',
-		description: 'Complete transformations that enhance both the beauty & function of your entire home.',
-		link: '/services/commercial/whole-home-renovations',
-		image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		title: 'Commercial Maintenance',
+		description:
+			'Keep your property in peak condition with scheduled maintenance, quick repairs, and proactive building care.',
+		link: '/services/commercial/commercial-maintenance',
+		image:
+			'https://images.pexels.com/photos/448407/pexels-photo-448407.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+	},
+	{
+		icon: Utensils,
+		title: 'Restaurant & Hospitality Renovations',
+		description:
+			'Create inviting, high-performing spaces for dining and hospitality that elevate guest experiences and brand reputation.',
+		link: '/services/commercial/restaurant-hospitality-renovations',
+		image:
+			'https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+	},
+	{
+		icon: Building2,
+		title: 'Commercial Building Additions',
+		description:
+			'Expand your property with seamless additions that blend perfectly with your existing architecture and meet future needs.',
+		link: '/services/commercial/commercial-building-additions',
+		image:
+			'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	}
 ];
 

@@ -64,7 +64,7 @@
 	<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
 	{#each services as service}
 	{@const Icon = service.icon}
-	  <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 overflow-hidden w-full ">
+	  <div class="group relative bg-white rounded-3xl hover:shadow-lg  overflow-hidden w-full ">
 		
 		<!-- Background Hover Accent -->
 		<div class={`absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${service.gradient}`}></div>
@@ -92,14 +92,14 @@
 		  <ul class="space-y-3 mb-8">
 			{#each service.features as feature}
 			  <li class="flex items-start space-x-3">
-				<div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+				<div class="w-2 h-2 bg-[#F6AD55] rounded-full mt-2 flex-shrink-0"></div>
 				<span class="text-gray-700">{feature}</span>
 			  </li>
 			{/each}
 		  </ul>
   
 		  <!-- CTA Button -->
-		  <a href={service.heref} class="w-full py-3 block text-center bg-blue-900 text-white rounded-xl font-semibold transition-all duration-300 hover:bg-blue-800 hover:shadow-lg group-hover:scale-105">
+		  <a href={service.heref} class="w-full py-3 block text-center bg-[#F6AD55]  text-black rounded-xl font-semibold transition-all duration-300  hover:shadow-lg group-hover:scale-105">
 			{service.ctaText}
 		  </a>
 		</div>

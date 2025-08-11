@@ -53,10 +53,10 @@ export const services: Record<string, Services> = {
 			timeline: '4-8 weeks'
 		},
 		overview: {
-			heading: 'Transform Your Kitchen Experience',
+			heading: 'Where Function Meets Flawless Design',
 			paragraph:
-				'Outdated layout? Inefficient storage? Our award-winning designers re-imagine every inch—merging form, function and flawless finishes. From concept to completion, we create kitchens that become the heart of your home.'
-		},
+			  'Our kitchen renovations go far beyond a cosmetic update — they are full-scale transformations designed to improve the way you live every day. We carefully consider workflow, storage solutions, and lighting to create a kitchen that works just as beautifully as it looks. Whether you want a sleek modern space, a warm and inviting farmhouse kitchen, or a high-end chef’s paradise, we deliver exceptional craftsmanship and premium materials that stand the test of time. From the first design consultation to the final walk-through, our process ensures your new kitchen reflects your style, enhances your home’s value, and becomes the true heart of your home.'
+		  },
 		trends: [
 			{
 				title: 'Smart Appliances',
@@ -125,32 +125,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'How long will my kitchen be unusable?',
-				answer:
-					'Most clients regain a functional space within 6 weeks, with final detailing completed by week 8.'
-			},
-			{
-				question: 'What is included in the base price?',
-				answer:
-					'Our base package includes demolition, basic electrical and plumbing updates, standard cabinets, countertops, and installation.'
-			},
-			{
-				question: 'Do you handle permits and inspections?',
-				answer:
-					'Yes, we manage all necessary permits and coordinate inspections throughout the project timeline.'
-			},
-			{
-				question: 'Can I stay in my home during renovation?',
-				answer:
-					'Absolutely. We set up temporary kitchen facilities and work around your schedule to minimize disruption.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer:
-					'We offer a 2-year warranty on workmanship and honor all manufacturer warranties on materials and appliances.'
-			}
-		],
+			{ question: 'How long does a kitchen renovation take?', answer: 'Most kitchen projects are completed in 4–8 weeks depending on complexity, custom features, and material availability. Large or structural changes may take longer.' },
+			{ question: 'Can you work with my existing kitchen layout?', answer: 'Yes. We can improve your current layout for better functionality or create a completely new configuration to match your lifestyle.' },
+			{ question: 'Do you handle plumbing, electrical, and permits?', answer: 'Absolutely. Our licensed trades handle all necessary plumbing, electrical work, and permitting, ensuring compliance with local building codes.' },
+			{ question: 'What materials do you recommend for durability?', answer: 'We guide you through choosing high-quality countertops, cabinetry, flooring, and finishes that match your style and withstand daily use.' },
+			{ question: 'Can I live in my home during the renovation?', answer: 'In most cases, yes. We take steps to minimize dust, noise, and disruption, and set up temporary kitchen spaces if needed.' },
+			{ question: 'Will a new kitchen increase my home’s value?', answer: 'Yes, a well-planned kitchen remodel is one of the highest-return home improvements, boosting both appeal and resale value.' }
+		  ],
 		cta: {
 			heading: "Let's Cook Up Something Amazing",
 			subheading: 'Ready to transform your kitchen? Schedule your consultation today.',
@@ -173,10 +154,10 @@ export const services: Record<string, Services> = {
 			timeline: '3-6 weeks'
 		},
 		overview: {
-			heading: 'Elevate Your Daily Routine',
+			heading: 'Luxury and Accessibility in Perfect Harmony',
 			paragraph:
-				'From cramped spaces to outdated finishes, we turn your bathroom into a stylish sanctuary—merging elegance, practicality, and relaxation. Every element is crafted to your comfort and taste.'
-		},
+			  'We believe your bathroom should be more than just a functional space — it should be a retreat. Our bathroom remodeling services combine luxurious design with smart, practical features to create a space you’ll love every day. From spa-inspired showers and soaking tubs to accessibility upgrades like walk-in showers and grab bars, we tailor every detail to your needs. We focus on quality craftsmanship, moisture-resistant materials, and designs that maximize both beauty and function. Whether it’s a compact powder room refresh or a master bath transformation, our goal is to deliver a bathroom that elevates your daily routine and adds value to your home.'
+		  },
 		trends: [
 			{
 				title: 'Rainfall Showers',
@@ -245,29 +226,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'Do you offer eco-friendly options?',
-				answer:
-					'Yes, we can source sustainable materials and water-saving fixtures for your project.'
-			},
-			{
-				question: 'Can you expand my bathroom?',
-				answer:
-					'Absolutely. We can reconfigure layouts or incorporate adjacent space for a larger bathroom.'
-			},
-			{
-				question: 'What about ventilation?',
-				answer: 'We ensure proper ventilation is installed or upgraded to prevent moisture issues.'
-			},
-			{
-				question: 'Do you provide design inspiration?',
-				answer: 'Yes, our designers present curated style boards to help guide your choices.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer: 'We offer a 2-year workmanship warranty plus manufacturer warranties on materials.'
-			}
-		],
+			{ question: 'Do you offer both luxury and accessible bathroom solutions?', answer: 'Yes. We design bathrooms that balance elegance with safety, including barrier-free showers, comfort-height fixtures, and non-slip flooring.' },
+			{ question: 'What is the typical timeline for a bathroom remodel?', answer: 'Most bathroom remodels take 3–6 weeks, depending on size, complexity, and customization.' },
+			{ question: 'Can you work with small or awkward spaces?', answer: 'Absolutely. We specialize in creative layouts and storage solutions that make even small bathrooms feel spacious.' },
+			{ question: 'Do you provide eco-friendly options?', answer: 'Yes. We can install water-saving fixtures, LED lighting, and sustainable materials to reduce environmental impact.' },
+			{ question: 'Will you handle plumbing and electrical updates?', answer: 'Yes. All work is done by licensed professionals to ensure safety and code compliance.' },
+			{ question: 'How can I make my bathroom feel more like a spa?', answer: 'We recommend features like rainfall showerheads, heated floors, deep soaking tubs, and calming lighting schemes.' }
+		  ],
 		cta: {
 			heading: 'Turn Your Bathroom into a Spa',
 			subheading: 'Book your consultation and step into luxury.',
@@ -290,10 +255,10 @@ export const services: Record<string, Services> = {
 			timeline: '6-12 weeks'
 		},
 		overview: {
-			heading: 'Space for What Matters Most',
+			heading: 'Space That Grows With You',
 			paragraph:
-				'Whether you’re growing your family or creating a dream space, our additions look like they were always part of your home—built to last with unmatched craftsmanship.'
-		},
+			  'A home addition is more than just extra square footage — it’s an opportunity to enhance your lifestyle and increase your property’s value. We design and build additions that seamlessly integrate with your existing home, both structurally and stylistically. Whether you need a larger kitchen, a sunroom, a home office, or an in-law suite, our team handles every aspect from design and permits to final construction. We focus on natural light, energy efficiency, and quality finishes to ensure your new space feels like it has always belonged. Our goal is to create a stress-free building experience while delivering a stunning, functional extension of your home.'
+		  },
 		trends: [
 			{
 				title: 'Multi‑Generational Suites',
@@ -361,28 +326,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'Will the addition match my home?',
-				answer: 'Yes, we design and build to seamlessly integrate with your home’s architecture.'
-			},
-			{
-				question: 'Do you handle permits?',
-				answer: 'Absolutely, our team takes care of all necessary permits and inspections.'
-			},
-			{
-				question: 'Can I live in my home during construction?',
-				answer: 'In most cases, yes, but it depends on the scope of work and access needs.'
-			},
-			{
-				question: 'Do you work with my architect?',
-				answer: 'We can collaborate with your architect or provide our in-house design services.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer:
-					'We offer a 2-year workmanship warranty and honor manufacturer warranties on materials.'
-			}
-		],
+			{ question: 'Will the addition match my home’s style?', answer: 'Yes. We carefully select materials, finishes, and architectural details to match or enhance your existing design.' },
+			{ question: 'Do you handle permits and inspections?', answer: 'Absolutely. We manage all permitting and coordinate inspections to keep your project on track.' },
+			{ question: 'Can you build a second story addition?', answer: 'Yes. We can build upward or outward depending on zoning and structural feasibility.' },
+			{ question: 'How long does a home addition take?', answer: 'Timelines vary, but most additions are completed in 8–16 weeks depending on complexity.' },
+			{ question: 'Will I need to move out during construction?', answer: 'In most cases, you can stay in your home, though major structural work may require temporary relocation.' },
+			{ question: 'Does an addition increase resale value?', answer: 'Yes, well-designed additions can significantly improve resale value and buyer appeal.' }
+		  ],
 		cta: {
 			heading: 'Add More Space Without Moving',
 			subheading: 'Expand your home to fit your lifestyle.',
@@ -405,10 +355,10 @@ export const services: Record<string, Services> = {
 			timeline: '5-9 weeks'
 		},
 		overview: {
-			heading: 'From Storage to Showcase',
+			heading: 'From Empty to Extraordinary',
 			paragraph:
-				'We transform dark, unused basements into vibrant, functional spaces—perfect for home theaters, guest suites, offices, or playrooms.'
-		},
+			  'Your basement is full of potential — and we can help you unlock it. Our basement finishing services transform underutilized space into functional, inviting rooms. From cozy home theaters and entertainment areas to gyms, guest suites, and home offices, we create spaces that fit your lifestyle. We address waterproofing, insulation, and lighting from the start, ensuring your basement is comfortable year-round. With durable materials, smart layouts, and attention to detail, we turn your basement into a beautiful extension of your home — adding both living space and property value.'
+		  },
 		trends: [
 			{
 				title: 'Home Theaters',
@@ -476,28 +426,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'Do you handle waterproofing?',
-				answer: 'Yes, we address any moisture issues before starting the finishing process.'
-			},
-			{
-				question: 'Can you add a bathroom?',
-				answer: 'Absolutely, we can include a bathroom or kitchenette in your basement design.'
-			},
-			{
-				question: 'Will the basement be warm?',
-				answer: 'We insulate and seal to ensure year-round comfort.'
-			},
-			{
-				question: 'Do you offer soundproofing?',
-				answer: 'Yes, perfect for home theaters, studios, or quiet offices.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer:
-					'We offer a 2-year workmanship warranty and honor all manufacturer warranties on materials.'
-			}
-		],
+			{ question: 'Do you handle waterproofing before finishing?', answer: 'Yes. We ensure the basement is fully waterproofed to prevent future damage.' },
+			{ question: 'Can I add a bathroom or kitchenette?', answer: 'Absolutely. We can incorporate full bathrooms, wet bars, or even full kitchens.' },
+			{ question: 'Will my basement be warm in winter?', answer: 'Yes. We use insulation, vapor barriers, and heating options to make it comfortable year-round.' },
+			{ question: 'How long does basement finishing take?', answer: 'Typically 6–10 weeks, depending on scope and complexity.' },
+			{ question: 'Can you design the space for multiple purposes?', answer: 'Yes. We can create zones for entertainment, work, storage, and more.' },
+			{ question: 'Does finishing my basement increase home value?', answer: 'Yes, a finished basement adds usable square footage, which increases resale value.' }
+		  ],
 		cta: {
 			heading: 'Unlock Your Basement’s Potential',
 			subheading: 'Let’s create a space you’ll love to spend time in.',
@@ -520,10 +455,10 @@ export const services: Record<string, Services> = {
 			timeline: '2-5 weeks'
 		},
 		overview: {
-			heading: 'Expand Your Home Outdoors',
+			heading: 'Your Backyard, Reimagined',
 			paragraph:
-				'From cozy patios to expansive decks, we craft outdoor spaces perfect for gatherings, relaxation, and year-round enjoyment.'
-		},
+			  'A great outdoor space is an extension of your home — a place to relax, entertain, and connect with nature. Our deck and patio construction services combine beauty and durability, using high-quality materials that stand up to the elements. Whether you prefer a natural wood deck, a low-maintenance composite, or a stunning stone patio, we customize the design to fit your lifestyle. We also offer built-in seating, lighting, pergolas, and weather protection so you can enjoy your space year-round. Every detail is planned for comfort, safety, and visual appeal.'
+		  },
 		trends: [
 			{
 				title: 'Composite Decking 2.0',
@@ -591,28 +526,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'What materials do you offer?',
-				answer: 'We work with natural wood, composite decking, pavers, and stone.'
-			},
-			{
-				question: 'Do you offer covered patios?',
-				answer: 'Yes, we can integrate pergolas, awnings, or full covers.'
-			},
-			{
-				question: 'Is maintenance required?',
-				answer: 'Composite materials require minimal upkeep, while wood may need periodic sealing.'
-			},
-			{
-				question: 'Can you install outdoor kitchens?',
-				answer: 'Absolutely, we can design and build outdoor kitchens as part of your space.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer:
-					'We offer a 2-year workmanship warranty and honor all manufacturer warranties on materials.'
-			}
-		],
+			{ question: 'What materials do you offer?', answer: 'We build with pressure-treated wood, composite decking, hardwoods, stone, and pavers.' },
+			{ question: 'Can you add shade or weather protection?', answer: 'Yes. We can install pergolas, roofs, retractable awnings, and privacy screens.' },
+			{ question: 'Do you handle lighting installation?', answer: 'Absolutely. We can integrate deck and landscape lighting for safety and ambiance.' },
+			{ question: 'How long will my deck or patio last?', answer: 'With proper maintenance, wood decks can last 10–15 years, while composite and stone can last decades.' },
+			{ question: 'Do you take care of permits?', answer: 'Yes, we handle all permits and inspections.' },
+			{ question: 'Can you build multi-level decks?', answer: 'Yes. Multi-tiered designs can create distinct zones for dining, lounging, and entertaining.' }
+		  ],
 		cta: {
 			heading: 'Bring Your Backyard to Life',
 			subheading: 'Start your deck or patio project today.',
@@ -635,10 +555,10 @@ export const services: Record<string, Services> = {
 			timeline: '3-6 months'
 		},
 		overview: {
-			heading: 'A Fresh Start Without Moving',
+			heading: 'One Vision, Every Room',
 			paragraph:
-				'We handle every aspect of your home’s transformation—coordinating design, construction, and finishing touches for a flawless result.'
-		},
+			  'Our whole-home renovations are complete transformations — a chance to rethink and redesign your living spaces from top to bottom. We create a cohesive design that flows seamlessly from room to room, while addressing practical needs like storage, lighting, and energy efficiency. From updating kitchens and bathrooms to refreshing flooring, paint, and fixtures throughout, we manage every detail. Whether you want a modern refresh, a timeless classic, or a complete style change, our experienced team ensures your new home reflects your taste and enhances your lifestyle.'
+		  },
 		trends: [
 			{
 				title: 'Open‑Concept Living',
@@ -706,28 +626,13 @@ export const services: Record<string, Services> = {
 			]
 		},
 		faqs: [
-			{
-				question: 'Do you manage the entire project?',
-				answer: 'Yes, we oversee everything from design to final walkthrough.'
-			},
-			{
-				question: 'Can I renovate in phases?',
-				answer: 'Absolutely, we can plan a phased approach to fit your budget and schedule.'
-			},
-			{
-				question: 'Will my home be livable during renovation?',
-				answer: 'It depends on the scope—some clients stay, others prefer temporary relocation.'
-			},
-			{
-				question: 'Do you coordinate with designers?',
-				answer: 'Yes, we can work with your designer or provide our own.'
-			},
-			{
-				question: 'What warranty do you provide?',
-				answer:
-					'We offer a 2-year workmanship warranty and honor all manufacturer warranties on materials.'
-			}
-		],
+			{ question: 'Do I need to move out during the renovation?', answer: 'For major renovations, temporary relocation is often recommended, but we can work in phases to minimize disruption.' },
+			{ question: 'Can you keep some of my existing features?', answer: 'Yes. We can incorporate and restore elements you love while updating the rest of your home.' },
+			{ question: 'How do you ensure a cohesive look?', answer: 'We create a comprehensive design plan that ties all spaces together with consistent colors, materials, and styles.' },
+			{ question: 'How long does a whole-home renovation take?', answer: 'Timelines vary, but most take 3–9 months depending on scope and complexity.' },
+			{ question: 'Do you handle permits and inspections?', answer: 'Yes, we take care of all required permits, approvals, and inspections.' },
+			{ question: 'Will a full renovation increase my home’s value?', answer: 'Yes, especially when modernizing outdated spaces and improving functionality.' }
+		  ],
 		cta: {
 			heading: 'Reimagine Your Home',
 			subheading: 'Let’s make every room your favorite room.',

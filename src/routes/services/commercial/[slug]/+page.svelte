@@ -4,11 +4,14 @@
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 	import Process from '../../../../components/Process.svelte';
+	import { _services } from './+page';
 
 	let activeTab = $state<'modern' | 'traditional' | 'contemporary' | string>('modern');
 	let openFaq = $state<number | null>(null);
 
-	let data = services[page.params.slug as keyof typeof services];
+	let data = _services[page.params.slug as keyof typeof services];
+
+	
 
 	console.log(data);
 
