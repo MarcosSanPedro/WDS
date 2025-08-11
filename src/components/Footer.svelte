@@ -29,11 +29,11 @@
       <div>
         <h4 class="text-lg font-semibold mb-4">{m['footer.services_heading']()}</h4>
         <ul class="space-y-2 text-white/80">
-          <li><a href="/services/kitchen-renovations" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.kitchen_renovations']()}</a></li>
-          <li><a href="/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.bathroom_remodeling']()}</a></li>
-          <li><a href="/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.whole_home_renovations']()}</a></li>
-          <li><a href="/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.commercial_construction']()}</a></li>
-          <li><a href="/services" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.custom_millwork']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.kitchen_renovations']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.bathroom_remodeling']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.whole_home_renovations']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.commercial_construction']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.custom_millwork']()}</a></li>
         </ul>
       </div>
 

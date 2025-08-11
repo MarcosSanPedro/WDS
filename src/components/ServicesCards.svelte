@@ -1,6 +1,5 @@
 <script lang='ts'>
 	import { m } from "$lib/paraglide/messages";
-	import { services_design_description } from "$lib/paraglide/messages/en";
 	import { Building, Hammer, Home, Icon, icons, Lightbulb, PaintBucket, Sparkles, Wrench } from "lucide-svelte";
 
 
@@ -52,7 +51,7 @@
       ],
       ctaText: "Explore Custom Services",
       gradient: "bg-gradient-to-br from-purple-600 to-purple-800",
-	  heref: '/services/custom-services'
+	  heref: '/services/'
 
     }
   ];
