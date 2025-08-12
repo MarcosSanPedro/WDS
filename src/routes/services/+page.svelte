@@ -10,7 +10,7 @@
 		Users
 	} from 'lucide-svelte';
 	import * as m from '$lib/paraglide/messages';
-	import { services } from './cms';
+	import { _services } from './residential/[slug]/+page';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 	import ServicesCards from '../../components/ServicesCards.svelte';
@@ -83,11 +83,11 @@
 			Your trusted partner for commercial construction, residential renovations, and custom builds. 
 			We deliver exceptional results with quality craftsmanship and unmatched dedication to your vision.
 		  </p>
-		  <button
+		  <a href="/contact"
 			class="rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105 hover:bg-[#E69A3F]"
 		  >
-			Explore Our Services
-		  </button>
+			Contact Us
+		  </a>
 		</div>
 		<div class="relative">
 		  <img

@@ -51,7 +51,7 @@
       ],
       ctaText: "Explore Custom Services",
       gradient: "bg-gradient-to-br from-purple-600 to-purple-800",
-	  heref: '/services/'
+	  heref: '/services/custom'
 
     }
   ];
@@ -71,8 +71,8 @@
 		<div class="relative p-8 z-10">
 		  
 		  <!-- Icon Container -->
-		  <div class={`inline-flex p-4 rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300`}>
-			<div class={`inline-flex p-4 rounded-2xl ${service.gradient} text-white mb-6 group-hover:scale-110 transition-transform duration-300`}>
+		  <div class={`inline-flex p-4 rounded-2xl mb-6 transition-transform duration-300`}>
+			<div class={`inline-flex p-4 rounded-2xl ${service.gradient} text-white mb-6 transition-transform duration-300`}>
 				<Icon className="w-8 h-8 text-white" />
 			  </div>
 		  </div>
@@ -98,7 +98,7 @@
 		  </ul>
   
 		  <!-- CTA Button -->
-		  <a href={service.heref} class="w-full py-3 block text-center bg-[#F6AD55]  text-black rounded-xl font-semibold transition-all duration-300  hover:shadow-lg group-hover:scale-105">
+		  <a href={service.heref} class="w-full py-3 block text-center bg-[#F6AD55]  text-black rounded-xl font-semibold transition-all duration-300  hover:shadow-lg hover:scale-105 ">
 			{service.ctaText}
 		  </a>
 		</div>

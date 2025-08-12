@@ -1,50 +1,58 @@
 <script lang="ts">
-	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb, Plus, Layers, Sun } from 'lucide-svelte';
+	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb, Plus, Layers, Sun, Paintbrush, PenTool, Landmark } from 'lucide-svelte';
 
 	const services = [
 	{
 		icon: Home,
-		title: 'Kitchen Remodels',
-		description: 'Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle.',
-		link: '/services/residential/kitchen-renovations',
-		image: '/residential/kitchen.webp'
+		title: 'Custom Home Builds',
+		description: 'Create your dream home from the ground up with designs tailored to your exact specifications.',
+		link: '/services/custom/specialty-renovations',
+		image: 'https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
-		icon: Building,
-		title: 'Bathroom Renovations',
-		description: 'Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts.',
-		link: '/services/residential/bathroom-renovations',
-		image: '/residential/bath.webp'
+		icon: Landmark,
+		title: 'Unique Architectural Features',
+		description: 'Add distinctive design elements like custom staircases and intricate facades to make your property stand out.',
+		link: '/services/custom/custom-outdoor-structures',
+		image: 'https://images.pexels.com/photos/220889/pexels-photo-220889.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
-		icon: Plus,
-		title: 'Home Additions',
-		description: 'Seamlessly expand your living space with beautifully integrated new rooms & features.',
-		link: '/services/residential/home-additions',
-		image: '/residential/homeAddition.jpeg'
-	},
-	{
-		icon: Layers,
-		title: 'Basement Finishing',
-		description: 'Transform your basement into a functional living space for entertainment or guests.',
-		link: '/services/residential/basement-finishing',
-		image: '/residential/basement.webp'
+		icon: PenTool,
+		title: 'Specialty Renovations',
+		description: 'Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces.',
+		link: '/services/custom/specialty-renovations',
+		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
 		icon: Sun,
-		title: 'Deck & Patio Construction',
-		description: 'Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests.',
-		link: '/services/residential/deck-patio-construction',
-		image: '/residential/patio.jpeg'
+		title: 'Custom Outdoor Structures',
+		description: 'Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style.',
+		link: '/services/custom/custom-outdoor-structures',
+		image: 'https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	},
 	{
-		icon: Wrench,
-		title: 'Whole-Home Renovations',
-		description: 'Complete transformations that enhance both the beauty & function of your entire home.',
-		link: '/services/residential/whole-home-renovations',
-		image: '/residential/wholeHome.jpeg'
+		icon: Layers,
+		title: 'Historical Restorations',
+		description: 'Preserve the charm of historic properties while discreetly integrating modern amenities.',
+		link: '/services/custom/historical-restorations',
+		image: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+	},
+	{
+		icon: Building,
+		title: 'Custom Commercial Builds',
+		description: 'Stand out with a custom-designed commercial space tailored to your brand and operations.',
+		link: '/services/custom/custom-commercial-builds',
+		image: 'https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+	},
+	{
+		icon: Paintbrush,
+		title: 'Bespoke Interior Design',
+		description: 'Elevate your interiors with personalized cabinetry, built-ins, and finishes that reflect your style.',
+		link: '/services/custom/bespoke-interior-design',
+		image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
 	}
 ];
+
 
 </script>
 

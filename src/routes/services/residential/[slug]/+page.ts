@@ -37,7 +37,7 @@ import {
 	Droplets
 } from 'lucide-svelte';
 
-export const services: Record<string, Services> = {
+export const _services: Record<string, Services> = {
 	'kitchen-renovations': {
 		slug: 'kitchen-renovations',
 		title: 'Kitchen Renovations',

@@ -6,7 +6,6 @@
 	import Process from '../components/Process.svelte';
 	import Testimonials from '../components/Testimonials.svelte';
 	import Contact from '../components/Contact.svelte';
-	import ColorPicker from '../components/ColorPicker.svelte';
 </script>
 
 <svelte:head>

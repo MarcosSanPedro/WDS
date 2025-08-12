@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Check, ChevronDown, ChevronUp, Droplet, Thermometer, Users } from 'lucide-svelte';
-	import { services } from '../../cms';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 	import Process from '../../../../components/Process.svelte';
@@ -9,7 +8,7 @@
 	let activeTab = $state<'modern' | 'traditional' | 'contemporary' | string>('modern');
 	let openFaq = $state<number | null>(null);
 
-	let data = _services[page.params.slug as keyof typeof services];
+	let data = _services[page.params.slug as keyof typeof _services];
 
 	
 
