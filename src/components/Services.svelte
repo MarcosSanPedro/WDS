@@ -64,7 +64,7 @@
 	<div
 		class="group rounded-lg border border-gray-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
 	>
-		<div class="mb-6 text-[#F6AD55] transition-transform duration-300 group-hover:scale-110">
+		<div class="mb-6 text-secondary transition-transform duration-300 group-hover:scale-110">
 			<Icon class="h-12 w-12" />
 		</div>
 		<h3 class="mb-4 text-2xl font-bold text-[#1A365D]">
@@ -76,13 +76,13 @@
 		<ul class="mb-6 space-y-2">
 			{#each service.features as feature}
 				<li class="flex items-center text-[#718096]">
-					<div class="mr-3 h-2 w-2 rounded-full bg-[#F6AD55]"></div>
+					<div class="mr-3 h-2 w-2 rounded-full bg-secondary"></div>
 					{feature}
 				</li>
 			{/each}
 		</ul>
 		<button
-			class="flex items-center font-semibold text-[#F6AD55] transition-colors duration-200 hover:text-[#1A365D]"
+			class="flex items-center font-semibold text-secondary transition-colors duration-200 hover:text-[#1A365D]"
 		>
 			{m['services.learn_more']()} →
 		</button>

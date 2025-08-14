@@ -121,8 +121,8 @@
 					<button
 						onclick={() => setFilter(filter.id)}
 						class="px-6 py-3 rounded-lg font-semibold transition-all duration-200 {activeFilter === filter.id
-							? 'bg-[#F6AD55] text-[#1A365D]'
-							: 'bg-[#F7FAFC] text-[#718096] hover:bg-[#F6AD55] hover:text-[#1A365D]'}"
+							? 'bg-secondary text-[#1A365D]'
+							: 'bg-[#F7FAFC] text-[#718096] hover:bg-secondary hover:text-[#1A365D]'}"
 					>
 						{filter.label} ({filter.count})
 					</button>
@@ -143,13 +143,13 @@
 								alt={project.title}
 								class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 							/>
-							<div class="absolute top-4 right-4 bg-[#F6AD55] text-[#1A365D] px-3 py-1 rounded-lg font-semibold text-sm">
+							<div class="absolute top-4 right-4 bg-secondary text-[#1A365D] px-3 py-1 rounded-lg font-semibold text-sm">
 								{project.year}
 							</div>
 						</div>
 						<div class="p-6">
 							<div class="flex items-center justify-between mb-2">
-								<span class="text-[#F6AD55] font-semibold text-sm uppercase tracking-wide">
+								<span class="text-secondary font-semibold text-sm uppercase tracking-wide">
 									{project.category.replace('-', ' ')}
 								</span>
 								<span class="text-[#718096] text-sm">
@@ -164,7 +164,7 @@
 							</p>
 							<a
 								href="/portfolio/"
-								class="inline-flex items-center text-[#F6AD55] font-semibold hover:text-[#1A365D] transition-colors duration-200"
+								class="inline-flex items-center text-secondary font-semibold hover:text-[#1A365D] transition-colors duration-200"
 							>
 								View Case Study →
 							</a>
@@ -198,7 +198,7 @@
 			</p>
 			<a
 				href="/contact"
-				class="bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-105 inline-block"
+				class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-200 hover:scale-105 inline-block"
 			>
 				Start Your Project
 			</a>

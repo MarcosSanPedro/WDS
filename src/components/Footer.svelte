@@ -13,13 +13,13 @@
           {m['footer.company_description']()}
         </p>
         <div class="flex space-x-4">
-          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-secondary transition-colors duration-200">
             <Facebook size={20} />
           </a>
-          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-secondary transition-colors duration-200">
             <Instagram size={20} />
           </a>
-          <a href="/" class="text-white/80 hover:text-[#F6AD55] transition-colors duration-200">
+          <a href="/" class="text-white/80 hover:text-secondary transition-colors duration-200">
             <Linkedin size={20} />
           </a>
         </div>
@@ -29,11 +29,11 @@
       <div>
         <h4 class="text-lg font-semibold mb-4">{m['footer.services_heading']()}</h4>
         <ul class="space-y-2 text-white/80">
-          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.kitchen_renovations']()}</a></li>
-          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.bathroom_remodeling']()}</a></li>
-          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.whole_home_renovations']()}</a></li>
-          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.commercial_construction']()}</a></li>
-          <li><a href="/services/residential/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.custom_millwork']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-secondary transition-colors duration-200">{m['footer.kitchen_renovations']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-secondary transition-colors duration-200">{m['footer.bathroom_remodeling']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-secondary transition-colors duration-200">{m['footer.whole_home_renovations']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-secondary transition-colors duration-200">{m['footer.commercial_construction']()}</a></li>
+          <li><a href="/services/residential/" class="hover:text-secondary transition-colors duration-200">{m['footer.custom_millwork']()}</a></li>
         </ul>
       </div>
 
@@ -41,11 +41,11 @@
       <div>
         <h4 class="text-lg font-semibold mb-4">{m['footer.quick_links']()}</h4>
         <ul class="space-y-2 text-white/80">
-          <li><a href="/" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.home']()}</a></li>
-          <li><a href="/services" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.services']()}</a></li>
-          <li><a href="/portfolio" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.portfolio']()}</a></li>
-          <li><a href="/about" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.about']()}</a></li>
-          <li><a href="/contact" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.contact']()}</a></li>
+          <li><a href="/" class="hover:text-secondary transition-colors duration-200">{m['footer.home']()}</a></li>
+          <li><a href="/services" class="hover:text-secondary transition-colors duration-200">{m['footer.services']()}</a></li>
+          <li><a href="/portfolio" class="hover:text-secondary transition-colors duration-200">{m['footer.portfolio']()}</a></li>
+          <li><a href="/about" class="hover:text-secondary transition-colors duration-200">{m['footer.about']()}</a></li>
+          <li><a href="/contact" class="hover:text-secondary transition-colors duration-200">{m['footer.contact']()}</a></li>
         </ul>
       </div>
 
@@ -54,15 +54,15 @@
         <h4 class="text-lg font-semibold mb-4">{m['footer.contact_info']()}</h4>
         <div class="space-y-3 text-white/80">
           <div class="flex items-center">
-            <Phone size={16} class="mr-3 text-[#F6AD55]" />
+            <Phone size={16} class="mr-3 text-secondary" />
             <span>{m['footer.phone']()}</span>
           </div>
           <div class="flex items-center">
-            <Mail size={16} class="mr-3 text-[#F6AD55]" />
+            <Mail size={16} class="mr-3 text-secondary" />
             <span>{m['footer.email']()}</span>
           </div>
           <div class="flex items-start">
-            <MapPin size={16} class="mr-3 text-[#F6AD55] mt-1" />
+            <MapPin size={16} class="mr-3 text-secondary mt-1" />
             <span class="whitespace-pre-line">{m['footer.address']()}</span>
           </div>
         </div>
@@ -76,9 +76,9 @@
           {m['footer.copyright']()}
         </div>
         <div class="flex space-x-6 text-white/80 text-sm">
-          <a href="/privacy" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.privacy_policy']()}</a>
-          <a href="/terms" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.terms_service']()}</a>
-          <a href="/accessibility" class="hover:text-[#F6AD55] transition-colors duration-200">{m['footer.accessibility']()}</a>
+          <a href="/privacy" class="hover:text-secondary transition-colors duration-200">{m['footer.privacy_policy']()}</a>
+          <a href="/terms" class="hover:text-secondary transition-colors duration-200">{m['footer.terms_service']()}</a>
+          <a href="/accessibility" class="hover:text-secondary transition-colors duration-200">{m['footer.accessibility']()}</a>
         </div>
       </div>
     </div>

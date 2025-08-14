@@ -68,7 +68,7 @@
 								name="name"
 								bind:value={formData.name}
 								required
-								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 								placeholder="Your full name"
 							/>
 						</div>
@@ -82,7 +82,7 @@
 								name="email"
 								bind:value={formData.email}
 								required
-								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 								placeholder="your.email@example.com"
 							/>
 						</div>
@@ -98,7 +98,7 @@
 								type="tel"
 								name="phone"
 								bind:value={formData.phone}
-								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 								placeholder="(555) 123-4567"
 							/>
 						</div>
@@ -111,7 +111,7 @@
 								name="projectType"
 								bind:value={formData.projectType}
 								required
-								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+								class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 							>
 								<option value="">Select project type</option>
 								<option value="kitchen">{m['services.kitchen']()}</option>
@@ -131,7 +131,7 @@
 							id="budget"
 							name="budget"
 							bind:value={formData.budget}
-							class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+							class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 						>
 							<option value="">Select budget range</option>
 							<option value="0-25k">$0 - $25,000</option>
@@ -152,14 +152,14 @@
 							bind:value={formData.message}
 							required
 							rows="4"
-							class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-[#F6AD55]"
+							class="w-full rounded-lg border border-gray-300 px-4 py-3 transition-all duration-200 focus:border-transparent focus:ring-2 focus:ring-secondary"
 							placeholder="Tell us about your project vision, timeline, and any specific requirements..."
 						></textarea>
 					</div>
 
 					<button
 						type="submit"
-						class="w-full rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-200 hover:scale-[1.02] hover:bg-[#F6AD55]/90"
+						class="w-full rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-200 hover:scale-[1.02] hover:bg-secondary/90"
 					>
 						{m['contact.get_estimate']()}
 					</button>
@@ -173,7 +173,7 @@
 
 					<div class="space-y-6">
 						<div class="flex items-center">
-							<div class="mr-4 rounded-full bg-[#F6AD55] p-3">
+							<div class="mr-4 rounded-full bg-secondary p-3">
 								<Phone class="h-6 w-6 text-[#1A365D]" />
 							</div>
 							<div>
@@ -183,7 +183,7 @@
 						</div>
 
 						<div class="flex items-center">
-							<div class="mr-4 rounded-full bg-[#F6AD55] p-3">
+							<div class="mr-4 rounded-full bg-secondary p-3">
 								<Mail class="h-6 w-6 text-[#1A365D]" />
 							</div>
 							<div>
@@ -193,7 +193,7 @@
 						</div>
 
 						<div class="flex items-center">
-							<div class="mr-4 rounded-full bg-[#F6AD55] p-3">
+							<div class="mr-4 rounded-full bg-secondary p-3">
 								<MapPin class="h-6 w-6 text-[#1A365D]" />
 							</div>
 							<div>
@@ -203,7 +203,7 @@
 						</div>
 
 						<div class="flex items-center">
-							<div class="mr-4 rounded-full bg-[#F6AD55] p-3">
+							<div class="mr-4 rounded-full bg-secondary p-3">
 								<Clock class="h-6 w-6 text-[#1A365D]" />
 							</div>
 							<div>

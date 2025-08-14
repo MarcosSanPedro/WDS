@@ -80,7 +80,7 @@
 							/>
 						</div>
 						<div class="p-8">
-							<div class="text-[#F6AD55] mb-4 group-hover:scale-110 transition-transform duration-300">
+							<div class="text-secondary mb-4 group-hover:scale-110 transition-transform duration-300">
 								<svelte:component this={service.icon} class="w-12 h-12" />
 							</div>
 							<h3 class="text-2xl font-bold text-[#1A365D] mb-4">
@@ -91,7 +91,7 @@
 							</p>
 							<a
 								href={service.link}
-								class="inline-flex items-center text-[#F6AD55] font-semibold hover:text-[#1A365D] transition-colors duration-200"
+								class="inline-flex items-center text-secondary font-semibold hover:text-[#1A365D] transition-colors duration-200"
 							>
 								Learn More →
 							</a>
@@ -113,7 +113,7 @@
 			</p>
 			<a
 				href="/contact"
-				class="bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-105 inline-block"
+				class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-200 hover:scale-105 inline-block"
 			>
 				Get Free Estimate
 			</a>

@@ -73,7 +73,7 @@
 		<div>
 		  <h1 class="mb-6 text-4xl font-bold md:text-5xl">
 			Construction & Renovation
-			<span class="block pt-2 whitespace-normal text-[#F6AD55]">
+			<span class="block pt-2 whitespace-normal text-secondary">
 			  Transform Your Space
 			</span>
 		  </h1>
@@ -82,7 +82,7 @@
 			We deliver exceptional results with quality craftsmanship and unmatched dedication to your vision.
 		  </p>
 		  <a href="/contact"
-			class="rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105 hover:bg-[#E69A3F]"
+			class="rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105 hover:bg-[#E69A3F]"
 		  >
 			Contact Us
 		  </a>
@@ -140,7 +140,7 @@
             <div 
               class="group text-center p-6 rounded-2xl hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <div class="inline-flex p-4 bg-gradient-to-br from-[#F6AD55] to-[#F6AD95] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div class="inline-flex p-4 bg-gradient-to-br from-secondary to-[#F6AD95] rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 <reason.icon class="w-8 h-8 text-white" />
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-900 transition-colors duration-300">

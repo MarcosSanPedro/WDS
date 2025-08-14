@@ -109,14 +109,14 @@
 				<div>
 					<h1 class="mb-6 text-4xl font-bold whitespace-nowrap md:text-5xl">
 						{data.title}
-						<span class="block pt-2 whitespace-normal text-[#F6AD55]">{data.goldTittle}</span
+						<span class="block pt-2 whitespace-normal text-secondary">{data.goldTittle}</span
 						>
 					</h1>
 					<p class="mb-8 text-xl text-gray-200">
 						{data.subTittle}
 					</p>
 					<a href="/contact"
-						class="text-navy hover:bg-[#F6AD55]-light rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105"
+						class="text-navy hover:bg-secondary-light rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105"
 					>
 						Request Your Free Quote
 					</a>
@@ -152,7 +152,7 @@
 							class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-slate-50 to-blue-50"
 						>
 							<Icon
-								class="h-8 w-8 text-[#F6AD55]
+								class="h-8 w-8 text-secondary
 				  "
 							/>
 						</div>
@@ -183,7 +183,7 @@
 							<button
 								class={`rounded-lg px-6 py-3 font-semibold transition-all duration-300 ${
 									selectedMaterial === key
-										? 'text-navy bg-[#F6AD55]'
+										? 'text-navy bg-secondary'
 										: 'text-navy bg-gradient-to-br from-slate-50 to-blue-50 hover:to-slate-300'
 								}`}
 								onclick={() => (selectedMaterial = key as MaterialKey)}
@@ -203,7 +203,7 @@
 						<div class="space-y-3">
 							{#each materials[selectedMaterial].options as option}
 								<div class="flex items-center space-x-3">
-									<Check class="h-5 w-5 text-[#F6AD55]" />
+									<Check class="h-5 w-5 text-secondary" />
 									<span class="text-navy">{option}</span>
 								</div>
 							{/each}
@@ -239,7 +239,7 @@
 									onclick={() => (selectedFinish = key)}
 									class={`relative h-12 w-12 rounded-md border-2 transition
 										${selectedFinish === key
-											? 'border-[#F6AD55] ring-2 ring-[#F6AD55]/40'
+											? 'border-secondary ring-2 ring-secondary/40'
 											: 'border-gray-200 hover:border-gray-300'}`}
 									style:background-color={finish.preview}
 									aria-label={finish.name}
@@ -289,9 +289,9 @@
 					{@const Icon = feature.icon}
 					<div class="rounded-xl bg-white p-6 text-center shadow-lg">
 						<div
-							class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#F6AD55]"
+							class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-secondary"
 						>
-							<Icon class="h-12 w-14  rounded-full bg-[#F6AD55]  p-2 text-[#1A365D]" />
+							<Icon class="h-12 w-14  rounded-full bg-secondary  p-2 text-[#1A365D]" />
 						</div>
 						<h3 class="text-navy mb-3 text-lg font-bold">{feature.title}</h3>
 						<p class="text-sm text-gray-600">{feature.description}</p>
@@ -322,9 +322,9 @@
 						>
 							<span class="text-lg font-semibold text-[#1A365D]">{faq.question}</span>
 							{#if openFaq === index}
-								<ChevronUp class="h-6 w-6 text-[#F6AD55]" />
+								<ChevronUp class="h-6 w-6 text-secondary" />
 							{:else}
-								<ChevronDown class="h-6 w-6 text-[#F6AD55]" />
+								<ChevronDown class="h-6 w-6 text-secondary" />
 							{/if}
 						</button>
 						{#if openFaq === index}
@@ -351,7 +351,7 @@
 			</p>
 			<a
 				href="/contact"
-				class="inline-block rounded-lg bg-[#F6AD55] px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-[#F6AD55]/90"
+				class="inline-block rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-secondary/90"
 			>
 				{data.cta.button}
 			</a>

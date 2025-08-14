@@ -142,7 +142,7 @@
       event: 'Celebrating 500+ Transformations',
       description: "Continuing our mission toward our moon-shot vision",
       icon: Star,
-      color: 'bg-[#F6AD55]'
+      color: 'bg-secondary'
     }
   ];
 
@@ -205,7 +205,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Our Story</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -235,24 +235,24 @@
         <div class="relative max-w-4xl mx-auto">
           <!-- Desktop -->
           <div class="hidden md:block">
-            <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#F6AD55] to-[#1A365D]"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-secondary to-[#1A365D]"></div>
             <div class="space-y-16">
               {#each timeline as item, index (index)}
                 {@const Icon = item.icon}
                 <div class={`relative flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                   <!-- dot -->
-                  <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white border-4 border-[#F6AD55] rounded-full z-10"></div>
+                  <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white border-4 border-secondary rounded-full z-10"></div>
 
                   <!-- card -->
                   <div class={`w-5/12 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
-                    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-[#F6AD55]">
+                    <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-secondary">
                       <div class="flex items-center mb-3">
                         <div class={`${item.color} p-2 rounded-lg mr-3`}>
                           <div class="text-white">
                             <Icon class="w-6 h-6" />
                           </div>
                         </div>
-                        <div class="text-2xl font-bold text-[#F6AD55]">{item.year}</div>
+                        <div class="text-2xl font-bold text-secondary">{item.year}</div>
                       </div>
                       <h4 class="text-lg font-bold text-[#1A365D] mb-2">{item.event}</h4>
                       <p class="text-[#718096] text-sm">{item.description}</p>
@@ -268,8 +268,8 @@
             {#each timeline as item, index (index)}
               {@const Icon = item.icon}
               <div class="relative pl-8">
-                <div class="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-[#F6AD55] to-[#1A365D]"></div>
-                <div class="absolute left-0 top-2 w-3 h-3 bg-[#F6AD55] rounded-full transform -translate-x-1"></div>
+                <div class="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-secondary to-[#1A365D]"></div>
+                <div class="absolute left-0 top-2 w-3 h-3 bg-secondary rounded-full transform -translate-x-1"></div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300">
                   <div class="flex items-center mb-2">
@@ -278,7 +278,7 @@
                         <Icon class="w-4 h-4" />
                       </div>
                     </div>
-                    <div class="text-lg font-bold text-[#F6AD55]">{item.year}</div>
+                    <div class="text-lg font-bold text-secondary">{item.year}</div>
                   </div>
                   <h4 class="font-bold text-[#1A365D] mb-1 text-sm">{item.event}</h4>
                   <p class="text-[#718096] text-xs">{item.description}</p>
@@ -305,7 +305,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Our Values</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
         <p class="text-xl text-[#718096] max-w-3xl mx-auto">
           These core principles guide every decision we make and every project we undertake.
         </p>
@@ -315,8 +315,8 @@
         {#each values as value, index (index)}
           {@const Icon = value.icon}
           <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
-            <div class="text-[#F6AD55] mb-6 group-hover:scale-110 transition-transform duration-300">
-              <div class="w-16 h-16 bg-[#F6AD55] rounded-full flex items-center justify-center">
+            <div class="text-secondary mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div class="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
                 <div class="text-[#1A365D]">
                   <Icon class="w-8 h-8" />
                 </div>
@@ -335,7 +335,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Why Choose Us</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
         <p class="text-xl text-[#718096] max-w-3xl mx-auto">
           Discover what sets World Detail Specialist apart as Miami's premier construction and remodeling company.
         </p>
@@ -349,7 +349,7 @@
               onclick={() => (openBenefit = openBenefit === index ? null : index)}
             >
               <div class="flex items-center">
-                <div class="w-8 h-8 bg-[#F6AD55] rounded-full flex items-center justify-center mr-4">
+                <div class="w-8 h-8 bg-secondary rounded-full flex items-center justify-center mr-4">
                   <CheckCircle class="w-5 h-5 text-[#1A365D]" />
                 </div>
                 <h3 class="text-xl font-bold text-[#1A365D]">{benefit.title}</h3>
@@ -376,7 +376,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Our Expertise</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
         <p class="text-xl text-[#718096] max-w-3xl mx-auto">
           Dive deep into our specialized services and experience that establish us as South Florida's construction authority.
         </p>
@@ -407,7 +407,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Credentials & Achievements</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
         <p class="text-xl text-[#718096] max-w-3xl mx-auto">
           Our certifications, awards, and media features demonstrate our commitment to excellence and industry leadership.
         </p>
@@ -415,8 +415,8 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {#each credentials as credential, index (index)}
-          <div class="bg-[#F7FAFC] rounded-lg p-6 text-center hover:bg-[#F6AD55] hover:text-[#1A365D] transition-all duration-200 group">
-            <Award class="w-12 h-12 mx-auto mb-4 text-[#F6AD55] group-hover:text-[#1A365D]" />
+          <div class="bg-[#F7FAFC] rounded-lg p-6 text-center hover:bg-secondary hover:text-[#1A365D] transition-all duration-200 group">
+            <Award class="w-12 h-12 mx-auto mb-4 text-secondary group-hover:text-[#1A365D]" />
             <h3 class="font-bold text-[#1A365D] group-hover:text-[#1A365D] mb-2">{credential.name}</h3>
             <p class="text-sm text-[#718096] group-hover:text-[#1A365D]">{credential.description}</p>
           </div>
@@ -430,7 +430,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-6">Community Involvement</h2>
-        <div class="w-24 h-1 bg-[#F6AD55] mx-auto mb-8"></div>
+        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -475,7 +475,7 @@
       </p>
       <a
         href="/contact"
-        class="bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-105 inline-block"
+        class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-200 hover:scale-105 inline-block"
       >
         Start Your Project Today
       </a>

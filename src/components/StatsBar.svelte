@@ -84,25 +84,25 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-2 gap-8 text-center md:grid-cols-4">
 			<div class="text-white">
-				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
+				<div class="mb-2 text-4xl font-bold text-secondary md:text-5xl">
 					{counts.projects}+
 				</div>
 				<div class="text-lg">{m['stats.projects_completed']()}</div>
 			</div>
 			<div class="text-white">
-				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
+				<div class="mb-2 text-4xl font-bold text-secondary md:text-5xl">
 					{counts.years}+
 				</div>
 				<div class="text-lg">{m['stats.years_experience']()}</div>
 			</div>
 			<div class="text-white">
-				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
+				<div class="mb-2 text-4xl font-bold text-secondary md:text-5xl">
 					{counts.clients}+
 				</div>
 				<div class="text-lg">{m['stats.happy_clients']()}</div>
 			</div>
 			<div class="text-white">
-				<div class="mb-2 text-4xl font-bold text-[#F6AD55] md:text-5xl">
+				<div class="mb-2 text-4xl font-bold text-secondary md:text-5xl">
 					{counts.rating}★
 				</div>
 				<div class="text-lg">{m['stats.average_rating']()}</div>

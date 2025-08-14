@@ -41,7 +41,7 @@
     </p>
     
     <div class="flex flex-col sm:flex-row justify-center gap-4">
-      <a href="/contact" class="bg-[#F6AD55] text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F6AD55]/90 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
+      <a href="/contact" class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
         {m['hero.cta_primary']()}
         <ArrowRight size={20} />
       </a>

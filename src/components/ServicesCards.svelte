@@ -91,14 +91,14 @@
 		  <ul class="space-y-3 mb-8">
 			{#each service.features as feature}
 			  <li class="flex items-start space-x-3">
-				<div class="w-2 h-2 bg-[#F6AD55] rounded-full mt-2 flex-shrink-0"></div>
+				<div class="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></div>
 				<span class="text-gray-700">{feature}</span>
 			  </li>
 			{/each}
 		  </ul>
   
 		  <!-- CTA Button -->
-		  <a href={service.heref} class="w-full py-3 block text-center bg-[#F6AD55]  text-black rounded-xl font-semibold transition-all duration-300  hover:shadow-lg hover:scale-105 ">
+		  <a href={service.heref} class="w-full py-3 block text-center bg-secondary  text-black rounded-xl font-semibold transition-all duration-300  hover:shadow-lg hover:scale-105 ">
 			{service.ctaText}
 		  </a>
 		</div>

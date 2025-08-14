@@ -67,7 +67,7 @@
 					<div class="flex-1 text-center md:text-left">
 						<div class="flex justify-center md:justify-start mb-4">
 							{#each Array(testimonials[currentTestimonial].rating) as _}
-								<Star class="w-6 h-6 text-[#F6AD55] fill-current" />
+								<Star class="w-6 h-6 text-secondary fill-current" />
 							{/each}
 						</div>
 						
@@ -82,7 +82,7 @@
 							<div class="text-[#718096] mb-1">
 								{testimonials[currentTestimonial].location}
 							</div>
-							<div class="text-[#F6AD55] font-semibold">
+							<div class="text-secondary font-semibold">
 								{testimonials[currentTestimonial].project}
 							</div>
 						</div>
@@ -94,7 +94,7 @@
 			<div class="flex justify-center items-center mt-8 gap-4">
 			<button
 				onclick={prevTestimonial}
-				class="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 hover:bg-[#F6AD55] hover:text-white"
+				class="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 hover:bg-secondary hover:text-white"
 			>
 					<ChevronLeft size={20} />
 				</button>
@@ -103,7 +103,7 @@
 					{#each testimonials as _, index}
 						<button
 							onclick={() => currentTestimonial = index}
-							class="w-3 h-3 rounded-full transition-all duration-200 {index === currentTestimonial ? 'bg-[#F6AD55]' : 'bg-gray-300'}"
+							class="w-3 h-3 rounded-full transition-all duration-200 {index === currentTestimonial ? 'bg-secondary' : 'bg-gray-300'}"
 							aria-label="Go to testimonial {index + 1}"
 						></button>
 					{/each}
@@ -111,7 +111,7 @@
 
 				<button
 					onclick={nextTestimonial}
-					class="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 hover:bg-[#F6AD55] hover:text-white"
+					class="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 hover:bg-secondary hover:text-white"
 				>
 					<ChevronRight size={20} />
 				</button>

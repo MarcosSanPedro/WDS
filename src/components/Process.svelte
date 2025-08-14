@@ -51,9 +51,9 @@
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 				{#each steps as step, index}
 					<div class="relative">
-						<div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-2xl transition-all duration-300 border-t-4 border-[#F6AD55]">
+						<div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-2xl transition-all duration-300 border-t-4 border-secondary">
 							<div class="flex items-center mb-4">
-								<div class="bg-[#F6AD55] text-[#1A365D] p-3 rounded-full mr-4">
+								<div class="bg-secondary text-[#1A365D] p-3 rounded-full mr-4">
 									<svelte:component this={step.icon} class="w-8 h-8" />
 								</div>
 								<div class="bg-[#1A365D] text-white text-sm font-bold px-3 py-1 rounded-full">
@@ -70,7 +70,7 @@
 						
 						<!-- Connecting Line (for larger screens) -->
 						{#if index < steps.length - 1}
-							<div class="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-[#F6AD55]/30 transform -translate-y-1/2 z-10"></div>
+							<div class="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-secondary/30 transform -translate-y-1/2 z-10"></div>
 						{/if}
 					</div>
 				{/each}

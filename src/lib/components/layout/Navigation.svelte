@@ -36,7 +36,7 @@
 			<div class="flex-shrink-0">
 				<button 
 					onclick={() => handleNavigation('/')} 
-					class="text-2xl font-bold text-white hover:text-[#F6AD55] transition-colors"
+					class="text-2xl font-bold text-white hover:text-secondary transition-colors"
 				>
 					{m['company.short_name']()}
 				</button>
@@ -47,31 +47,31 @@
 				<div class="ml-10 flex items-baseline space-x-8">
 					<button 
 						onclick={() => handleNavigation('/')} 
-						class="text-white hover:text-[#F6AD55] transition-colors duration-200"
+						class="text-white hover:text-secondary transition-colors duration-200"
 					>
 						{m['nav.home']()}
 					</button>
 					<button 
 						onclick={() => handleNavigation('/services')} 
-						class="text-white hover:text-[#F6AD55] transition-colors duration-200"
+						class="text-white hover:text-secondary transition-colors duration-200"
 					>
 						{m['nav.services']()}
 					</button>
 					<button 
 						onclick={() => handleNavigation('/portfolio')} 
-						class="text-white hover:text-[#F6AD55] transition-colors duration-200"
+						class="text-white hover:text-secondary transition-colors duration-200"
 					>
 						{m['nav.portfolio']()}
 					</button>
 					<button 
 						onclick={() => handleNavigation('/about')} 
-						class="text-white hover:text-[#F6AD55] transition-colors duration-200"
+						class="text-white hover:text-secondary transition-colors duration-200"
 					>
 						{m['nav.about']()}
 					</button>
 					<button 
 						onclick={() => handleNavigation('/contact')} 
-						class="bg-[#F6AD55] text-[#1A365D] px-6 py-2 rounded-lg font-semibold hover:bg-[#F6AD55]/90 transition-all duration-200 hover:scale-105"
+						class="bg-secondary text-[#1A365D] px-6 py-2 rounded-lg font-semibold hover:bg-secondary/90 transition-all duration-200 hover:scale-105"
 					>
 						{m['nav.contact']()}
 					</button>
@@ -82,7 +82,7 @@
 			<div class="md:hidden">
 				<button
 					onclick={toggleMobileMenu}
-					class="text-white hover:text-[#F6AD55] transition-colors duration-200"
+					class="text-white hover:text-secondary transition-colors duration-200"
 				>
 					{#if $mobileMenuOpen}
 						<X size={24} />
@@ -96,35 +96,35 @@
 
 	<!-- Mobile Menu -->
 	{#if $mobileMenuOpen}
-		<div class="md:hidden bg-[#1A365D] border-t border-[#F6AD55]/20">
+		<div class="md:hidden bg-[#1A365D] border-t border-secondary/20">
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 				<button 
 					onclick={() => handleNavigation('/')} 
-					class="block w-full text-left px-3 py-2 text-white hover:text-[#F6AD55] transition-colors duration-200"
+					class="block w-full text-left px-3 py-2 text-white hover:text-secondary transition-colors duration-200"
 				>
 					{m['nav.home']()}
 				</button>
 				<button 
 					onclick={() => handleNavigation('/services')} 
-					class="block w-full text-left px-3 py-2 text-white hover:text-[#F6AD55] transition-colors duration-200"
+					class="block w-full text-left px-3 py-2 text-white hover:text-secondary transition-colors duration-200"
 				>
 					{m['nav.services']()}
 				</button>
 				<button 
 					onclick={() => handleNavigation('/portfolio')} 
-					class="block w-full text-left px-3 py-2 text-white hover:text-[#F6AD55] transition-colors duration-200"
+					class="block w-full text-left px-3 py-2 text-white hover:text-secondary transition-colors duration-200"
 				>
 					{m['nav.portfolio']()}
 				</button>
 				<button 
 					onclick={() => handleNavigation('/about')} 
-					class="block w-full text-left px-3 py-2 text-white hover:text-[#F6AD55] transition-colors duration-200"
+					class="block w-full text-left px-3 py-2 text-white hover:text-secondary transition-colors duration-200"
 				>
 					{m['nav.about']()}
 				</button>
 				<button 
 					onclick={() => handleNavigation('/contact')} 
-					class="block mx-3 my-2 px-3 py-2 bg-[#F6AD55] text-[#1A365D] rounded-lg font-semibold text-center w-auto"
+					class="block mx-3 my-2 px-3 py-2 bg-secondary text-[#1A365D] rounded-lg font-semibold text-center w-auto"
 				>
 					{m['nav.contact']()}
 				</button>
