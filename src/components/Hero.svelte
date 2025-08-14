@@ -33,7 +33,7 @@
   
   <!-- Content -->
   <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
-    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight lg:whitespace-nowrap">
       {typewriterText}<span class="animate-pulse">|</span>
     </h1>
     <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">

@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+@theme{
+  --color-primary: ;
+  --color-secondary: #F6AD55 ;
+  --color-soft-from: ;
+  --color-soft-to: ;
+
+
+}
+
 
 /* Smooth scrolling for the entire page */
 html {

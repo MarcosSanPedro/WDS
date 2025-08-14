@@ -11,8 +11,6 @@
 	} from 'lucide-svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { _services } from './residential/[slug]/+page';
-	import { page } from '$app/state';
-	import { slide } from 'svelte/transition';
 	import ServicesCards from '../../components/ServicesCards.svelte';
 	import Contact from '../../components/Contact.svelte';
 	import { Award, MapPin, Shield, Heart, Leaf, Wrench } from 'lucide-svelte';
@@ -73,7 +71,7 @@
 	<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 	  <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
 		<div>
-		  <h1 class="mb-6 text-4xl font-bold whitespace-nowrap md:text-5xl">
+		  <h1 class="mb-6 text-4xl font-bold md:text-5xl">
 			Construction & Renovation
 			<span class="block pt-2 whitespace-normal text-[#F6AD55]">
 			  Transform Your Space
