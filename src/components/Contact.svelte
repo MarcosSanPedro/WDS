@@ -178,7 +178,7 @@
 							</div>
 							<div>
 								<div class="font-semibold text-white">{m['contact.phone']()}</div>
-								<div class="text-white/80">(305) 555-0123</div>
+								<a href="tel:+13055550123" class="text-white/80">(305) 555-0123</a>
 							</div>
 						</div>
 
@@ -188,7 +188,7 @@
 							</div>
 							<div>
 								<div class="font-semibold text-white">{m['contact.email']()}</div>
-								<div class="text-white/80">info@wdsbuilders.com</div>
+								<a href="mailto:info@wdsbuilders.com" class="text-white/80">info@wdsbuilders.com</a>
 							</div>
 						</div>
 

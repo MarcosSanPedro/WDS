@@ -18,8 +18,8 @@
         {
             title: 'Modern Miami Kitchen',
             category: 'Kitchen Renovation',
-            image: '/kitchen-after.jpg',
-            beforeImage: '/kitchen-before.jpg',
+            image: '/portfolio/kitchen-after.webp',
+            beforeImage: '/portfolio/kitchen-before.webp',
             description: 'Complete transformation featuring custom cabinetry, quartz countertops, and premium appliances with smart home integration.',
             duration: '6 weeks',
             budget: '$45,000'
@@ -27,8 +27,8 @@
         {
             title: 'Luxury Bathroom Suite',
             category: 'Bathroom Remodel',
-            image: '/bath-after.jpg',
-            beforeImage: '/bath-before.jpg',
+            image: '/portfolio/bath-after.webp',
+            beforeImage: '/portfolio/bath-before.webp',
             description: 'Spa-inspired design with marble finishes, rainfall shower, heated floors, and custom vanity with integrated lighting.',
             duration: '4 weeks',
             budget: '$32,000'
@@ -36,8 +36,8 @@
         {
             title: 'Contemporary Office Space',
             category: 'Commercial Renovation',
-            image: '/office-after.jpg',
-            beforeImage: '/office-before.jpg',
+            image: '/portfolio/office-after.webp',
+            beforeImage: '/portfolio/office-before.webp',
             description: 'Modern office buildout with open floor plan, custom millwork, efficient LED lighting, and collaborative workspaces.',
             duration: '8 weeks',
             budget: '$75,000'

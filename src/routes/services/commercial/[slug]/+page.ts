@@ -41,6 +41,9 @@ import {
   Battery
 } from 'lucide-svelte';
 
+import { error } from '@sveltejs/kit';
+
+
 
 
 
@@ -55,7 +58,7 @@ export const _services: Record<string, Services>  = {
     description:
       'We design and renovate offices that foster collaboration, efficiency, and brand presence. From layouts to tech integration, every detail is built for productivity.',
     heroImage:
-      'https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/office.jpg',
     priceTag: 'From $50k',
     timeline: '6–12 weeks'
   },
@@ -155,7 +158,7 @@ export const _services: Record<string, Services>  = {
     description:
       'We create customer‑centric retail spaces with smart traffic flow, brand‑forward displays, and durable materials that look great under heavy use.',
     heroImage:
-      'https://images.pexels.com/photos/264507/pexels-photo-264507.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/retail.jpg',
     priceTag: 'From $80k',
     timeline: '8–14 weeks'
   },
@@ -254,7 +257,7 @@ export const _services: Record<string, Services>  = {
     description:
       'We modernize plants, warehouses, and production spaces with structural, mechanical, and electrical upgrades that improve uptime and safety.',
     heroImage:
-      'https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/industrial.jpg',
     priceTag: 'From $120k',
     timeline: '10–20 weeks'
   },
@@ -353,7 +356,7 @@ export const _services: Record<string, Services>  = {
     description:
       'From preventative maintenance to emergency repairs, we protect your investment and keep your building running smoothly.',
     heroImage:
-      'https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/commercialMaintenance.jpg',
     priceTag: 'Custom Plans',
     timeline: 'Ongoing'
   },
@@ -452,7 +455,7 @@ export const _services: Record<string, Services>  = {
     description:
       'From dining rooms to BOH kitchens and guest amenities, we renovate hospitality spaces for experience, durability, and code compliance.',
     heroImage:
-      'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/restaurant.jpg',
     priceTag: 'From $150k',
     timeline: '10–18 weeks'
   },
@@ -551,7 +554,7 @@ export const _services: Record<string, Services>  = {
     description:
       'From schematics to steel, we deliver additions that scale your operations, match your architecture, and meet code.',
     heroImage:
-      'https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      '/commercial/building.jpg',
     priceTag: 'From $250k',
     timeline: '4–8 months'
   },
@@ -741,3 +744,11 @@ export const _services: Record<string, Services>  = {
   
 }
 }
+
+
+
+export const load = ({ params }) => {
+  const service = _services[params.slug as keyof typeof _services];
+  if (!service) throw error(404, 'Service not found');
+  return { service };
+};

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
-	import Navigation from '$lib/components/layout/Navigation.svelte';
+	import Navigation from '../components/Navigation.svelte';
 	import Footer from '../components/Footer.svelte';
 
 	import { page } from '$app/state';

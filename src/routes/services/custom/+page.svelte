@@ -7,50 +7,43 @@
 		title: 'Custom Home Builds',
 		description: 'Create your dream home from the ground up with designs tailored to your exact specifications.',
 		link: '/services/custom/specialty-renovations',
-		image: 'https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		image: '/custom/home-builds.jpg'
 	},
 	{
 		icon: Landmark,
 		title: 'Unique Architectural Features',
 		description: 'Add distinctive design elements like custom staircases and intricate facades to make your property stand out.',
-		link: '/services/custom/custom-outdoor-structures',
-		image: 'https://images.pexels.com/photos/220889/pexels-photo-220889.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		link: '/services/custom/unique-architectural-features',
+		image: '/custom/architectural.jpg'
 	},
 	{
 		icon: PenTool,
 		title: 'Specialty Renovations',
 		description: 'Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces.',
 		link: '/services/custom/specialty-renovations',
-		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		image: '/custom/specialty.jpeg'
 	},
 	{
 		icon: Sun,
 		title: 'Custom Outdoor Structures',
 		description: 'Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style.',
 		link: '/services/custom/custom-outdoor-structures',
-		image: 'https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		image: '/custom/outdoors.jpg'
 	},
 	{
 		icon: Layers,
 		title: 'Historical Restorations',
 		description: 'Preserve the charm of historic properties while discreetly integrating modern amenities.',
 		link: '/services/custom/historical-restorations',
-		image: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		image: '/custom/historical.jpg'
 	},
 	{
 		icon: Building,
 		title: 'Custom Commercial Builds',
 		description: 'Stand out with a custom-designed commercial space tailored to your brand and operations.',
 		link: '/services/custom/custom-commercial-builds',
-		image: 'https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+		image: '/custom/commercial-builds.jpg'
 	},
-	{
-		icon: Paintbrush,
-		title: 'Bespoke Interior Design',
-		description: 'Elevate your interiors with personalized cabinetry, built-ins, and finishes that reflect your style.',
-		link: '/services/custom/bespoke-interior-design',
-		image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-	}
 ];
 
 

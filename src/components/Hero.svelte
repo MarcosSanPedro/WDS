@@ -26,7 +26,7 @@
   <!-- Background Image -->
   <div 
     class="absolute inset-0 bg-cover bg-center bg-fixed"
-    style="background-image: url('/hero-image.jpeg')"
+    style="background-image: url('/hero-image.webp')"
   >
     <div class="absolute inset-0 bg-[#1A365D]/70"></div>
   </div>
