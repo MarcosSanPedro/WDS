@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Briefcase, Store, Factory, Wrench, Utensils, Building2 } from 'lucide-svelte';
+	import { Briefcase, Store, Factory, Wrench, Utensils, Building2 } from '@lucide/svelte';
 
 	const services = [
 		{

@@ -1,9 +1,10 @@
 <script lang="ts">
-	import { Check, ChevronDown, ChevronUp } from 'lucide-svelte';
+	import { Check, ChevronDown, ChevronUp } from '@lucide/svelte';
 	import { page } from '$app/state';
 	import { slide } from 'svelte/transition';
 	import Process from './Process.svelte';
 	import type { Services } from '$lib/types';
+	import * as m  from '$lib/paraglide/messages';
 
     let { _services }: { _services: Record<string, Services> } = $props();
 
@@ -15,23 +16,39 @@
 
 	const materials = {
 		cabinetry: {
-			title: 'Premium Cabinetry',
-			options: ['Walnut Wood', 'Maple', 'Cherry', 'White Shaker', 'Modern Flat Panel'],
-			description:
-				'Custom-built cabinets crafted from the finest materials with precision engineering.'
+			title: m['service_detail.materials.tabs.cabinetry.title'](),
+			options: [
+				m['service_detail.materials.tabs.cabinetry.options.walnut'](),
+				m['service_detail.materials.tabs.cabinetry.options.maple'](),
+				m['service_detail.materials.tabs.cabinetry.options.cherry'](),
+				m['service_detail.materials.tabs.cabinetry.options.white_shaker'](),
+				m['service_detail.materials.tabs.cabinetry.options.flat_panel']()
+			],
+			description: m['service_detail.materials.tabs.cabinetry.description']()
 		},
 		countertops: {
-			title: 'Luxury Countertops',
-			options: ['Quartz', 'Granite', 'Marble', 'Butcher Block', 'Concrete'],
-			description: 'Durable and beautiful surfaces that combine form and function.'
+			title: m['service_detail.materials.tabs.countertops.title'](),
+			options: [
+				m['service_detail.materials.tabs.countertops.options.quartz'](),
+				m['service_detail.materials.tabs.countertops.options.granite'](),
+				m['service_detail.materials.tabs.countertops.options.marble'](),
+				m['service_detail.materials.tabs.countertops.options.butcher_block'](),
+				m['service_detail.materials.tabs.countertops.options.concrete']()
+			],
+			description: m['service_detail.materials.tabs.countertops.description']()
 		},
 		flooring: {
-			title: 'Premium Flooring',
-			options: ['Hardwood', 'Luxury Vinyl', 'Tile', 'Natural Stone', 'Bamboo'],
-			description: 'High-quality flooring options that stand up to kitchen demands.'
+			title: m['service_detail.materials.tabs.flooring.title'](),
+			options: [
+				m['service_detail.materials.tabs.flooring.options.hardwood'](),
+				m['service_detail.materials.tabs.flooring.options.luxury_vinyl'](),
+				m['service_detail.materials.tabs.flooring.options.tile'](),
+				m['service_detail.materials.tabs.flooring.options.natural_stone'](),
+				m['service_detail.materials.tabs.flooring.options.bamboo']()
+			],
+			description: m['service_detail.materials.tabs.flooring.description']()
 		}
 	};
-
 
 	type FinishKey = 'natural' | 'honey' | 'green' | 'yellow' | 'black' | 'red' | 'orange'| 'purple';
 
@@ -41,49 +58,48 @@
 		image: string;   // image URL
 	};
 
-	const finishes = {
+	const finishes: Record<FinishKey, Finish> = {
 		natural: {
-			name: 'Natural Clear',
+			name: m['service_detail.finishes.items.natural.name'](),
 			preview: '#D2B48C',
 			image: '/colorSelectorImg/beige.jpg'
 		},
 		honey: {
-			name: 'Honey Stain',
+			name: m['service_detail.finishes.items.honey.name'](),
 			preview: '#CD853F',
 			image: '/colorSelectorImg/honey.jpg'
 		},
 		green: {
-			name: 'Green',
+			name: m['service_detail.finishes.items.green.name'](),
 			preview: '#218542',
 			image: '/colorSelectorImg/green.jpg'
 		},
 		yellow: {
-			name: 'Light Yellow',
+			name: m['service_detail.finishes.items.yellow.name'](),
 			preview: '#ebeb5b',
 			image: '/colorSelectorImg/light-yellow.jpg'
 		},
-
 		black: {
-			name: 'Black Stain',
+			name: m['service_detail.finishes.items.black.name'](),
 			preview: '#2F2F2F',
 			image: '/colorSelectorImg/stain-black.jpg'
 		},
 		red: {
-			name: 'Light Red',
+			name: m['service_detail.finishes.items.red.name'](),
 			preview: '#f15b5b',
 			image: '/colorSelectorImg/light-red.jpg'
 		},
 		orange: {
-			name: 'Orange Paint',
+			name: m['service_detail.finishes.items.orange.name'](),
 			preview: '#ea6a15',
 			image: '/colorSelectorImg/orange.jpg'
 		},
 		purple: {
-			name: 'Purple Paint',
+			name: m['service_detail.finishes.items.purple.name'](),
 			preview: '#8E44AD',
 			image: '/colorSelectorImg/purple.jpg'
 		}
-	}
+	};
 
 	let selectedFinish = $state<FinishKey>('natural');
 
@@ -94,10 +110,10 @@
 </script>
 
 <svelte:head>
-	<title>Kitchen Renovations in Miami | Free Estimate</title>
+	<title>{data.overview.heading} | Free Estimate</title>
 	<meta
 		name="description"
-		content="Transform your kitchen with custom cabinetry, premium countertops, and modern appliances. Miami kitchen renovation specialists."
+		content={data.meta.description}
 	/>
 </svelte:head>
 
@@ -119,7 +135,7 @@
 					<a href="/contact"
 						class="text-navy hover:bg-secondary-light rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105"
 					>
-						Request Your Free Quote
+						{m['service_detail.hero.cta']()}
 					</a>
 				</div>
 				<div class="relative">
@@ -136,9 +152,9 @@
 	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mb-16 text-center">
-				<h2 class="mb-4 text-4xl font-bold text-[#1A365D]">Latest Bathroom Design Trends</h2>
+				<h2 class="mb-4 text-4xl font-bold text-[#1A365D]">{data.trend_heading}</h2>
 				<p class="mx-auto max-w-3xl text-xl text-gray-600">
-					Discover the latest innovations in bathroom design that combine luxury with functionality.
+					{data.trend_description}
 				</p>
 			</div>
 
@@ -166,14 +182,12 @@
 	</section>
 
 	<!-- matiral selection section -->
-	 {#if data.materials}		
 	<section class="py-20">
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mb-16 text-center">
-				<h2 class="text-navy mb-4 text-4xl font-bold">Premium Material Options</h2>
+				<h2 class="text-navy mb-4 text-4xl font-bold">{m['service_detail.materials.heading']()}</h2>
 				<p class="mx-auto max-w-3xl text-xl text-gray-600">
-					Choose from our curated selection of high-quality materials for every element of your
-					kitchen.
+					{m['service_detail.materials.subheading']()}
 				</p>
 			</div>
 
@@ -255,14 +269,13 @@
 				
 						<!-- Helper line; no labels on swatches -->
 						<p class="mt-4 text-xs text-gray-500">
-							Tip: Click a swatch to preview the matching sample photo above.
+							{m['service_detail.finishes.tip']()}
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	{/if}
 
 	<!-- Overview Section -->
 	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">
@@ -308,7 +321,7 @@
 	<section class="bg-white py-20">
 		<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 			<h2 class="mb-12 text-center text-3xl font-bold text-[#1A365D] md:text-4xl">
-				Frequently Asked Questions
+				{m['service_detail.faqs.heading']()}
 			</h2>
 
 			<div class="space-y-4">

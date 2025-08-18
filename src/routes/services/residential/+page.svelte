@@ -1,99 +1,125 @@
-<script lang="ts">
-	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb, Plus, Layers, Sun } from 'lucide-svelte';
-
+<script lang="ts" module>
+	import * as m from '$lib/paraglide/messages';
 	const services = [
-	{
-		icon: Home,
-		title: 'Kitchen Remodels',
-		description: 'Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle.',
-		link: '/services/residential/kitchen-renovations',
-		image: '/residential/kitchen.webp'
-	},
-	{
-		icon: Building,
-		title: 'Bathroom Renovations',
-		description: 'Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts.',
-		link: '/services/residential/bathroom-renovations',
-		image: '/residential/bath.webp'
-	},
-	{
-		icon: Plus,
-		title: 'Home Additions',
-		description: 'Seamlessly expand your living space with beautifully integrated new rooms & features.',
-		link: '/services/residential/home-additions',
-		image: '/residential/homeAddition.jpeg'
-	},
-	{
-		icon: Layers,
-		title: 'Basement Finishing',
-		description: 'Transform your basement into a functional living space for entertainment or guests.',
-		link: '/services/residential/basement-finishing',
-		image: '/residential/basement.webp'
-	},
-	{
-		icon: Sun,
-		title: 'Deck & Patio Construction',
-		description: 'Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests.',
-		link: '/services/residential/deck-patio-construction',
-		image: '/residential/patio.jpeg'
-	},
-	{
-		icon: Wrench,
-		title: 'Whole-Home Renovations',
-		description: 'Complete transformations that enhance both the beauty & function of your entire home.',
-		link: '/services/residential/whole-home-renovations',
-		image: '/residential/wholeHome.jpeg'
-	}
-];
+		{
+			icon: Home,
+			title: m['services_overview.services.kitchen_remodels.title'](),
+			description: m['services_overview.services.kitchen_remodels.description'](),
+			link: '/services/residential/kitchen-renovations',
+			image: '/residential/kitchen.webp'
+		},
+		{
+			icon: Building,
+			title: m['services_overview.services.bathroom_renovations.title'](),
+			description: m['services_overview.services.bathroom_renovations.description'](),
+			link: '/services/residential/bathroom-renovations',
+			image: '/residential/bath.webp'
+		},
+		{
+			icon: Plus,
+			title: m['services_overview.services.home_additions.title'](),
+			description: m['services_overview.services.home_additions.description'](),
+			link: '/services/residential/home-additions',
+			image: '/residential/homeAddition.jpeg'
+		},
+		{
+			icon: Layers,
+			title: m['services_overview.services.basement_finishing.title'](),
+			description: m['services_overview.services.basement_finishing.description'](),
+			link: '/services/residential/basement-finishing',
+			image: '/residential/basement.webp'
+		},
+		{
+			icon: Sun,
+			title: m['services_overview.services.deck_patio.title'](),
+			description: m['services_overview.services.deck_patio.description'](),
+			link: '/services/residential/deck-patio-construction',
+			image: '/residential/patio.jpeg'
+		},
+		{
+			icon: Wrench,
+			title: m['services_overview.services.whole_home.title'](),
+			description: m['services_overview.services.whole_home.description'](),
+			link: '/services/residential/whole-home-renovations',
+			image: '/residential/wholeHome.jpeg'
+		}
+	];
+	export { CtaSection };
+</script>
 
+<script lang="ts">
+	import { Home, Building, Wrench, Plus, Layers, Sun } from '@lucide/svelte';
 </script>
 
 <svelte:head>
-	<title>Remodeling & Construction Services | World Detail Specialist</title>
-	<meta name="description" content="Professional remodeling services in Miami. Kitchen renovations, bathroom remodeling, whole home renovations, and commercial construction." />
+	<title>{m['services_overview.seo.title']()}</title>
+	<meta name="description" content={m['services_overview.seo.description']()} />
 </svelte:head>
+{#snippet CtaSection(heading: string, subheading: string, button: string)}
+	<!-- CTA Section -->
+	<section class="bg-[#F7FAFC] py-20">
+		<div class="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+			<h2 class="mb-6 text-3xl font-bold text-[#1A365D] md:text-4xl">
+				{heading}
+			</h2>
+			<p class="mb-8 text-xl text-[#718096]">
+				{subheading}
+			</p>
+			<a
+				href="/contact"
+				class="inline-block rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-secondary/90"
+			>
+				{button}
+			</a>
+		</div>
+	</section>
+{/snippet}
 
 <main class="pt-16">
 	<!-- Hero Section -->
-	<section class="py-20 bg-[#1A365D] text-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-			<h1 class="text-4xl md:text-6xl font-bold mb-6">
-				Transform Any Space
+	<section class="bg-[#1A365D] py-20 text-white">
+		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+			<h1 class="mb-6 text-4xl font-bold md:text-6xl">
+				{m['services_overview.hero.heading']()}
 			</h1>
-			<p class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-				Explore our full range of residential and commercial services below.
+			<p class="mx-auto max-w-3xl text-xl text-white/90 md:text-2xl">
+				{m['services_overview.hero.subheading']()}
 			</p>
 		</div>
 	</section>
 
 	<!-- Services Grid -->
-	<section class="py-20 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+	<section class="bg-white py-20">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 				{#each services as service}
-					<div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
+					<div
+						class="group overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+					>
 						<div class="aspect-video overflow-hidden">
 							<img
 								src={service.image}
 								alt={service.title}
-								class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+								class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
 							/>
 						</div>
 						<div class="p-8">
-							<div class="text-secondary mb-4 group-hover:scale-110 transition-transform duration-300">
-								<svelte:component this={service.icon} class="w-12 h-12" />
+							<div
+								class="mb-4 text-secondary transition-transform duration-300 group-hover:scale-110"
+							>
+								<svelte:component this={service.icon} class="h-12 w-12" />
 							</div>
-							<h3 class="text-2xl font-bold text-[#1A365D] mb-4">
+							<h3 class="mb-4 text-2xl font-bold text-[#1A365D]">
 								{service.title}
 							</h3>
-							<p class="text-[#718096] mb-6 leading-relaxed">
+							<p class="mb-6 leading-relaxed text-[#718096]">
 								{service.description}
 							</p>
 							<a
 								href={service.link}
-								class="inline-flex items-center text-secondary font-semibold hover:text-[#1A365D] transition-colors duration-200"
+								class="inline-flex items-center font-semibold text-secondary transition-colors duration-200 hover:text-[#1A365D]"
 							>
-								Learn More →
+								{m['services_overview.card.learn_more']()}
 							</a>
 						</div>
 					</div>
@@ -102,21 +128,9 @@
 		</div>
 	</section>
 
-	<!-- CTA Section -->
-	<section class="py-20 bg-[#F7FAFC]">
-		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-			<h2 class="text-3xl md:text-4xl font-bold text-[#1A365D] mb-6">
-				Ready to Start Your Project?
-			</h2>
-			<p class="text-xl text-[#718096] mb-8">
-				Get a free consultation and estimate for your renovation project.
-			</p>
-			<a
-				href="/contact"
-				class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-200 hover:scale-105 inline-block"
-			>
-				Get Free Estimate
-			</a>
-		</div>
-	</section>
+	{@render CtaSection(
+		m['services_overview.cta.heading'](),
+		m['services_overview.cta.subheading'](),
+		m['services_overview.cta.button']()
+	)}
 </main>

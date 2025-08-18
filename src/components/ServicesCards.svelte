@@ -1,6 +1,6 @@
 <script lang='ts'>
 	import { m } from "$lib/paraglide/messages";
-	import { Building, Home ,Sparkles } from "lucide-svelte";
+	import { Building, Home ,Sparkles } from "@lucide/svelte";
 
 
 	const services = [

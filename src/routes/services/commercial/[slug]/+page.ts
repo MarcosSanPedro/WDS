@@ -39,7 +39,7 @@ import {
 	Building,
 	PanelsTopLeft,
 	Battery
-} from 'lucide-svelte';
+} from '@lucide/svelte';
 
 import { error } from '@sveltejs/kit';
 
@@ -62,6 +62,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'An office is more than desks and walls — it’s the heartbeat of your business. We transform outdated spaces into environments that motivate teams, impress clients, and support growth. From open collaboration to private focus rooms and hybrid setups, our designs balance performance, comfort, and brand personality.'
 		},
+		trend_heading: 'Latest Office Design Trends',
+		trend_description:
+			'Explore the latest innovations in office spaces that boost productivity, collaboration, and employee well-being.',
 		trends: [
 			{
 				title: 'Hybrid Work Zones',
@@ -175,6 +178,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Great retail design guides customers, tells your brand story, and converts browsers into buyers. We plan every detail — from window displays and queuing to lighting and materials — so your store feels intuitive, memorable, and on‑brand.'
 		},
+		trend_heading: 'Latest Retail Construction Trends',
+		trend_description:
+			'Discover modern retail design ideas that attract customers, enhance shopping experiences, and elevate brand presence.',
 		trends: [
 			{
 				title: 'Experience‑First Layouts',
@@ -289,6 +295,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Industrial work demands reliability. We plan shutdown windows, coordinate trades, and stage installs to keep your operations moving. From racking and mezzanines to power distribution and machine bases, we engineer for safety, code compliance, and long‑term durability.'
 		},
+		trend_heading: 'Latest Industrial Upgrade Trends',
+		trend_description:
+			'Stay ahead with industrial improvements that maximize efficiency, safety, and adaptability for modern operations.',
 		trends: [
 			{
 				title: 'Automation Readiness',
@@ -402,6 +411,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'A well‑maintained building lowers costs and preserves value. Our teams handle scheduled inspections, minor works, and rapid response repairs — coordinated through clear SLAs and a single point of contact.'
 		},
+		trend_heading: 'Latest Commercial Maintenance Practices',
+		trend_description:
+			'Learn how proactive maintenance strategies extend building lifespan, reduce costs, and improve performance.',
 		trends: [
 			{
 				title: 'Data‑Driven PM Schedules',
@@ -515,6 +527,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Hospitality spaces must wow guests and work hard for staff. We optimize seat counts, acoustics, lighting, and server paths while building BOH areas that are easy to clean, safe, and efficient — all to health and fire codes.'
 		},
+		trend_heading: 'Latest Hospitality Renovation Trends',
+		trend_description:
+			'See how the newest hospitality design trends create memorable dining and lodging experiences for customers.',
 		trends: [
 			{
 				title: 'Open Kitchen Moments',
@@ -628,6 +643,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Whether you’re adding offices, storage, or production space, we handle zoning, structure, and building systems to ensure a seamless connection — functionally and visually — to your current facility.'
 		},
+		trend_heading: 'Latest Commercial Expansion Trends',
+		trend_description:
+			'Discover how businesses are expanding spaces with modern, flexible, and seamlessly integrated additions.',
 		trends: [
 			{
 				title: 'Pre‑Engineered Systems',
@@ -742,6 +760,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Green projects shouldn’t be guesswork. We model ROI, select proven technologies, and install systems that reduce utilities, improve comfort, and support ESG goals — without compromising aesthetics.'
 		},
+		trend_heading: 'Latest Sustainable Construction Trends',
+		trend_description:
+			'Explore eco-friendly construction methods that combine sustainability with long-term cost savings and innovation.',
 		trends: [
 			{
 				title: 'Deep Energy Retrofits',

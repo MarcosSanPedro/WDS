@@ -275,5 +275,252 @@
 		"s_custom_features_5": "Premium materials and finishes",
 		"s_custom_features_6": "Personalized project management",
 		"s_custom_cta": "Explore Custom Services"
-	}
+	},
+	"service_details": {
+		"seo": {
+			"title": "Kitchen Renovations in Miami | Free Estimate",
+			"description": "Transform your kitchen with custom cabinetry, premium countertops, and modern appliances. Miami kitchen renovation specialists."
+		},
+		"hero": {
+			"cta": "Request Your Free Quote",
+			"image_alt": "Luxury bathroom renovation by World Detail Specialist"
+		},
+		"trends": {
+			"heading": "Latest Bathroom Design Trends",
+			"subheading": "Discover the latest innovations in bathroom design that combine luxury with functionality."
+		},
+		"materials": {
+			"heading": "Premium Material Options",
+			"subheading": "Choose from our curated selection of high-quality materials for every element of your kitchen.",
+			"tabs": {
+				"cabinetry": {
+					"title": "Premium Cabinetry",
+					"description": "Custom-built cabinets crafted from the finest materials with precision engineering.",
+					"options": {
+						"walnut": "Walnut Wood",
+						"maple": "Maple",
+						"cherry": "Cherry",
+						"white_shaker": "White Shaker",
+						"flat_panel": "Modern Flat Panel"
+					}
+				},
+				"countertops": {
+					"title": "Luxury Countertops",
+					"description": "Durable and beautiful surfaces that combine form and function.",
+					"options": {
+						"quartz": "Quartz",
+						"granite": "Granite",
+						"marble": "Marble",
+						"butcher_block": "Butcher Block",
+						"concrete": "Concrete"
+					}
+				},
+				"flooring": {
+					"title": "Premium Flooring",
+					"description": "High-quality flooring options that stand up to kitchen demands.",
+					"options": {
+						"hardwood": "Hardwood",
+						"luxury_vinyl": "Luxury Vinyl",
+						"tile": "Tile",
+						"natural_stone": "Natural Stone",
+						"bamboo": "Bamboo"
+					}
+				}
+			}
+		},
+		"finishes": {
+			"heading": "Finish Samples",
+			"tip": "Tip: Click a swatch to preview the matching sample photo above.",
+			"sample_alt": "Sample: {name}",
+			"items": {
+				"natural": {
+					"name": "Natural Clear"
+				},
+				"honey": {
+					"name": "Honey Stain"
+				},
+				"green": {
+					"name": "Green"
+				},
+				"yellow": {
+					"name": "Light Yellow"
+				},
+				"black": {
+					"name": "Black Stain"
+				},
+				"red": {
+					"name": "Light Red"
+				},
+				"orange": {
+					"name": "Orange Paint"
+				},
+				"purple": {
+					"name": "Purple Paint"
+				}
+			}
+		},
+		"faqs": {
+			"heading": "Frequently Asked Questions"
+		}
+	},
+	"service_detail": {
+		"seo": {
+			"title": "Kitchen Renovations in Miami | Free Estimate",
+			"description": "Transform your kitchen with custom cabinetry, premium countertops, and modern appliances. Miami kitchen renovation specialists."
+		},
+		"hero": {
+			"cta": "Request Your Free Quote",
+			"image_alt": "Luxury bathroom renovation by World Detail Specialist"
+		},
+		"trends": {
+			"heading": "Latest Bathroom Design Trends",
+			"subheading": "Discover the latest innovations in bathroom design that combine luxury with functionality."
+		},
+		"materials": {
+			"heading": "Premium Material Options",
+			"subheading": "Choose from our curated selection of high-quality materials for every element of your kitchen.",
+			"tabs": {
+				"cabinetry": {
+					"title": "Premium Cabinetry",
+					"description": "Custom-built cabinets crafted from the finest materials with precision engineering.",
+					"options": {
+						"walnut": "Walnut Wood",
+						"maple": "Maple",
+						"cherry": "Cherry",
+						"white_shaker": "White Shaker",
+						"flat_panel": "Modern Flat Panel"
+					}
+				},
+				"countertops": {
+					"title": "Luxury Countertops",
+					"description": "Durable and beautiful surfaces that combine form and function.",
+					"options": {
+						"quartz": "Quartz",
+						"granite": "Granite",
+						"marble": "Marble",
+						"butcher_block": "Butcher Block",
+						"concrete": "Concrete"
+					}
+				},
+				"flooring": {
+					"title": "Premium Flooring",
+					"description": "High-quality flooring options that stand up to kitchen demands.",
+					"options": {
+						"hardwood": "Hardwood",
+						"luxury_vinyl": "Luxury Vinyl",
+						"tile": "Tile",
+						"natural_stone": "Natural Stone",
+						"bamboo": "Bamboo"
+					}
+				}
+			}
+		},
+		"finishes": {
+			"heading": "Finish Samples",
+			"tip": "Tip: Click a swatch to preview the matching sample photo above.",
+			"sample_alt": "Sample: {name}",
+			"items": {
+				"natural": {
+					"name": "Natural Clear"
+				},
+				"honey": {
+					"name": "Honey Stain"
+				},
+				"green": {
+					"name": "Green"
+				},
+				"yellow": {
+					"name": "Light Yellow"
+				},
+				"black": {
+					"name": "Black Stain"
+				},
+				"red": {
+					"name": "Light Red"
+				},
+				"orange": {
+					"name": "Orange Paint"
+				},
+				"purple": {
+					"name": "Purple Paint"
+				}
+			}
+		},
+		"faqs": {
+			"heading": "Frequently Asked Questions"
+		}
+	},
+	"services_overview": {
+    "seo": {
+      "title": "Remodeling & Construction Services | World Detail Specialist",
+      "description": "Professional remodeling services in Miami. Kitchen renovations, bathroom remodeling, whole home renovations, and commercial construction."
+    },
+	"seo_custom": {
+      "description": "Custom construction in Miami: bespoke home builds, unique architectural features, specialty renovations, custom outdoor structures, historical restorations, and custom commercial builds."
+    },
+    "hero": {
+      "heading": "Transform Any Space",
+      "subheading": "Explore our full range of residential and commercial services below."
+    },
+    "card": {
+      "learn_more": "Learn More →"
+    },
+    "cta": {
+      "heading": "Ready to Start Your Project?",
+      "subheading": "Get a free consultation and estimate for your renovation project.",
+      "button": "Get Free Estimate"
+    },
+    "services": {
+      "kitchen_remodels": {
+        "title": "Kitchen Remodels",
+        "description": "Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle."
+      },
+      "bathroom_renovations": {
+        "title": "Bathroom Renovations",
+        "description": "Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts."
+      },
+      "home_additions": {
+        "title": "Home Additions",
+        "description": "Seamlessly expand your living space with beautifully integrated new rooms & features."
+      },
+      "basement_finishing": {
+        "title": "Basement Finishing",
+        "description": "Transform your basement into a functional living space for entertainment or guests."
+      },
+      "deck_patio": {
+        "title": "Deck & Patio Construction",
+        "description": "Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests."
+      },
+      "whole_home": {
+        "title": "Whole-Home Renovations",
+        "description": "Complete transformations that enhance both the beauty & function of your entire home."
+      }
+    },
+	"custom_services": {
+		"custom_home_builds": {
+		  "title": "Custom Home Builds",
+		  "description": "Create your dream home from the ground up with designs tailored to your exact specifications."
+		},
+		"unique_architectural_features": {
+		  "title": "Unique Architectural Features",
+		  "description": "Add distinctive design elements like custom staircases and intricate facades to make your property stand out."
+		},
+		"specialty_renovations": {
+		  "title": "Specialty Renovations",
+		  "description": "Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces."
+		},
+		"custom_outdoor_structures": {
+		  "title": "Custom Outdoor Structures",
+		  "description": "Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style."
+		},
+		"historical_restorations": {
+		  "title": "Historical Restorations",
+		  "description": "Preserve the charm of historic properties while discreetly integrating modern amenities."
+		},
+		"custom_commercial_builds": {
+		  "title": "Custom Commercial Builds",
+		  "description": "Stand out with a custom-designed commercial space tailored to your brand and operations."
+		}
+	  }
+  }
 }

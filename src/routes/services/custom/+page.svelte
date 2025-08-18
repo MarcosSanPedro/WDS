@@ -1,100 +1,105 @@
 <script lang="ts">
-	import { Home, Building, Wrench, Hammer, PaintBucket, Lightbulb, Plus, Layers, Sun, Paintbrush, PenTool, Landmark } from 'lucide-svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { Home, Building, Layers, Sun, PenTool, Landmark } from '@lucide/svelte';
+	import { CtaSection } from '../residential/+page.svelte';
 
 	const services = [
-	{
-		icon: Home,
-		title: 'Custom Home Builds',
-		description: 'Create your dream home from the ground up with designs tailored to your exact specifications.',
-		link: '/services/custom/specialty-renovations',
-		image: '/custom/home-builds.jpg'
-	},
-	{
-		icon: Landmark,
-		title: 'Unique Architectural Features',
-		description: 'Add distinctive design elements like custom staircases and intricate facades to make your property stand out.',
-		link: '/services/custom/unique-architectural-features',
-		image: '/custom/architectural.jpg'
-	},
-	{
-		icon: PenTool,
-		title: 'Specialty Renovations',
-		description: 'Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces.',
-		link: '/services/custom/specialty-renovations',
-		image: '/custom/specialty.jpeg'
-	},
-	{
-		icon: Sun,
-		title: 'Custom Outdoor Structures',
-		description: 'Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style.',
-		link: '/services/custom/custom-outdoor-structures',
-		image: '/custom/outdoors.jpg'
-	},
-	{
-		icon: Layers,
-		title: 'Historical Restorations',
-		description: 'Preserve the charm of historic properties while discreetly integrating modern amenities.',
-		link: '/services/custom/historical-restorations',
-		image: '/custom/historical.jpg'
-	},
-	{
-		icon: Building,
-		title: 'Custom Commercial Builds',
-		description: 'Stand out with a custom-designed commercial space tailored to your brand and operations.',
-		link: '/services/custom/custom-commercial-builds',
-		image: '/custom/commercial-builds.jpg'
-	},
-];
-
-
+		{
+			icon: Home,
+			title: m['services_overview.custom_services.custom_home_builds.title'](),
+			description: m['services_overview.custom_services.custom_home_builds.description'](),
+			link: '/services/custom/specialty-renovations',
+			image: '/custom/home-builds.jpg'
+		},
+		{
+			icon: Landmark,
+			title: m['services_overview.custom_services.unique_architectural_features.title'](),
+			description:
+				m['services_overview.custom_services.unique_architectural_features.description'](),
+			link: '/services/custom/unique-architectural-features',
+			image: '/custom/architectural.jpg'
+		},
+		{
+			icon: PenTool,
+			title: m['services_overview.custom_services.specialty_renovations.title'](),
+			description: m['services_overview.custom_services.specialty_renovations.description'](),
+			link: '/services/custom/specialty-renovations',
+			image: '/custom/specialty.jpeg'
+		},
+		{
+			icon: Sun,
+			title: m['services_overview.custom_services.custom_outdoor_structures.title'](),
+			description: m['services_overview.custom_services.custom_outdoor_structures.description'](),
+			link: '/services/custom/custom-outdoor-structures',
+			image: '/custom/outdoors.jpg'
+		},
+		{
+			icon: Layers,
+			title: m['services_overview.custom_services.historical_restorations.title'](),
+			description: m['services_overview.custom_services.historical_restorations.description'](),
+			link: '/services/custom/historical-restorations',
+			image: '/custom/historical.jpg'
+		},
+		{
+			icon: Building,
+			title: m['services_overview.custom_services.custom_commercial_builds.title'](),
+			description: m['services_overview.custom_services.custom_commercial_builds.description'](),
+			link: '/services/custom/custom-commercial-builds',
+			image: '/custom/commercial-builds.jpg'
+		}
+	];
 </script>
 
 <svelte:head>
-	<title>Remodeling & Construction Services | World Detail Specialist</title>
-	<meta name="description" content="Professional remodeling services in Miami. Kitchen renovations, bathroom remodeling, whole home renovations, and commercial construction." />
+	<title>{m['services_overview.seo.title']()}</title>
+	<meta name="description" content={m['services_overview.seo_custom.description']()} />
 </svelte:head>
 
 <main class="pt-16">
 	<!-- Hero Section -->
-	<section class="py-20 bg-[#1A365D] text-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-			<h1 class="text-4xl md:text-6xl font-bold mb-6">
-				Transform Any Space
+	<section class="bg-[#1A365D] py-20 text-white">
+		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+			<h1 class="mb-6 text-4xl font-bold md:text-6xl">
+				{m['services_overview.hero.heading']()}
 			</h1>
-			<p class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-				Explore our full range of residential and commercial services below.
+			<p class="mx-auto max-w-3xl text-xl text-white/90 md:text-2xl">
+				{m['services_overview.hero.subheading']()}
 			</p>
 		</div>
 	</section>
 
 	<!-- Services Grid -->
-	<section class="py-20 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+	<section class="bg-white py-20">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 				{#each services as service}
-					<div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group">
+					<div
+						class="group overflow-hidden rounded-lg border border-gray-100 bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+					>
 						<div class="aspect-video overflow-hidden">
 							<img
 								src={service.image}
 								alt={service.title}
-								class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+								class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
 							/>
 						</div>
 						<div class="p-8">
-							<div class="text-secondary mb-4 group-hover:scale-110 transition-transform duration-300">
-								<svelte:component this={service.icon} class="w-12 h-12" />
+							<div
+								class="mb-4 text-secondary transition-transform duration-300 group-hover:scale-110"
+							>
+								<svelte:component this={service.icon} class="h-12 w-12" />
 							</div>
-							<h3 class="text-2xl font-bold text-[#1A365D] mb-4">
+							<h3 class="mb-4 text-2xl font-bold text-[#1A365D]">
 								{service.title}
 							</h3>
-							<p class="text-[#718096] mb-6 leading-relaxed">
+							<p class="mb-6 leading-relaxed text-[#718096]">
 								{service.description}
 							</p>
 							<a
 								href={service.link}
-								class="inline-flex items-center text-secondary font-semibold hover:text-[#1A365D] transition-colors duration-200"
+								class="inline-flex items-center font-semibold text-secondary transition-colors duration-200 hover:text-[#1A365D]"
 							>
-								Learn More →
+								{m['services_overview.card.learn_more']()}
 							</a>
 						</div>
 					</div>
@@ -104,20 +109,9 @@
 	</section>
 
 	<!-- CTA Section -->
-	<section class="py-20 bg-[#F7FAFC]">
-		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-			<h2 class="text-3xl md:text-4xl font-bold text-[#1A365D] mb-6">
-				Ready to Start Your Project?
-			</h2>
-			<p class="text-xl text-[#718096] mb-8">
-				Get a free consultation and estimate for your renovation project.
-			</p>
-			<a
-				href="/contact"
-				class="bg-secondary text-[#1A365D] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all duration-200 hover:scale-105 inline-block"
-			>
-				Get Free Estimate
-			</a>
-		</div>
-	</section>
+	{@render CtaSection(
+		m['services_overview.cta.heading'](),
+		m['services_overview.cta.subheading'](),
+		m['services_overview.cta.button']()
+	)}
 </main>

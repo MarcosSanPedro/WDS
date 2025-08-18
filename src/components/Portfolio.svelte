@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { ChevronLeft, ChevronRight, Eye } from 'lucide-svelte';
+    import { ChevronLeft, ChevronRight, Eye } from '@lucide/svelte';
     import { tweened } from 'svelte/motion';
     import { cubicInOut } from 'svelte/easing';
     import { onMount } from 'svelte';

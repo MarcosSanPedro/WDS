@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { Menu, X } from 'lucide-svelte';
+	import { Menu, X } from '@lucide/svelte';
 	import * as m from '$lib/paraglide/messages';
 	import {
 		mobileMenuOpen,

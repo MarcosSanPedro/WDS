@@ -1,5 +1,5 @@
 <script lang="ts" module>
-  import { ArrowRight, Phone } from 'lucide-svelte';
+  import { ArrowRight, Phone } from '@lucide/svelte';
 
   export { CTAs }
 </script>

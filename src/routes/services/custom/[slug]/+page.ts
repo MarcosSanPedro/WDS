@@ -32,7 +32,7 @@ import {
 	LayoutDashboard,
 	Landmark,
 	Route
-} from 'lucide-svelte';
+} from '@lucide/svelte';
 
 export const _services: Record<string, Services> = {
 	'custom-home-builds': {
@@ -53,6 +53,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Building a custom home is a journey — and we make sure it’s as exciting as the final result. From the initial sketches to handing over the keys, every element is tailored to you. We combine architectural excellence, premium materials, and meticulous project management to deliver a home that’s truly one of a kind.'
 		},
+		trend_heading: 'Latest Custom Home Design Trends',
+		trend_description:
+			'Discover the newest approaches to custom home building that blend personalization, sustainability, and timeless design.',
 		trends: [
 			{
 				title: 'Smart Home Integration',
@@ -165,6 +168,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Architectural features are the soul of a property’s design. We create custom elements that elevate aesthetics, add functionality, and create a lasting impression — precisely detailed and beautifully built.'
 		},
+		trend_heading: 'Latest Architectural Feature Trends',
+		trend_description:
+			'Explore how custom architectural details like staircases, facades, and unique finishes define modern luxury spaces.',
 		trends: [
 			{
 				title: 'Floating Staircases',
@@ -275,6 +281,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Whether it’s cinema‑grade theaters, climate‑controlled wine rooms, gaming lounges, or maker studios, we deliver precision, performance, and wow‑factor — tuned to how you live and create.'
 		},
+		trend_heading: 'Latest Specialty Renovation Trends',
+		trend_description:
+			'See how innovative renovations are transforming unique spaces like home theaters, wine cellars, and art studios.',
 		trends: [
 			{
 				title: 'Luxury Entertainment Rooms',
@@ -384,6 +393,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'From shaded lounges to chef‑worthy outdoor kitchens, we create durable, beautiful structures that make outdoor time effortless — all year long.'
 		},
+		trend_heading: 'Latest Outdoor Living Trends',
+		trend_description:
+			'Uncover new ideas for outdoor structures that expand living spaces with comfort, functionality, and style.',
 		trends: [
 			{
 				title: 'Outdoor Kitchens',
@@ -493,6 +505,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'Every historic property has a story. We preserve original craftsmanship and architectural integrity, while integrating modern systems that remain visually discreet.'
 		},
+		trend_heading: 'Latest Historic Restoration Trends',
+		trend_description:
+			'Learn how modern restoration techniques preserve heritage while enhancing efficiency and comfort.',
 		trends: [
 			{
 				title: 'Material Matching',
@@ -602,6 +617,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 				'From hospitality to healthcare to creative offices, we craft spaces that enhance experience, streamline operations, and embody your brand — from concept through grand opening.'
 		},
+		trend_heading: 'Latest Custom Commercial Design Trends',
+		trend_description:
+			'Explore design innovations in custom commercial spaces that align branding, customer experience, and functionality.',
 		trends: [
 			{
 				title: 'Experience‑Driven Design',

@@ -8,12 +8,12 @@
 		// Star,
 		// Thermometer,
 		Users
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 	// import * as m from '$lib/paraglide/messages';
 	// import { _services } from './residential/[slug]/+page';
 	import ServicesCards from '../../components/ServicesCards.svelte';
 	import Contact from '../../components/Contact.svelte';
-	import { Award, MapPin, Shield, Heart, Leaf, Wrench } from 'lucide-svelte';
+	import { Award, MapPin, Shield, Heart, Leaf, Wrench } from '@lucide/svelte';
 
 
 	const reasons = [

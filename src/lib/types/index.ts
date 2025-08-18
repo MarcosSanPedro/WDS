@@ -2,8 +2,7 @@ import type { SvelteComponent } from 'svelte';
 
 export type SvelteComponentType = new (...args: any) => SvelteComponent;
 
-
-import type { Icon } from "lucide-svelte";
+import type { Icon } from '@lucide/svelte';
 
 export interface Project {
 	id: string;
@@ -72,45 +71,44 @@ export interface Stat {
 	suffix?: string;
 }
 
-
 export type StyleKey = 'modern' | 'traditional' | 'contemporary';
 
-
-
 export interface Services {
-  slug: string; // e.g., "kitchen-renovations"
-  title: string; // e.g., "Kitchen Renovations"
-  goldTittle: string;
-  subTittle: string;
-  meta: {
-    description: string;
-    heroImage: string;
-    priceTag: string; // e.g., "From $25k"
-    timeline: string; // e.g., "4–8 weeks"
-  };
-  overview: {
-    heading: string;
-    paragraph: string;
-  };
-  trends: {
-    title: string;
-    description: string;
-    icon: SvelteComponentType;
-  }[];
-  featuresTittle: string;
-  featuresSubtittle: string;
-  features: {
-    title: string;
-    description: string;
-	icon: SvelteComponentType;
-  }[];
-  materials?: Record<string, any>
-  process: { title: string; desc: string }[];
-  styles: Record<StyleKey, string[]>; // galleries
-  faqs: { question: string; answer: string }[];
-  cta: {
-    heading: string;
-    subheading: string;
-    button: string;
-  };
+	slug: string; // e.g., "kitchen-renovations"
+	title: string; // e.g., "Kitchen Renovations"
+	goldTittle: string;
+	subTittle: string;
+	meta: {
+		description: string;
+		heroImage: string;
+		priceTag: string; // e.g., "From $25k"
+		timeline: string; // e.g., "4–8 weeks"
+	};
+	overview: {
+		heading: string;
+		paragraph: string;
+	};
+	trend_heading: string;
+	trend_description: string;
+	trends: {
+		title: string;
+		description: string;
+		icon: SvelteComponentType;
+	}[];
+	featuresTittle: string;
+	featuresSubtittle: string;
+	features: {
+		title: string;
+		description: string;
+		icon: SvelteComponentType;
+	}[];
+	materials?: Record<string, any>;
+	process: { title: string; desc: string }[];
+	styles: Record<StyleKey, string[]>; // galleries
+	faqs: { question: string; answer: string }[];
+	cta: {
+		heading: string;
+		subheading: string;
+		button: string;
+	};
 }

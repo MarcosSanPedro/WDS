@@ -35,7 +35,7 @@ import {
 	LayoutDashboard,
 	ShieldCheck,
 	Droplets
-} from 'lucide-svelte';
+} from '@lucide/svelte';
 
 export const _services: Record<string, Services> = {
 	'kitchen-renovations': {
@@ -57,6 +57,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'Our kitchen renovations go far beyond a cosmetic update — they are full-scale transformations designed to improve the way you live every day. We carefully consider workflow, storage solutions, and lighting to create a kitchen that works just as beautifully as it looks. Whether you want a sleek modern space, a warm and inviting farmhouse kitchen, or a high-end chef’s paradise, we deliver exceptional craftsmanship and premium materials that stand the test of time. From the first design consultation to the final walk-through, our process ensures your new kitchen reflects your style, enhances your home’s value, and becomes the true heart of your home.'
 		  },
+		  trend_heading: 'Latest Kitchen Design Trends',
+	trend_description:
+		'Discover the newest kitchen innovations that balance style, efficiency, and smart functionality.',
 		trends: [
 			{
 				title: 'Smart Appliances',
@@ -158,6 +161,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'We believe your bathroom should be more than just a functional space — it should be a retreat. Our bathroom remodeling services combine luxurious design with smart, practical features to create a space you’ll love every day. From spa-inspired showers and soaking tubs to accessibility upgrades like walk-in showers and grab bars, we tailor every detail to your needs. We focus on quality craftsmanship, moisture-resistant materials, and designs that maximize both beauty and function. Whether it’s a compact powder room refresh or a master bath transformation, our goal is to deliver a bathroom that elevates your daily routine and adds value to your home.'
 		  },
+		  trend_heading: 'Latest Bathroom Design Trends',
+	trend_description:
+		'Explore modern bathroom concepts that combine relaxation, luxury, and intelligent use of space.',
 		trends: [
 			{
 				title: 'Rainfall Showers',
@@ -259,6 +265,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'A home addition is more than just extra square footage — it’s an opportunity to enhance your lifestyle and increase your property’s value. We design and build additions that seamlessly integrate with your existing home, both structurally and stylistically. Whether you need a larger kitchen, a sunroom, a home office, or an in-law suite, our team handles every aspect from design and permits to final construction. We focus on natural light, energy efficiency, and quality finishes to ensure your new space feels like it has always belonged. Our goal is to create a stress-free building experience while delivering a stunning, functional extension of your home.'
 		  },
+		  trend_heading: 'Latest Home Addition Trends',
+	trend_description:
+		'See how today’s home additions create seamless expansions that blend perfectly with existing structures.',
 		trends: [
 			{
 				title: 'Multi‑Generational Suites',
@@ -359,6 +368,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'Your basement is full of potential — and we can help you unlock it. Our basement finishing services transform underutilized space into functional, inviting rooms. From cozy home theaters and entertainment areas to gyms, guest suites, and home offices, we create spaces that fit your lifestyle. We address waterproofing, insulation, and lighting from the start, ensuring your basement is comfortable year-round. With durable materials, smart layouts, and attention to detail, we turn your basement into a beautiful extension of your home — adding both living space and property value.'
 		  },
+		  trend_heading: 'Latest Basement Finishing Trends',
+	trend_description:
+		'Uncover how basements are being transformed into versatile living areas, from entertainment zones to guest suites.',
 		trends: [
 			{
 				title: 'Home Theaters',
@@ -459,6 +471,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'A great outdoor space is an extension of your home — a place to relax, entertain, and connect with nature. Our deck and patio construction services combine beauty and durability, using high-quality materials that stand up to the elements. Whether you prefer a natural wood deck, a low-maintenance composite, or a stunning stone patio, we customize the design to fit your lifestyle. We also offer built-in seating, lighting, pergolas, and weather protection so you can enjoy your space year-round. Every detail is planned for comfort, safety, and visual appeal.'
 		  },
+		  trend_heading: 'Latest Outdoor Living Trends',
+	trend_description:
+		'Find inspiration in the latest deck and patio designs that extend comfort and entertainment outdoors.',
 		trends: [
 			{
 				title: 'Composite Decking 2.0',
@@ -559,6 +574,9 @@ export const _services: Record<string, Services> = {
 			paragraph:
 			  'Our whole-home renovations are complete transformations — a chance to rethink and redesign your living spaces from top to bottom. We create a cohesive design that flows seamlessly from room to room, while addressing practical needs like storage, lighting, and energy efficiency. From updating kitchens and bathrooms to refreshing flooring, paint, and fixtures throughout, we manage every detail. Whether you want a modern refresh, a timeless classic, or a complete style change, our experienced team ensures your new home reflects your taste and enhances your lifestyle.'
 		  },
+		  trend_heading: 'Latest Whole-Home Renovation Trends',
+	trend_description:
+		'Learn how full-scale renovations are redefining homes with cohesive design, sustainability, and smart upgrades.',
 		trends: [
 			{
 				title: 'Open‑Concept Living',

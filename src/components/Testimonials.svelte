@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { m } from '$lib/paraglide/messages';
-	import { Star, ChevronLeft, ChevronRight } from 'lucide-svelte';
+	import { Star, ChevronLeft, ChevronRight } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 
 	let currentTestimonial = $state(0);

@@ -13,7 +13,7 @@
     Building,
     ChevronUp,
     ChevronDown
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
 
   // Runes state (Svelte 5)
   let openBenefit = $state<number | null>(null);

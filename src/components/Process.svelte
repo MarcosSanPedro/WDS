@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
-	import { Users, PenTool, Hammer, CheckCircle, Home, Star } from 'lucide-svelte';
+	import { Users, PenTool, Hammer, CheckCircle, Home, Star } from '@lucide/svelte';
 
 	const steps = [
     {
