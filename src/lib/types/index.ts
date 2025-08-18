@@ -104,6 +104,7 @@ export interface Services {
     description: string;
 	icon: SvelteComponentType;
   }[];
+  materials?: Record<string, any>
   process: { title: string; desc: string }[];
   styles: Record<StyleKey, string[]>; // galleries
   faqs: { question: string; answer: string }[];

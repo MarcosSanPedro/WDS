@@ -5,7 +5,7 @@
 	import Process from './Process.svelte';
 	import type { Services } from '$lib/types';
 
-    let { _services } = $props<{ _services: Record<string, Services> }>();
+    let { _services }: { _services: Record<string, Services> } = $props();
 
 	let openFaq = $state<number | null>(null);
 
@@ -166,6 +166,7 @@
 	</section>
 
 	<!-- matiral selection section -->
+	 {#if data.materials}		
 	<section class="py-20">
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mb-16 text-center">
@@ -261,6 +262,7 @@
 			</div>
 		</div>
 	</section>
+	{/if}
 
 	<!-- Overview Section -->
 	<section class="bg-gradient-to-br from-slate-50 to-blue-50 py-20">

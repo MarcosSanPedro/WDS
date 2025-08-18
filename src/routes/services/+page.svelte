@@ -1,16 +1,16 @@
 <script lang="ts">
 	import {
-		Check,
-		ChevronDown,
-		ChevronUp,
-		Droplet,
-		Play,
-		Star,
-		Thermometer,
+		// Check,
+		// ChevronDown,
+		// ChevronUp,
+		// Droplet,
+		// Play,
+		// Star,
+		// Thermometer,
 		Users
 	} from 'lucide-svelte';
-	import * as m from '$lib/paraglide/messages';
-	import { _services } from './residential/[slug]/+page';
+	// import * as m from '$lib/paraglide/messages';
+	// import { _services } from './residential/[slug]/+page';
 	import ServicesCards from '../../components/ServicesCards.svelte';
 	import Contact from '../../components/Contact.svelte';
 	import { Award, MapPin, Shield, Heart, Leaf, Wrench } from 'lucide-svelte';

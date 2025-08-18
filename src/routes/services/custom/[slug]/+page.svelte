@@ -4,5 +4,5 @@
 	import { _services } from './+page'; // wherever your data comes from
   </script>
   
-  <DetailedService _services={_services} />
+  <DetailedService {_services} />
   
