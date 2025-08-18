@@ -1,48 +1,49 @@
 <script lang="ts">
+	import * as m from '$lib/paraglide/messages';
 	import { Users, PenTool, Hammer, CheckCircle, Home, Star } from 'lucide-svelte';
 
 	const steps = [
-		{
-			icon: Users,
-			title: 'Initial Consultation',
-			description: 'We meet with you to understand your vision, needs, and budget requirements.'
-		},
-		{
-			icon: PenTool,
-			title: 'Design & Planning',
-			description: 'Our team creates detailed plans and 3D renderings for your approval.'
-		},
-		{
-			icon: CheckCircle,
-			title: 'Permits & Approvals',
-			description: 'We handle all necessary permits and regulatory approvals for your project.'
-		},
-		{
-			icon: Hammer,
-			title: 'Construction Phase',
-			description: 'Skilled craftsmen bring your vision to life with meticulous attention to detail.'
-		},
-		{
-			icon: Home,
-			title: 'Quality Inspection',
-			description: 'Comprehensive quality checks ensure everything meets our high standards.'
-		},
-		{
-			icon: Star,
-			title: 'Project Completion',
-			description: 'Final walkthrough and handover of your beautifully transformed space.'
-		}
-	];
+    {
+      icon: Users,
+      title: m['process.steps.consultation.title'](),
+      description: m['process.steps.consultation.description']()
+    },
+    {
+      icon: PenTool,
+      title: m['process.steps.design.title'](),
+      description: m['process.steps.design.description']()
+    },
+    {
+      icon: CheckCircle,
+      title: m['process.steps.permits.title'](),
+      description: m['process.steps.permits.description']()
+    },
+    {
+      icon: Hammer,
+      title: m['process.steps.construction.title'](),
+      description: m['process.steps.construction.description']()
+    },
+    {
+      icon: Home,
+      title: m['process.steps.inspection.title'](),
+      description: m['process.steps.inspection.description']()
+    },
+    {
+      icon: Star,
+      title: m['process.steps.completion.title'](),
+      description: m['process.steps.completion.description']()
+    }
+  ];
 </script>
 
 <section class="py-20 bg-white">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center mb-16">
 			<h2 class="text-4xl md:text-5xl font-bold text-[#1A365D] mb-4">
-				Our Process
+				{m['process.heading']()}
 			</h2>
 			<p class="text-xl text-[#718096] max-w-3xl mx-auto">
-				From initial consultation to final completion, our systematic approach ensures your project runs smoothly and exceeds expectations.
+				{m['process.subheading']()}
 			</p>
 		</div>
 
@@ -79,7 +80,7 @@
 
 		<div class="text-center mt-12">
 			<a href="/contact" class="bg-[#1A365D] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#1A365D]/90 transition-all duration-200 hover:scale-105">
-				Start Your Project Today
+				{m['process.cta']()}
 			</a>
 		</div>
 	</div>

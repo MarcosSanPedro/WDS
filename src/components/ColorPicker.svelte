@@ -22,12 +22,6 @@
 </script>
 
 <div class="space-y-6">
-	<img
-		src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-		alt="Sample surface for finish comparison"
-		class="h-64 w-full rounded-xl object-cover shadow-lg"
-	/>
-
 	<div class="rounded-xl bg-white p-6 shadow-lg">
 		<h4 class="text-navy mb-4 text-lg font-bold">Available Finishes</h4>
 

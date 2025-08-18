@@ -1,58 +1,56 @@
 <script lang='ts'>
 	import { m } from "$lib/paraglide/messages";
-	import { Building, Hammer, Home, Icon, icons, Lightbulb, PaintBucket, Sparkles, Wrench } from "lucide-svelte";
+	import { Building, Home ,Sparkles } from "lucide-svelte";
 
 
 	const services = [
     {
       icon: Building,
-      title: "Commercial Construction",
-      description: "Elevate your business with functional, modern, and visually appealing commercial spaces. From office upgrades to large-scale developments, we deliver projects that exceed industry standards.",
+      title: m["servicesCards.s_commercial_title"](),
+      description: m["servicesCards.s_commercial_description"](),
       features: [
-        "Office buildings and renovations",
-        "Retail and restaurant spaces",
-        "Warehouse and industrial facilities",
-        "Minimal downtime construction",
-        "Budget-conscious project management",
-        "Brand-aligned design solutions"
+        m["servicesCards.s_commercial_features_1"](),
+        m["servicesCards.s_commercial_features_2"](),
+        m["servicesCards.s_commercial_features_3"](),
+        m["servicesCards.s_commercial_features_4"](),
+        m["servicesCards.s_commercial_features_5"](),
+        m["servicesCards.s_commercial_features_6"]()
       ],
-      ctaText: "Explore Commercial Services",
+      ctaText: m["servicesCards.s_commercial_cta"](),
       gradient: "bg-gradient-to-br from-blue-600 to-blue-800",
-	  heref: '/services/commercial'
+      heref: "/services/commercial"
     },
     {
       icon: Home,
-      title: "Residential Construction & Renovation",
-      description: "Transform your house into a dream home with personalized solutions that blend style, functionality, and comfort to suit your lifestyle perfectly.",
+      title: m["servicesCards.s_residential_title"](),
+      description: m["servicesCards.s_residential_description"](),
       features: [
-        "Complete home renovations",
-        "Kitchen and bathroom remodeling",
-        "Room additions and expansions",
-        "Interior design consultations",
-        "Energy-efficient upgrades",
-        "Outdoor living spaces"
+        m["servicesCards.s_residential_features_1"](),
+        m["servicesCards.s_residential_features_2"](),
+        m["servicesCards.s_residential_features_3"](),
+        m["servicesCards.s_residential_features_4"](),
+        m["servicesCards.s_residential_features_5"](),
+        m["servicesCards.s_residential_features_6"]()
       ],
-      ctaText: "Explore Residential Services",
+      ctaText: m["servicesCards.s_residential_cta"](),
       gradient: "bg-gradient-to-br from-green-600 to-green-800",
-	  heref: '/services/residential'
-
+      heref: "/services/residential"
     },
     {
       icon: Sparkles,
-      title: "Custom Construction",
-      description: "Bring your unique vision to life with bespoke construction services. We specialize in one-of-a-kind projects that stand out with innovative design and meticulous craftsmanship.",
+      title: m["servicesCards.s_custom_title"](),
+      description: m["servicesCards.s_custom_description"](),
       features: [
-        "Custom home builds",
-        "Unique commercial features",
-        "Specialized outdoor structures",
-        "Architectural design collaboration",
-        "Premium materials and finishes",
-        "Personalized project management"
+        m["servicesCards.s_custom_features_1"](),
+        m["servicesCards.s_custom_features_2"](),
+        m["servicesCards.s_custom_features_3"](),
+        m["servicesCards.s_custom_features_4"](),
+        m["servicesCards.s_custom_features_5"](),
+        m["servicesCards.s_custom_features_6"]()
       ],
-      ctaText: "Explore Custom Services",
+      ctaText: m["servicesCards.s_custom_cta"](),
       gradient: "bg-gradient-to-br from-purple-600 to-purple-800",
-	  heref: '/services/custom'
-
+      heref: "/services/custom"
     }
   ];
 </script>

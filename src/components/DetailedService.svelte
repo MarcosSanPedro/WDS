@@ -7,7 +7,6 @@
 
     let { _services } = $props<{ _services: Record<string, Services> }>();
 
-	let activeTab = $state<'modern' | 'traditional' | 'contemporary' | string>('modern');
 	let openFaq = $state<number | null>(null);
 
 	let data = _services[page.params.slug as keyof typeof _services];

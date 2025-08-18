@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-svelte';
+  import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from '@lucide/svelte';
   import * as m from '$lib/paraglide/messages';
 </script>
 

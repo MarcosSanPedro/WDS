@@ -1,6 +1,6 @@
 <script lang="ts">
 	import DetailedService from '../../../../components/DetailedService.svelte';
-	import { _services } from './+page'; // wherever your data comes from
+	import { _services } from './+page';
   </script>
   
   <DetailedService _services={_services} />

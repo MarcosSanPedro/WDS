@@ -14,42 +14,71 @@
 		"cta_primary": "Start Your Project",
 		"cta_secondary": "Watch Our Story"
 	},
-	"services": {
-		"title": "Our Services",
-		"kitchen": "Kitchen Renovations",
-		"bathroom": "Bathroom Remodeling",
-		"whole_home": "Whole Home Renovations",
-		"commercial": "Commercial Construction",
-		"subtitle": "From concept to completion, we deliver exceptional craftsmanship across all aspects of residential and commercial construction.",
-		"millwork": {
-			"title": "Custom Millwork",
-			"description": "Handcrafted millwork and built-ins that add character and functionality to any space.",
-			"features": {
-				"storage": "Built-in Storage",
-				"molding": "Crown Molding",
-				"trim": "Custom Trim"
+	"process": {
+		"heading": "Our Process",
+		"subheading": "From initial consultation to final completion, our systematic approach ensures your project runs smoothly and exceeds expectations.",
+		"cta": "Start Your Project Today",
+		"steps": {
+			"consultation": {
+				"title": "Initial Consultation",
+				"description": "We meet with you to understand your vision, needs, and budget requirements."
 			},
-			"feature1": "Built-in Storage",
-			"feature2": "Crown Molding",
-			"feature3": "Custom Trim"
-		},
-		"design": {
-			"title": "Design Consultation",
-			"description": "Expert design guidance to help you visualize and plan your perfect renovation project.",
-			"features": {
-				"renderings": "3D Renderings",
-				"materials": "Material Selection",
-				"planning": "Project Planning"
+			"design": {
+				"title": "Design & Planning",
+				"description": "Our team creates detailed plans and 3D renderings for your approval."
 			},
-			"feature1": "3D Renderings",
-			"feature2": "Material Selection",
-			"feature3": "Project Planning"
-		},
-		"learn_more": "Learn More"
+			"permits": {
+				"title": "Permits & Approvals",
+				"description": "We handle all necessary permits and regulatory approvals for your project."
+			},
+			"construction": {
+				"title": "Construction Phase",
+				"description": "Skilled craftsmen bring your vision to life with meticulous attention to detail."
+			},
+			"inspection": {
+				"title": "Quality Inspection",
+				"description": "Comprehensive quality checks ensure everything meets our high standards."
+			},
+			"completion": {
+				"title": "Project Completion",
+				"description": "Final walkthrough and handover of your beautifully transformed space."
+			}
+		}
 	},
 	"portfolio": {
 		"title": "Our Portfolio",
-		"view_project": "View Project"
+		"view_project": "View Project",
+		"tag": "Our Work",
+		"heading": "Portfolio Showcase",
+		"subheading": "Discover our exceptional projects that blend innovative design with superior craftsmanship",
+		"before": "Before",
+		"after": "After",
+		"label_duration": "Duration",
+		"label_investment": "Investment",
+		"pagination": "Project {number} of {total}",
+		"projects": {
+			"modern_miami_kitchen": {
+				"title": "Modern Miami Kitchen",
+				"category": "Kitchen Renovation",
+				"description": "Complete transformation featuring custom cabinetry, quartz countertops, and premium appliances with smart home integration.",
+				"duration": "6 weeks",
+				"budget": "$45,000"
+			},
+			"luxury_bathroom_suite": {
+				"title": "Luxury Bathroom Suite",
+				"category": "Bathroom Remodel",
+				"description": "Spa-inspired design with marble finishes, rainfall shower, heated floors, and custom vanity with integrated lighting.",
+				"duration": "4 weeks",
+				"budget": "$32,000"
+			},
+			"contemporary_office_space": {
+				"title": "Contemporary Office Space",
+				"category": "Commercial Renovation",
+				"description": "Modern office buildout with open floor plan, custom millwork, efficient LED lighting, and collaborative workspaces.",
+				"duration": "8 weeks",
+				"budget": "$75,000"
+			}
+		}
 	},
 	"contact": {
 		"title": "Contact Us",
@@ -201,5 +230,50 @@
 		"privacy_policy": "Privacy Policy",
 		"terms_service": "Terms of Service",
 		"accessibility": "Accessibility"
+	},
+	"testimonials": {
+		"heading": "What Our Clients Say",
+		"subheading": "Don't just take our word for it. Hear from satisfied clients who have experienced the WDS difference.",
+		"t_sarah_name": "Sarah Johnson",
+		"t_sarah_location": "Miami, FL",
+		"t_sarah_project": "Kitchen Renovation",
+		"t_sarah_text": "WDS transformed our outdated kitchen into a modern masterpiece. Their attention to detail and professionalism exceeded our expectations. The project was completed on time and within budget.",
+		"t_michael_name": "Michael Rodriguez",
+		"t_michael_location": "Fort Lauderdale, FL",
+		"t_michael_project": "Whole Home Renovation",
+		"t_michael_text": "From concept to completion, the WDS team delivered exceptional results. Our home feels brand new, and the quality of workmanship is outstanding. Highly recommend their services.",
+		"t_jennifer_name": "Jennifer Davis",
+		"t_jennifer_location": "Boca Raton, FL",
+		"t_jennifer_project": "Bathroom Remodeling",
+		"t_jennifer_text": "Our master bathroom renovation was flawless. WDS created a spa-like retreat that we enjoy every day. Their team was professional, clean, and respectful throughout the process."
+	},
+	"servicesCards": {
+		"s_commercial_title": "Commercial Construction",
+		"s_commercial_description": "Elevate your business with functional, modern, and visually appealing commercial spaces. From office upgrades to large-scale developments, we deliver projects that exceed industry standards.",
+		"s_commercial_features_1": "Office buildings and renovations",
+		"s_commercial_features_2": "Retail and restaurant spaces",
+		"s_commercial_features_3": "Warehouse and industrial facilities",
+		"s_commercial_features_4": "Minimal downtime construction",
+		"s_commercial_features_5": "Budget-conscious project management",
+		"s_commercial_features_6": "Brand-aligned design solutions",
+		"s_commercial_cta": "Explore Commercial Services",
+		"s_residential_title": "Residential Construction & Renovation",
+		"s_residential_description": "Transform your house into a dream home with personalized solutions that blend style, functionality, and comfort to suit your lifestyle perfectly.",
+		"s_residential_features_1": "Complete home renovations",
+		"s_residential_features_2": "Kitchen and bathroom remodeling",
+		"s_residential_features_3": "Room additions and expansions",
+		"s_residential_features_4": "Interior design consultations",
+		"s_residential_features_5": "Energy-efficient upgrades",
+		"s_residential_features_6": "Outdoor living spaces",
+		"s_residential_cta": "Explore Residential Services",
+		"s_custom_title": "Custom Construction",
+		"s_custom_description": "Bring your unique vision to life with bespoke construction services. We specialize in one-of-a-kind projects that stand out with innovative design and meticulous craftsmanship.",
+		"s_custom_features_1": "Custom home builds",
+		"s_custom_features_2": "Unique commercial features",
+		"s_custom_features_3": "Specialized outdoor structures",
+		"s_custom_features_4": "Architectural design collaboration",
+		"s_custom_features_5": "Premium materials and finishes",
+		"s_custom_features_6": "Personalized project management",
+		"s_custom_cta": "Explore Custom Services"
 	}
 }
