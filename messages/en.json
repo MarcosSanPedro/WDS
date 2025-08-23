@@ -14,6 +14,199 @@
 		"cta_primary": "Start Your Project",
 		"cta_secondary": "Call Now"
 	},
+	"about": {
+		"hero": {
+		  "title": "About World Detail Specialist",
+		  "subtitle": "Miami's premier construction and remodeling experts, building dreams with precision and passion."
+		},
+	
+		"our_story": {
+		  "title": "Our Story",
+		  "paragraph1": "Founded in the vibrant heart of Miami, Florida, World Detail Specialist emerged as a beacon of excellence in the competitive construction and remodeling industry. Our journey began with a singular mission: to deliver unparalleled attention to detail in every project, transforming ordinary spaces into extraordinary environments.",
+		  "paragraph2": "As a leading Miami construction company, we specialize in high-end residential remodeling, commercial construction, and innovative development solutions across South Florida. From our humble beginnings tackling kitchen renovations in Miami Beach to securing major commercial contracts in Broward County, we've grown by adhering to core principles of quality, integrity, and innovation.",
+		  "paragraph3": "Our founder, with over two decades of experience in South Florida remodeling, envisioned a company that not only meets client expectations but exceeds them through cutting-edge techniques and sustainable practices. Today, as a premier Miami remodeling company, we handle everything from bathroom remodels in Coral Gables to full-scale home renovations in Palm Beach.",
+		  "image_alt": "World Detail Specialist construction project"
+		},
+	
+		"timeline": {
+		  "title": "Our Journey",
+		  "items": {
+			"2010": {
+			  "year": "2010",
+			  "event": "Founded World Detail Specialist in Miami",
+			  "description": "Started with a vision to deliver unparalleled attention to detail."
+			},
+			"2013": {
+			  "year": "2013",
+			  "event": "Expanded to Commercial Construction",
+			  "description": "Began serving commercial clients throughout South Florida."
+			},
+			"2016": {
+			  "year": "2016",
+			  "event": "Opened Broward County Office",
+			  "description": "Extended services to Fort Lauderdale and surrounding areas."
+			},
+			"2019": {
+			  "year": "2019",
+			  "event": "Achieved 250+ Completed Projects",
+			  "description": "Milestone celebrating our growing portfolio of success."
+			},
+			"2022": {
+			  "year": "2022",
+			  "event": "Launched Sustainable Building Initiative",
+			  "description": "Committed to eco-friendly construction practices."
+			},
+			"2024": {
+			  "year": "2024",
+			  "event": "Celebrating 500+ Transformations",
+			  "description": "Continuing our mission toward our moon-shot vision."
+			}
+		  }
+		},
+	
+		"vision": {
+		  "paragraph1": "Looking ahead, our ambitious vision extends beyond Earth—we're not stopping until we've built the first house on the moon, symbolizing our dedication to pushing the boundaries of what's possible in construction and development.",
+		  "paragraph2": "Whether you're searching for a Miami kitchen remodeling contractor or a partner for commercial construction in South Florida, World Detail Specialist is here to turn your dreams into reality with precision and passion."
+		},
+	
+		"values": {
+		  "title": "Our Values",
+		  "intro": "These core principles guide every decision we make and every project we undertake.",
+		  "items": {
+			"craftsmanship": {
+			  "title": "Craftsmanship",
+			  "description": "Every detail matters, from material selection to final finishes. As a top Miami construction company, we ensure that our craftsmanship stands out in every kitchen remodel, bathroom renovation, and commercial build, using premium materials sourced locally in South Florida to guarantee longevity and aesthetic appeal. Our skilled artisans bring decades of experience to each project, ensuring that every corner, joint, and surface meets our exacting standards."
+			},
+			"integrity": {
+			  "title": "Integrity",
+			  "description": "Transparent pricing, honest timelines, and reliable delivery. We believe in building trust through clear communication, which is why our clients rave about our straightforward approach to Miami remodeling projects, avoiding hidden fees and delivering on promises every time. Our commitment to integrity extends to every aspect of our business, from initial consultations to final walkthroughs, ensuring complete transparency throughout your construction journey."
+			},
+			"innovation": {
+			  "title": "Innovation",
+			  "description": "Embracing cutting-edge techniques and sustainable practices. From 3D visualization tools to eco-friendly construction methods, we're at the forefront of innovation in South Florida remodeling, helping clients achieve energy-efficient homes and modern commercial spaces. Our investment in the latest technology and sustainable building practices positions us as leaders in the evolving construction industry."
+			},
+			"client_centricity": {
+			  "title": "Client-Centricity",
+			  "description": "Your vision is our blueprint; we listen, adapt, and deliver. Our client-focused strategy ensures personalized solutions for every project, whether it's a luxury home renovation in Miami or a commercial development in Broward County. We believe that successful construction projects begin with understanding our clients' unique needs, lifestyle, and aspirations, then translating those into tangible, beautiful results."
+			}
+		  }
+		},
+	
+		"why_choose_us": {
+		  "title": "Why Choose Us",
+		  "intro": "Discover what sets World Detail Specialist apart as Miami's premier construction and remodeling company.",
+		  "items": {
+			"local_expertise": {
+			  "title": "Local Expertise in Miami and South Florida",
+			  "description": "As a native Miami construction company, we understand the unique challenges of building in a tropical climate, from hurricane-resistant designs to humidity-proof materials, ensuring your remodeling project withstands the elements. Our deep knowledge of local building codes, permit processes, and environmental considerations gives us a distinct advantage in delivering successful projects throughout South Florida."
+			},
+			"comprehensive_services": {
+			  "title": "Comprehensive Services",
+			  "description": "From initial consultation to final walkthrough, we offer end-to-end solutions for residential remodeling, commercial construction, and custom developments, making us the go-to choice for Miami kitchen remodeling and bathroom renovations in Broward County. Our integrated approach eliminates the need for multiple contractors, streamlining your project timeline and ensuring consistent quality throughout."
+			},
+			"proven_track_record": {
+			  "title": "Proven Track Record",
+			  "description": "With hundreds of successful projects, our portfolio demonstrates expertise in luxury home renovations, office builds, and multi-family developments across South Florida, backed by industry awards and client satisfaction. Our track record speaks to our ability to handle projects of any scale and complexity, from intimate bathroom remodels to large-scale commercial developments."
+			},
+			"sustainable_practices": {
+			  "title": "Sustainable Practices",
+			  "description": "Committed to eco-friendly construction, we use green materials and energy-efficient techniques to reduce environmental impact, appealing to clients seeking sustainable remodeling Miami or green building South Florida. Our sustainability initiatives not only benefit the environment but also provide long-term cost savings through improved energy efficiency and durability."
+			},
+			"cutting_edge_tech": {
+			  "title": "Cutting-Edge Technology",
+			  "description": "Utilizing 3D modeling, laser measurements, and project management software, we streamline processes for faster, more accurate results in every Miami remodeling project. Our technology-driven approach minimizes errors, reduces waste, and provides clients with clear visualizations of their projects before construction begins."
+			},
+			"customized_solutions": {
+			  "title": "Customized Solutions",
+			  "description": "Tailored designs that reflect your style and needs, whether modern minimalist kitchens or traditional bathroom remodels, setting us apart as innovative leaders in Florida construction. We don't believe in one-size-fits-all solutions; instead, we craft unique designs that perfectly match your vision, lifestyle, and budget requirements."
+			},
+			"competitive_pricing": {
+			  "title": "Competitive Pricing with Value",
+			  "description": "Transparent, value-driven pricing ensures you get premium quality without overspending, ideal for budget-conscious homeowners and businesses in Miami. Our pricing structure is designed to provide maximum value, combining competitive rates with superior quality and service that delivers lasting results."
+			},
+			"community_focus": {
+			  "title": "Community-Focused Approach",
+			  "description": "Deeply rooted in South Florida, we support local suppliers and initiatives, fostering long-term relationships and contributing to the region's growth. Our commitment to the community extends beyond individual projects to supporting local businesses, creating jobs, and contributing to the economic vitality of South Florida."
+			}
+		  }
+		},
+	
+		"expertise": {
+		  "title": "Our Expertise",
+		  "intro": "Dive deep into our specialized services and experience that establish us as South Florida's construction authority.",
+		  "items": {
+			"residential": {
+			  "title": "Residential Remodeling",
+			  "description": "Specializing in kitchen and bathroom renovations in Miami, we transform homes with custom cabinetry, high-end fixtures, and smart home integrations, ensuring functionality and luxury for South Florida lifestyles. Our residential expertise encompasses everything from minor updates to complete home transformations, always focusing on enhancing both aesthetic appeal and practical functionality."
+			},
+			"commercial": {
+			  "title": "Commercial Construction",
+			  "description": "From retail spaces in Miami Beach to office builds in Fort Lauderdale, our commercial projects focus on durability, aesthetics, and compliance with local regulations, delivering spaces that enhance business operations. We understand that commercial spaces must balance form and function while meeting strict regulatory requirements and tight deadlines."
+			},
+			"custom_developments": {
+			  "title": "Custom Developments",
+			  "description": "Pushing innovation with sustainable designs and future-proof features, we're prepared for ambitious projects, aligning with our vision of extraterrestrial construction. Our custom development services combine cutting-edge design with practical construction expertise to create unique spaces that push the boundaries of conventional building."
+			},
+			"materials_techniques": {
+			  "title": "Material and Technique Mastery",
+			  "description": "Expertise in selecting premium, weather-resistant materials for Florida's climate, combined with advanced techniques like modular construction for efficiency. Our deep understanding of materials science and construction techniques ensures that every project is built to last in South Florida's challenging environment."
+			}
+		  }
+		},
+	
+		"credentials": {
+		  "title": "Credentials & Achievements",
+		  "intro": "Our certifications, awards, and media features demonstrate our commitment to excellence and industry leadership.",
+		  "items": {
+			"gc_license": {
+			  "name": "General Contractor License",
+			  "description": "Fully licensed to perform construction work throughout Florida"
+			},
+			"nari_remodeler": {
+			  "name": "NARI Certified Remodeler",
+			  "description": "National Association of the Remodeling Industry certification"
+			},
+			"epa_lead_safe": {
+			  "name": "EPA Lead-Safe Certification",
+			  "description": "Certified for safe lead paint removal and renovation"
+			},
+			"osha": {
+			  "name": "OSHA Safety Certifications",
+			  "description": "Comprehensive workplace safety training and compliance"
+			},
+			"nari_coty": {
+			  "name": "NARI Contractor of the Year",
+			  "description": "Recognized for excellence in remodeling and construction"
+			},
+			"houzz_service": {
+			  "name": "Houzz Best of Service",
+			  "description": "Top-rated contractor on the leading home design platform"
+			},
+			"miami_design_feature": {
+			  "name": "Miami Home & Design Featured",
+			  "description": "Featured in premier South Florida design publication"
+			},
+			"bbb_aplus": {
+			  "name": "Better Business Bureau A+",
+			  "description": "Highest rating for business ethics and customer service"
+			}
+		  }
+		},
+	
+		"community": {
+		  "title": "Community Involvement",
+		  "paragraph1": "At World Detail Specialist, we're deeply committed to the Miami and South Florida community that has supported our growth as a leading construction company. We actively participate in local initiatives, such as partnering with Habitat for Humanity for affordable housing projects in Miami-Dade County, sponsoring home design expos in Broward, and contributing to environmental cleanups in Palm Beach.",
+		  "paragraph2": "Our involvement extends to educational programs, where we offer workshops on sustainable remodeling techniques for aspiring builders in Florida. By supporting local suppliers and employing South Florida talent, we boost the economy while ensuring our projects reflect the region's vibrant culture.",
+		  "paragraph3": "Whether it's renovating community centers or volunteering for disaster recovery after hurricanes, our community-focused efforts underscore our role as more than just a remodeling company—we're invested partners in building a stronger Miami.",
+		  "gallery_alt_prefix": "Community involvement"
+		},
+	
+		"cta": {
+		  "title": "Ready to Work with Miami's Premier Construction Team?",
+		  "subtitle": "Let's discuss how our expertise, values, and commitment to excellence can bring your vision to life.",
+		  "button": "Start Your Project Today"
+		}
+	  },
 	"process": {
 		"heading": "Our Process",
 		"subheading": "From initial consultation to final completion, our systematic approach ensures your project runs smoothly and exceeds expectations.",
@@ -84,7 +277,69 @@
 		"title": "Contact Us",
 		"get_estimate": "Get Free Estimate",
 		"phone": "Phone",
-		"email": "Email"
+		"email": "Email",
+		"lead": "Ready to transform your space? Contact us today for a free consultation and estimate.",
+		"form": {
+			"title": "Start Your Project",
+			"labels": {
+				"name": "Full Name *",
+				"email": "Email Address *",
+				"phone": "Phone Number",
+				"project_type": "Project Type *",
+				"budget": "Estimated Budget",
+				"message": "Project Details *"
+			},
+			"placeholders": {
+				"name": "Your full name",
+				"email": "your.email@example.com",
+				"phone": "(555) 123-4567",
+				"message": "Tell us about your project vision, timeline, and any specific requirements..."
+			},
+			"project_type": {
+				"placeholder": "Select project type",
+				"options": {
+					"residential": "Residential",
+					"commercial": "Commercial",
+					"custom": "Custom"
+				}
+			},
+			"budget": {
+				"placeholder": "Select budget range",
+				"options": {
+					"0_25k": "$0 - $25,000",
+					"25k_50k": "$25,000 - $50,000",
+					"50k_100k": "$50,000 - $100,000",
+					"100k_200k": "$100,000 - $200,000",
+					"200k_plus": "$200,000+"
+				}
+			},
+			"submit": "Get Free Estimate",
+			"success": "Thank you for your interest! We'll contact you within 24 hours."
+		},
+		"info": {
+			"title": "Contact Information",
+			"phone_label": "Phone",
+			"phone_value": "(305) 555-0123",
+			"email_label": "Email",
+			"email_value": "info@wdsbuilders.com",
+			"office_label": "Office",
+			"office_address_line1": "123 Construction Ave",
+			"office_address_line2": "Miami, FL 33101",
+			"hours_label": "Hours",
+			"hours_value": "Mon-Fri: 8AM-6PM\nSat: 9AM-4PM"
+		},
+		"service_areas": {
+			"title": "Service Areas",
+			"intro": "We proudly serve South Florida including:",
+			"items": {
+				"miami": "Miami",
+				"fort_lauderdale": "Fort Lauderdale",
+				"boca_raton": "Boca Raton",
+				"west_palm_beach": "West Palm Beach",
+				"aventura": "Aventura",
+				"coral_gables": "Coral Gables"
+			}
+		}
 	},
 	"company": {
 		"name": "World Detail Specialist",
@@ -451,76 +706,2898 @@
 		}
 	},
 	"services_overview": {
-    "seo": {
-      "title": "Remodeling & Construction Services | World Detail Specialist",
-      "description": "Professional remodeling services in Miami. Kitchen renovations, bathroom remodeling, whole home renovations, and commercial construction."
-    },
-	"seo_custom": {
-      "description": "Custom construction in Miami: bespoke home builds, unique architectural features, specialty renovations, custom outdoor structures, historical restorations, and custom commercial builds."
-    },
-    "hero": {
-      "heading": "Transform Any Space",
-      "subheading": "Explore our full range of residential and commercial services below."
-    },
-    "card": {
-      "learn_more": "Learn More →"
-    },
-    "cta": {
-      "heading": "Ready to Start Your Project?",
-      "subheading": "Get a free consultation and estimate for your renovation project.",
-      "button": "Get Free Estimate"
-    },
-    "services": {
-      "kitchen_remodels": {
-        "title": "Kitchen Remodels",
-        "description": "Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle."
-      },
-      "bathroom_renovations": {
-        "title": "Bathroom Renovations",
-        "description": "Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts."
-      },
-      "home_additions": {
-        "title": "Home Additions",
-        "description": "Seamlessly expand your living space with beautifully integrated new rooms & features."
-      },
-      "basement_finishing": {
-        "title": "Basement Finishing",
-        "description": "Transform your basement into a functional living space for entertainment or guests."
-      },
-      "deck_patio": {
-        "title": "Deck & Patio Construction",
-        "description": "Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests."
-      },
-      "whole_home": {
-        "title": "Whole-Home Renovations",
-        "description": "Complete transformations that enhance both the beauty & function of your entire home."
-      }
-    },
-	"custom_services": {
+		"seo": {
+			"title": "Remodeling & Construction Services | World Detail Specialist",
+			"description": "Professional remodeling services in Miami. Kitchen renovations, bathroom remodeling, whole home renovations, and commercial construction."
+		},
+		"seo_custom": {
+			"description": "Custom construction in Miami: bespoke home builds, unique architectural features, specialty renovations, custom outdoor structures, historical restorations, and custom commercial builds."
+		},
+		"hero": {
+			"heading": "Transform Any Space",
+			"subheading": "Explore our full range of residential and commercial services below."
+		},
+		"card": {
+			"learn_more": "Learn More →"
+		},
+		"cta": {
+			"heading": "Ready to Start Your Project?",
+			"subheading": "Get a free consultation and estimate for your renovation project.",
+			"button": "Get Free Estimate"
+		},
+		"services": {
+			"kitchen_remodels": {
+				"title": "Kitchen Remodels",
+				"description": "Create your dream kitchen blending style, function & finishes that perfectly match your lifestyle."
+			},
+			"bathroom_renovations": {
+				"title": "Bathroom Renovations",
+				"description": "Upgrade your bathroom into a relaxing retreat with elegant fixtures & thoughtful layouts."
+			},
+			"home_additions": {
+				"title": "Home Additions",
+				"description": "Seamlessly expand your living space with beautifully integrated new rooms & features."
+			},
+			"basement_finishing": {
+				"title": "Basement Finishing",
+				"description": "Transform your basement into a functional living space for entertainment or guests."
+			},
+			"deck_patio": {
+				"title": "Deck & Patio Construction",
+				"description": "Build durable, inviting outdoor spaces perfect for relaxation & entertaining guests."
+			},
+			"whole_home": {
+				"title": "Whole-Home Renovations",
+				"description": "Complete transformations that enhance both the beauty & function of your entire home."
+			}
+		},
+		"custom_services": {
+			"custom_home_builds": {
+				"title": "Custom Home Builds",
+				"description": "Create your dream home from the ground up with designs tailored to your exact specifications."
+			},
+			"unique_architectural_features": {
+				"title": "Unique Architectural Features",
+				"description": "Add distinctive design elements like custom staircases and intricate facades to make your property stand out."
+			},
+			"specialty_renovations": {
+				"title": "Specialty Renovations",
+				"description": "Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces."
+			},
+			"custom_outdoor_structures": {
+				"title": "Custom Outdoor Structures",
+				"description": "Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style."
+			},
+			"historical_restorations": {
+				"title": "Historical Restorations",
+				"description": "Preserve the charm of historic properties while discreetly integrating modern amenities."
+			},
+			"custom_commercial_builds": {
+				"title": "Custom Commercial Builds",
+				"description": "Stand out with a custom-designed commercial space tailored to your brand and operations."
+			}
+		}
+	},
+	"residential_services": {
+		"office_renovations": {
+			"title": "Office Renovations",
+			"gold_title": "Workspaces That Inspire",
+			"subtitle": "Create a productive and inspiring workspace with our office renovation services. We design layouts that optimize space, integrate technology, and reflect your brand identity.",
+			"meta": {
+				"description": "We design and renovate offices that foster collaboration, efficiency, and brand presence. From layouts to tech integration, every detail is built for productivity.",
+				"price_tag": "From $50k",
+				"timeline": "6–12 weeks"
+			},
+			"overview": {
+				"heading": "Redefining the Modern Workplace",
+				"paragraph": "An office is more than desks and walls — it’s the heartbeat of your business. We transform outdated spaces into environments that motivate teams, impress clients, and support growth. From open collaboration to private focus rooms and hybrid setups, our designs balance performance, comfort, and brand personality."
+			},
+			"trends": {
+				"heading": "Latest Office Design Trends",
+				"description": "Explore the latest innovations in office spaces that boost productivity, collaboration, and employee well-being.",
+				"items": {
+					"hybrid_work_zones": {
+						"title": "Hybrid Work Zones",
+						"description": "Spaces designed for both in-office collaboration and remote meeting needs."
+					},
+					"integrated_tech_walls": {
+						"title": "Integrated Tech Walls",
+						"description": "Built-in displays, wireless casting, and smart whiteboards."
+					},
+					"biophilic_design": {
+						"title": "Biophilic Design",
+						"description": "Daylight strategies, natural textures, and living greenery."
+					}
+				}
+			},
+			"features": {
+				"title": "Built for Performance & Comfort",
+				"subtitle": "From ergonomic planning to brand-centric interiors, our office renovations create environments where productivity and well-being thrive together.",
+				"items": {
+					"ergonomic_workstations": {
+						"title": "Ergonomic Workstations",
+						"description": "Height-adjustable desks and optimal circulation paths."
+					},
+					"acoustic_control": {
+						"title": "Acoustic Control",
+						"description": "Partitions, panels, and ceiling treatments that reduce noise."
+					},
+					"smart_lighting": {
+						"title": "Smart Lighting",
+						"description": "Human-centric LED systems with occupancy and daylight sensors."
+					},
+					"brand_expression": {
+						"title": "Brand Expression",
+						"description": "Custom finishes, graphics, and wayfinding aligned to your identity."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Goals, workflows, culture, and budget."
+					},
+					"concept_design": {
+						"title": "Concept Design",
+						"desc": "Test-fit layouts, mood boards, and 3D views."
+					},
+					"material_tech_spec": {
+						"title": "Material & Tech Spec",
+						"desc": "Finishes, furniture, AV, and lighting."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Phased build to minimize disruption."
+					},
+					"handover": {
+						"title": "Handover",
+						"desc": "Punch list, commissioning, and warranty briefing."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"work_hours": {
+						"question": "Can work happen during business hours?",
+						"answer": "Yes. We phase work and can schedule after-hours to reduce disruption."
+					},
+					"furniture": {
+						"question": "Do you source furniture?",
+						"answer": "We can specify, procure, and install ergonomic furniture to match the design."
+					},
+					"permits": {
+						"question": "Do you handle permits?",
+						"answer": "Yes, including MEP drawings, life-safety coordination, and inspections."
+					},
+					"hybrid_offices": {
+						"question": "Can you support hybrid offices?",
+						"answer": "Absolutely — focus rooms, huddle areas, and video-ready conference spaces."
+					},
+					"it_av": {
+						"question": "What about IT and AV?",
+						"answer": "We coordinate with your vendors or provide turnkey solutions."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Elevate Your Office Space",
+				"subheading": "Book a consultation and build a workspace that inspires.",
+				"button": "Get Started"
+			}
+		},
+		"retail_construction": {
+			"title": "Retail Space Construction",
+			"gold_title": "Designed to Sell",
+			"subtitle": "Build an inviting retail environment that attracts customers and boosts sales. From storefronts to interior layouts, we craft spaces tailored to your business.",
+			"meta": {
+				"description": "We create customer-centric retail spaces with smart traffic flow, brand-forward displays, and durable materials that look great under heavy use.",
+				"price_tag": "From $80k",
+				"timeline": "8–14 weeks"
+			},
+			"overview": {
+				"heading": "Retail That Converts",
+				"paragraph": "Great retail design guides customers, tells your brand story, and converts browsers into buyers. We plan every detail — from window displays and queuing to lighting and materials — so your store feels intuitive, memorable, and on-brand."
+			},
+			"trends": {
+				"heading": "Latest Retail Construction Trends",
+				"description": "Discover modern retail design ideas that attract customers, enhance shopping experiences, and elevate brand presence.",
+				"items": {
+					"experience_first_layouts": {
+						"title": "Experience-First Layouts",
+						"description": "Demo zones, sampling bars, and photo-friendly moments."
+					},
+					"modular_fixtures": {
+						"title": "Modular Fixtures",
+						"description": "Moveable shelving and displays for seasonal resets."
+					},
+					"omnichannel_touchpoints": {
+						"title": "Omnichannel Touchpoints",
+						"description": "Pick-up counters, self-checkout, and QR-enabled browsing."
+					}
+				}
+			},
+			"features": {
+				"title": "Merchandising Meets Engineering",
+				"subtitle": "We blend visual merchandising with durable construction to deliver spaces that look amazing and perform under traffic.",
+				"items": {
+					"customer_flow_mapping": {
+						"title": "Customer Flow Mapping",
+						"description": "Planograms and circulation paths that increase dwell time."
+					},
+					"lighting_for_product_pop": {
+						"title": "Lighting for Product Pop",
+						"description": "CRI-rich lighting that makes colors and textures shine."
+					},
+					"durable_finishes": {
+						"title": "Durable Finishes",
+						"description": "Scratch- and stain-resistant flooring and wall systems."
+					},
+					"back_of_house_efficiency": {
+						"title": "Back-of-House Efficiency",
+						"description": "Stockroom, POS, and security planned for speed and safety."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"brand_brief": {
+						"title": "Brand & Brief",
+						"desc": "Understand customer profile and brand DNA."
+					},
+					"concept_test_fit": {
+						"title": "Concept & Test-Fit",
+						"desc": "Adjacency diagrams and store zoning."
+					},
+					"detailing_permits": {
+						"title": "Detailing & Permits",
+						"desc": "Millwork, signage, and approvals."
+					},
+					"build_out": {
+						"title": "Build-Out",
+						"desc": "Demo, rough-ins, finishes, and fixture install."
+					},
+					"merch_launch": {
+						"title": "Merch & Launch",
+						"desc": "Final merchandising and soft-open support."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"launch_date": {
+						"question": "Can you meet a strict launch date?",
+						"answer": "Yes. We plan backwards from your launch and compress schedules with phased trades when needed."
+					},
+					"millwork": {
+						"question": "Do you fabricate custom millwork?",
+						"answer": "We design and build custom fixtures or work with your preferred vendors."
+					},
+					"signage_permits": {
+						"question": "Do you coordinate signage and permits?",
+						"answer": "Yes, including exterior signage and municipal approvals."
+					},
+					"remain_open": {
+						"question": "Can stores remain open during renovations?",
+						"answer": "We can phase and barricade construction to keep trading where feasible."
+					},
+					"multi_location": {
+						"question": "Do you roll out multi-location builds?",
+						"answer": "We standardize details to scale across your portfolio."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Open a Store That Converts",
+				"subheading": "Let’s design a retail space your customers love.",
+				"button": "Plan My Store"
+			}
+		},
+		"industrial_upgrades": {
+			"title": "Industrial Facility Upgrades",
+			"gold_title": "Built for Throughput",
+			"subtitle": "Improve the efficiency and safety of your industrial facility with our upgrade services — from structural enhancements to equipment installations.",
+			"meta": {
+				"description": "We modernize plants, warehouses, and production spaces with structural, mechanical, and electrical upgrades that improve uptime and safety.",
+				"price_tag": "From $120k",
+				"timeline": "10–20 weeks"
+			},
+			"overview": {
+				"heading": "Precision Upgrades, Minimal Downtime",
+				"paragraph": "Industrial work demands reliability. We plan shutdown windows, coordinate trades, and stage installs to keep your operations moving. From racking and mezzanines to power distribution and machine bases, we engineer for safety, code compliance, and long-term durability."
+			},
+			"trends": {
+				"heading": "Latest Industrial Upgrade Trends",
+				"description": "Stay ahead with industrial improvements that maximize efficiency, safety, and adaptability for modern operations.",
+				"items": {
+					"automation_readiness": {
+						"title": "Automation Readiness",
+						"description": "Power, data, and floor layouts prepped for robotics and conveyors."
+					},
+					"esd_flooring": {
+						"title": "ESD & Specialty Flooring",
+						"description": "Surface systems for cleanrooms, labs, and high-traffic areas."
+					},
+					"energy_monitoring": {
+						"title": "Energy Monitoring",
+						"description": "Sub-metering and dashboards to track and cut utility costs."
+					}
+				}
+			},
+			"features": {
+				"title": "Engineered for Performance",
+				"subtitle": "Every upgrade is designed for safety, serviceability, and uptime — with documentation your maintenance team will actually use.",
+				"items": {
+					"structural_enhancements": {
+						"title": "Structural Enhancements",
+						"description": "Equipment pads, mezzanines, and seismic bracing."
+					},
+					"power_controls": {
+						"title": "Power & Controls",
+						"description": "Panels, feeders, PLC coordination, and labeling."
+					},
+					"process_utilities": {
+						"title": "Process Utilities",
+						"description": "Compressed air, vacuum, gas, and water distribution."
+					},
+					"safety_systems": {
+						"title": "Safety Systems",
+						"description": "Guarding, e-stops, eyewash stations, and signage."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"site_survey": {
+						"title": "Site Survey",
+						"desc": "Measure, scan, and document current conditions."
+					},
+					"engineering": {
+						"title": "Engineering",
+						"desc": "Stamped drawings and load calculations."
+					},
+					"procurement": {
+						"title": "Procurement",
+						"desc": "Long-lead items ordered early to protect schedule."
+					},
+					"installation": {
+						"title": "Installation",
+						"desc": "Coordinated trades, shift work, and hot-work permits."
+					},
+					"commissioning": {
+						"title": "Commissioning",
+						"desc": "Testing, O&M manuals, and training."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"live_operations": {
+						"question": "Can you work during live operations?",
+						"answer": "Yes. We coordinate with production to schedule shutdowns and safe work windows."
+					},
+					"stamped_engineering": {
+						"question": "Do you provide stamped engineering?",
+						"answer": "We deliver PE-stamped drawings as required by jurisdiction."
+					},
+					"owner_equipment": {
+						"question": "Can you install owner-furnished equipment?",
+						"answer": "Absolutely. We set, anchor, and align to manufacturer specs."
+					},
+					"as_builts": {
+						"question": "Do you update as-builts?",
+						"answer": "Yes, including redlines and digital O&M documentation."
+					},
+					"safety_compliance": {
+						"question": "What about safety compliance?",
+						"answer": "Our programs meet OSHA requirements and your site-specific policies."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Upgrade With Confidence",
+				"subheading": "Increase throughput and safety without sacrificing uptime.",
+				"button": "Plan an Upgrade"
+			}
+		},
+		"commercial_maintenance": {
+			"title": "Commercial Property Maintenance",
+			"gold_title": "Proactive. Reliable. On-Time.",
+			"subtitle": "Keep your commercial property in pristine condition with our maintenance services. Regular upkeep and timely repairs keep your space professional and operational.",
+			"meta": {
+				"description": "From preventative maintenance to emergency repairs, we protect your investment and keep your building running smoothly.",
+				"price_tag": "Custom Plans",
+				"timeline": "Ongoing"
+			},
+			"overview": {
+				"heading": "Prevent Problems. Protect Uptime.",
+				"paragraph": "A well-maintained building lowers costs and preserves value. Our teams handle scheduled inspections, minor works, and rapid response repairs — coordinated through clear SLAs and a single point of contact."
+			},
+			"trends": {
+				"heading": "Latest Commercial Maintenance Practices",
+				"description": "Learn how proactive maintenance strategies extend building lifespan, reduce costs, and improve performance.",
+				"items": {
+					"data_driven_pm": {
+						"title": "Data-Driven PM Schedules",
+						"description": "Usage-based intervals that reduce unnecessary service."
+					},
+					"remote_monitoring": {
+						"title": "Remote Monitoring",
+						"description": "Sensors for temperature, leaks, and equipment status."
+					},
+					"sustainable_upkeep": {
+						"title": "Sustainable Upkeep",
+						"description": "Green cleaning, filter programs, and waste reduction."
+					}
+				}
+			},
+			"features": {
+				"title": "Everything You Need, One Team",
+				"subtitle": "We keep your spaces safe, compliant, and looking sharp — without disrupting tenants or operations.",
+				"items": {
+					"interior_exterior": {
+						"title": "Interior & Exterior",
+						"description": "Paint, patch, doors, glazing, and façade touch-ups."
+					},
+					"mep_support": {
+						"title": "MEP Support",
+						"description": "Light fixture relamps, filter changes, and small repairs."
+					},
+					"life_safety": {
+						"title": "Life-Safety Readiness",
+						"description": "E-lights, exit signage, and extinguisher coordination."
+					},
+					"vendor_management": {
+						"title": "Vendor Management",
+						"description": "Landscaping, janitorial, pest — one coordinated schedule."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"assessment": {
+						"title": "Assessment",
+						"desc": "Site walk and asset inventory."
+					},
+					"plan": {
+						"title": "Plan",
+						"desc": "PM calendar, service levels, and response tiers."
+					},
+					"mobilize": {
+						"title": "Mobilize",
+						"desc": "Onboarding, key access, and communication setup."
+					},
+					"execute": {
+						"title": "Execute",
+						"desc": "Routine care, ticketing, and reporting."
+					},
+					"review": {
+						"title": "Review",
+						"desc": "Quarterly performance and optimization."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"support_24_7": {
+						"question": "Do you offer 24/7 support?",
+						"answer": "Yes. Emergency response is available based on SLA."
+					},
+					"multi_properties": {
+						"question": "Can you manage multiple properties?",
+						"answer": "We centralize reporting and billing across your portfolio."
+					},
+					"compliance_items": {
+						"question": "Do you handle compliance items?",
+						"answer": "We coordinate routine checks and keep documentation updated."
+					},
+					"tenant_tickets": {
+						"question": "How do tenants submit tickets?",
+						"answer": "We provide a simple portal/email workflow tracked to SLAs."
+					},
+					"pricing_flexible": {
+						"question": "Is pricing flexible?",
+						"answer": "Yes — per-call, retainer, or fixed PM programs."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Keep Your Building Running",
+				"subheading": "Custom maintenance plans that protect uptime and value.",
+				"button": "Build My Plan"
+			}
+		},
+		"restaurant_hospitality_renovations": {
+			"title": "Restaurant & Hospitality Renovations",
+			"gold_title": "Ambience Meets Operations",
+			"subtitle": "Transform your restaurant or hospitality venue into a welcoming space. We craft atmospheres that align with your brand and meet regulatory standards.",
+			"meta": {
+				"description": "From dining rooms to BOH kitchens and guest amenities, we renovate hospitality spaces for experience, durability, and code compliance.",
+				"price_tag": "From $150k",
+				"timeline": "10–18 weeks"
+			},
+			"overview": {
+				"heading": "Design for Guests. Engineer for Service.",
+				"paragraph": "Hospitality spaces must wow guests and work hard for staff. We optimize seat counts, acoustics, lighting, and server paths while building BOH areas that are easy to clean, safe, and efficient — all to health and fire codes."
+			},
+			"trends": {
+				"heading": "Latest Hospitality Renovation Trends",
+				"description": "See how the newest hospitality design trends create memorable dining and lodging experiences for customers.",
+				"items": {
+					"open_kitchen": {
+						"title": "Open Kitchen Moments",
+						"description": "Chef’s counters and pass-throughs that showcase the craft."
+					},
+					"flexible_seating": {
+						"title": "Flexible Seating",
+						"description": "Booths, banquettes, and movable tables for different party sizes."
+					},
+					"acoustic_softening": {
+						"title": "Acoustic Softening",
+						"description": "Ceiling baffles and wall treatments for comfortable conversation."
+					}
+				}
+			},
+			"features": {
+				"title": "Atmosphere You Can Taste",
+				"subtitle": "We blend ambience, durability, and compliance to create unforgettable guest experiences — front and back of house.",
+				"items": {
+					"health_code_kitchens": {
+						"title": "Health-Code Kitchens",
+						"description": "NSF surfaces, grease trap coordination, and wash zones."
+					},
+					"lighting_sound": {
+						"title": "Lighting & Sound",
+						"description": "Layered lighting and acoustic tuning for mood and clarity."
+					},
+					"durable_finishes": {
+						"title": "Durable Finishes",
+						"description": "Slip-resistant floors and stain-resistant upholstery."
+					},
+					"service_flow": {
+						"title": "Service Flow",
+						"description": "Clear paths from expo line to tables and bar."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"concept_narrative": {
+						"title": "Concept & Narrative",
+						"desc": "Translate your cuisine and brand into space."
+					},
+					"layouts_seating": {
+						"title": "Layouts & Seating",
+						"desc": "Optimize FOH/BOH adjacencies and capacities."
+					},
+					"permits_health": {
+						"title": "Permits & Health Dept.",
+						"desc": "Drawings, submittals, and inspections."
+					},
+					"build_fit_out": {
+						"title": "Build & Fit-Out",
+						"desc": "MEP, finishes, millwork, and equipment set."
+					},
+					"training_launch": {
+						"title": "Training & Launch",
+						"desc": "Walkthrough, punch, and soft-opening support."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"health_dept": {
+						"question": "Do you work with health department requirements?",
+						"answer": "Yes — we coordinate submittals, inspections, and corrections."
+					},
+					"partial_service": {
+						"question": "Can we keep partial service during a remodel?",
+						"answer": "Often yes with phased areas and temporary kitchens."
+					},
+					"kitchen_equipment": {
+						"question": "Do you install kitchen equipment?",
+						"answer": "We coordinate trades and final connections to spec."
+					},
+					"improve_acoustics": {
+						"question": "Can you improve acoustics?",
+						"answer": "We design materials and layouts to reduce reverberation times."
+					},
+					"ada": {
+						"question": "What about ADA?",
+						"answer": "We ensure restrooms, seating, and circulation meet accessibility standards."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Make Every Seat the Best Seat",
+				"subheading": "Let’s craft a space guests return to — again and again.",
+				"button": "Start My Renovation"
+			}
+		},
+		"commercial_building_additions": {
+			"title": "Commercial Building Additions",
+			"gold_title": "Expand Without Disruption",
+			"subtitle": "Expand your business with seamless building additions — more office, storage, or operational space designed to blend with your existing structure.",
+			"meta": {
+				"description": "From schematics to steel, we deliver additions that scale your operations, match your architecture, and meet code.",
+				"price_tag": "From $250k",
+				"timeline": "4–8 months"
+			},
+			"overview": {
+				"heading": "Room to Grow, Done Right",
+				"paragraph": "Whether you’re adding offices, storage, or production space, we handle zoning, structure, and building systems to ensure a seamless connection — functionally and visually — to your current facility."
+			},
+			"trends": {
+				"heading": "Latest Commercial Expansion Trends",
+				"description": "Discover how businesses are expanding spaces with modern, flexible, and seamlessly integrated additions.",
+				"items": {
+					"pre_engineered": {
+						"title": "Pre-Engineered Systems",
+						"description": "Faster timelines with PEMB frames and panel systems."
+					},
+					"energy_tight_envelopes": {
+						"title": "Energy-Tight Envelopes",
+						"description": "High-performance insulation and glazing for lower OPEX."
+					},
+					"future_proofing": {
+						"title": "Future-Proofing",
+						"description": "Knock-out panels and stubs for later expansion phases."
+					}
+				}
+			},
+			"features": {
+				"title": "Seamless, Scalable, Compliant",
+				"subtitle": "We integrate structure, MEP, life-safety, and finishes so your addition works like it was always there.",
+				"items": {
+					"structural_integration": {
+						"title": "Structural Integration",
+						"description": "Foundations, tie-ins, and load paths engineered to code."
+					},
+					"systems_expansion": {
+						"title": "Systems Expansion",
+						"description": "HVAC tonnage, electrical service, and sprinklers scaled smartly."
+					},
+					"exterior_continuity": {
+						"title": "Exterior Continuity",
+						"description": "Siding, roofing, and glazing that match your existing look."
+					},
+					"phased_construction": {
+						"title": "Phased Construction",
+						"description": "Access, hoarding, and logistics that keep you operating."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"feasibility": {
+						"title": "Feasibility",
+						"desc": "Zoning checks, utilities, and site constraints."
+					},
+					"design_engineering": {
+						"title": "Design & Engineering",
+						"desc": "Architectural and structural coordination."
+					},
+					"permitting": {
+						"title": "Permitting",
+						"desc": "Submittals, reviews, and approvals."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Groundworks, shell, and fit-out."
+					},
+					"close_out": {
+						"title": "Close-Out",
+						"desc": "CO, manuals, and warranty handover."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"match_facade": {
+						"question": "Can you match our existing façade?",
+						"answer": "Yes. We source compatible systems or propose tasteful updates across both volumes."
+					},
+					"utilities_expansion": {
+						"question": "Do you handle utilities expansion?",
+						"answer": "We coordinate with utility providers and resize systems as needed."
+					},
+					"minimize_disruption": {
+						"question": "How do you minimize disruption?",
+						"answer": "Clear logistics plans, temporary partitions, and off-hour work where needed."
+					},
+					"future_expansion": {
+						"question": "What about future expansion?",
+						"answer": "We can design structural and service stubs to enable later growth."
+					},
+					"cost_phasing": {
+						"question": "Do you provide cost phasing?",
+						"answer": "Yes — options for shell-only vs. full build-out."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Grow Without Moving",
+				"subheading": "Add smart square footage that pays for itself.",
+				"button": "Scope an Addition"
+			}
+		},
+		"sustainable_commercial_construction": {
+			"title": "Sustainable Commercial Construction",
+			"gold_title": "Build Green. Save Green.",
+			"subtitle": "Embrace eco-friendly practices with our sustainable construction services. We use energy-efficient materials and designs to reduce your environmental footprint.",
+			"meta": {
+				"description": "From envelope upgrades to electrification and renewables, we deliver sustainable buildings that cut costs and carbon.",
+				"price_tag": "From $90k",
+				"timeline": "8–16 weeks (scope-dependent)"
+			},
+			"overview": {
+				"heading": "Sustainability That Pays Back",
+				"paragraph": "Green projects shouldn’t be guesswork. We model ROI, select proven technologies, and install systems that reduce utilities, improve comfort, and support ESG goals — without compromising aesthetics."
+			},
+			"trends": {
+				"heading": "Latest Sustainable Construction Trends",
+				"description": "Explore eco-friendly construction methods that combine sustainability with long-term cost savings and innovation.",
+				"items": {
+					"deep_energy_retrofits": {
+						"title": "Deep Energy Retrofits",
+						"description": "Envelope, HVAC, and controls tuned as a single system."
+					},
+					"electrification": {
+						"title": "Electrification",
+						"description": "Heat pumps and induction shifting from gas to high-efficiency electric."
+					},
+					"on_site_renewables": {
+						"title": "On-Site Renewables",
+						"description": "Solar PV readiness, battery storage, and EV charging."
+					}
+				}
+			},
+			"features": {
+				"title": "Lower Costs. Higher Comfort.",
+				"subtitle": "We combine efficiency, wellness, and durability so your spaces perform for decades.",
+				"items": {
+					"high_performance_envelope": {
+						"title": "High-Performance Envelope",
+						"description": "Insulation, air-sealing, and glazing that slash losses."
+					},
+					"smart_controls": {
+						"title": "Smart Controls",
+						"description": "BAS scheduling, CO₂-based ventilation, and sub-metering."
+					},
+					"water_stewardship": {
+						"title": "Water Stewardship",
+						"description": "Low-flow fixtures and leak detection to cut usage."
+					},
+					"healthy_materials": {
+						"title": "Healthy Materials",
+						"description": "Low-VOC paints, FSC woods, and recyclable finishes."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"audit_baseline": {
+						"title": "Audit & Baseline",
+						"desc": "Utility review and site assessment."
+					},
+					"energy_modeling": {
+						"title": "Energy Modeling",
+						"desc": "Scenario analysis and ROI forecasting."
+					},
+					"scope_incentives": {
+						"title": "Scope & Incentives",
+						"desc": "Select measures and capture rebates."
+					},
+					"build_commission": {
+						"title": "Build & Commission",
+						"desc": "Install, test, and verify performance."
+					},
+					"monitor_optimize": {
+						"title": "Monitor & Optimize",
+						"desc": "Post-occupancy tuning and reporting."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"lower_bills": {
+						"question": "Will this actually lower bills?",
+						"answer": "Yes — we target measures with clear payback and share modeled savings ranges."
+					},
+					"rebates": {
+						"question": "Do you help with rebates?",
+						"answer": "We identify and process incentives to reduce upfront costs."
+					},
+					"phase_improvements": {
+						"question": "Can we phase improvements?",
+						"answer": "Absolutely. We build multi-year roadmaps aligned to capital cycles."
+					},
+					"comfort": {
+						"question": "Does this affect comfort?",
+						"answer": "Expect better temperatures, air quality, and acoustics."
+					},
+					"leed_required": {
+						"question": "Is LEED or similar required?",
+						"answer": "Certification is optional — we can design to standards with or without formal pursuit."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Build Greener, Operate Smarter",
+				"subheading": "Cut costs and carbon with proven upgrades.",
+				"button": "Plan a Sustainable Project"
+			}
+		}
+	},
+	"custom_details_services": {
 		"custom_home_builds": {
-		  "title": "Custom Home Builds",
-		  "description": "Create your dream home from the ground up with designs tailored to your exact specifications."
+			"title": "Custom Home Builds",
+			"gold_title": "Your Vision, Our Craft",
+			"subtitle": "Create your dream home from the ground up with our custom home-building services. Designed and built to your exact specifications.",
+			"meta": {
+				"description": "We bring your dream home to life with precision design and craftsmanship, creating a residence that reflects your lifestyle and vision.",
+				"price_tag": "From $350k",
+				"timeline": "6–12 months"
+			},
+			"overview": {
+				"heading": "From Blueprint to Reality",
+				"paragraph": "Building a custom home is a journey — and we make sure it’s as exciting as the final result. From the initial sketches to handing over the keys, every element is tailored to you. We combine architectural excellence, premium materials, and meticulous project management to deliver a home that’s truly one of a kind."
+			},
+			"trends": {
+				"heading": "Latest Custom Home Design Trends",
+				"description": "Discover the newest approaches to custom home building that blend personalization, sustainability, and timeless design.",
+				"items": {
+					"smart_home_integration": {
+						"title": "Smart Home Integration",
+						"description": "Automated lighting, security, and climate control."
+					},
+					"energy_efficient_design": {
+						"title": "Energy-Efficient Design",
+						"description": "Passive strategies and high-performance envelopes."
+					},
+					"multi_generational_layouts": {
+						"title": "Multi-Generational Layouts",
+						"description": "Private suites and flexible common areas."
+					}
+				}
+			},
+			"features": {
+				"title": "Tailored for Your Lifestyle",
+				"subtitle": "Every square foot is designed with purpose, beauty, and comfort in mind.",
+				"items": {
+					"custom_floor_plans": {
+						"title": "Custom Floor Plans",
+						"description": "Layouts that match your routines and flow."
+					},
+					"premium_finishes": {
+						"title": "Premium Finishes",
+						"description": "Curated fixtures, surfaces, and hardware."
+					},
+					"outdoor_living": {
+						"title": "Outdoor Living",
+						"description": "Patios, decks, and landscape integration."
+					},
+					"structural_integrity": {
+						"title": "Structural Integrity",
+						"description": "Engineered frames for longevity and safety."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Define program, budget, and site constraints."
+					},
+					"design": {
+						"title": "Design",
+						"desc": "Plans, elevations, and 3D visualization."
+					},
+					"selections": {
+						"title": "Selections",
+						"desc": "Materials, fixtures, appliances, and finishes."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Quality-controlled build with milestone checks."
+					},
+					"handover": {
+						"title": "Handover",
+						"desc": "Final walkthrough, manuals, and warranty."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"permits_inspections": {
+						"question": "Do you handle permits and inspections?",
+						"answer": "Yes. We manage all permits, plan reviews, and inspections with local authorities."
+					},
+					"bring_architect": {
+						"question": "Can I bring my own architect?",
+						"answer": "Absolutely. We can collaborate or provide full design-build services."
+					},
+					"budget_control": {
+						"question": "How do you control budget?",
+						"answer": "We establish allowances, track change orders, and provide transparent cost reports."
+					},
+					"site_selection": {
+						"question": "Do you help with site selection?",
+						"answer": "Yes, we can evaluate lot suitability, utilities, and setbacks before purchase."
+					},
+					"warranties": {
+						"question": "What warranties are included?",
+						"answer": "You’ll receive structural, workmanship, and manufacturer warranties."
+					},
+					"changes_during_build": {
+						"question": "Can we make changes during construction?",
+						"answer": "Yes. We follow a documented change process to manage scope, cost, and schedule."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Start Building Your Dream Home",
+				"subheading": "Let’s bring your vision to life with our expert team.",
+				"button": "Book a Consultation"
+			}
 		},
 		"unique_architectural_features": {
-		  "title": "Unique Architectural Features",
-		  "description": "Add distinctive design elements like custom staircases and intricate facades to make your property stand out."
+			"title": "Unique Architectural Features",
+			"gold_title": "Make a Statement",
+			"subtitle": "Add distinctive elements to your property with our architectural feature services — from custom staircases to intricate facades.",
+			"meta": {
+				"description": "We design and craft standout architectural elements that define your space and elevate everyday experiences.",
+				"price_tag": "From $15k",
+				"timeline": "4–8 weeks"
+			},
+			"overview": {
+				"heading": "Design That Defines Character",
+				"paragraph": "Architectural features are the soul of a property’s design. We create custom elements that elevate aesthetics, add functionality, and create a lasting impression — precisely detailed and beautifully built."
+			},
+			"trends": {
+				"heading": "Latest Architectural Feature Trends",
+				"description": "Explore how custom architectural details like staircases, facades, and unique finishes define modern luxury spaces.",
+				"items": {
+					"floating_staircases": {
+						"title": "Floating Staircases",
+						"description": "Minimal structure with maximum impact."
+					},
+					"geometric_facades": {
+						"title": "Geometric Facades",
+						"description": "Parametric patterns and textured cladding."
+					},
+					"sustainable_materials": {
+						"title": "Sustainable Materials",
+						"description": "FSC wood, recycled metals, low-VOC finishes."
+					}
+				}
+			},
+			"features": {
+				"title": "Distinctive Design Elements",
+				"subtitle": "Features that enhance both beauty and function.",
+				"items": {
+					"signature_staircases": {
+						"title": "Signature Staircases",
+						"description": "Spiral, cantilevered, or ribbon stairs, engineered and code-compliant."
+					},
+					"architectural_facades": {
+						"title": "Architectural Facades",
+						"description": "Screens, sunshades, and articulated elevations."
+					},
+					"feature_walls": {
+						"title": "Feature Walls",
+						"description": "Stone, millwork, or plaster relief walls that anchor spaces."
+					},
+					"custom_metal_glass": {
+						"title": "Custom Metal & Glass",
+						"description": "Balustrades, canopies, and partitions in bespoke detailing."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Aesthetic direction, constraints, and code review."
+					},
+					"design_engineering": {
+						"title": "Design & Engineering",
+						"desc": "Details, connections, and load calcs."
+					},
+					"fabrication": {
+						"title": "Fabrication",
+						"desc": "CNC, millwork, and finish processes."
+					},
+					"installation": {
+						"title": "Installation",
+						"desc": "Precision fit-up and site protection."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"match_style": {
+						"question": "Can you match an existing style?",
+						"answer": "Yes. We reference your architectural language and materials for seamless integration."
+					},
+					"meet_code": {
+						"question": "Do these features meet code?",
+						"answer": "All features are engineered and built to applicable building and safety codes."
+					},
+					"materials_used": {
+						"question": "What materials do you use?",
+						"answer": "Hardwoods, steel, aluminum, glass, stone, and specialty finishes per design."
+					},
+					"fabrication_time": {
+						"question": "How long does fabrication take?",
+						"answer": "Most pieces fabricate within 3–6 weeks depending on complexity and finishes."
+					},
+					"shop_drawings": {
+						"question": "Do you provide shop drawings?",
+						"answer": "Yes. Detailed drawings and mockups are included for approval."
+					},
+					"integrated_lighting": {
+						"question": "Can lighting be integrated?",
+						"answer": "Absolutely — we can embed linear, spot, or backlit lighting for drama."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Add Architectural Brilliance",
+				"subheading": "Bring unique character to your space with our expertise.",
+				"button": "Get Started"
+			}
 		},
 		"specialty_renovations": {
-		  "title": "Specialty Renovations",
-		  "description": "Transform unconventional spaces like home theaters, wine cellars, or art studios into functional masterpieces."
+			"title": "Specialty Renovations",
+			"gold_title": "Spaces as Unique as You Are",
+			"subtitle": "Transform unique spaces with our specialty renovation services — home theaters, wine cellars, art studios, and more.",
+			"meta": {
+				"description": "We execute unconventional, highly customized projects that require specialized expertise and creative vision.",
+				"price_tag": "From $20k",
+				"timeline": "4–16 weeks"
+			},
+			"overview": {
+				"heading": "One-of-a-Kind Transformations",
+				"paragraph": "Whether it’s cinema-grade theaters, climate-controlled wine rooms, gaming lounges, or maker studios, we deliver precision, performance, and wow-factor — tuned to how you live and create."
+			},
+			"trends": {
+				"heading": "Latest Specialty Renovation Trends",
+				"description": "See how innovative renovations are transforming unique spaces like home theaters, wine cellars, and art studios.",
+				"items": {
+					"luxury_entertainment_rooms": {
+						"title": "Luxury Entertainment Rooms",
+						"description": "Acoustics, tiered seating, and projection calibration."
+					},
+					"custom_wine_storage": {
+						"title": "Custom Wine Storage",
+						"description": "Glass displays, racking, and humidity control."
+					},
+					"creative_workspaces": {
+						"title": "Creative Workspaces",
+						"description": "Task lighting, resilient floors, and storage walls."
+					}
+				}
+			},
+			"features": {
+				"title": "Tailored to Your Passion",
+				"subtitle": "Design, engineering, and craftsmanship focused on performance.",
+				"items": {
+					"acoustic_engineering": {
+						"title": "Acoustic Engineering",
+						"description": "Isolation, absorption, and diffusion for pristine sound."
+					},
+					"environmental_control": {
+						"title": "Environmental Control",
+						"description": "Precise temperature and humidity systems where needed."
+					},
+					"custom_millwork": {
+						"title": "Custom Millwork",
+						"description": "Built-ins, niches, and display cabinetry."
+					},
+					"integrated_av_lighting": {
+						"title": "Integrated AV & Lighting",
+						"description": "Hidden wiring, control systems, and scene lighting."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Program, performance targets, and aesthetic goals."
+					},
+					"design": {
+						"title": "Design",
+						"desc": "Layouts, specs, and 3D visualizations."
+					},
+					"build": {
+						"title": "Build",
+						"desc": "Specialty trades, commissioning, and tuning."
+					},
+					"handover": {
+						"title": "Handover",
+						"desc": "Training, manuals, and maintenance guidance."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"specialized_equipment": {
+						"question": "Do you handle specialized equipment?",
+						"answer": "Yes. We coordinate manufacturer specs and provide proper power/ventilation."
+					},
+					"multipurpose_rooms": {
+						"question": "Can rooms be multipurpose?",
+						"answer": "Absolutely — we design flexible layouts and convertible furniture where desired."
+					},
+					"noise_transfer": {
+						"question": "What about noise to adjacent rooms?",
+						"answer": "We use isolation assemblies and acoustic doors to limit transfer."
+					},
+					"wine_climate_control": {
+						"question": "Do you provide climate control for wine?",
+						"answer": "Yes, including vapor barriers, insulation, and dedicated cooling."
+					},
+					"smart_controls": {
+						"question": "Can you integrate smart controls?",
+						"answer": "Lighting, AV, HVAC, and shades can all be unified under one system."
+					},
+					"permits": {
+						"question": "Do you assist with permits?",
+						"answer": "Yes, including any electrical, mechanical, and structural approvals."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Create Your Signature Space",
+				"subheading": "Let’s bring your unique renovation idea to life.",
+				"button": "Book a Consultation"
+			}
 		},
 		"custom_outdoor_structures": {
-		  "title": "Custom Outdoor Structures",
-		  "description": "Enhance your property with custom pergolas, gazebos, or outdoor kitchens designed for comfort and style."
+			"title": "Custom Outdoor Structures",
+			"gold_title": "Elevate Outdoor Living",
+			"subtitle": "Enhance your property with custom pergolas, gazebos, pavilions, and outdoor kitchens.",
+			"meta": {
+				"description": "We design and build outdoor structures that expand your living space and create unforgettable moments.",
+				"price_tag": "From $12k",
+				"timeline": "3–10 weeks"
+			},
+			"overview": {
+				"heading": "Your Backyard, Reimagined",
+				"paragraph": "From shaded lounges to chef-worthy outdoor kitchens, we create durable, beautiful structures that make outdoor time effortless — all year long."
+			},
+			"trends": {
+				"heading": "Latest Outdoor Living Trends",
+				"description": "Uncover new ideas for outdoor structures that expand living spaces with comfort, functionality, and style.",
+				"items": {
+					"outdoor_kitchens": {
+						"title": "Outdoor Kitchens",
+						"description": "Grills, smokers, sinks, refrigeration, and storage."
+					},
+					"covered_lounges": {
+						"title": "Covered Lounges",
+						"description": "Pergolas and gazebos with integrated lighting and fans."
+					},
+					"fire_features": {
+						"title": "Fire Features",
+						"description": "Fire pits and fireplaces for warmth and ambience."
+					}
+				}
+			},
+			"features": {
+				"title": "Built for Comfort & Durability",
+				"subtitle": "Weather-resistant construction with the details that matter.",
+				"items": {
+					"premium_materials": {
+						"title": "Premium Materials",
+						"description": "Hardwoods, composites, masonry, and powder-coated metals."
+					},
+					"utility_integration": {
+						"title": "Utility Integration",
+						"description": "Gas, water, and electrical safely routed and permitted."
+					},
+					"shade_weathering": {
+						"title": "Shade & Weathering",
+						"description": "Louvered roofs, retractables, and wind screens."
+					},
+					"lighting_audio": {
+						"title": "Lighting & Audio",
+						"description": "Low-voltage lighting and outdoor-rated speakers."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Use cases, sizing, and site constraints."
+					},
+					"design": {
+						"title": "Design",
+						"desc": "Layout, elevations, and material palettes."
+					},
+					"build": {
+						"title": "Build",
+						"desc": "Foundations, framing, finishes, and utilities."
+					},
+					"final_touches": {
+						"title": "Final Touches",
+						"desc": "Seating, planters, and night-scene tuning."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"weatherproof": {
+						"question": "Are these structures weatherproof?",
+						"answer": "They’re designed for your climate with durable finishes and drainage details."
+					},
+					"add_utilities": {
+						"question": "Can you add utilities?",
+						"answer": "Yes — gas, water, and power with proper trenching and permits."
+					},
+					"obtain_permits": {
+						"question": "Do you obtain permits?",
+						"answer": "We handle all necessary municipal approvals and inspections."
+					},
+					"uneven_yards": {
+						"question": "How do you handle uneven yards?",
+						"answer": "We design footings, steps, and retaining solutions to suit grade."
+					},
+					"maintenance": {
+						"question": "What maintenance is required?",
+						"answer": "Annual cleaning and minor finish upkeep keep everything looking new."
+					},
+					"privacy_design": {
+						"question": "Can you design for privacy?",
+						"answer": "Screens, planting, and layout strategies can enhance privacy without bulk."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Transform Your Outdoor Space",
+				"subheading": "Bring your dream backyard to life.",
+				"button": "Get Started"
+			}
 		},
 		"historical_restorations": {
-		  "title": "Historical Restorations",
-		  "description": "Preserve the charm of historic properties while discreetly integrating modern amenities."
+			"title": "Historical Restorations",
+			"gold_title": "Preserve the Past, Embrace the Present",
+			"subtitle": "Preserve the charm of historic properties with faithful restoration and discreet modernization.",
+			"meta": {
+				"description": "We restore historic properties with period-accurate details while upgrading for safety, comfort, and efficiency.",
+				"price_tag": "From $40k",
+				"timeline": "3–8 months"
+			},
+			"overview": {
+				"heading": "Restoration with Respect",
+				"paragraph": "Every historic property has a story. We preserve original craftsmanship and architectural integrity, while integrating modern systems that remain visually discreet."
+			},
+			"trends": {
+				"heading": "Latest Historic Restoration Trends",
+				"description": "Learn how modern restoration techniques preserve heritage while enhancing efficiency and comfort.",
+				"items": {
+					"material_matching": {
+						"title": "Material Matching",
+						"description": "Reclaimed wood, lime plaster, and period hardware."
+					},
+					"structural_reinforcement": {
+						"title": "Structural Reinforcement",
+						"description": "Hidden steel, sistering, and masonry stitching."
+					},
+					"discreet_amenities": {
+						"title": "Discreet Amenities",
+						"description": "In-wall wiring, mini-splits, and underfloor heating."
+					}
+				}
+			},
+			"features": {
+				"title": "Authenticity Meets Functionality",
+				"subtitle": "True-to-era details with today’s livability.",
+				"items": {
+					"craft_preservation": {
+						"title": "Craft Preservation",
+						"description": "Windows, moldings, and stonework carefully restored."
+					},
+					"period_accurate_details": {
+						"title": "Period-Accurate Details",
+						"description": "Profiles, paints, and fixtures researched and replicated."
+					},
+					"life_safety_upgrades": {
+						"title": "Life-Safety Upgrades",
+						"description": "Wiring, egress, and alarms brought to current code."
+					},
+					"moisture_envelope": {
+						"title": "Moisture & Envelope",
+						"description": "Damp-proofing and ventilation to protect the structure."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"assessment": {
+						"title": "Assessment",
+						"desc": "Condition survey and archival research."
+					},
+					"design": {
+						"title": "Design",
+						"desc": "Scope aligned with preservation guidelines."
+					},
+					"restoration": {
+						"title": "Restoration",
+						"desc": "Craft techniques and compatible materials."
+					},
+					"integration": {
+						"title": "Integration",
+						"desc": "Modern services added with minimal visual impact."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"preservation_boards": {
+						"question": "Do you work with preservation boards?",
+						"answer": "Yes. We coordinate submittals, meetings, and site reviews."
+					},
+					"modern_amenities": {
+						"question": "Can modern amenities be added?",
+						"answer": "Yes — we integrate HVAC, electrical, and plumbing without harming historic fabric."
+					},
+					"match_materials": {
+						"question": "How do you match materials?",
+						"answer": "We source reclaimed materials or commission artisan reproductions."
+					},
+					"hazard_materials": {
+						"question": "What about lead paint or asbestos?",
+						"answer": "We follow EPA/OSHA protocols and use licensed abatement partners."
+					},
+					"insulation_moisture": {
+						"question": "Will insulation cause moisture issues?",
+						"answer": "We use vapor-open assemblies and ventilation to prevent damage."
+					},
+					"documentation": {
+						"question": "Can you document the process?",
+						"answer": "Yes, photo logs and reports are provided for records and grants."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Restore History with Care",
+				"subheading": "Preserve the beauty and value of your historic property.",
+				"button": "Schedule a Consultation"
+			}
 		},
 		"custom_commercial_builds": {
-		  "title": "Custom Commercial Builds",
-		  "description": "Stand out with a custom-designed commercial space tailored to your brand and operations."
+			"title": "Custom Commercial Builds",
+			"gold_title": "Spaces That Define Your Brand",
+			"subtitle": "Stand out with a custom-designed commercial space — from unique storefronts to specialized facilities.",
+			"meta": {
+				"description": "We design and build one-of-a-kind commercial environments aligned with your brand and operational needs.",
+				"price_tag": "From $100k",
+				"timeline": "4–10 months"
+			},
+			"overview": {
+				"heading": "Your Business, Your Space",
+				"paragraph": "From hospitality to healthcare to creative offices, we craft spaces that enhance experience, streamline operations, and embody your brand — from concept through grand opening."
+			},
+			"trends": {
+				"heading": "Latest Custom Commercial Design Trends",
+				"description": "Explore design innovations in custom commercial spaces that align branding, customer experience, and functionality.",
+				"items": {
+					"experience_driven_design": {
+						"title": "Experience-Driven Design",
+						"description": "Immersive touchpoints and customer journeys."
+					},
+					"tech_integrated_spaces": {
+						"title": "Tech-Integrated Spaces",
+						"description": "BAS, AV, and IT that work together beautifully."
+					},
+					"sustainable_construction": {
+						"title": "Sustainable Construction",
+						"description": "Healthy materials and efficient systems."
+					}
+				}
+			},
+			"features": {
+				"title": "Built for Business",
+				"subtitle": "Design and execution that drive traffic, engagement, and ROI.",
+				"items": {
+					"custom_storefronts": {
+						"title": "Custom Storefronts",
+						"description": "Façades and entries that make a powerful first impression."
+					},
+					"specialized_facilities": {
+						"title": "Specialized Facilities",
+						"description": "Labs, studios, or clinics meeting strict criteria."
+					},
+					"flexible_layouts": {
+						"title": "Flexible Layouts",
+						"description": "Spaces that adapt to new programs and growth."
+					},
+					"back_of_house_flow": {
+						"title": "Back-of-House Flow",
+						"description": "Optimized receiving, storage, and staff pathways."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"discovery": {
+						"title": "Discovery",
+						"desc": "Brand, operations, and target audience."
+					},
+					"design": {
+						"title": "Design",
+						"desc": "Zoning, adjacency plans, and material mood boards."
+					},
+					"permitting": {
+						"title": "Permitting",
+						"desc": "Submittals, reviews, and health/life-safety coordination."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Quality-controlled build and inspections."
+					},
+					"turnover": {
+						"title": "Turnover",
+						"desc": "Commissioning, training, and launch support."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"franchises": {
+						"question": "Do you work with franchises?",
+						"answer": "Yes — we align with brand standards while elevating the local experience."
+					},
+					"deadlines": {
+						"question": "Can you meet tight deadlines?",
+						"answer": "We set milestone schedules and use phased trades to hit launch dates."
+					},
+					"cost_management": {
+						"question": "How do you manage cost?",
+						"answer": "Value engineering, alternates, and transparent reporting keep budgets in control."
+					},
+					"signage": {
+						"question": "Do you handle signage?",
+						"answer": "Yes, we coordinate exterior/interior signage and local approvals."
+					},
+					"post_occupancy": {
+						"question": "What about post-occupancy support?",
+						"answer": "We provide punch resolution, training, and ongoing maintenance plans."
+					},
+					"occupied_sites": {
+						"question": "Can you build in occupied sites?",
+						"answer": "Yes — logistics plans, hoarding, and off-hour work minimize disruption."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Build Your Signature Space",
+				"subheading": "Custom commercial builds designed for success.",
+				"button": "Get Started"
+			}
 		}
-	  }
-  }
+	},
+	"commercial_details_services": {
+		"office_renovations": {
+			"title": "Office Renovations",
+			"gold_title": "Workspaces That Inspire",
+			"subtitle": "Create a productive and inspiring workspace with our office renovation services. We design layouts that optimize space, integrate technology, and reflect your brand identity.",
+			"meta": {
+				"description": "We design and renovate offices that foster collaboration, efficiency, and brand presence. From layouts to tech integration, every detail is built for productivity.",
+				"price_tag": "From $50k",
+				"timeline": "6–12 weeks"
+			},
+			"overview": {
+				"heading": "Redefining the Modern Workplace",
+				"paragraph": "An office is more than desks and walls — it’s the heartbeat of your business. We transform outdated spaces into environments that motivate teams, impress clients, and support growth. From open collaboration to private focus rooms and hybrid setups, our designs balance performance, comfort, and brand personality."
+			},
+			"trends": {
+				"heading": "Latest Office Design Trends",
+				"description": "Explore the latest innovations in office spaces that boost productivity, collaboration, and employee well-being.",
+				"items": {
+					"hybrid_work_zones": {
+						"title": "Hybrid Work Zones",
+						"description": "Spaces designed for both in-office collaboration and remote meeting needs."
+					},
+					"integrated_tech_walls": {
+						"title": "Integrated Tech Walls",
+						"description": "Built-in displays, wireless casting, and smart whiteboards."
+					},
+					"biophilic_design": {
+						"title": "Biophilic Design",
+						"description": "Daylight strategies, natural textures, and living greenery."
+					}
+				}
+			},
+			"features": {
+				"title": "Built for Performance & Comfort",
+				"subtitle": "From ergonomic planning to brand-centric interiors, our office renovations create environments where productivity and well-being thrive together.",
+				"items": {
+					"ergonomic_workstations": {
+						"title": "Ergonomic Workstations",
+						"description": "Height-adjustable desks and optimal circulation paths."
+					},
+					"acoustic_control": {
+						"title": "Acoustic Control",
+						"description": "Partitions, panels, and ceiling treatments that reduce noise."
+					},
+					"smart_lighting": {
+						"title": "Smart Lighting",
+						"description": "Human-centric LED systems with occupancy and daylight sensors."
+					},
+					"brand_expression": {
+						"title": "Brand Expression",
+						"description": "Custom finishes, graphics, and wayfinding aligned to your identity."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Goals, workflows, culture, and budget."
+					},
+					"concept_design": {
+						"title": "Concept Design",
+						"desc": "Test-fit layouts, mood boards, and 3D views."
+					},
+					"material_tech_spec": {
+						"title": "Material & Tech Spec",
+						"desc": "Finishes, furniture, AV, and lighting."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Phased build to minimize disruption."
+					},
+					"handover": {
+						"title": "Handover",
+						"desc": "Punch list, commissioning, and warranty briefing."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"work_hours": {
+						"question": "Can work happen during business hours?",
+						"answer": "Yes. We phase work and can schedule after-hours to reduce disruption."
+					},
+					"furniture": {
+						"question": "Do you source furniture?",
+						"answer": "We can specify, procure, and install ergonomic furniture to match the design."
+					},
+					"permits": {
+						"question": "Do you handle permits?",
+						"answer": "Yes, including MEP drawings, life-safety coordination, and inspections."
+					},
+					"hybrid_offices": {
+						"question": "Can you support hybrid offices?",
+						"answer": "Absolutely — focus rooms, huddle areas, and video-ready conference spaces."
+					},
+					"it_av": {
+						"question": "What about IT and AV?",
+						"answer": "We coordinate with your vendors or provide turnkey solutions."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Elevate Your Office Space",
+				"subheading": "Book a consultation and build a workspace that inspires.",
+				"button": "Get Started"
+			}
+		},
+		"retail_construction": {
+			"title": "Retail Space Construction",
+			"gold_title": "Designed to Sell",
+			"subtitle": "Build an inviting retail environment that attracts customers and boosts sales. From storefronts to interior layouts, we craft spaces tailored to your business.",
+			"meta": {
+				"description": "We create customer-centric retail spaces with smart traffic flow, brand-forward displays, and durable materials that look great under heavy use.",
+				"price_tag": "From $80k",
+				"timeline": "8–14 weeks"
+			},
+			"overview": {
+				"heading": "Retail That Converts",
+				"paragraph": "Great retail design guides customers, tells your brand story, and converts browsers into buyers. We plan every detail — from window displays and queuing to lighting and materials — so your store feels intuitive, memorable, and on-brand."
+			},
+			"trends": {
+				"heading": "Latest Retail Construction Trends",
+				"description": "Discover modern retail design ideas that attract customers, enhance shopping experiences, and elevate brand presence.",
+				"items": {
+					"experience_first_layouts": {
+						"title": "Experience-First Layouts",
+						"description": "Demo zones, sampling bars, and photo-friendly moments."
+					},
+					"modular_fixtures": {
+						"title": "Modular Fixtures",
+						"description": "Moveable shelving and displays for seasonal resets."
+					},
+					"omnichannel_touchpoints": {
+						"title": "Omnichannel Touchpoints",
+						"description": "Pick-up counters, self-checkout, and QR-enabled browsing."
+					}
+				}
+			},
+			"features": {
+				"title": "Merchandising Meets Engineering",
+				"subtitle": "We blend visual merchandising with durable construction to deliver spaces that look amazing and perform under traffic.",
+				"items": {
+					"customer_flow_mapping": {
+						"title": "Customer Flow Mapping",
+						"description": "Planograms and circulation paths that increase dwell time."
+					},
+					"lighting_for_product_pop": {
+						"title": "Lighting for Product Pop",
+						"description": "CRI-rich lighting that makes colors and textures shine."
+					},
+					"durable_finishes": {
+						"title": "Durable Finishes",
+						"description": "Scratch- and stain-resistant flooring and wall systems."
+					},
+					"back_of_house_efficiency": {
+						"title": "Back-of-House Efficiency",
+						"description": "Stockroom, POS, and security planned for speed and safety."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"brand_brief": {
+						"title": "Brand & Brief",
+						"desc": "Understand customer profile and brand DNA."
+					},
+					"concept_test_fit": {
+						"title": "Concept & Test-Fit",
+						"desc": "Adjacency diagrams and store zoning."
+					},
+					"detailing_permits": {
+						"title": "Detailing & Permits",
+						"desc": "Millwork, signage, and approvals."
+					},
+					"build_out": {
+						"title": "Build-Out",
+						"desc": "Demo, rough-ins, finishes, and fixture install."
+					},
+					"merch_launch": {
+						"title": "Merch & Launch",
+						"desc": "Final merchandising and soft-open support."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"launch_date": {
+						"question": "Can you meet a strict launch date?",
+						"answer": "Yes. We plan backwards from your launch and compress schedules with phased trades when needed."
+					},
+					"millwork": {
+						"question": "Do you fabricate custom millwork?",
+						"answer": "We design and build custom fixtures or work with your preferred vendors."
+					},
+					"signage_permits": {
+						"question": "Do you coordinate signage and permits?",
+						"answer": "Yes, including exterior signage and municipal approvals."
+					},
+					"remain_open": {
+						"question": "Can stores remain open during renovations?",
+						"answer": "We can phase and barricade construction to keep trading where feasible."
+					},
+					"multi_location": {
+						"question": "Do you roll out multi-location builds?",
+						"answer": "We standardize details to scale across your portfolio."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Open a Store That Converts",
+				"subheading": "Let’s design a retail space your customers love.",
+				"button": "Plan My Store"
+			}
+		},
+		"industrial_upgrades": {
+			"title": "Industrial Facility Upgrades",
+			"gold_title": "Built for Throughput",
+			"subtitle": "Improve the efficiency and safety of your industrial facility with our upgrade services — from structural enhancements to equipment installations.",
+			"meta": {
+				"description": "We modernize plants, warehouses, and production spaces with structural, mechanical, and electrical upgrades that improve uptime and safety.",
+				"price_tag": "From $120k",
+				"timeline": "10–20 weeks"
+			},
+			"overview": {
+				"heading": "Precision Upgrades, Minimal Downtime",
+				"paragraph": "Industrial work demands reliability. We plan shutdown windows, coordinate trades, and stage installs to keep your operations moving. From racking and mezzanines to power distribution and machine bases, we engineer for safety, code compliance, and long-term durability."
+			},
+			"trends": {
+				"heading": "Latest Industrial Upgrade Trends",
+				"description": "Stay ahead with industrial improvements that maximize efficiency, safety, and adaptability for modern operations.",
+				"items": {
+					"automation_readiness": {
+						"title": "Automation Readiness",
+						"description": "Power, data, and floor layouts prepped for robotics and conveyors."
+					},
+					"esd_flooring": {
+						"title": "ESD & Specialty Flooring",
+						"description": "Surface systems for cleanrooms, labs, and high-traffic areas."
+					},
+					"energy_monitoring": {
+						"title": "Energy Monitoring",
+						"description": "Sub-metering and dashboards to track and cut utility costs."
+					}
+				}
+			},
+			"features": {
+				"title": "Engineered for Performance",
+				"subtitle": "Every upgrade is designed for safety, serviceability, and uptime — with documentation your maintenance team will actually use.",
+				"items": {
+					"structural_enhancements": {
+						"title": "Structural Enhancements",
+						"description": "Equipment pads, mezzanines, and seismic bracing."
+					},
+					"power_controls": {
+						"title": "Power & Controls",
+						"description": "Panels, feeders, PLC coordination, and labeling."
+					},
+					"process_utilities": {
+						"title": "Process Utilities",
+						"description": "Compressed air, vacuum, gas, and water distribution."
+					},
+					"safety_systems": {
+						"title": "Safety Systems",
+						"description": "Guarding, e-stops, eyewash stations, and signage."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"site_survey": {
+						"title": "Site Survey",
+						"desc": "Measure, scan, and document current conditions."
+					},
+					"engineering": {
+						"title": "Engineering",
+						"desc": "Stamped drawings and load calculations."
+					},
+					"procurement": {
+						"title": "Procurement",
+						"desc": "Long-lead items ordered early to protect schedule."
+					},
+					"installation": {
+						"title": "Installation",
+						"desc": "Coordinated trades, shift work, and hot-work permits."
+					},
+					"commissioning": {
+						"title": "Commissioning",
+						"desc": "Testing, O&M manuals, and training."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"live_operations": {
+						"question": "Can you work during live operations?",
+						"answer": "Yes. We coordinate with production to schedule shutdowns and safe work windows."
+					},
+					"stamped_engineering": {
+						"question": "Do you provide stamped engineering?",
+						"answer": "We deliver PE-stamped drawings as required by jurisdiction."
+					},
+					"owner_equipment": {
+						"question": "Can you install owner-furnished equipment?",
+						"answer": "Absolutely. We set, anchor, and align to manufacturer specs."
+					},
+					"as_builts": {
+						"question": "Do you update as-builts?",
+						"answer": "Yes, including redlines and digital O&M documentation."
+					},
+					"safety_compliance": {
+						"question": "What about safety compliance?",
+						"answer": "Our programs meet OSHA requirements and your site-specific policies."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Upgrade With Confidence",
+				"subheading": "Increase throughput and safety without sacrificing uptime.",
+				"button": "Plan an Upgrade"
+			}
+		},
+		"commercial_maintenance": {
+			"title": "Commercial Property Maintenance",
+			"gold_title": "Proactive. Reliable. On-Time.",
+			"subtitle": "Keep your commercial property in pristine condition with our maintenance services. Regular upkeep and timely repairs keep your space professional and operational.",
+			"meta": {
+				"description": "From preventative maintenance to emergency repairs, we protect your investment and keep your building running smoothly.",
+				"price_tag": "Custom Plans",
+				"timeline": "Ongoing"
+			},
+			"overview": {
+				"heading": "Prevent Problems. Protect Uptime.",
+				"paragraph": "A well-maintained building lowers costs and preserves value. Our teams handle scheduled inspections, minor works, and rapid response repairs — coordinated through clear SLAs and a single point of contact."
+			},
+			"trends": {
+				"heading": "Latest Commercial Maintenance Practices",
+				"description": "Learn how proactive maintenance strategies extend building lifespan, reduce costs, and improve performance.",
+				"items": {
+					"data_driven_pm": {
+						"title": "Data-Driven PM Schedules",
+						"description": "Usage-based intervals that reduce unnecessary service."
+					},
+					"remote_monitoring": {
+						"title": "Remote Monitoring",
+						"description": "Sensors for temperature, leaks, and equipment status."
+					},
+					"sustainable_upkeep": {
+						"title": "Sustainable Upkeep",
+						"description": "Green cleaning, filter programs, and waste reduction."
+					}
+				}
+			},
+			"features": {
+				"title": "Everything You Need, One Team",
+				"subtitle": "We keep your spaces safe, compliant, and looking sharp — without disrupting tenants or operations.",
+				"items": {
+					"interior_exterior": {
+						"title": "Interior & Exterior",
+						"description": "Paint, patch, doors, glazing, and façade touch-ups."
+					},
+					"mep_support": {
+						"title": "MEP Support",
+						"description": "Light fixture relamps, filter changes, and small repairs."
+					},
+					"life_safety": {
+						"title": "Life-Safety Readiness",
+						"description": "E-lights, exit signage, and extinguisher coordination."
+					},
+					"vendor_management": {
+						"title": "Vendor Management",
+						"description": "Landscaping, janitorial, pest — one coordinated schedule."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"assessment": {
+						"title": "Assessment",
+						"desc": "Site walk and asset inventory."
+					},
+					"plan": {
+						"title": "Plan",
+						"desc": "PM calendar, service levels, and response tiers."
+					},
+					"mobilize": {
+						"title": "Mobilize",
+						"desc": "Onboarding, key access, and communication setup."
+					},
+					"execute": {
+						"title": "Execute",
+						"desc": "Routine care, ticketing, and reporting."
+					},
+					"review": {
+						"title": "Review",
+						"desc": "Quarterly performance and optimization."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"support_24_7": {
+						"question": "Do you offer 24/7 support?",
+						"answer": "Yes. Emergency response is available based on SLA."
+					},
+					"multi_properties": {
+						"question": "Can you manage multiple properties?",
+						"answer": "We centralize reporting and billing across your portfolio."
+					},
+					"compliance_items": {
+						"question": "Do you handle compliance items?",
+						"answer": "We coordinate routine checks and keep documentation updated."
+					},
+					"tenant_tickets": {
+						"question": "How do tenants submit tickets?",
+						"answer": "We provide a simple portal/email workflow tracked to SLAs."
+					},
+					"pricing_flexible": {
+						"question": "Is pricing flexible?",
+						"answer": "Yes — per-call, retainer, or fixed PM programs."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Keep Your Building Running",
+				"subheading": "Custom maintenance plans that protect uptime and value.",
+				"button": "Build My Plan"
+			}
+		},
+		"restaurant_hospitality_renovations": {
+			"title": "Restaurant & Hospitality Renovations",
+			"gold_title": "Ambience Meets Operations",
+			"subtitle": "Transform your restaurant or hospitality venue into a welcoming space. We craft atmospheres that align with your brand and meet regulatory standards.",
+			"meta": {
+				"description": "From dining rooms to BOH kitchens and guest amenities, we renovate hospitality spaces for experience, durability, and code compliance.",
+				"price_tag": "From $150k",
+				"timeline": "10–18 weeks"
+			},
+			"overview": {
+				"heading": "Design for Guests. Engineer for Service.",
+				"paragraph": "Hospitality spaces must wow guests and work hard for staff. We optimize seat counts, acoustics, lighting, and server paths while building BOH areas that are easy to clean, safe, and efficient — all to health and fire codes."
+			},
+			"trends": {
+				"heading": "Latest Hospitality Renovation Trends",
+				"description": "See how the newest hospitality design trends create memorable dining and lodging experiences for customers.",
+				"items": {
+					"open_kitchen": {
+						"title": "Open Kitchen Moments",
+						"description": "Chef’s counters and pass-throughs that showcase the craft."
+					},
+					"flexible_seating": {
+						"title": "Flexible Seating",
+						"description": "Booths, banquettes, and movable tables for different party sizes."
+					},
+					"acoustic_softening": {
+						"title": "Acoustic Softening",
+						"description": "Ceiling baffles and wall treatments for comfortable conversation."
+					}
+				}
+			},
+			"features": {
+				"title": "Atmosphere You Can Taste",
+				"subtitle": "We blend ambience, durability, and compliance to create unforgettable guest experiences — front and back of house.",
+				"items": {
+					"health_code_kitchens": {
+						"title": "Health-Code Kitchens",
+						"description": "NSF surfaces, grease trap coordination, and wash zones."
+					},
+					"lighting_sound": {
+						"title": "Lighting & Sound",
+						"description": "Layered lighting and acoustic tuning for mood and clarity."
+					},
+					"durable_finishes": {
+						"title": "Durable Finishes",
+						"description": "Slip-resistant floors and stain-resistant upholstery."
+					},
+					"service_flow": {
+						"title": "Service Flow",
+						"description": "Clear paths from expo line to tables and bar."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"concept_narrative": {
+						"title": "Concept & Narrative",
+						"desc": "Translate your cuisine and brand into space."
+					},
+					"layouts_seating": {
+						"title": "Layouts & Seating",
+						"desc": "Optimize FOH/BOH adjacencies and capacities."
+					},
+					"permits_health": {
+						"title": "Permits & Health Dept.",
+						"desc": "Drawings, submittals, and inspections."
+					},
+					"build_fit_out": {
+						"title": "Build & Fit-Out",
+						"desc": "MEP, finishes, millwork, and equipment set."
+					},
+					"training_launch": {
+						"title": "Training & Launch",
+						"desc": "Walkthrough, punch, and soft-opening support."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"health_dept": {
+						"question": "Do you work with health department requirements?",
+						"answer": "Yes — we coordinate submittals, inspections, and corrections."
+					},
+					"partial_service": {
+						"question": "Can we keep partial service during a remodel?",
+						"answer": "Often yes with phased areas and temporary kitchens."
+					},
+					"kitchen_equipment": {
+						"question": "Do you install kitchen equipment?",
+						"answer": "We coordinate trades and final connections to spec."
+					},
+					"improve_acoustics": {
+						"question": "Can you improve acoustics?",
+						"answer": "We design materials and layouts to reduce reverberation times."
+					},
+					"ada": {
+						"question": "What about ADA?",
+						"answer": "We ensure restrooms, seating, and circulation meet accessibility standards."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Make Every Seat the Best Seat",
+				"subheading": "Let’s craft a space guests return to — again and again.",
+				"button": "Start My Renovation"
+			}
+		},
+		"commercial_building_additions": {
+			"title": "Commercial Building Additions",
+			"gold_title": "Expand Without Disruption",
+			"subtitle": "Expand your business with seamless building additions — more office, storage, or operational space designed to blend with your existing structure.",
+			"meta": {
+				"description": "From schematics to steel, we deliver additions that scale your operations, match your architecture, and meet code.",
+				"price_tag": "From $250k",
+				"timeline": "4–8 months"
+			},
+			"overview": {
+				"heading": "Room to Grow, Done Right",
+				"paragraph": "Whether you’re adding offices, storage, or production space, we handle zoning, structure, and building systems to ensure a seamless connection — functionally and visually — to your current facility."
+			},
+			"trends": {
+				"heading": "Latest Commercial Expansion Trends",
+				"description": "Discover how businesses are expanding spaces with modern, flexible, and seamlessly integrated additions.",
+				"items": {
+					"pre_engineered": {
+						"title": "Pre-Engineered Systems",
+						"description": "Faster timelines with PEMB frames and panel systems."
+					},
+					"energy_tight_envelopes": {
+						"title": "Energy-Tight Envelopes",
+						"description": "High-performance insulation and glazing for lower OPEX."
+					},
+					"future_proofing": {
+						"title": "Future-Proofing",
+						"description": "Knock-out panels and stubs for later expansion phases."
+					}
+				}
+			},
+			"features": {
+				"title": "Seamless, Scalable, Compliant",
+				"subtitle": "We integrate structure, MEP, life-safety, and finishes so your addition works like it was always there.",
+				"items": {
+					"structural_integration": {
+						"title": "Structural Integration",
+						"description": "Foundations, tie-ins, and load paths engineered to code."
+					},
+					"systems_expansion": {
+						"title": "Systems Expansion",
+						"description": "HVAC tonnage, electrical service, and sprinklers scaled smartly."
+					},
+					"exterior_continuity": {
+						"title": "Exterior Continuity",
+						"description": "Siding, roofing, and glazing that match your existing look."
+					},
+					"phased_construction": {
+						"title": "Phased Construction",
+						"description": "Access, hoarding, and logistics that keep you operating."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"feasibility": {
+						"title": "Feasibility",
+						"desc": "Zoning checks, utilities, and site constraints."
+					},
+					"design_engineering": {
+						"title": "Design & Engineering",
+						"desc": "Architectural and structural coordination."
+					},
+					"permitting": {
+						"title": "Permitting",
+						"desc": "Submittals, reviews, and approvals."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Groundworks, shell, and fit-out."
+					},
+					"close_out": {
+						"title": "Close-Out",
+						"desc": "CO, manuals, and warranty handover."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"match_facade": {
+						"question": "Can you match our existing façade?",
+						"answer": "Yes. We source compatible systems or propose tasteful updates across both volumes."
+					},
+					"utilities_expansion": {
+						"question": "Do you handle utilities expansion?",
+						"answer": "We coordinate with utility providers and resize systems as needed."
+					},
+					"minimize_disruption": {
+						"question": "How do you minimize disruption?",
+						"answer": "Clear logistics plans, temporary partitions, and off-hour work where needed."
+					},
+					"future_expansion": {
+						"question": "What about future expansion?",
+						"answer": "We can design structural and service stubs to enable later growth."
+					},
+					"cost_phasing": {
+						"question": "Do you provide cost phasing?",
+						"answer": "Yes — options for shell-only vs. full build-out."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Grow Without Moving",
+				"subheading": "Add smart square footage that pays for itself.",
+				"button": "Scope an Addition"
+			}
+		},
+		"sustainable_commercial_construction": {
+			"title": "Sustainable Commercial Construction",
+			"gold_title": "Build Green. Save Green.",
+			"subtitle": "Embrace eco-friendly practices with our sustainable construction services. We use energy-efficient materials and designs to reduce your environmental footprint.",
+			"meta": {
+				"description": "From envelope upgrades to electrification and renewables, we deliver sustainable buildings that cut costs and carbon.",
+				"price_tag": "From $90k",
+				"timeline": "8–16 weeks (scope-dependent)"
+			},
+			"overview": {
+				"heading": "Sustainability That Pays Back",
+				"paragraph": "Green projects shouldn’t be guesswork. We model ROI, select proven technologies, and install systems that reduce utilities, improve comfort, and support ESG goals — without compromising aesthetics."
+			},
+			"trends": {
+				"heading": "Latest Sustainable Construction Trends",
+				"description": "Explore eco-friendly construction methods that combine sustainability with long-term cost savings and innovation.",
+				"items": {
+					"deep_energy_retrofits": {
+						"title": "Deep Energy Retrofits",
+						"description": "Envelope, HVAC, and controls tuned as a single system."
+					},
+					"electrification": {
+						"title": "Electrification",
+						"description": "Heat pumps and induction shifting from gas to high-efficiency electric."
+					},
+					"on_site_renewables": {
+						"title": "On-Site Renewables",
+						"description": "Solar PV readiness, battery storage, and EV charging."
+					}
+				}
+			},
+			"features": {
+				"title": "Lower Costs. Higher Comfort.",
+				"subtitle": "We combine efficiency, wellness, and durability so your spaces perform for decades.",
+				"items": {
+					"high_performance_envelope": {
+						"title": "High-Performance Envelope",
+						"description": "Insulation, air-sealing, and glazing that slash losses."
+					},
+					"smart_controls": {
+						"title": "Smart Controls",
+						"description": "BAS scheduling, CO₂-based ventilation, and sub-metering."
+					},
+					"water_stewardship": {
+						"title": "Water Stewardship",
+						"description": "Low-flow fixtures and leak detection to cut usage."
+					},
+					"healthy_materials": {
+						"title": "Healthy Materials",
+						"description": "Low-VOC paints, FSC woods, and recyclable finishes."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"audit_baseline": {
+						"title": "Audit & Baseline",
+						"desc": "Utility review and site assessment."
+					},
+					"energy_modeling": {
+						"title": "Energy Modeling",
+						"desc": "Scenario analysis and ROI forecasting."
+					},
+					"scope_incentives": {
+						"title": "Scope & Incentives",
+						"desc": "Select measures and capture rebates."
+					},
+					"build_commission": {
+						"title": "Build & Commission",
+						"desc": "Install, test, and verify performance."
+					},
+					"monitor_optimize": {
+						"title": "Monitor & Optimize",
+						"desc": "Post-occupancy tuning and reporting."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"lower_bills": {
+						"question": "Will this actually lower bills?",
+						"answer": "Yes — we target measures with clear payback and share modeled savings ranges."
+					},
+					"rebates": {
+						"question": "Do you help with rebates?",
+						"answer": "We identify and process incentives to reduce upfront costs."
+					},
+					"phase_improvements": {
+						"question": "Can we phase improvements?",
+						"answer": "Absolutely. We build multi-year roadmaps aligned to capital cycles."
+					},
+					"comfort": {
+						"question": "Does this affect comfort?",
+						"answer": "Expect better temperatures, air quality, and acoustics."
+					},
+					"leed_required": {
+						"question": "Is LEED or similar required?",
+						"answer": "Certification is optional — we can design to standards with or without formal pursuit."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Build Greener, Operate Smarter",
+				"subheading": "Cut costs and carbon with proven upgrades.",
+				"button": "Plan a Sustainable Project"
+			}
+		}
+	},
+	"residential_details_services": {
+		"kitchen_renovations": {
+			"title": "Kitchen Renovations",
+			"gold_title": "Crafted for Living",
+			"subtitle": "Transform your cooking space into a hub of style, comfort, and efficiency. From smart layouts to luxury finishes, every detail is designed around how you live and entertain.",
+			"meta": {
+				"description": "Transform your home with custom cabinetry, premium countertops, and modern appliances. Experience unparalleled craftsmanship and design.",
+				"price_tag": "From $25k",
+				"timeline": "4-8 weeks"
+			},
+			"overview": {
+				"heading": "Where Function Meets Flawless Design",
+				"paragraph": "Our kitchen renovations go far beyond a cosmetic update — they are full-scale transformations designed to improve the way you live every day. We carefully consider workflow, storage solutions, and lighting to create a kitchen that works just as beautifully as it looks. Whether you want a sleek modern space, a warm and inviting farmhouse kitchen, or a high-end chef’s paradise, we deliver exceptional craftsmanship and premium materials that stand the test of time. From the first design consultation to the final walk-through, our process ensures your new kitchen reflects your style, enhances your home’s value, and becomes the true heart of your home."
+			},
+			"trends": {
+				"heading": "Latest Kitchen Design Trends",
+				"description": "Discover the newest kitchen innovations that balance style, efficiency, and smart functionality.",
+				"items": {
+					"smart_appliances": {
+						"title": "Smart Appliances",
+						"description": "Wi-Fi enabled ovens, fridges, and dishwashers for monitoring, recipes, and energy savings."
+					},
+					"quartz_countertops": {
+						"title": "Quartz Countertops",
+						"description": "Durable, low-maintenance surfaces in timeless colors and patterns."
+					},
+					"open_shelving": {
+						"title": "Open Shelving",
+						"description": "Airy storage that showcases dinnerware and adds visual depth."
+					}
+				}
+			},
+			"features": {
+				"title": "Culinary Spaces Designed Around You",
+				"subtitle": "From sleek modern layouts to timeless classics, we create kitchens that blend beauty, function, and personalized details — giving you a space where cooking, dining, and gathering feel effortless and inspiring every day.",
+				"items": {
+					"custom_cabinetry": {
+						"title": "Custom Cabinetry",
+						"description": "Built to fit your layout with premium hardware."
+					},
+					"under_cabinet_lighting": {
+						"title": "Under-Cabinet Lighting",
+						"description": "Task lighting that eliminates shadows on worktops."
+					},
+					"multi_purpose_island": {
+						"title": "Multi-Purpose Island",
+						"description": "Seating, storage, power outlets, and prep space in one."
+					},
+					"soft_close_drawers": {
+						"title": "Soft-Close Drawers",
+						"description": "Quiet, durable slides for a premium experience."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"initial_consultation": {
+						"title": "Initial Consultation",
+						"desc": "We discuss your vision..."
+					},
+					"3d_design_rendering": {
+						"title": "3D Design Rendering",
+						"desc": "See your new kitchen..."
+					},
+					"material_selection": {
+						"title": "Material Selection",
+						"desc": "Choose cabinets..."
+					},
+					"construction_phase": {
+						"title": "Construction Phase",
+						"desc": "Craftsmen build it."
+					},
+					"final_reveal": {
+						"title": "Final Reveal",
+						"desc": "Walk through your new kitchen."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"duration": {
+						"question": "How long does a kitchen renovation take?",
+						"answer": "Most kitchen projects are completed in 4–8 weeks depending on complexity, custom features, and material availability. Large or structural changes may take longer."
+					},
+					"layout": {
+						"question": "Can you work with my existing kitchen layout?",
+						"answer": "Yes. We can improve your current layout for better functionality or create a completely new configuration to match your lifestyle."
+					},
+					"permits_and_trades": {
+						"question": "Do you handle plumbing, electrical, and permits?",
+						"answer": "Absolutely. Our licensed trades handle all necessary plumbing, electrical work, and permitting, ensuring compliance with local building codes."
+					},
+					"materials_durability": {
+						"question": "What materials do you recommend for durability?",
+						"answer": "We guide you through choosing high-quality countertops, cabinetry, flooring, and finishes that match your style and withstand daily use."
+					},
+					"live_in": {
+						"question": "Can I live in my home during the renovation?",
+						"answer": "In most cases, yes. We take steps to minimize dust, noise, and disruption, and set up temporary kitchen spaces if needed."
+					},
+					"value_increase": {
+						"question": "Will a new kitchen increase my home’s value?",
+						"answer": "Yes, a well-planned kitchen remodel is one of the highest-return home improvements, boosting both appeal and resale value."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Let's Cook Up Something Amazing",
+				"subheading": "Ready to transform your kitchen? Schedule your consultation today.",
+				"button": "Schedule Consultation"
+			}
+		},
+		"bathroom_renovations": {
+			"title": "Bathroom Remodeling",
+			"gold_title": "Create Your Personal Spa",
+			"subtitle": "Turn your bathroom into a sanctuary of relaxation and style. Whether it’s a serene spa retreat or a functional family bath, we design spaces that inspire comfort every day.",
+			"meta": {
+				"description": "Upgrade your bathroom with spa-like features, high-end fixtures, and timeless designs for everyday indulgence.",
+				"price_tag": "From $15k",
+				"timeline": "3-6 weeks"
+			},
+			"overview": {
+				"heading": "Luxury and Accessibility in Perfect Harmony",
+				"paragraph": "We believe your bathroom should be more than just a functional space — it should be a retreat. Our bathroom remodeling services combine luxurious design with smart, practical features to create a space you’ll love every day. From spa-inspired showers and soaking tubs to accessibility upgrades like walk-in showers and grab bars, we tailor every detail to your needs. We focus on quality craftsmanship, moisture-resistant materials, and designs that maximize both beauty and function. Whether it’s a compact powder room refresh or a master bath transformation, our goal is to deliver a bathroom that elevates your daily routine and adds value to your home."
+			},
+			"trends": {
+				"heading": "Latest Bathroom Design Trends",
+				"description": "Explore modern bathroom concepts that combine relaxation, luxury, and intelligent use of space.",
+				"items": {
+					"rainfall_showers": {
+						"title": "Rainfall Showers",
+						"description": "Luxurious shower experiences with multiple spray patterns and water-saving technology."
+					},
+					"heated_floors": {
+						"title": "Heated Floors",
+						"description": "Radiant floor heating for comfort and luxury in any weather."
+					},
+					"floating_vanities": {
+						"title": "Floating Vanities",
+						"description": "Modern, space-saving designs that create an airy, contemporary feel."
+					}
+				}
+			},
+			"features": {
+				"title": "Universal Design & Accessibility",
+				"subtitle": "We design bathrooms that are as beautiful as they are functional — thoughtfully crafted spaces that combine style, safety, and ease of use for every age and ability, so you can enjoy comfort and confidence every day.",
+				"items": {
+					"walk_in_showers": {
+						"title": "Walk-in Showers",
+						"description": "Barrier-free entry with non-slip surfaces and built-in seating options."
+					},
+					"grab_bars": {
+						"title": "Grab Bars",
+						"description": "Stylish, sturdy support bars that blend seamlessly with your design."
+					},
+					"comfort_height_fixtures": {
+						"title": "Comfort Height Fixtures",
+						"description": "Toilets and vanities at optimal heights for easier use."
+					},
+					"wide_doorways": {
+						"title": "Wide Doorways",
+						"description": "Accessible entry points that accommodate all mobility needs."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"design_consultation": {
+						"title": "Design Consultation",
+						"desc": "Share your ideas and goals."
+					},
+					"material_selection": {
+						"title": "Material Selection",
+						"desc": "Pick tiles, fixtures, and lighting."
+					},
+					"visualization_3d": {
+						"title": "3D Visualization",
+						"desc": "Preview the finished space."
+					},
+					"renovation": {
+						"title": "Renovation",
+						"desc": "Our team brings it to life."
+					},
+					"final_inspection": {
+						"title": "Final Inspection",
+						"desc": "Ensure every detail is perfect."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"luxury_accessible": {
+						"question": "Do you offer both luxury and accessible bathroom solutions?",
+						"answer": "Yes. We design bathrooms that balance elegance with safety, including barrier-free showers, comfort-height fixtures, and non-slip flooring."
+					},
+					"timeline": {
+						"question": "What is the typical timeline for a bathroom remodel?",
+						"answer": "Most bathroom remodels take 3–6 weeks, depending on size, complexity, and customization."
+					},
+					"small_spaces": {
+						"question": "Can you work with small or awkward spaces?",
+						"answer": "Absolutely. We specialize in creative layouts and storage solutions that make even small bathrooms feel spacious."
+					},
+					"eco_friendly": {
+						"question": "Do you provide eco-friendly options?",
+						"answer": "Yes. We can install water-saving fixtures, LED lighting, and sustainable materials to reduce environmental impact."
+					},
+					"plumbing_electrical_updates": {
+						"question": "Will you handle plumbing and electrical updates?",
+						"answer": "Yes. All work is done by licensed professionals to ensure safety and code compliance."
+					},
+					"spa_feel": {
+						"question": "How can I make my bathroom feel more like a spa?",
+						"answer": "We recommend features like rainfall showerheads, heated floors, deep soaking tubs, and calming lighting schemes."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Turn Your Bathroom into a Spa",
+				"subheading": "Book your consultation and step into luxury.",
+				"button": "Book Consultation"
+			}
+		},
+		"home_additions": {
+			"title": "Expand Your Living Space with Ease",
+			"gold_title": "Seamlessly Integrated",
+			"subtitle": "Expand your home with new rooms that blend perfectly into your existing style. From concept to completion, we deliver extra space without sacrificing beauty or flow.",
+			"meta": {
+				"description": "Add bedrooms, sunrooms, or new living areas that blend seamlessly with your home’s style and structure.",
+				"price_tag": "From $40k",
+				"timeline": "6-12 weeks"
+			},
+			"overview": {
+				"heading": "Space That Grows With You",
+				"paragraph": "A home addition is more than just extra square footage — it’s an opportunity to enhance your lifestyle and increase your property’s value. We design and build additions that seamlessly integrate with your existing home, both structurally and stylistically. Whether you need a larger kitchen, a sunroom, a home office, or an in-law suite, our team handles every aspect from design and permits to final construction. We focus on natural light, energy efficiency, and quality finishes to ensure your new space feels like it has always belonged. Our goal is to create a stress-free building experience while delivering a stunning, functional extension of your home."
+			},
+			"trends": {
+				"heading": "Latest Home Addition Trends",
+				"description": "See how today’s home additions create seamless expansions that blend perfectly with existing structures.",
+				"items": {
+					"multi_generational_suites": {
+						"title": "Multi-Generational Suites",
+						"description": "Private bedroom/bath combos designed for extended family living."
+					},
+					"energy_efficient_envelope": {
+						"title": "Energy-Efficient Envelope",
+						"description": "High-R insulation, advanced windows, and tight air-sealing."
+					},
+					"indoor_outdoor_flow": {
+						"title": "Indoor–Outdoor Flow",
+						"description": "Large sliders and decks that connect new rooms to the backyard."
+					}
+				}
+			},
+			"features": {
+				"title": "More Room for What Matters Most",
+				"subtitle": "Our home additions seamlessly integrate with your existing architecture, giving you extra bedrooms, living areas, or specialty spaces that feel like they were always meant to be there — built with craftsmanship, comfort, and your lifestyle in mind.",
+				"items": {
+					"structural_engineering": {
+						"title": "Structural Engineering",
+						"description": "Load calculations and foundations sized for longevity."
+					},
+					"matched_exterior_finishes": {
+						"title": "Matched Exterior Finishes",
+						"description": "Siding, roofing, and trim that blend seamlessly."
+					},
+					"integrated_systems": {
+						"title": "Integrated Systems",
+						"description": "HVAC, electrical, and plumbing scaled for the new footprint."
+					},
+					"sound_control": {
+						"title": "Sound Control",
+						"description": "Insulated walls/doors for quiet, comfortable rooms."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "We review your needs and property layout."
+					},
+					"design_planning": {
+						"title": "Design & Planning",
+						"desc": "Create a plan that complements your home."
+					},
+					"permitting": {
+						"title": "Permitting",
+						"desc": "We handle required permits and approvals."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Build the addition to precise standards."
+					},
+					"final_walkthrough": {
+						"title": "Final Walkthrough",
+						"desc": "Inspect every detail for perfection."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"match_style": {
+						"question": "Will the addition match my home’s style?",
+						"answer": "Yes. We carefully select materials, finishes, and architectural details to match or enhance your existing design."
+					},
+					"permits_inspections": {
+						"question": "Do you handle permits and inspections?",
+						"answer": "Absolutely. We manage all permitting and coordinate inspections to keep your project on track."
+					},
+					"second_story": {
+						"question": "Can you build a second story addition?",
+						"answer": "Yes. We can build upward or outward depending on zoning and structural feasibility."
+					},
+					"timeline": {
+						"question": "How long does a home addition take?",
+						"answer": "Timelines vary, but most additions are completed in 8–16 weeks depending on complexity."
+					},
+					"move_out": {
+						"question": "Will I need to move out during construction?",
+						"answer": "In most cases, you can stay in your home, though major structural work may require temporary relocation."
+					},
+					"resale_value": {
+						"question": "Does an addition increase resale value?",
+						"answer": "Yes, well-designed additions can significantly improve resale value and buyer appeal."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Add More Space Without Moving",
+				"subheading": "Expand your home to fit your lifestyle.",
+				"button": "Request Quote"
+			}
+		},
+		"basement_finishing": {
+			"title": "Basement Finishing",
+			"gold_title": "From Storage to Showcase",
+			"subtitle": "Unlock the hidden potential of your basement. Whether it’s a home theater, guest suite, or workspace, we turn unused square footage into your favorite rooms.",
+			"meta": {
+				"description": "Maximize your home’s potential with a fully finished basement designed for living, working, or playing.",
+				"price_tag": "From $20k",
+				"timeline": "5-9 weeks"
+			},
+			"overview": {
+				"heading": "From Empty to Extraordinary",
+				"paragraph": "Your basement is full of potential — and we can help you unlock it. Our basement finishing services transform underutilized space into functional, inviting rooms. From cozy home theaters and entertainment areas to gyms, guest suites, and home offices, we create spaces that fit your lifestyle. We address waterproofing, insulation, and lighting from the start, ensuring your basement is comfortable year-round. With durable materials, smart layouts, and attention to detail, we turn your basement into a beautiful extension of your home — adding both living space and property value."
+			},
+			"trends": {
+				"heading": "Latest Basement Finishing Trends",
+				"description": "Uncover how basements are being transformed into versatile living areas, from entertainment zones to guest suites.",
+				"items": {
+					"home_theaters": {
+						"title": "Home Theaters",
+						"description": "Acoustic treatments, projection, and tiered seating options."
+					},
+					"daylight_egress": {
+						"title": "Daylight & Egress",
+						"description": "Bigger windows, wells, and code-compliant exits for safety and light."
+					},
+					"wet_bars_kitchenettes": {
+						"title": "Wet Bars & Kitchenettes",
+						"description": "Add sinks, mini-fridges, and storage for entertaining."
+					}
+				}
+			},
+			"features": {
+				"title": "Transform Your Basement into a Destination",
+				"subtitle": "From dark, unused storage to vibrant living areas, we create basements that suit your lifestyle — whether it’s a home theater, guest suite, gym, or workspace, every detail is designed for comfort, durability, and year-round enjoyment.",
+				"items": {
+					"moisture_management": {
+						"title": "Moisture Management",
+						"description": "Vapor barriers, drainage, and dehumidification solutions."
+					},
+					"insulated_subfloors": {
+						"title": "Insulated Subfloors",
+						"description": "Thermal and moisture protection for warmer feet year-round."
+					},
+					"code_compliance": {
+						"title": "Code Compliance",
+						"description": "Egress windows, smoke/CO detectors, and proper ceiling heights."
+					},
+					"flexible_zoning": {
+						"title": "Flexible Zoning",
+						"description": "Designated areas for gym, office, play, or guests."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"assessment": {
+						"title": "Assessment",
+						"desc": "Evaluate space and address moisture concerns."
+					},
+					"design_planning": {
+						"title": "Design Planning",
+						"desc": "Create a custom layout for your needs."
+					},
+					"framing_insulation": {
+						"title": "Framing & Insulation",
+						"desc": "Ensure comfort and efficiency."
+					},
+					"finishing_touches": {
+						"title": "Finishing Touches",
+						"desc": "Install flooring, lighting, and trim."
+					},
+					"final_reveal": {
+						"title": "Final Reveal",
+						"desc": "Enjoy your new living area."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"waterproofing": {
+						"question": "Do you handle waterproofing before finishing?",
+						"answer": "Yes. We ensure the basement is fully waterproofed to prevent future damage."
+					},
+					"add_bath_kitchen": {
+						"question": "Can I add a bathroom or kitchenette?",
+						"answer": "Absolutely. We can incorporate full bathrooms, wet bars, or even full kitchens."
+					},
+					"warm_winter": {
+						"question": "Will my basement be warm in winter?",
+						"answer": "Yes. We use insulation, vapor barriers, and heating options to make it comfortable year-round."
+					},
+					"duration": {
+						"question": "How long does basement finishing take?",
+						"answer": "Typically 6–10 weeks, depending on scope and complexity."
+					},
+					"multi_purpose": {
+						"question": "Can you design the space for multiple purposes?",
+						"answer": "Yes. We can create zones for entertainment, work, storage, and more."
+					},
+					"value_increase": {
+						"question": "Does finishing my basement increase home value?",
+						"answer": "Yes, a finished basement adds usable square footage, which increases resale value."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Unlock Your Basement’s Potential",
+				"subheading": "Let’s create a space you’ll love to spend time in.",
+				"button": "Get Started"
+			}
+		},
+		"deck_patio_construction": {
+			"title": "Deck & Patio Construction",
+			"gold_title": "Outdoor Living, Elevated",
+			"subtitle": "Bring your backyard dreams to life with stunning decks and patios built for comfort, beauty, and lasting enjoyment in every season.",
+			"meta": {
+				"description": "Create a stunning outdoor escape with custom decks and patios built for beauty, comfort, and durability.",
+				"price_tag": "From $12k",
+				"timeline": "2-5 weeks"
+			},
+			"overview": {
+				"heading": "Your Backyard, Reimagined",
+				"paragraph": "A great outdoor space is an extension of your home — a place to relax, entertain, and connect with nature. Our deck and patio construction services combine beauty and durability, using high-quality materials that stand up to the elements. Whether you prefer a natural wood deck, a low-maintenance composite, or a stunning stone patio, we customize the design to fit your lifestyle. We also offer built-in seating, lighting, pergolas, and weather protection so you can enjoy your space year-round. Every detail is planned for comfort, safety, and visual appeal."
+			},
+			"trends": {
+				"heading": "Latest Outdoor Living Trends",
+				"description": "Find inspiration in the latest deck and patio designs that extend comfort and entertainment outdoors.",
+				"items": {
+					"composite_decking_2_0": {
+						"title": "Composite Decking 2.0",
+						"description": "Fade-resistant, low-maintenance boards with hidden fasteners."
+					},
+					"outdoor_kitchens_fire": {
+						"title": "Outdoor Kitchens & Fire",
+						"description": "Built-in grills, prep space, and fire features for entertaining."
+					},
+					"shade_weather_control": {
+						"title": "Shade & Weather Control",
+						"description": "Pergolas, retractable canopies, and rain-friendly details."
+					}
+				}
+			},
+			"features": {
+				"title": " Outdoor Living, Perfected",
+				"subtitle": "Turn your backyard into the ultimate gathering space with decks and patios built for beauty, comfort, and durability — designed for lounging, entertaining, and making memories in every season.",
+				"items": {
+					"material_options": {
+						"title": "Material Options",
+						"description": "Composite, hardwood, pavers, and natural stone."
+					},
+					"built_in_seating_planters": {
+						"title": "Built-in Seating & Planters",
+						"description": "Maximize function with integrated elements."
+					},
+					"low_voltage_lighting": {
+						"title": "Low-Voltage Lighting",
+						"description": "Stairs, posts, and pathways illuminated for safety."
+					},
+					"durable_railings": {
+						"title": "Durable Railings",
+						"description": "Aluminum, cable, or glass systems that stand up to weather."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Discuss your outdoor vision and needs."
+					},
+					"design_layout": {
+						"title": "Design & Layout",
+						"desc": "Plan your perfect outdoor living area."
+					},
+					"material_selection": {
+						"title": "Material Selection",
+						"desc": "Choose wood, composite, or stone."
+					},
+					"construction": {
+						"title": "Construction",
+						"desc": "Expertly build your deck or patio."
+					},
+					"final_touches": {
+						"title": "Final Touches",
+						"desc": "Add lighting, railings, or pergolas."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"materials_offered": {
+						"question": "What materials do you offer?",
+						"answer": "We build with pressure-treated wood, composite decking, hardwoods, stone, and pavers."
+					},
+					"shade_weather": {
+						"question": "Can you add shade or weather protection?",
+						"answer": "Yes. We can install pergolas, roofs, retractable awnings, and privacy screens."
+					},
+					"lighting_installation": {
+						"question": "Do you handle lighting installation?",
+						"answer": "Absolutely. We can integrate deck and landscape lighting for safety and ambiance."
+					},
+					"lifespan": {
+						"question": "How long will my deck or patio last?",
+						"answer": "With proper maintenance, wood decks can last 10–15 years, while composite and stone can last decades."
+					},
+					"permits": {
+						"question": "Do you take care of permits?",
+						"answer": "Yes, we handle all permits and inspections."
+					},
+					"multi_level_decks": {
+						"question": "Can you build multi-level decks?",
+						"answer": "Yes. Multi-tiered designs can create distinct zones for dining, lounging, and entertaining."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Bring Your Backyard to Life",
+				"subheading": "Start your deck or patio project today.",
+				"button": "Request Consultation"
+			}
+		},
+		"whole_home_renovations": {
+			"title": "Whole-Home Renovations",
+			"gold_title": "Reimagine Every Room",
+			"subtitle": "Give your home a complete transformation that reflects your style. From floor to ceiling, every space will feel fresh, cohesive, and perfectly you.",
+			"meta": {
+				"description": "From floor to ceiling, room to room, we reimagine and rebuild for a cohesive, stunning transformation.",
+				"price_tag": "From $100k",
+				"timeline": "3-6 months"
+			},
+			"overview": {
+				"heading": "One Vision, Every Room",
+				"paragraph": "Our whole-home renovations are complete transformations — a chance to rethink and redesign your living spaces from top to bottom. We create a cohesive design that flows seamlessly from room to room, while addressing practical needs like storage, lighting, and energy efficiency. From updating kitchens and bathrooms to refreshing flooring, paint, and fixtures throughout, we manage every detail. Whether you want a modern refresh, a timeless classic, or a complete style change, our experienced team ensures your new home reflects your taste and enhances your lifestyle."
+			},
+			"trends": {
+				"heading": "Latest Whole-Home Renovation Trends",
+				"description": "Learn how full-scale renovations are redefining homes with cohesive design, sustainability, and smart upgrades.",
+				"items": {
+					"open_concept_living": {
+						"title": "Open-Concept Living",
+						"description": "Structural changes that create light-filled, connected spaces."
+					},
+					"smart_home_integration": {
+						"title": "Smart Home Integration",
+						"description": "Lighting, climate, and security unified in one ecosystem."
+					},
+					"high_performance_envelope": {
+						"title": "High-Performance Envelope",
+						"description": "Better insulation, windows, and air-sealing for comfort and savings."
+					}
+				}
+			},
+			"features": {
+				"title": "A Complete Transformation, Inside and Out",
+				"subtitle": " Reimagine your home from floor to ceiling with a cohesive design that flows through every room — blending your personal style with modern comforts, energy efficiency, and craftsmanship that stands the test of time.",
+				"items": {
+					"cohesive_design_language": {
+						"title": "Cohesive Design Language",
+						"description": "Finishes and details that flow consistently room to room."
+					},
+					"systems_upgrades": {
+						"title": "Systems Upgrades",
+						"description": "Electrical panel, plumbing, and HVAC sized for the new plan."
+					},
+					"energy_efficiency": {
+						"title": "Energy Efficiency",
+						"description": "Window replacements, insulation, and air-sealing throughout."
+					},
+					"phased_construction": {
+						"title": "Phased Construction",
+						"description": "Plan around occupancy with temporary living strategies."
+					}
+				}
+			},
+			"process": {
+				"steps": {
+					"consultation": {
+						"title": "Consultation",
+						"desc": "Discuss goals, style, and scope."
+					},
+					"comprehensive_design": {
+						"title": "Comprehensive Design",
+						"desc": "Plan every space for flow and function."
+					},
+					"material_selection": {
+						"title": "Material Selection",
+						"desc": "Choose finishes, fixtures, and accents."
+					},
+					"full_renovation": {
+						"title": "Full Renovation",
+						"desc": "Execute the complete home transformation."
+					},
+					"final_reveal": {
+						"title": "Final Reveal",
+						"desc": "Walk through your beautiful new home."
+					}
+				}
+			},
+			"faqs": {
+				"items": {
+					"move_out": {
+						"question": "Do I need to move out during the renovation?",
+						"answer": "For major renovations, temporary relocation is often recommended, but we can work in phases to minimize disruption."
+					},
+					"keep_existing_features": {
+						"question": "Can you keep some of my existing features?",
+						"answer": "Yes. We can incorporate and restore elements you love while updating the rest of your home."
+					},
+					"cohesive_look": {
+						"question": "How do you ensure a cohesive look?",
+						"answer": "We create a comprehensive design plan that ties all spaces together with consistent colors, materials, and styles."
+					},
+					"duration": {
+						"question": "How long does a whole-home renovation take?",
+						"answer": "Timelines vary, but most take 3–9 months depending on scope and complexity."
+					},
+					"permits_inspections": {
+						"question": "Do you handle permits and inspections?",
+						"answer": "Yes, we take care of all required permits, approvals, and inspections."
+					},
+					"value_increase": {
+						"question": "Will a full renovation increase my home’s value?",
+						"answer": "Yes, especially when modernizing outdated spaces and improving functionality."
+					}
+				}
+			},
+			"cta": {
+				"heading": "Reimagine Your Home",
+				"subheading": "Let’s make every room your favorite room.",
+				"button": "Start Your Renovation"
+			}
+		}
+	}
 }
