@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { m } from '$lib/paraglide/messages';
+	import * as m from '$lib/paraglide/messages';
 	import { Star, ChevronLeft, ChevronRight } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 
