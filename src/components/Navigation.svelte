@@ -261,7 +261,7 @@
 										{#if item.showCategoryLink !== false}
 											<a
 												href={item.href}
-												class="block rounded-lg bg-[#1A365D] px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/20 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+												class="block rounded-lg bg-[#1A365D] px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/20 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 												on:click={closeDesktopMenu}
 											>
 												{item.label()} {m['random_text.construction']()}
@@ -273,7 +273,7 @@
 										{#each item.items as sub (sub.href)}
 											<a
 												href={sub.href}
-												class="block rounded-lg px-3 py-2 text-sm text-white/90 transition hover:bg-secondary/10 hover:text-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+												class="block rounded-lg px-3 py-2 text-sm text-white/90 transition hover:bg-secondary/10 hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 												on:click={closeDesktopMenu}
 											>
 												{sub.label()}
@@ -288,7 +288,7 @@
 
 				<a
 					href={contactLink.href}
-					class="rounded-lg bg-secondary px-4 md:px-5 lg:px-6 py-2 text-sm md:text-[15px] font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-secondary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+					class="rounded-lg bg-secondary px-4 md:px-5 lg:px-6 py-2 text-sm md:text-[15px] font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-secondary/90 focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-secondary"
 				>
 					{contactLink.label()}
 				</a>
@@ -380,7 +380,7 @@
 												{#if section.showCategoryLink !== false}
 													<a
 														href={section.href}
-														class="block rounded-lg px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/10 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+														class="block rounded-lg px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/10 hover:text-white focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-secondary"
 														on:click|preventDefault={() => handleNavigation(section.href)}
 													>
 														{section.label()}

@@ -8,6 +8,10 @@
 	  "about": "Acerca de",
 	  "contact": "Obtener Cotización"
 	},
+	"random_text": {
+		"construction": "Construcción",
+		"description": "This is a random text"
+	},
 	"hero": {
 	  "title": "Construyendo Sueños en Realidad",
 	  "subtitle": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
@@ -374,6 +378,15 @@
 	  "contact_mail": "Correo postal",
 	  "alternative_heading": "Acceso Alternativo",
 	  "alternative_text": "Si no puede acceder a algún contenido o usar alguna función en nuestro sitio web debido a una discapacidad, estaremos encantados de proporcionar la información a través de medios alternativos. Por favor contáctenos usando la información anterior."
+	},
+	"forms":{
+		"project_details":{
+			"options": {
+				"residential": "Residencial",
+				"commercial": "Comercial",
+				"custom": "Personalizado"
+			}
+		}
 	},
 	"privacy": {
 	  "title": "Política de Privacidad | World Detail Specialist",
