@@ -8,6 +8,10 @@
 		"about": "About",
 		"contact": "Get Estimate"
 	},
+	"random_text": {
+		"construction": "Construction",
+		"description": "This is a random text"
+	},
 	"hero": {
 		"title": "Building Dreams Into Reality",
 		"subtitle": "South Florida's premier construction company, transforming homes and commercial spaces with unmatched craftsmanship and innovation.",
@@ -383,6 +387,15 @@
 		"contact_mail": "Mail",
 		"alternative_heading": "Alternative Access",
 		"alternative_text": "If you are unable to access any content or use any feature on our website due to a disability, we are happy to provide the information through alternative means. Please contact us using the information above."
+	},
+	"forms":{
+		"project_details":{
+			"options": {
+				"residential": "Residential",
+				"commercial": "Commercial",
+				"custom": "Custom"
+			}
+		}
 	},
 	"privacy": {
 		"title": "Privacy Policy | World Detail Specialist",
