@@ -16,31 +16,31 @@
 
     const projects = [
         {
-            title: 'Modern Miami Kitchen',
-            category: 'Kitchen Renovation',
+            title: m['portfolio.projects.modern_miami_kitchen.title'](),
+            category: m['portfolio.projects.modern_miami_kitchen.category'](),
             image: '/portfolio/kitchen-after.webp',
             beforeImage: '/portfolio/kitchen-before.webp',
-            description: 'Complete transformation featuring custom cabinetry, quartz countertops, and premium appliances with smart home integration.',
-            duration: '6 weeks',
-            budget: '$45,000'
+            description: m['portfolio.projects.modern_miami_kitchen.description'](),
+            duration: m['portfolio.projects.modern_miami_kitchen.duration'](),
+            budget: m['portfolio.projects.modern_miami_kitchen.budget']()
         },
         {
-            title: 'Luxury Bathroom Suite',
-            category: 'Bathroom Remodel',
+            title: m['portfolio.projects.luxury_bathroom_suite.title'](),
+            category: m['portfolio.projects.luxury_bathroom_suite.category'](),
             image: '/portfolio/bath-after.webp',
             beforeImage: '/portfolio/bath-before.webp',
-            description: 'Spa-inspired design with marble finishes, rainfall shower, heated floors, and custom vanity with integrated lighting.',
-            duration: '4 weeks',
-            budget: '$32,000'
+            description: m['portfolio.projects.luxury_bathroom_suite.description'](),
+            duration: m['portfolio.projects.luxury_bathroom_suite.duration'](),
+            budget: m['portfolio.projects.luxury_bathroom_suite.budget']()
         },
         {
-            title: 'Contemporary Office Space',
-            category: 'Commercial Renovation',
+            title: m['portfolio.projects.contemporary_office_space.title'](),
+            category: m['portfolio.projects.contemporary_office_space.category'](),
             image: '/portfolio/office-after.webp',
             beforeImage: '/portfolio/office-before.webp',
-            description: 'Modern office buildout with open floor plan, custom millwork, efficient LED lighting, and collaborative workspaces.',
-            duration: '8 weeks',
-            budget: '$75,000'
+            description: m['portfolio.projects.contemporary_office_space.description'](),
+            duration: m['portfolio.projects.contemporary_office_space.duration'](),
+            budget: m['portfolio.projects.contemporary_office_space.budget']()
         }
     ];
 
@@ -87,13 +87,13 @@
         <div class="text-center mb-20">
             <div class="inline-flex items-center gap-2 bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Eye size={16} />
-                Our Work
+                {m['portfolio.tag']()}
             </div>
             <h2 class="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-                Portfolio Showcase
+                {m['portfolio.heading']()}
             </h2>
             <p class="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Discover our exceptional projects that blend innovative design with superior craftsmanship
+                {m['portfolio.subheading']()}
             </p>
         </div>
 
@@ -103,7 +103,7 @@
             <div class="bg-slate-900 px-8 py-6">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-4">
-                        <span class="text-slate-400 text-sm font-medium">Project {currentProject + 1} of {projects.length}</span>
+                        <span class="text-slate-400 text-sm font-medium">{m['portfolio.pagination']()} {currentProject + 1} {m['portfolio.of']()} {projects.length}</span>
                         <div class="w-px h-6 bg-slate-700"></div>
                         <span class="text-orange-400 font-semibold">{projects[currentProject].category}</span>
                     </div>
@@ -199,11 +199,11 @@
                     <div class="grid grid-cols-2 gap-6 mb-0">
                         <div class="bg-white p-4 rounded-xl border border-slate-200 animate-slide-up">
                             <div class="text-2xl font-bold text-slate-900">{projects[currentProject].duration}</div>
-                            <div class="text-sm text-slate-500 font-medium">Duration</div>
+                            <div class="text-sm text-slate-500 font-medium">{m['portfolio.label_duration']()}</div>
                         </div>
                         <div class="bg-white p-4 rounded-xl border border-slate-200 animate-slide-up">
                             <div class="text-2xl font-bold text-slate-900">{projects[currentProject].budget}</div>
-                            <div class="text-sm text-slate-500 font-medium">Investment</div>
+                            <div class="text-sm text-slate-500 font-medium">{m['portfolio.label_investment']()}</div>
                         </div>
                     </div>
                     

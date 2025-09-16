@@ -12,6 +12,51 @@
 		"construction": "Construction",
 		"description": "This is a random text"
 	},
+	"services_page": {
+		"reasons": {
+			"unmatched_expertise": {
+			"title": "Unmatched Expertise",
+			"description": "Years of experience in commercial, residential, and custom projects with deep knowledge and skill."
+		  },
+		  "tailored_solutions": {
+			"title": "Tailored Solutions",
+			"description": "Every project is customized to meet your specific needs, vision, budget, and timeline."
+		  },
+		  "local_knowledge": {
+			"title": "Local Knowledge",
+			"description": "Deep understanding of local building codes, regulations, and market trends."
+		  },
+		  "commitment_to_quality": {
+			"title": "Commitment to Quality",
+			"description": "High-quality materials and proven construction techniques for durable, beautiful results."
+		  },
+		  "customer_centric_approach": {
+			"title": "Customer-Centric Approach",
+			"description": "Your satisfaction is our priority with transparent communication and ongoing support."
+		  },
+		  "sustainable_practices": {
+			"title": "Sustainable Practices",
+			"description": "Eco-friendly materials and energy-efficient designs to reduce environmental impact."
+		  },
+		  "comprehensive_services": {
+			"title": "Comprehensive Services",
+			"description": "Complete project management from design and planning to construction and finishing."
+	}
+ },
+ "hero": {
+	"heading": "Construction & Renovation",
+	"subheading": "Transform Your Space",
+	"description": "Your trusted partner for commercial construction, residential renovations, and custom builds. We deliver exceptional results with quality craftsmanship and unmatched dedication to your vision.",
+	"secondary_header": "Our Construction & Renovation Services",
+	"span": "Services",
+	"secondary_description": "With years of expertise and a commitment to quality, we deliver exceptional results tailored to your vision across three core service areas."
+},
+"why_choose_us": {
+	"title": "Why Choose",
+	"description": "We stand out for our dedication to excellence and comprehensive approach to every project. Here's what makes us the preferred choice for construction and renovation."
+}
+
+},
 	"hero": {
 		"title": "Building Dreams Into Reality",
 		"subtitle": "South Florida's premier construction company, transforming homes and commercial spaces with unmatched craftsmanship and innovation.",
@@ -252,7 +297,8 @@
 		"after": "After",
 		"label_duration": "Duration",
 		"label_investment": "Investment",
-		"pagination": "Project {number} of {total}",
+		"pagination": "Project",
+		"of": "of",
 		"projects": {
 			"modern_miami_kitchen": {
 				"title": "Modern Miami Kitchen",

@@ -14,43 +14,44 @@
 	import ServicesCards from '../../components/ServicesCards.svelte';
 	import Contact from '../../components/Contact.svelte';
 	import { Award, MapPin, Shield, Heart, Leaf, Wrench } from '@lucide/svelte';
+  import * as m from '$lib/paraglide/messages';
 
 
 	const reasons = [
     {
       icon: Award,
-      title: "Unmatched Expertise",
-      description: "Years of experience in commercial, residential, and custom projects with deep knowledge and skill."
+      title: m['services_page.reasons.unmatched_expertise.title'](),
+      description: m['services_page.reasons.unmatched_expertise.description']()
     },
     {
       icon: Users,
-      title: "Tailored Solutions",
-      description: "Every project is customized to meet your specific needs, vision, budget, and timeline."
+      title: m['services_page.reasons.tailored_solutions.title'](),
+      description: m['services_page.reasons.tailored_solutions.description']()
     },
     {
       icon: MapPin,
-      title: "Local Knowledge",
-      description: "Deep understanding of local building codes, regulations, and market trends."
+      title: m['services_page.reasons.local_knowledge.title'](),
+      description: m['services_page.reasons.local_knowledge.description']()
     },
     {
       icon: Shield,
-      title: "Commitment to Quality",
-      description: "High-quality materials and proven construction techniques for durable, beautiful results."
+      title: m['services_page.reasons.commitment_to_quality.title'](),
+      description: m['services_page.reasons.commitment_to_quality.description']()
     },
     {
       icon: Heart,
-      title: "Customer-Centric Approach",
-      description: "Your satisfaction is our priority with transparent communication and ongoing support."
+      title: m['services_page.reasons.customer_centric_approach.title'](),
+      description: m['services_page.reasons.customer_centric_approach.description']()
     },
     {
       icon: Leaf,
-      title: "Sustainable Practices",
-      description: "Eco-friendly materials and energy-efficient designs to reduce environmental impact."
+      title: m['services_page.reasons.sustainable_practices.title'](),
+      description: m['services_page.reasons.sustainable_practices.description']()
     },
     {
       icon: Wrench,
-      title: "Comprehensive Services",
-      description: "Complete project management from design and planning to construction and finishing."
+      title: m['services_page.reasons.comprehensive_services.title'](),
+      description: m['services_page.reasons.comprehensive_services.description']()
     }
   ];
 
@@ -72,19 +73,18 @@
 	  <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
 		<div>
 		  <h1 class="mb-6 text-4xl font-bold md:text-5xl">
-			Construction & Renovation
+			{m['services_page.hero.heading']()}
 			<span class="block pt-2 whitespace-normal text-secondary">
-			  Transform Your Space
+			  {m['services_page.hero.subheading']()}
 			</span>
 		  </h1>
 		  <p class="mb-8 text-xl text-gray-200">
-			Your trusted partner for commercial construction, residential renovations, and custom builds. 
-			We deliver exceptional results with quality craftsmanship and unmatched dedication to your vision.
+			{m['services_page.hero.description']()}
 		  </p>
 		  <a href="/contact"
 			class="rounded-lg bg-secondary px-8 py-4 text-lg font-semibold text-[#1A365D] transition-all duration-300 hover:scale-105 hover:bg-[#E69A3F]"
 		  >
-			Contact Us
+			{m['contact.title']()}
 		  </a>
 		</div>
 		<div class="relative">
@@ -102,12 +102,11 @@
 	<div class="container mx-auto px-6">
 	  <div class="text-center mb-16">
 		<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-		  Our Construction & Renovation
-		  <span class="block text-blue-900">Services</span>
+		  {m['services_page.hero.secondary_header']()}
+		  <span class="block text-blue-900">{m['services_page.hero.span']()}</span>
 		</h2>
 		<p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-		  With years of expertise and a commitment to quality, we deliver exceptional results 
-		  tailored to your vision across three core service areas.
+		  {m['services_page.hero.secondary_description']()}
 		</p>
 	  </div>
 
@@ -126,12 +125,11 @@
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose
+            {m['services_page.why_choose_us.title']()}
             <span class="block text-blue-900">World Detail Specialist?</span>
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We stand out for our dedication to excellence and comprehensive approach to every project. 
-            Here's what makes us the preferred choice for construction and renovation.
+            {m['services_page.why_choose_us.description']()}
           </p>
         </div>
 

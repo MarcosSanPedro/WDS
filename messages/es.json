@@ -12,6 +12,50 @@
 		"construction": "Construcción",
 		"description": "This is a random text"
 	},
+	"services_page": {
+  "reasons": {
+    "unmatched_expertise": {
+      "title": "Experiencia Inigualable",
+      "description": "Años de experiencia en proyectos comerciales, residenciales y personalizados con profundo conocimiento y habilidad."
+    },
+    "tailored_solutions": {
+      "title": "Soluciones Personalizadas",
+      "description": "Cada proyecto se adapta a tus necesidades específicas, visión, presupuesto y cronograma."
+    },
+    "local_knowledge": {
+      "title": "Conocimiento Local",
+      "description": "Amplio entendimiento de los códigos de construcción locales, regulaciones y tendencias del mercado."
+    },
+    "commitment_to_quality": {
+      "title": "Compromiso con la Calidad",
+      "description": "Materiales de alta calidad y técnicas de construcción comprobadas para resultados duraderos y estéticamente bellos."
+    },
+    "customer_centric_approach": {
+      "title": "Enfoque Centrado en el Cliente",
+      "description": "Tu satisfacción es nuestra prioridad, con comunicación transparente y apoyo constante."
+    },
+    "sustainable_practices": {
+      "title": "Prácticas Sostenibles",
+      "description": "Materiales ecológicos y diseños energéticamente eficientes para reducir el impacto ambiental."
+    },
+    "comprehensive_services": {
+      "title": "Servicios Integrales",
+      "description": "Gestión completa del proyecto desde el diseño y la planificación hasta la construcción y los acabados."
+    }
+  },
+  "hero": {
+    "heading": "Construcción y Renovación",
+    "subheading": "Transforma Tu Espacio",
+    "description": "Tu socio de confianza para construcción comercial, renovaciones residenciales y proyectos personalizados. Entregamos resultados excepcionales con mano de obra de calidad y una dedicación inigualable a tu visión.",
+    "secondary_header": "Nuestros Servicios de Construcción y Renovación",
+    "span": "Servicios",
+    "secondary_description": "Con años de experiencia y un compromiso con la calidad, ofrecemos resultados excepcionales adaptados a tu visión en tres áreas principales."
+  },
+  "why_choose_us": {
+    "title": "Por Qué Elegirnos",
+    "description": "Destacamos por nuestra dedicación a la excelencia y nuestro enfoque integral en cada proyecto. Esto es lo que nos convierte en la elección preferida en construcción y renovación."
+  }
+},
 	"hero": {
 	  "title": "Construyendo Sueños en Realidad",
 	  "subtitle": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
@@ -243,7 +287,8 @@
 	  "after": "Después",
 	  "label_duration": "Duración",
 	  "label_investment": "Inversión",
-	  "pagination": "Proyecto {number} de {total}",
+	  "pagination": "Proyecto",
+	  "of": "de",
 	  "projects": {
 		"modern_miami_kitchen": {
 		  "title": "Cocina Moderna de Miami",
