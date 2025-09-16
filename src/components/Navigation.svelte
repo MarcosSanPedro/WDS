@@ -22,7 +22,7 @@
 		id: string;
 		title: LabelFn;
 		items: MegaLink[];
-		accent: string;
+		headClass: string;
 		link?: { label: LabelFn; href: string };
 	};
 
@@ -65,22 +65,22 @@
 			id: 'residential',
 			title: m['servicesCards.s_residential_title'],
 			items: residentialServices,
-			accent: 'from-emerald-400/60 via-emerald-500/25 to-transparent',
-			link: { label: m['servicesCards.s_residential_cta'], href: '/services/residential' }
+			headClass: 'from-emerald-400 via-emerald-500 to-emerald-600 text-[#0B192F]',
+			link: { label: m['nav.services'], href: '/services/residential' }
 		},
 		{
 			id: 'commercial',
 			title: m['servicesCards.s_commercial_title'],
 			items: commercialServices,
-			accent: 'from-blue-400/60 via-blue-500/20 to-transparent',
-			link: { label: m['servicesCards.s_commercial_cta'], href: '/services/commercial' }
+			headClass: 'from-blue-400 via-blue-500 to-blue-600 text-[#0B192F]',
+			link: { label: m['nav.services'], href: '/services/commercial' }
 		},
 		{
 			id: 'custom',
 			title: m['servicesCards.s_custom_title'],
 			items: customServices,
-			accent: 'from-purple-400/60 via-purple-500/25 to-transparent',
-			link: { label: m['servicesCards.s_custom_cta'], href: '/services/custom' }
+			headClass: 'from-purple-400 via-purple-500 to-purple-600 text-[#0B192F]',
+			link: { label: m['nav.services'], href: '/services/custom' }
 		}
 	];
 
@@ -95,7 +95,7 @@
 			{ label: m['servicesCards.s_custom_title'], href: '/services/custom' },
 			{ label: m['nav.about'], href: '/about' }
 		],
-		accent: 'from-secondary/70 via-secondary/30 to-transparent',
+		headClass: 'from-secondary via-secondary/70 to-secondary/50 text-[#0B192F]',
 		link: { label: m['nav.contact'], href: '/contact' }
 	};
 
@@ -239,32 +239,30 @@
 					{#if servicesMegaOpen}
 						<div
 							id="services-mega-menu"
-							class="absolute left-1/2 top-full z-40 w-screen max-w-6xl -translate-x-1/2 translate-y-3 px-4"
+							class="absolute left-1/2 top-full z-40 w-screen max-w-5xl -translate-x-1/2 translate-y-3 px-4 md:max-w-4xl"
 							on:mouseenter={openMega}
 							on:mouseleave={scheduleMegaClose}
 							role="presentation"
 						>
-							<div class="overflow-hidden rounded-3xl border border-white/10 bg-[#0F2342]/95 p-8 shadow-2xl backdrop-blur-xl">
-								<div class="flex items-center justify-between gap-3 border-b border-white/10 pb-4 text-sm text-blue-100">
+							<div class="overflow-hidden rounded-3xl border border-white/10 bg-[#0F2342]/97 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
+								<div class="flex flex-col gap-4 border-b border-white/10 pb-4 text-sm text-blue-100 md:flex-row md:items-center md:justify-between">
 									<span class="font-semibold uppercase tracking-[0.18em] text-blue-100/80">
 										{m['nav.services']()}
 									</span>
 									<a
 										href="/services"
-										class="inline-flex items-center gap-1 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-white transition hover:bg-secondary hover:text-[#1A365D] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+										class="inline-flex items-center gap-1 rounded-full bg-white/10 px-5 py-2 text-xs font-semibold uppercase tracking-wide text-white transition hover:bg-secondary hover:text-[#1A365D] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 									>
-										<span>{m['nav.services']()}</span>
+										<span>Go to services</span>
 										<ChevronRight class="h-3.5 w-3.5" />
 									</a>
 								</div>
 
-								<div class="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+								<div class="mt-6 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
 									{#each megaCategories as category (category.id)}
-										<div class="group flex h-full flex-col gap-4 rounded-2xl bg-white/5 p-6 ring-1 ring-white/10 transition hover:bg-white/10 hover:ring-secondary/60">
-											<div class="relative overflow-hidden rounded-xl bg-gradient-to-br {category.accent} p-4">
-												<p class="text-xs font-semibold uppercase tracking-widest text-[#0A1D36]/70">
-													{category.title()}
-												</p>
+										<div class="group flex h-full flex-col gap-4 rounded-2xl bg-white/5 p-5 ring-1 ring-white/10 transition hover:bg-white/10 hover:ring-secondary/60">
+											<div class={`rounded-lg bg-gradient-to-r px-4 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-white shadow-inner ${category.headClass}`}>
+												{category.title()}
 											</div>
 
 											<div class="space-y-2">
@@ -285,9 +283,9 @@
 											{#if category.link}
 												<a
 													href={category.link.href}
-													class="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-secondary/90 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[#1A365D] transition hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+													class="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-secondary/90 px-5 py-2 text-xs font-semibold uppercase tracking-wide text-[#1A365D] transition hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 												>
-													<span>{category.link.label()}</span>
+													<span>Go to services</span>
 													<ChevronRight class="h-3.5 w-3.5" />
 												</a>
 											{/if}
@@ -314,7 +312,7 @@
 					aria-label="Toggle menu"
 				>
 					{#if $mobileMenuOpen}
-						<X size={24} />
+						<X class="h-6 w-6" />
 					{:else}
 						<Menu size={24} />
 					{/if}
@@ -333,18 +331,28 @@
 		></div>
 
 		<div
-			class="fixed top-16 right-0 left-0 z-50 md:hidden"
-			in:fade={{ duration: 160 }}
-			out:fade={{ duration: 100 }}
+			class="fixed inset-y-0 right-0 left-0 z-50 md:hidden"
+			in:fly={{ x: 40, duration: 200, easing: quintOut }}
+			out:fly={{ x: 40, duration: 160, easing: quintOut }}
 			role="dialog"
 			aria-modal="true"
 		>
 			<div
-				class="origin-top border-t border-secondary/20 bg-[#1A365D]"
-				in:scale={{ start: 0.98, duration: 160, easing: quintOut }}
-				out:scale={{ duration: 120, easing: quintOut }}
+				class="ml-auto flex h-[calc(100vh-4rem)] w-full max-w-sm flex-col overflow-hidden border-t border-secondary/20 bg-[#1A365D] shadow-xl"
 			>
-				<div class="max-h-[calc(100vh-4.5rem)] space-y-3 overflow-y-auto px-2 pt-2 pb-6 sm:px-3">
+				<div class="flex items-center justify-between px-4 py-3">
+					<span class="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">{m['nav.services']()}</span>
+					<button
+						type="button"
+						on:click={closeMobileMenu}
+						class="rounded-full bg-white/10 p-2 text-white transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+						aria-label="Close menu"
+					>
+						<X class="h-5 w-5" />
+					</button>
+				</div>
+
+				<div class="flex-1 space-y-3 overflow-y-auto px-2 pb-6 sm:px-3">
 					{#each mobileSections as section, i (section.id)}
 						{#if section.type === 'link'}
 							<a
@@ -393,7 +401,7 @@
 												class="mt-2 block rounded-lg bg-secondary/90 px-3 py-2 text-center text-sm font-semibold text-[#1A365D] transition hover:bg-secondary"
 												on:click|preventDefault={() => section.link && handleNavigation(section.link.href)}
 											>
-												{section.link.label()}
+												Go to services
 											</a>
 										{/if}
 									</div>
