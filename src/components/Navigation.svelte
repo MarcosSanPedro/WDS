@@ -327,7 +327,7 @@
 			aria-modal="true"
 		>
 			<div
-				class="ml-auto flex h-[calc(100vh-4rem)] w-full flex-col px-8  overflow-hidden border-t border-secondary/20 bg-[#1A365D] shadow-xl"
+				class="ml-auto flex h-[calc(100vh-4rem)] w-full flex-col px-4  overflow-hidden border-t border-secondary/20 bg-[#1A365D] shadow-xl"
 			>
 				<div class="flex items-center justify-between px-4 py-3">
 					<span class="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">{m['nav.services']()}</span>
@@ -346,7 +346,7 @@
 						{#if section.type === 'link'}
 							<a
 								href={section.href}
-								class={`block rounded-lg px-3 w-36 py-3 mau text-left text-base transition-colors duration-200 ${
+								class={`block w-full rounded-lg px-3 py-3 text-left text-base transition-colors duration-200 ${
 									section.cta
 										? 'bg-secondary text-center font-semibold text-[#1A365D] hover:scale-105 hover:bg-secondary/90 transform'
 										: 'text-white hover:text-secondary'
