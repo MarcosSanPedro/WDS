@@ -13,6 +13,7 @@
 	} from '$lib/stores/ui';
 
 	import { fade, fly } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
 	// Build service dropdown items from service maps
@@ -125,6 +126,7 @@
 	let openDesktopDropdown = '';
 	let openMobileDropdown = '';
 	let desktopCloseTimeout: ReturnType<typeof setTimeout> | null = null;
+	let didAutoOpenMobile = false;
 
 	onMount(() => {
 		const handleScroll = () => updateScrollState();
@@ -140,6 +142,16 @@
 
 	$: if (!$mobileMenuOpen) {
 		openMobileDropdown = '';
+		didAutoOpenMobile = false;
+	}
+
+	// Open first dropdown by default when mobile menu opens (once per open)
+	$: if ($mobileMenuOpen && !openMobileDropdown && !didAutoOpenMobile) {
+		const firstDropdown = mobileSections.find((s) => s.type === 'dropdown');
+		if (firstDropdown) {
+			openMobileDropdown = firstDropdown.id;
+			didAutoOpenMobile = true;
+		}
 	}
 
 	function handleNavigation(href: string) {
@@ -327,7 +339,7 @@
 			aria-modal="true"
 		>
 			<div
-				class="ml-auto flex h-[calc(100vh-4rem)] w-full flex-col px-4  overflow-hidden border-t border-secondary/20 bg-[#1A365D] shadow-xl"
+				class="ml-auto flex h-[100vh] w-full flex-col px-4  overflow-hidden border-t border-secondary/20 bg-[#1A365D] shadow-xl"
 			>
 				<div class="flex items-center justify-between px-4 py-3">
 					<span class="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">{m['nav.services']()}</span>
@@ -346,7 +358,7 @@
 						{#if section.type === 'link'}
 							<a
 								href={section.href}
-								class={`block w-full rounded-lg px-3 py-3 text-left text-base transition-colors duration-200 ${
+								class={`block w-36 rounded-lg px-3 py-3 text-left text-base transition-colors duration-200 ${
 									section.cta
 										? 'bg-secondary text-center font-semibold text-[#1A365D] hover:scale-105 hover:bg-secondary/90 transform'
 										: 'text-white hover:text-secondary'
@@ -376,11 +388,13 @@
 									{/if}
 								</button>
 									{#if openMobileDropdown === section.id}
-											<div class="space-y-1 border-t border-white/10 bg-[#10294B] px-3 py-3">
+											<div class="space-y-1 border-t border-white/10 bg-[#10294B] px-3 py-3" in:slide={{ duration: 200, easing: quintOut }} out:slide={{ duration: 150, easing: quintOut }}>
 												{#if section.showCategoryLink !== false}
 													<a
 														href={section.href}
 														class="block rounded-lg px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/10 hover:text-white focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-secondary"
+														in:fly={{ y: -6, opacity: 0, duration: 180, easing: quintOut }}
+														out:fly={{ y: -6, opacity: 0, duration: 100 }}
 														on:click|preventDefault={() => handleNavigation(section.href)}
 													>
 														{section.label()}
@@ -389,10 +403,12 @@
 														<div class="h-px bg-white/10"></div>
 													{/if}
 												{/if}
-												{#each section.items as item}
+												{#each section.items as item, j}
 													<a
 														href={item.href}
 														class="block rounded-lg px-3 py-2 text-sm text-white/90 transition hover:bg-white/10"
+														in:fly={{ y: -6, opacity: 0, duration: 180, delay: j * 35, easing: quintOut }}
+														out:fly={{ y: -6, opacity: 0, duration: 100 }}
 														on:click|preventDefault={() => handleNavigation(item.href)}
 													>
 														{item.label()}
