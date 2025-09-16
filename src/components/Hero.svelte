@@ -51,7 +51,7 @@
 <section id="home" class="relative flex h-screen items-center justify-center overflow-hidden">
 	<!-- Background Image -->
 	<div
-		class="absolute inset-0 bg-cover bg-fixed bg-center"
+		class="absolute inset-0 bg-cover bg-center"
 		style="background-image: url('/hero-image.webp')"
 	>
 		<div class="absolute inset-0 bg-[#1A365D]/70"></div>
