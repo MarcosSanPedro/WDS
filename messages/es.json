@@ -1,205 +1,3594 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from es!",
+	"hello_world": "¡Hola, {name} desde es!",
 	"nav": {
-		"home": "Inicio",
-		"services": "Servicios",
-		"portfolio": "Portafolio",
-		"about": "Acerca de",
-		"contact": "Obtener Cotización"
+	  "home": "Inicio",
+	  "services": "Servicios",
+	  "portfolio": "Portafolio",
+	  "about": "Acerca de",
+	  "contact": "Obtener Cotización"
 	},
 	"hero": {
-		"title": "Construyendo Sueños en Realidad",
-		"subtitle": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
-		"cta_primary": "Comience Su Proyecto",
-		"cta_secondary": "Ver Nuestra Historia"
+	  "title": "Construyendo Sueños en Realidad",
+	  "subtitle": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
+	  "cta_primary": "Comience Su Proyecto",
+	  "cta_secondary": "Ver Nuestra Historia"
 	},
-	"services": {
-		"title": "Nuestros Servicios",
-		"kitchen": "Renovaciones de Cocina",
-		"bathroom": "Remodelación de Baños",
-		"whole_home": "Renovaciones de Casa Completa",
-		"commercial": "Construcción Comercial",
-		"subtitle": "Desde el concepto hasta la finalización, entregamos artesanía excepcional en todos los aspectos de la construcción residencial y comercial.",
-		"millwork": {
-			"title": "Carpintería Personalizada",
-			"description": "Carpintería artesanal y muebles empotrados que añaden carácter y funcionalidad a cualquier espacio.",
-			"features": {
-				"storage": "Almacenamiento Empotrado",
-				"molding": "Molduras de Corona",
-				"trim": "Molduras Personalizadas"
-			},
-			"feature1": "Almacenamiento Empotrado",
-			"feature2": "Molduras de Corona",
-			"feature3": "Molduras Personalizadas"
+	"about": {
+	  "hero": {
+		"title": "Acerca de World Detail Specialist",
+		"subtitle": "Expertos premier en construcción y remodelación de Miami, construyendo sueños con precisión y pasión."
+	  },
+	  "our_story": {
+		"title": "Nuestra Historia",
+		"paragraph1": "Fundada en el vibrante corazón de Miami, Florida, World Detail Specialist surgió como un faro de excelencia en la competitiva industria de la construcción y remodelación. Nuestro viaje comenzó con una misión singular: entregar una atención inigualable a los detalles en cada proyecto, transformando espacios ordinarios en entornos extraordinarios.",
+		"paragraph2": "Como una empresa líder en construcción de Miami, nos especializamos en remodelaciones residenciales de alta gama, construcción comercial y soluciones innovadoras de desarrollo en todo el sur de Florida. Desde nuestros humildes comienzos abordando renovaciones de cocinas en Miami Beach hasta asegurar contratos comerciales importantes en el condado de Broward, hemos crecido adhiriéndonos a principios fundamentales de calidad, integridad e innovación.",
+		"paragraph3": "Nuestro fundador, con más de dos décadas de experiencia en remodelación en el sur de Florida, imaginó una empresa que no solo cumple con las expectativas de los clientes, sino que las supera mediante técnicas de vanguardia y prácticas sostenibles. Hoy, como una empresa premier de remodelación en Miami, manejamos todo, desde remodelaciones de baños en Coral Gables hasta renovaciones completas de hogares en Palm Beach.",
+		"image_alt": "Proyecto de construcción de World Detail Specialist"
+	  },
+	  "timeline": {
+		"title": "Nuestro Viaje",
+		"items": {
+		  "2010": {
+			"year": "2010",
+			"event": "Fundada World Detail Specialist en Miami",
+			"description": "Comenzamos con una visión de entregar una atención inigualable a los detalles."
+		  },
+		  "2013": {
+			"year": "2013",
+			"event": "Expandimos a Construcción Comercial",
+			"description": "Comenzamos a servir a clientes comerciales en todo el sur de Florida."
+		  },
+		  "2016": {
+			"year": "2016",
+			"event": "Abrimos Oficina en el Condado de Broward",
+			"description": "Extendimos servicios a Fort Lauderdale y áreas circundantes."
+		  },
+		  "2019": {
+			"year": "2019",
+			"event": "Logramos Más de 250 Proyectos Completados",
+			"description": "Hito celebrando nuestro portafolio creciente de éxito."
+		  },
+		  "2022": {
+			"year": "2022",
+			"event": "Lanzamos Iniciativa de Construcción Sostenible",
+			"description": "Comprometidos con prácticas de construcción ecológicas."
+		  },
+		  "2024": {
+			"year": "2024",
+			"event": "Celebrando Más de 500 Transformaciones",
+			"description": "Continuando nuestra misión hacia nuestra visión ambiciosa."
+		  }
+		}
+	  },
+	  "vision": {
+		"paragraph1": "Mirando hacia el futuro, nuestra visión ambiciosa se extiende más allá de la Tierra: no nos detendremos hasta haber construido la primera casa en la luna, simbolizando nuestra dedicación a empujar los límites de lo posible en construcción y desarrollo.",
+		"paragraph2": "Ya sea que esté buscando un contratista de remodelación de cocinas en Miami o un socio para construcción comercial en el sur de Florida, World Detail Specialist está aquí para convertir sus sueños en realidad con precisión y pasión."
+	  },
+	  "values": {
+		"title": "Nuestros Valores",
+		"intro": "Estos principios fundamentales guían cada decisión que tomamos y cada proyecto que emprendemos.",
+		"items": {
+		  "craftsmanship": {
+			"title": "Artesanía",
+			"description": "Cada detalle importa, desde la selección de materiales hasta los acabados finales. Como una empresa líder en construcción de Miami, aseguramos que nuestra artesanía destaque en cada remodelación de cocina, renovación de baño y construcción comercial, utilizando materiales premium obtenidos localmente en el sur de Florida para garantizar longevidad y atractivo estético. Nuestros artesanos calificados aportan décadas de experiencia a cada proyecto, asegurando que cada esquina, unión y superficie cumpla con nuestros estándares exigentes."
+		  },
+		  "integrity": {
+			"title": "Integridad",
+			"description": "Precios transparentes, plazos honestos y entrega confiable. Creemos en construir confianza a través de una comunicación clara, por eso nuestros clientes elogian nuestro enfoque directo en proyectos de remodelación en Miami, evitando tarifas ocultas y cumpliendo promesas cada vez. Nuestro compromiso con la integridad se extiende a cada aspecto de nuestro negocio, desde consultas iniciales hasta revisiones finales, asegurando transparencia completa durante su viaje de construcción."
+		  },
+		  "innovation": {
+			"title": "Innovación",
+			"description": "Abrazando técnicas de vanguardia y prácticas sostenibles. Desde herramientas de visualización 3D hasta métodos de construcción ecológicos, estamos a la vanguardia de la innovación en remodelación en el sur de Florida, ayudando a los clientes a lograr hogares energéticamente eficientes y espacios comerciales modernos. Nuestra inversión en la última tecnología y prácticas de construcción sostenibles nos posiciona como líderes en la industria de la construcción en evolución."
+		  },
+		  "client_centricity": {
+			"title": "Centrado en el Cliente",
+			"description": "Su visión es nuestro plano; escuchamos, adaptamos y entregamos. Nuestra estrategia enfocada en el cliente asegura soluciones personalizadas para cada proyecto, ya sea una renovación de hogar de lujo en Miami o un desarrollo comercial en el condado de Broward. Creemos que los proyectos de construcción exitosos comienzan entendiendo las necesidades únicas, estilo de vida y aspiraciones de nuestros clientes, luego traduciéndolas en resultados tangibles y hermosos."
+		  }
+		}
+	  },
+	  "why_choose_us": {
+		"title": "Por Qué Elegirnos",
+		"intro": "Descubra qué distingue a World Detail Specialist como la empresa premier de construcción y remodelación de Miami.",
+		"items": {
+		  "local_expertise": {
+			"title": "Expertise Local en Miami y el Sur de Florida",
+			"description": "Como una empresa de construcción nativa de Miami, entendemos los desafíos únicos de construir en un clima tropical, desde diseños resistentes a huracanes hasta materiales a prueba de humedad, asegurando que su proyecto de remodelación resista los elementos. Nuestro profundo conocimiento de los códigos de construcción locales, procesos de permisos y consideraciones ambientales nos da una ventaja distinta en la entrega de proyectos exitosos en todo el sur de Florida."
+		  },
+		  "comprehensive_services": {
+			"title": "Servicios Completos",
+			"description": "Desde la consulta inicial hasta la revisión final, ofrecemos soluciones de extremo a extremo para remodelación residencial, construcción comercial y desarrollos personalizados, convirtiéndonos en la opción preferida para remodelación de cocinas en Miami y renovaciones de baños en el condado de Broward. Nuestro enfoque integrado elimina la necesidad de múltiples contratistas, agilizando el cronograma de su proyecto y asegurando calidad consistente en todo momento."
+		  },
+		  "proven_track_record": {
+			"title": "Historial Probado",
+			"description": "Con cientos de proyectos exitosos, nuestro portafolio demuestra expertise en renovaciones de hogares de lujo, construcciones de oficinas y desarrollos multifamiliares en todo el sur de Florida, respaldado por premios de la industria y satisfacción del cliente. Nuestro historial habla de nuestra capacidad para manejar proyectos de cualquier escala y complejidad, desde remodelaciones íntimas de baños hasta desarrollos comerciales a gran escala."
+		  },
+		  "sustainable_practices": {
+			"title": "Prácticas Sostenibles",
+			"description": "Comprometidos con la construcción ecológica, usamos materiales verdes y técnicas energéticamente eficientes para reducir el impacto ambiental, atrayendo a clientes que buscan remodelación sostenible en Miami o construcción verde en el sur de Florida. Nuestras iniciativas de sostenibilidad no solo benefician al medio ambiente, sino que también proporcionan ahorros de costos a largo plazo a través de una eficiencia energética mejorada y durabilidad."
+		  },
+		  "cutting_edge_tech": {
+			"title": "Tecnología de Vanguardia",
+			"description": "Utilizando modelado 3D, mediciones láser y software de gestión de proyectos, agilizamos procesos para resultados más rápidos y precisos en cada proyecto de remodelación en Miami. Nuestro enfoque impulsado por la tecnología minimiza errores, reduce desperdicios y proporciona a los clientes visualizaciones claras de sus proyectos antes de que comience la construcción."
+		  },
+		  "customized_solutions": {
+			"title": "Soluciones Personalizadas",
+			"description": "Diseños adaptados que reflejan su estilo y necesidades, ya sean cocinas minimalistas modernas o remodelaciones tradicionales de baños, distinguiéndonos como líderes innovadores en construcción en Florida. No creemos en soluciones únicas; en cambio, creamos diseños únicos que coinciden perfectamente con su visión, estilo de vida y requisitos presupuestarios."
+		  },
+		  "competitive_pricing": {
+			"title": "Precios Competitivos con Valor",
+			"description": "Precios transparentes y orientados al valor aseguran que obtenga calidad premium sin gastar de más, ideal para propietarios y negocios conscientes del presupuesto en Miami. Nuestra estructura de precios está diseñada para proporcionar el máximo valor, combinando tarifas competitivas con calidad superior y servicio que entrega resultados duraderos."
+		  },
+		  "community_focus": {
+			"title": "Enfoque Centrado en la Comunidad",
+			"description": "Profundamente arraigados en el sur de Florida, apoyamos a proveedores locales e iniciativas, fomentando relaciones a largo plazo y contribuyendo al crecimiento de la región. Nuestro compromiso con la comunidad se extiende más allá de proyectos individuales a apoyar negocios locales, crear empleos y contribuir a la vitalidad económica del sur de Florida."
+		  }
+		}
+	  },
+	  "expertise": {
+		"title": "Nuestra Expertise",
+		"intro": "Sumérjase en nuestros servicios especializados y experiencia que nos establecen como la autoridad en construcción del sur de Florida.",
+		"items": {
+		  "residential": {
+			"title": "Remodelación Residencial",
+			"description": "Especializándonos en renovaciones de cocinas y baños en Miami, transformamos hogares con gabinetes personalizados, accesorios de alta gama e integraciones de hogares inteligentes, asegurando funcionalidad y lujo para estilos de vida en el sur de Florida. Nuestra expertise residencial abarca todo, desde actualizaciones menores hasta transformaciones completas de hogares, siempre enfocándonos en mejorar tanto el atractivo estético como la funcionalidad práctica."
+		  },
+		  "commercial": {
+			"title": "Construcción Comercial",
+			"description": "Desde espacios comerciales en Miami Beach hasta construcciones de oficinas en Fort Lauderdale, nuestros proyectos comerciales se centran en durabilidad, estética y cumplimiento de regulaciones locales, entregando espacios que mejoran las operaciones comerciales. Entendemos que los espacios comerciales deben equilibrar forma y función mientras cumplen con requisitos regulatorios estrictos y plazos ajustados."
+		  },
+		  "custom_developments": {
+			"title": "Desarrollos Personalizados",
+			"description": "Impulsando la innovación con diseños sostenibles y características a prueba de futuro, estamos preparados para proyectos ambiciosos, alineándonos con nuestra visión de construcción extraterrestre. Nuestros servicios de desarrollo personalizados combinan diseño de vanguardia con expertise práctica en construcción para crear espacios únicos que empujan los límites de la construcción convencional."
+		  },
+		  "materials_techniques": {
+			"title": "Maestría en Materiales y Técnicas",
+			"description": "Expertise en la selección de materiales premium resistentes al clima para el clima de Florida, combinado con técnicas avanzadas como la construcción modular para eficiencia. Nuestro profundo entendimiento de la ciencia de materiales y técnicas de construcción asegura que cada proyecto se construya para durar en el entorno desafiante del sur de Florida."
+		  }
+		}
+	  },
+	  "credentials": {
+		"title": "Credenciales y Logros",
+		"intro": "Nuestras certificaciones, premios y apariciones en medios demuestran nuestro compromiso con la excelencia y el liderazgo en la industria.",
+		"items": {
+		  "gc_license": {
+			"name": "Licencia de Contratista General",
+			"description": "Totalmente licenciado para realizar trabajos de construcción en toda Florida"
+		  },
+		  "nari_remodeler": {
+			"name": "Remodelador Certificado NARI",
+			"description": "Certificación de la Asociación Nacional de la Industria de Remodelación"
+		  },
+		  "epa_lead_safe": {
+			"name": "Certificación EPA Lead-Safe",
+			"description": "Certificado para remoción segura de pintura con plomo y renovación"
+		  },
+		  "osha": {
+			"name": "Certificaciones de Seguridad OSHA",
+			"description": "Entrenamiento integral en seguridad laboral y cumplimiento"
+		  },
+		  "nari_coty": {
+			"name": "Contratista del Año NARI",
+			"description": "Reconocido por excelencia en remodelación y construcción"
+		  },
+		  "houzz_service": {
+			"name": "Mejor Servicio Houzz",
+			"description": "Contratista mejor calificado en la plataforma líder de diseño de hogares"
+		  },
+		  "miami_design_feature": {
+			"name": "Destacado en Miami Home & Design",
+			"description": "Destacado en la principal publicación de diseño del sur de Florida"
+		  },
+		  "bbb_aplus": {
+			"name": "Better Business Bureau A+",
+			"description": "Calificación más alta por ética empresarial y servicio al cliente"
+		  }
+		}
+	  },
+	  "community": {
+		"title": "Involucramiento Comunitario",
+		"paragraph1": "En World Detail Specialist, estamos profundamente comprometidos con la comunidad de Miami y el sur de Florida que ha apoyado nuestro crecimiento como una empresa líder en construcción. Participamos activamente en iniciativas locales, como asociarnos con Habitat for Humanity para proyectos de vivienda asequible en el condado de Miami-Dade, patrocinando exposiciones de diseño de hogares en Broward y contribuyendo a limpiezas ambientales en Palm Beach.",
+		"paragraph2": "Nuestro involucramiento se extiende a programas educativos, donde ofrecemos talleres sobre técnicas de remodelación sostenible para aspirantes a constructores en Florida. Al apoyar a proveedores locales y emplear talento del sur de Florida, impulsamos la economía mientras aseguramos que nuestros proyectos reflejen la vibrante cultura de la región.",
+		"paragraph3": "Ya sea renovando centros comunitarios o voluntariando para recuperación de desastres después de huracanes, nuestros esfuerzos enfocados en la comunidad subrayan nuestro rol como más que una empresa de remodelación: somos socios invertidos en construir un Miami más fuerte.",
+		"gallery_alt_prefix": "Involucramiento comunitario"
+	  },
+	  "cta": {
+		"title": "¿Listo para Trabajar con el Equipo Premier de Construcción de Miami?",
+		"subtitle": "Discutamos cómo nuestra expertise, valores y compromiso con la excelencia pueden dar vida a su visión.",
+		"button": "Comience Su Proyecto Hoy"
+	  }
+	},
+	"process": {
+	  "heading": "Nuestro Proceso",
+	  "subheading": "Desde la consulta inicial hasta la finalización final, nuestro enfoque sistemático asegura que su proyecto se ejecute sin problemas y supere las expectativas.",
+	  "cta": "Comience Su Proyecto Hoy",
+	  "steps": {
+		"consultation": {
+		  "title": "Consulta Inicial",
+		  "description": "Nos reunimos con usted para entender su visión, necesidades y requisitos presupuestarios."
 		},
 		"design": {
-			"title": "Consulta de Diseño",
-			"description": "Orientación experta en diseño para ayudarte a visualizar y planificar tu proyecto de renovación perfecto.",
-			"features": {
-				"renderings": "Renderizados 3D",
-				"materials": "Selección de Materiales",
-				"planning": "Planificación de Proyectos"
-			},
-			"feature1": "Renderizados 3D",
-			"feature2": "Selección de Materiales",
-			"feature3": "Planificación de Proyectos"
+		  "title": "Diseño y Planificación",
+		  "description": "Nuestro equipo crea planes detallados y renderizados 3D para su aprobación."
 		},
-		"learn_more": "Saber Más"
+		"permits": {
+		  "title": "Permisos y Aprobaciones",
+		  "description": "Manejamos todos los permisos y aprobaciones regulatorias necesarias para su proyecto."
+		},
+		"construction": {
+		  "title": "Fase de Construcción",
+		  "description": "Artesanos calificados dan vida a su visión con atención meticulosa a los detalles."
+		},
+		"inspection": {
+		  "title": "Inspección de Calidad",
+		  "description": "Controles de calidad exhaustivos aseguran que todo cumpla con nuestros altos estándares."
+		},
+		"completion": {
+		  "title": "Finalización del Proyecto",
+		  "description": "Revisión final y entrega de su espacio bellamente transformado."
+		}
+	  }
 	},
 	"portfolio": {
-		"title": "Nuestro Portafolio",
-		"view_project": "Ver Proyecto"
+	  "title": "Nuestro Portafolio",
+	  "view_project": "Ver Proyecto",
+	  "tag": "Nuestro Trabajo",
+	  "heading": "Exhibición de Portafolio",
+	  "subheading": "Descubra nuestros proyectos excepcionales que combinan diseño innovador con artesanía superior",
+	  "before": "Antes",
+	  "after": "Después",
+	  "label_duration": "Duración",
+	  "label_investment": "Inversión",
+	  "pagination": "Proyecto {number} de {total}",
+	  "projects": {
+		"modern_miami_kitchen": {
+		  "title": "Cocina Moderna de Miami",
+		  "category": "Renovación de Cocina",
+		  "description": "Transformación completa con gabinetes personalizados, encimeras de cuarzo y electrodomésticos premium con integración de hogar inteligente.",
+		  "duration": "6 semanas",
+		  "budget": "$45,000"
+		},
+		"luxury_bathroom_suite": {
+		  "title": "Suite de Baño de Lujo",
+		  "category": "Remodelación de Baño",
+		  "description": "Diseño inspirado en spa con acabados de mármol, ducha de lluvia, pisos calefactados y tocador personalizado con iluminación integrada.",
+		  "duration": "4 semanas",
+		  "budget": "$32,000"
+		},
+		"contemporary_office_space": {
+		  "title": "Espacio de Oficina Contemporáneo",
+		  "category": "Renovación Comercial",
+		  "description": "Construcción moderna de oficina con plano de piso abierto, carpintería personalizada, iluminación LED eficiente y espacios de trabajo colaborativos.",
+		  "duration": "8 semanas",
+		  "budget": "$75,000"
+		}
+	  }
 	},
 	"contact": {
-		"title": "Contáctanos",
-		"get_estimate": "Obtener Cotización Gratis",
-		"phone": "Teléfono",
-		"email": "Correo Electrónico"
+	  "title": "Contáctanos",
+	  "get_estimate": "Obtener Cotización Gratis",
+	  "phone": "Teléfono",
+	  "email": "Correo Electrónico",
+	  "lead": "¿Listo para transformar su espacio? Contáctenos hoy para una consulta y cotización gratuita.",
+	  "form": {
+		"title": "Comience Su Proyecto",
+		"labels": {
+		  "name": "Nombre Completo *",
+		  "email": "Dirección de Correo Electrónico *",
+		  "phone": "Número de Teléfono",
+		  "project_type": "Tipo de Proyecto *",
+		  "budget": "Presupuesto Estimado",
+		  "message": "Detalles del Proyecto *"
+		},
+		"placeholders": {
+		  "name": "Su nombre completo",
+		  "email": "su.correo@ejemplo.com",
+		  "phone": "(555) 123-4567",
+		  "message": "Cuéntenos sobre su visión del proyecto, cronograma y cualquier requisito específico..."
+		},
+		"project_type": {
+		  "placeholder": "Seleccione tipo de proyecto",
+		  "options": {
+			"residential": "Residencial",
+			"commercial": "Comercial",
+			"custom": "Personalizado"
+		  }
+		},
+		"budget": {
+		  "placeholder": "Seleccione rango de presupuesto",
+		  "options": {
+			"0_25k": "$0 - $25,000",
+			"25k_50k": "$25,000 - $50,000",
+			"50k_100k": "$50,000 - $100,000",
+			"100k_200k": "$100,000 - $200,000",
+			"200k_plus": "$200,000+"
+		  }
+		},
+		"submit": "Obtener Cotización Gratuita",
+		"success": "¡Gracias por su interés! Nos contactaremos con usted dentro de 24 horas."
+	  },
+	  "info": {
+		"title": "Información de Contacto",
+		"phone_label": "Teléfono",
+		"phone_value": "(305) 555-0123",
+		"email_label": "Correo Electrónico",
+		"email_value": "info@wdsbuilders.com",
+		"office_label": "Oficina",
+		"office_address_line1": "123 Construction Ave",
+		"office_address_line2": "Miami, FL 33101",
+		"hours_label": "Horarios",
+		"hours_value": "Lun-Vie: 8AM-6PM\nSáb: 9AM-4PM"
+	  },
+	  "service_areas": {
+		"title": "Áreas de Servicio",
+		"intro": "Servimos con orgullo al sur de Florida incluyendo:",
+		"items": {
+		  "miami": "Miami",
+		  "fort_lauderdale": "Fort Lauderdale",
+		  "boca_raton": "Boca Raton",
+		  "west_palm_beach": "West Palm Beach",
+		  "aventura": "Aventura",
+		  "coral_gables": "Coral Gables"
+		}
+	  }
 	},
 	"company": {
-		"name": "World Detail Specialist",
-		"short_name": "WDS"
+	  "name": "World Detail Specialist",
+	  "short_name": "WDS"
 	},
 	"meta": {
-		"home_title": "Renovación y Construcción de Casas en Miami | World Detail Specialist",
-		"home_description": "Contratistas galardonados transformando hogares y negocios del sur de Florida. Vea nuestro trabajo y obtenga una cotización gratuita hoy."
+	  "home_title": "Renovación y Construcción de Casas en Miami | World Detail Specialist",
+	  "home_description": "Contratistas galardonados transformando hogares y negocios del sur de Florida. Vea nuestro trabajo y obtenga una cotización gratuita hoy."
 	},
 	"stats": {
-		"projects_completed": "Proyectos Completados",
-		"years_experience": "Años de Experiencia",
-		"happy_clients": "Clientes Satisfechos",
-		"average_rating": "Calificación Promedio"
+	  "projects_completed": "Proyectos Completados",
+	  "years_experience": "Años de Experiencia",
+	  "happy_clients": "Clientes Satisfechos",
+	  "average_rating": "Calificación Promedio"
 	},
 	"accessibility": {
-		"title": "Declaración de Accesibilidad | World Detail Specialist",
-		"meta_description": "World Detail Specialist se compromete a garantizar la accesibilidad digital para personas con discapacidades. Conozca nuestros esfuerzos de accesibilidad.",
-		"heading": "Declaración de Accesibilidad",
-		"last_updated": "Última actualización:",
-		"date": "1 de enero de 2024",
-		"commitment_heading": "Nuestro Compromiso",
-		"commitment_text": "World Detail Specialist se compromete a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes.",
-		"standards_heading": "Estándares",
-		"standards_text": "Nos esforzamos por cumplir con los estándares de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 Nivel AA. Estas pautas explican cómo hacer que el contenido web sea accesible para personas con una amplia gama de discapacidades.",
-		"features_heading": "Características de Accesibilidad",
-		"features_intro": "Nuestro sitio web incluye las siguientes características de accesibilidad:",
-		"feature_keyboard": "Soporte de navegación por teclado",
-		"feature_screen_reader": "Compatibilidad con lectores de pantalla",
-		"feature_contrast": "Esquemas de color de alto contraste",
-		"feature_alt_text": "Texto alternativo descriptivo para imágenes",
-		"feature_headings": "Estructura clara de encabezados",
-		"feature_focus": "Indicadores de enfoque para elementos interactivos",
-		"feature_motion": "Opciones de movimiento reducido",
-		"efforts_heading": "Esfuerzos Continuos",
-		"efforts_text": "Revisamos regularmente nuestro sitio web para identificar y corregir problemas de accesibilidad. Nuestro equipo recibe capacitación sobre las mejores prácticas de accesibilidad, y trabajamos con expertos en accesibilidad para asegurar que nuestro sitio cumpla con los estándares actuales.",
-		"feedback_heading": "Comentarios",
-		"feedback_text": "Agradecemos sus comentarios sobre la accesibilidad de nuestro sitio web. Si encuentra alguna barrera de accesibilidad o tiene sugerencias para mejorar, por favor contáctenos:",
-		"contact_email": "Correo electrónico",
-		"contact_phone": "Teléfono",
-		"contact_mail": "Correo postal",
-		"alternative_heading": "Acceso Alternativo",
-		"alternative_text": "Si no puede acceder a algún contenido o usar alguna función en nuestro sitio web debido a una discapacidad, estaremos encantados de proporcionar la información a través de medios alternativos. Por favor contáctenos usando la información anterior."
+	  "title": "Declaración de Accesibilidad | World Detail Specialist",
+	  "meta_description": "World Detail Specialist se compromete a garantizar la accesibilidad digital para personas con discapacidades. Conozca nuestros esfuerzos de accesibilidad.",
+	  "heading": "Declaración de Accesibilidad",
+	  "last_updated": "Última actualización:",
+	  "date": "1 de enero de 2024",
+	  "commitment_heading": "Nuestro Compromiso",
+	  "commitment_text": "World Detail Specialist se compromete a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes.",
+	  "standards_heading": "Estándares",
+	  "standards_text": "Nos esforzamos por cumplir con los estándares de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 Nivel AA. Estas pautas explican cómo hacer que el contenido web sea accesible para personas con una amplia gama de discapacidades.",
+	  "features_heading": "Características de Accesibilidad",
+	  "features_intro": "Nuestro sitio web incluye las siguientes características de accesibilidad:",
+	  "feature_keyboard": "Soporte de navegación por teclado",
+	  "feature_screen_reader": "Compatibilidad con lectores de pantalla",
+	  "feature_contrast": "Esquemas de color de alto contraste",
+	  "feature_alt_text": "Texto alternativo descriptivo para imágenes",
+	  "feature_headings": "Estructura clara de encabezados",
+	  "feature_focus": "Indicadores de enfoque para elementos interactivos",
+	  "feature_motion": "Opciones de movimiento reducido",
+	  "efforts_heading": "Esfuerzos Continuos",
+	  "efforts_text": "Revisamos regularmente nuestro sitio web para identificar y corregir problemas de accesibilidad. Nuestro equipo recibe capacitación sobre las mejores prácticas de accesibilidad, y trabajamos con expertos en accesibilidad para asegurar que nuestro sitio cumpla con los estándares actuales.",
+	  "feedback_heading": "Comentarios",
+	  "feedback_text": "Agradecemos sus comentarios sobre la accesibilidad de nuestro sitio web. Si encuentra alguna barrera de accesibilidad o tiene sugerencias para mejorar, por favor contáctenos:",
+	  "contact_email": "Correo electrónico",
+	  "contact_phone": "Teléfono",
+	  "contact_mail": "Correo postal",
+	  "alternative_heading": "Acceso Alternativo",
+	  "alternative_text": "Si no puede acceder a algún contenido o usar alguna función en nuestro sitio web debido a una discapacidad, estaremos encantados de proporcionar la información a través de medios alternativos. Por favor contáctenos usando la información anterior."
 	},
 	"privacy": {
-		"title": "Política de Privacidad | World Detail Specialist",
-		"meta_description": "Política de Privacidad de World Detail Specialist. Aprenda cómo recopilamos, usamos y protegemos su información personal.",
-		"heading": "Política de Privacidad",
-		"last_updated": "Última actualización:",
-		"date": "1 de enero de 2024",
-		"information_collect_heading": "Información que Recopilamos",
-		"information_collect_intro": "Recopilamos información que nos proporciona directamente, como cuando usted:",
-		"collect_item1": "Completa nuestros formularios de contacto o solicita cotizaciones",
-		"collect_item2": "Se suscribe a nuestro boletín informativo",
-		"collect_item3": "Se comunica con nosotros por teléfono, correo electrónico o chat",
-		"collect_item4": "Participa en encuestas o promociones",
-		"how_use_heading": "Cómo Usamos Su Información",
-		"how_use_intro": "Usamos la información que recopilamos para:",
-		"use_item1": "Proporcionar, mantener y mejorar nuestros servicios",
-		"use_item2": "Procesar y completar transacciones",
-		"use_item3": "Enviarle avisos técnicos y mensajes de soporte",
-		"use_item4": "Comunicarnos con usted sobre productos, servicios y eventos",
-		"use_item5": "Monitorear y analizar tendencias y uso",
-		"sharing_heading": "Compartir Información",
-		"sharing_text": "No vendemos, intercambiamos o transferimos de otra manera su información personal a terceros sin su consentimiento, excepto como se describe en esta política.",
-		"security_heading": "Seguridad de Datos",
-		"security_text": "Implementamos medidas de seguridad apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción.",
-		"contact_heading": "Contáctenos",
-		"contact_intro": "Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en:",
-		"company_name": "World Detail Specialist",
-		"company_address1": "123 Construction Ave",
-		"company_address2": "Miami, FL 33101",
-		"contact_email": "Correo electrónico: privacy@wdsbuilders.com",
-		"contact_phone": "Teléfono: (305) 555-0123"
+	  "title": "Política de Privacidad | World Detail Specialist",
+	  "meta_description": "Política de Privacidad de World Detail Specialist. Aprenda cómo recopilamos, usamos y protegemos su información personal.",
+	  "heading": "Política de Privacidad",
+	  "last_updated": "Última actualización:",
+	  "date": "1 de enero de 2024",
+	  "information_collect_heading": "Información que Recopilamos",
+	  "information_collect_intro": "Recopilamos información que nos proporciona directamente, como cuando usted:",
+	  "collect_item1": "Completa nuestros formularios de contacto o solicita cotizaciones",
+	  "collect_item2": "Se suscribe a nuestro boletín informativo",
+	  "collect_item3": "Se comunica con nosotros por teléfono, correo electrónico o chat",
+	  "collect_item4": "Participa en encuestas o promociones",
+	  "how_use_heading": "Cómo Usamos Su Información",
+	  "how_use_intro": "Usamos la información que recopilamos para:",
+	  "use_item1": "Proporcionar, mantener y mejorar nuestros servicios",
+	  "use_item2": "Procesar y completar transacciones",
+	  "use_item3": "Enviarle avisos técnicos y mensajes de soporte",
+	  "use_item4": "Comunicarnos con usted sobre productos, servicios y eventos",
+	  "use_item5": "Monitorear y analizar tendencias y uso",
+	  "sharing_heading": "Compartir Información",
+	  "sharing_text": "No vendemos, intercambiamos o transferimos de otra manera su información personal a terceros sin su consentimiento, excepto como se describe en esta política.",
+	  "security_heading": "Seguridad de Datos",
+	  "security_text": "Implementamos medidas de seguridad apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción.",
+	  "contact_heading": "Contáctenos",
+	  "contact_intro": "Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en:",
+	  "company_name": "World Detail Specialist",
+	  "company_address1": "123 Construction Ave",
+	  "company_address2": "Miami, FL 33101",
+	  "contact_email": "Correo electrónico: privacy@wdsbuilders.com",
+	  "contact_phone": "Teléfono: (305) 555-0123"
 	},
 	"terms": {
-		"title": "Términos y Condiciones | World Detail Specialist",
-		"meta_description": "Términos y Condiciones para los servicios de construcción de World Detail Specialist. Lea nuestros términos y condiciones de servicio.",
-		"heading": "Términos y Condiciones",
-		"last_updated": "Última actualización:",
-		"date": "1 de enero de 2024",
-		"acceptance_heading": "Aceptación de Términos",
-		"acceptance_text": "Al acceder y usar nuestro sitio web y servicios, usted acepta y está de acuerdo en estar sujeto a los términos y disposiciones de este acuerdo.",
-		"services_heading": "Servicios",
-		"services_intro": "World Detail Specialist proporciona servicios de construcción y renovación que incluyen, pero no se limitan a:",
-		"service_kitchen": "Renovaciones de cocina",
-		"service_bathroom": "Remodelación de baños",
-		"service_whole_home": "Renovaciones de casa completa",
-		"service_commercial": "Construcción comercial",
-		"service_design": "Servicios de consulta de diseño",
-		"estimates_heading": "Cotizaciones y Contratos",
-		"estimates_text": "Todas las cotizaciones proporcionadas son preliminares y están sujetas a cambios basados en las especificaciones finales del proyecto. Se ejecutarán contratos formales antes de que comience cualquier trabajo.",
-		"payment_heading": "Términos de Pago",
-		"payment_intro": "Los términos de pago se especificarán en los contratos de proyectos individuales. Generalmente, requerimos:",
-		"payment_deposit": "Depósito inicial al firmar el contrato",
-		"payment_progress": "Pagos de progreso basados en hitos del proyecto",
-		"payment_final": "Pago final al completar el proyecto",
-		"warranty_heading": "Garantía",
-		"warranty_text": "Proporcionamos una garantía de 2 años en la mano de obra y honramos todas las garantías del fabricante en materiales y accesorios.",
-		"liability_heading": "Limitación de Responsabilidad",
-		"liability_text": "Nuestra responsabilidad está limitada al valor del contrato del proyecto específico. Mantenemos cobertura de seguro integral para todos los proyectos.",
-		"contact_heading": "Información de Contacto",
-		"contact_intro": "Para preguntas sobre estos términos, por favor contáctenos en:",
-		"company_name": "World Detail Specialist",
-		"company_address1": "123 Construction Ave",
-		"company_address2": "Miami, FL 33101",
-		"contact_email": "Correo electrónico: legal@wdsbuilders.com",
-		"contact_phone": "Teléfono: (305) 555-0123",
-		"license": "Licencia #CBC123456"
+	  "title": "Términos y Condiciones | World Detail Specialist",
+	  "meta_description": "Términos y Condiciones para los servicios de construcción de World Detail Specialist. Lea nuestros términos y condiciones de servicio.",
+	  "heading": "Términos y Condiciones",
+	  "last_updated": "Última actualización:",
+	  "date": "1 de enero de 2024",
+	  "acceptance_heading": "Aceptación de Términos",
+	  "acceptance_text": "Al acceder y usar nuestro sitio web y servicios, usted acepta y está de acuerdo en estar sujeto a los términos y disposiciones de este acuerdo.",
+	  "services_heading": "Servicios",
+	  "services_intro": "World Detail Specialist proporciona servicios de construcción y renovación que incluyen, pero no se limitan a:",
+	  "service_kitchen": "Renovaciones de cocina",
+	  "service_bathroom": "Remodelación de baños",
+	  "service_whole_home": "Renovaciones de casa completa",
+	  "service_commercial": "Construcción comercial",
+	  "service_design": "Servicios de consulta de diseño",
+	  "estimates_heading": "Cotizaciones y Contratos",
+	  "estimates_text": "Todas las cotizaciones proporcionadas son preliminares y están sujetas a cambios basados en las especificaciones finales del proyecto. Se ejecutarán contratos formales antes de que comience cualquier trabajo.",
+	  "payment_heading": "Términos de Pago",
+	  "payment_intro": "Los términos de pago se especificarán en los contratos de proyectos individuales. Generalmente, requerimos:",
+	  "payment_deposit": "Depósito inicial al firmar el contrato",
+	  "payment_progress": "Pagos de progreso basados en hitos del proyecto",
+	  "payment_final": "Pago final al completar el proyecto",
+	  "warranty_heading": "Garantía",
+	  "warranty_text": "Proporcionamos una garantía de 2 años en la mano de obra y honramos todas las garantías del fabricante en materiales y accesorios.",
+	  "liability_heading": "Limitación de Responsabilidad",
+	  "liability_text": "Nuestra responsabilidad está limitada al valor del contrato del proyecto específico. Mantenemos cobertura de seguro integral para todos los proyectos.",
+	  "contact_heading": "Información de Contacto",
+	  "contact_intro": "Para preguntas sobre estos términos, por favor contáctenos en:",
+	  "company_name": "World Detail Specialist",
+	  "company_address1": "123 Construction Ave",
+	  "company_address2": "Miami, FL 33101",
+	  "contact_email": "Correo electrónico: legal@wdsbuilders.com",
+	  "contact_phone": "Teléfono: (305) 555-0123",
+	  "license": "Licencia #CBC123456"
 	},
 	"error": {
-		"title": "404 - Página No Encontrada | World Detail Specialist",
-		"meta_description": "La página que está buscando no se pudo encontrar. Regrese a la página de inicio de World Detail Specialist.",
-		"heading": "Página No Encontrada",
-		"description": "Lo sentimos, no pudimos encontrar la página que está buscando. Podría haber sido movida, eliminada, o ingresó una URL incorrecta.",
-		"go_home": "Ir al Inicio",
-		"go_back": "Regresar",
-		"looking_for": "¿Buscando algo específico?",
-		"our_services": "Nuestros Servicios",
-		"portfolio": "Portafolio",
-		"about_us": "Acerca de Nosotros",
-		"contact": "Contacto"
+	  "title": "404 - Página No Encontrada | World Detail Specialist",
+	  "meta_description": "La página que está buscando no se pudo encontrar. Regrese a la página de inicio de World Detail Specialist.",
+	  "heading": "Página No Encontrada",
+	  "description": "Lo sentimos, no pudimos encontrar la página que está buscando. Podría haber sido movida, eliminada, o ingresó una URL incorrecta.",
+	  "go_home": "Ir al Inicio",
+	  "go_back": "Regresar",
+	  "looking_for": "¿Buscando algo específico?",
+	  "our_services": "Nuestros Servicios",
+	  "portfolio": "Portafolio",
+	  "about_us": "Acerca de Nosotros",
+	  "contact": "Contacto"
 	},
 	"footer": {
-		"company_description": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
-		"services_heading": "Servicios",
-		"kitchen_renovations": "Renovaciones de Cocina",
-		"bathroom_remodeling": "Remodelación de Baños",
-		"whole_home_renovations": "Renovaciones de Casa Completa",
-		"commercial_construction": "Construcción Comercial",
-		"custom_millwork": "Carpintería Personalizada",
-		"quick_links": "Enlaces Rápidos",
-		"home": "Inicio",
-		"services": "Servicios",
-		"portfolio": "Portafolio",
-		"about": "Acerca de",
-		"contact": "Contacto",
-		"contact_info": "Información de Contacto",
-		"phone": "(305) 555-0123",
-		"email": "info@wdsbuilders.com",
-		"address": "123 Construction Ave\nMiami, FL 33101",
-		"copyright": "© 2024 WDS Construction. Todos los derechos reservados.",
-		"privacy_policy": "Política de Privacidad",
-		"terms_service": "Términos de Servicio",
-		"accessibility": "Accesibilidad"
+	  "company_description": "La empresa de construcción líder del sur de Florida, transformando hogares y espacios comerciales con artesanía e innovación incomparables.",
+	  "services_heading": "Servicios",
+	  "kitchen_renovations": "Renovaciones de Cocina",
+	  "bathroom_remodeling": "Remodelación de Baños",
+	  "whole_home_renovations": "Renovaciones de Casa Completa",
+	  "commercial_construction": "Construcción Comercial",
+	  "custom_millwork": "Carpintería Personalizada",
+	  "quick_links": "Enlaces Rápidos",
+	  "home": "Inicio",
+	  "services": "Servicios",
+	  "portfolio": "Portafolio",
+	  "about": "Acerca de",
+	  "contact": "Contacto",
+	  "contact_info": "Información de Contacto",
+	  "phone": "(305) 555-0123",
+	  "email": "info@wdsbuilders.com",
+	  "address": "123 Construction Ave\nMiami, FL 33101",
+	  "copyright": "© 2024 WDS Construction. Todos los derechos reservados.",
+	  "privacy_policy": "Política de Privacidad",
+	  "terms_service": "Términos de Servicio",
+	  "accessibility": "Accesibilidad"
+	},
+	"testimonials": {
+	  "heading": "Lo Que Dicen Nuestros Clientes",
+	  "subheading": "No solo crea en nuestra palabra. Escuche de clientes satisfechos que han experimentado la diferencia de WDS.",
+	  "t_sarah_name": "Sarah Johnson",
+	  "t_sarah_location": "Miami, FL",
+	  "t_sarah_project": "Renovación de Cocina",
+	  "t_sarah_text": "WDS transformó nuestra cocina desactualizada en una obra maestra moderna. Su atención a los detalles y profesionalismo superaron nuestras expectativas. El proyecto se completó a tiempo y dentro del presupuesto.",
+	  "t_michael_name": "Michael Rodriguez",
+	  "t_michael_location": "Fort Lauderdale, FL",
+	  "t_michael_project": "Renovación de Casa Completa",
+	  "t_michael_text": "Desde el concepto hasta la finalización, el equipo de WDS entregó resultados excepcionales. Nuestro hogar se siente completamente nuevo, y la calidad de la mano de obra es sobresaliente. Recomiendo altamente sus servicios.",
+	  "t_jennifer_name": "Jennifer Davis",
+	  "t_jennifer_location": "Boca Raton, FL",
+	  "t_jennifer_project": "Remodelación de Baño",
+	  "t_jennifer_text": "Nuestra renovación de baño principal fue impecable. WDS creó un retiro similar a un spa que disfrutamos todos los días. Su equipo fue profesional, limpio y respetuoso durante todo el proceso."
+	},
+	"servicesCards": {
+	  "s_commercial_title": "Construcción Comercial",
+	  "s_commercial_description": "Eleve su negocio con espacios comerciales funcionales, modernos y visualmente atractivos. Desde actualizaciones de oficinas hasta desarrollos a gran escala, entregamos proyectos que superan los estándares de la industria.",
+	  "s_commercial_features_1": "Edificios de oficinas y renovaciones",
+	  "s_commercial_features_2": "Espacios comerciales y de restaurantes",
+	  "s_commercial_features_3": "Almacenes e instalaciones industriales",
+	  "s_commercial_features_4": "Construcción con tiempo de inactividad mínimo",
+	  "s_commercial_features_5": "Gestión de proyectos consciente del presupuesto",
+	  "s_commercial_features_6": "Soluciones de diseño alineadas con la marca",
+	  "s_commercial_cta": "Explorar Servicios Comerciales",
+	  "s_residential_title": "Construcción y Renovación Residencial",
+	  "s_residential_description": "Transforme su casa en un hogar de ensueño con soluciones personalizadas que combinan estilo, funcionalidad y comodidad para adaptarse perfectamente a su estilo de vida.",
+	  "s_residential_features_1": "Renovaciones completas de hogares",
+	  "s_residential_features_2": "Remodelación de cocinas y baños",
+	  "s_residential_features_3": "Adiciones y expansiones de habitaciones",
+	  "s_residential_features_4": "Consultas de diseño interior",
+	  "s_residential_features_5": "Actualizaciones energéticamente eficientes",
+	  "s_residential_features_6": "Espacios de vida al aire libre",
+	  "s_residential_cta": "Explorar Servicios Residenciales",
+	  "s_custom_title": "Construcción Personalizada",
+	  "s_custom_description": "Dé vida a su visión única con servicios de construcción a medida. Nos especializamos en proyectos únicos que destacan con diseño innovador y artesanía meticulosa.",
+	  "s_custom_features_1": "Construcciones de hogares personalizados",
+	  "s_custom_features_2": "Características comerciales únicas",
+	  "s_custom_features_3": "Estructuras exteriores especializadas",
+	  "s_custom_features_4": "Colaboración en diseño arquitectónico",
+	  "s_custom_features_5": "Materiales y acabados premium",
+	  "s_custom_features_6": "Gestión de proyectos personalizada",
+	  "s_custom_cta": "Explorar Servicios Personalizados"
+	},
+	"service_details": {
+	  "seo": {
+		"title": "Renovaciones de Cocinas en Miami | Cotización Gratuita",
+		"description": "Transforme su cocina con gabinetes personalizados, encimeras premium y electrodomésticos modernos. Especialistas en renovación de cocinas en Miami."
+	  },
+	  "hero": {
+		"cta": "Solicite Su Cotización Gratuita",
+		"image_alt": "Renovación de baño de lujo por World Detail Specialist"
+	  },
+	  "trends": {
+		"heading": "Últimas Tendencias en Diseño de Baños",
+		"subheading": "Descubra las últimas innovaciones en diseño de baños que combinan lujo con funcionalidad."
+	  },
+	  "materials": {
+		"heading": "Opciones de Materiales Premium",
+		"subheading": "Elija de nuestra selección curada de materiales de alta calidad para cada elemento de su cocina.",
+		"tabs": {
+		  "cabinetry": {
+			"title": "Gabinetes Premium",
+			"description": "Gabinetes construidos a medida elaborados con los mejores materiales con ingeniería de precisión.",
+			"options": {
+			  "walnut": "Madera de Nogal",
+			  "maple": "Arce",
+			  "cherry": "Cerezo",
+			  "white_shaker": "Shaker Blanco",
+			  "flat_panel": "Panel Plano Moderno"
+			}
+		  },
+		  "countertops": {
+			"title": "Encimeras de Lujo",
+			"description": "Superficies duraderas y hermosas que combinan forma y función.",
+			"options": {
+			  "quartz": "Cuarzo",
+			  "granite": "Granito",
+			  "marble": "Mármol",
+			  "butcher_block": "Bloque de Carnicero",
+			  "concrete": "Concreto"
+			}
+		  },
+		  "flooring": {
+			"title": "Pisos Premium",
+			"description": "Opciones de pisos de alta calidad que resisten las demandas de la cocina.",
+			"options": {
+			  "hardwood": "Madera Dura",
+			  "luxury_vinyl": "Vinilo de Lujo",
+			  "tile": "Azulejo",
+			  "natural_stone": "Piedra Natural",
+			  "bamboo": "Bambú"
+			}
+		  }
+		}
+	  },
+	  "finishes": {
+		"heading": "Muestras de Acabados",
+		"tip": "Consejo: Haga clic en una muestra para previsualizar la foto de muestra correspondiente arriba.",
+		"sample_alt": "Muestra: {name}",
+		"items": {
+		  "natural": {
+			"name": "Transparente Natural"
+		  },
+		  "honey": {
+			"name": "Tinte Miel"
+		  },
+		  "green": {
+			"name": "Verde"
+		  },
+		  "yellow": {
+			"name": "Amarillo Claro"
+		  },
+		  "black": {
+			"name": "Tinte Negro"
+		  },
+		  "red": {
+			"name": "Rojo Claro"
+		  },
+		  "orange": {
+			"name": "Pintura Naranja"
+		  },
+		  "purple": {
+			"name": "Pintura Púrpura"
+		  }
+		}
+	  },
+	  "faqs": {
+		"heading": "Preguntas Frecuentes"
+	  }
+	},
+	"service_detail": {
+	  "seo": {
+		"title": "Renovaciones de Cocinas en Miami | Cotización Gratuita",
+		"description": "Transforme su cocina con gabinetes personalizados, encimeras premium y electrodomésticos modernos. Especialistas en renovación de cocinas en Miami."
+	  },
+	  "hero": {
+		"cta": "Solicite Su Cotización Gratuita",
+		"image_alt": "Renovación de baño de lujo por World Detail Specialist"
+	  },
+	  "trends": {
+		"heading": "Últimas Tendencias en Diseño de Baños",
+		"subheading": "Descubra las últimas innovaciones en diseño de baños que combinan lujo con funcionalidad."
+	  },
+	  "materials": {
+		"heading": "Opciones de Materiales Premium",
+		"subheading": "Elija de nuestra selección curada de materiales de alta calidad para cada elemento de su cocina.",
+		"tabs": {
+		  "cabinetry": {
+			"title": "Gabinetes Premium",
+			"description": "Gabinetes construidos a medida elaborados con los mejores materiales con ingeniería de precisión.",
+			"options": {
+			  "walnut": "Madera de Nogal",
+			  "maple": "Arce",
+			  "cherry": "Cerezo",
+			  "white_shaker": "Shaker Blanco",
+			  "flat_panel": "Panel Plano Moderno"
+			}
+		  },
+		  "countertops": {
+			"title": "Encimeras de Lujo",
+			"description": "Superficies duraderas y hermosas que combinan forma y función.",
+			"options": {
+			  "quartz": "Cuarzo",
+			  "granite": "Granito",
+			  "marble": "Mármol",
+			  "butcher_block": "Bloque de Carnicero",
+			  "concrete": "Concreto"
+			}
+		  },
+		  "flooring": {
+			"title": "Pisos Premium",
+			"description": "Opciones de pisos de alta calidad que resisten las demandas de la cocina.",
+			"options": {
+			  "hardwood": "Madera Dura",
+			  "luxury_vinyl": "Vinilo de Lujo",
+			  "tile": "Azulejo",
+			  "natural_stone": "Piedra Natural",
+			  "bamboo": "Bambú"
+			}
+		  }
+		}
+	  },
+	  "finishes": {
+		"heading": "Muestras de Acabados",
+		"tip": "Consejo: Haga clic en una muestra para previsualizar la foto de muestra correspondiente arriba.",
+		"sample_alt": "Muestra: {name}",
+		"items": {
+		  "natural": {
+			"name": "Transparente Natural"
+		  },
+		  "honey": {
+			"name": "Tinte Miel"
+		  },
+		  "green": {
+			"name": "Verde"
+		  },
+		  "yellow": {
+			"name": "Amarillo Claro"
+		  },
+		  "black": {
+			"name": "Tinte Negro"
+		  },
+		  "red": {
+			"name": "Rojo Claro"
+		  },
+		  "orange": {
+			"name": "Pintura Naranja"
+		  },
+		  "purple": {
+			"name": "Pintura Púrpura"
+		  }
+		}
+	  },
+	  "faqs": {
+		"heading": "Preguntas Frecuentes"
+	  }
+	},
+	"services_overview": {
+	  "seo": {
+		"title": "Servicios de Remodelación y Construcción | World Detail Specialist",
+		"description": "Servicios profesionales de remodelación en Miami. Renovaciones de cocinas, remodelación de baños, renovaciones de hogares completos y construcción comercial."
+	  },
+	  "seo_custom": {
+		"description": "Construcción personalizada en Miami: construcciones de hogares a medida, características arquitectónicas únicas, renovaciones especializadas, estructuras exteriores personalizadas, restauraciones históricas y construcciones comerciales personalizadas."
+	  },
+	  "hero": {
+		"heading": "Transforme Cualquier Espacio",
+		"subheading": "Explore nuestra gama completa de servicios residenciales y comerciales a continuación."
+	  },
+	  "card": {
+		"learn_more": "Aprender Más →"
+	  },
+	  "cta": {
+		"heading": "¿Listo para Comenzar Su Proyecto?",
+		"subheading": "Obtenga una consulta y cotización gratuita para su proyecto de renovación.",
+		"button": "Obtener Cotización Gratuita"
+	  },
+	  "services": {
+		"kitchen_remodels": {
+		  "title": "Remodelaciones de Cocinas",
+		  "description": "Cree su cocina de ensueño combinando estilo, función y acabados que coincidan perfectamente con su estilo de vida."
+		},
+		"bathroom_renovations": {
+		  "title": "Renovaciones de Baños",
+		  "description": "Actualice su baño en un retiro relajante con accesorios elegantes y diseños pensados."
+		},
+		"home_additions": {
+		  "title": "Adiciones de Hogares",
+		  "description": "Expanda sin problemas su espacio habitable con nuevas habitaciones y características integradas bellamente."
+		},
+		"basement_finishing": {
+		  "title": "Acabado de Sótanos",
+		  "description": "Transforme su sótano en un espacio habitable funcional para entretenimiento o invitados."
+		},
+		"deck_patio": {
+		  "title": "Construcción de Decks y Patios",
+		  "description": "Construya espacios al aire libre duraderos e invitadores perfectos para relajación y entretenimiento de invitados."
+		},
+		"whole_home": {
+		  "title": "Renovaciones de Hogares Completos",
+		  "description": "Transformaciones completas que mejoran tanto la belleza como la función de todo su hogar."
+		}
+	  },
+	  "custom_services": {
+		"custom_home_builds": {
+		  "title": "Construcciones de Hogares Personalizados",
+		  "description": "Cree su hogar de ensueño desde cero con diseños adaptados a sus especificaciones exactas."
+		},
+		"unique_architectural_features": {
+		  "title": "Características Arquitectónicas Únicas",
+		  "description": "Agregue elementos de diseño distintivos como escaleras personalizadas y fachadas intrincadas para hacer que su propiedad destaque."
+		},
+		"specialty_renovations": {
+		  "title": "Renovaciones Especializadas",
+		  "description": "Transforme espacios no convencionales como cines en casa, bodegas de vino o estudios de arte en obras maestras funcionales."
+		},
+		"custom_outdoor_structures": {
+		  "title": "Estructuras Exteriores Personalizadas",
+		  "description": "Mejore su propiedad con pérgolas, gazebos u cocinas al aire libre personalizadas diseñadas para comodidad y estilo."
+		},
+		"historical_restorations": {
+		  "title": "Restauraciones Históricas",
+		  "description": "Preserve el encanto de propiedades históricas mientras integra discretamente comodidades modernas."
+		},
+		"custom_commercial_builds": {
+		  "title": "Construcciones Comerciales Personalizadas",
+		  "description": "Destaque con un espacio comercial diseñado a medida adaptado a su marca y operaciones."
+		}
+	  }
+	},
+	"residential_services": {
+	  "office_renovations": {
+		"title": "Renovaciones de Oficinas",
+		"gold_title": "Espacios de Trabajo que Inspiran",
+		"subtitle": "Cree un espacio de trabajo productivo e inspirador con nuestros servicios de renovación de oficinas. Diseñamos diseños que optimizan el espacio, integran tecnología y reflejan la identidad de su marca.",
+		"meta": {
+		  "description": "Diseñamos y renovamos oficinas que fomentan la colaboración, la eficiencia y la presencia de la marca. Desde diseños hasta integración de tecnología, cada detalle está construido para la productividad.",
+		  "price_tag": "Desde $50k",
+		  "timeline": "6–12 semanas"
+		},
+		"overview": {
+		  "heading": "Redefiniendo el Lugar de Trabajo Moderno",
+		  "paragraph": "Una oficina es más que escritorios y paredes: es el corazón de su negocio. Transformamos espacios desactualizados en entornos que motivan a los equipos, impresionan a los clientes y apoyan el crecimiento. Desde colaboración abierta hasta habitaciones de enfoque privadas y configuraciones híbridas, nuestros diseños equilibran rendimiento, comodidad y personalidad de la marca."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño de Oficinas",
+		  "description": "Explore las últimas innovaciones en espacios de oficina que impulsan la productividad, la colaboración y el bienestar de los empleados.",
+		  "items": {
+			"hybrid_work_zones": {
+			  "title": "Zonas de Trabajo Híbrido",
+			  "description": "Espacios diseñados para colaboración en oficina y necesidades de reuniones remotas."
+			},
+			"integrated_tech_walls": {
+			  "title": "Paredes Tecnológicas Integradas",
+			  "description": "Pantallas integradas, transmisión inalámbrica y pizarras inteligentes."
+			},
+			"biophilic_design": {
+			  "title": "Diseño Biofílico",
+			  "description": "Estrategias de luz natural, texturas naturales y vegetación viva."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Construido para Rendimiento y Comodidad",
+		  "subtitle": "Desde planificación ergonómica hasta interiores centrados en la marca, nuestras renovaciones de oficinas crean entornos donde la productividad y el bienestar prosperan juntos.",
+		  "items": {
+			"ergonomic_workstations": {
+			  "title": "Estaciones de Trabajo Ergonómicas",
+			  "description": "Escritorios ajustables en altura y caminos de circulación óptimos."
+			},
+			"acoustic_control": {
+			  "title": "Control Acústico",
+			  "description": "Particiones, paneles y tratamientos de techos que reducen el ruido."
+			},
+			"smart_lighting": {
+			  "title": "Iluminación Inteligente",
+			  "description": "Sistemas LED centrados en el humano con sensores de ocupación y luz diurna."
+			},
+			"brand_expression": {
+			  "title": "Expresión de Marca",
+			  "description": "Acabados personalizados, gráficos y señalización alineados con su identidad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Objetivos, flujos de trabajo, cultura y presupuesto."
+			},
+			"concept_design": {
+			  "title": "Diseño Conceptual",
+			  "desc": "Diseños de prueba, tableros de humor y vistas 3D."
+			},
+			"material_tech_spec": {
+			  "title": "Especificación de Materiales y Tecnología",
+			  "desc": "Acabados, muebles, AV e iluminación."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construcción por fases para minimizar disrupciones."
+			},
+			"handover": {
+			  "title": "Entrega",
+			  "desc": "Lista de pendientes, puesta en marcha y resumen de garantía."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"work_hours": {
+			  "question": "¿Puede el trabajo ocurrir durante horas laborales?",
+			  "answer": "Sí. Faseamos el trabajo y podemos programar después de horas para reducir disrupciones."
+			},
+			"furniture": {
+			  "question": "¿Suministran muebles?",
+			  "answer": "Podemos especificar, adquirir e instalar muebles ergonómicos que coincidan con el diseño."
+			},
+			"permits": {
+			  "question": "¿Manejan permisos?",
+			  "answer": "Sí, incluyendo dibujos MEP, coordinación de seguridad vital e inspecciones."
+			},
+			"hybrid_offices": {
+			  "question": "¿Pueden apoyar oficinas híbridas?",
+			  "answer": "Absolutamente: habitaciones de enfoque, áreas de reunión y espacios de conferencia listos para video."
+			},
+			"it_av": {
+			  "question": "¿Qué pasa con IT y AV?",
+			  "answer": "Coordinamos con sus proveedores o proporcionamos soluciones llave en mano."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Eleve Su Espacio de Oficina",
+		  "subheading": "Reserve una consulta y construya un espacio de trabajo que inspire.",
+		  "button": "Comenzar"
+		}
+	  },
+	  "retail_construction": {
+		"title": "Construcción de Espacios Comerciales",
+		"gold_title": "Diseñado para Vender",
+		"subtitle": "Construya un entorno comercial invitador que atraiga clientes y impulse ventas. Desde vitrinas hasta diseños interiores, creamos espacios adaptados a su negocio.",
+		"meta": {
+		  "description": "Creamos espacios comerciales centrados en el cliente con flujo de tráfico inteligente, exhibiciones orientadas a la marca y materiales duraderos que lucen genial bajo uso intenso.",
+		  "price_tag": "Desde $80k",
+		  "timeline": "8–14 semanas"
+		},
+		"overview": {
+		  "heading": "Comercio que Convierte",
+		  "paragraph": "Un gran diseño comercial guía a los clientes, cuenta la historia de su marca y convierte a los navegadores en compradores. Planificamos cada detalle, desde vitrinas y colas hasta iluminación y materiales, para que su tienda se sienta intuitiva, memorable y alineada con la marca."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Construcción Comercial",
+		  "description": "Descubra ideas modernas de diseño comercial que atraen clientes, mejoran experiencias de compra y elevan la presencia de la marca.",
+		  "items": {
+			"experience_first_layouts": {
+			  "title": "Diseños Priorizando la Experiencia",
+			  "description": "Zonas de demostración, barras de muestras y momentos fotogénicos."
+			},
+			"modular_fixtures": {
+			  "title": "Accesorios Modulares",
+			  "description": "Estantes y exhibiciones móviles para reinicios estacionales."
+			},
+			"omnichannel_touchpoints": {
+			  "title": "Puntos de Contacto Omnichannel",
+			  "description": "Mostradores de recogida, autopago y navegación habilitada por QR."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Merchandising Cumple con Ingeniería",
+		  "subtitle": "Combinamos merchandising visual con construcción duradera para entregar espacios que lucen increíbles y funcionan bajo tráfico.",
+		  "items": {
+			"customer_flow_mapping": {
+			  "title": "Mapeo de Flujo de Clientes",
+			  "description": "Planogramas y caminos de circulación que aumentan el tiempo de permanencia."
+			},
+			"lighting_for_product_pop": {
+			  "title": "Iluminación para Resaltar Productos",
+			  "description": "Iluminación rica en CRI que hace brillar colores y texturas."
+			},
+			"durable_finishes": {
+			  "title": "Acabados Duraderos",
+			  "description": "Sistemas de pisos y paredes resistentes a rayones y manchas."
+			},
+			"back_of_house_efficiency": {
+			  "title": "Eficiencia en la Parte Trasera",
+			  "description": "Almacén, POS y seguridad planificados para velocidad y seguridad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"brand_brief": {
+			  "title": "Resumen de Marca",
+			  "desc": "Entender perfil de cliente y ADN de la marca."
+			},
+			"concept_test_fit": {
+			  "title": "Concepto y Prueba de Ajuste",
+			  "desc": "Diagramas de adyacencia y zonificación de la tienda."
+			},
+			"detailing_permits": {
+			  "title": "Detallado y Permisos",
+			  "desc": "Carpintería, señalización y aprobaciones."
+			},
+			"build_out": {
+			  "title": "Construcción",
+			  "desc": "Demolición, instalaciones gruesas, acabados e instalación de accesorios."
+			},
+			"merch_launch": {
+			  "title": "Merchandising y Lanzamiento",
+			  "desc": "Merchandising final y soporte de apertura suave."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"launch_date": {
+			  "question": "¿Pueden cumplir con una fecha de lanzamiento estricta?",
+			  "answer": "Sí. Planificamos hacia atrás desde su lanzamiento y comprimimos horarios con oficios por fases cuando sea necesario."
+			},
+			"millwork": {
+			  "question": "¿Fabrican carpintería personalizada?",
+			  "answer": "Diseñamos y construimos accesorios personalizados o trabajamos con sus proveedores preferidos."
+			},
+			"signage_permits": {
+			  "question": "¿Coordinan señalización y permisos?",
+			  "answer": "Sí, incluyendo señalización exterior y aprobaciones municipales."
+			},
+			"remain_open": {
+			  "question": "¿Pueden las tiendas permanecer abiertas durante renovaciones?",
+			  "answer": "Podemos fasear y barricar la construcción para mantener el comercio donde sea factible."
+			},
+			"multi_location": {
+			  "question": "¿Implementan construcciones multi-ubicación?",
+			  "answer": "Estandarizamos detalles para escalar en su portafolio."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Abra una Tienda que Convierte",
+		  "subheading": "Diseñemos un espacio comercial que sus clientes amen.",
+		  "button": "Planear Mi Tienda"
+		}
+	  },
+	  "industrial_upgrades": {
+		"title": "Actualizaciones de Instalaciones Industriales",
+		"gold_title": "Construido para Rendimiento",
+		"subtitle": "Mejore la eficiencia y seguridad de su instalación industrial con nuestros servicios de actualización, desde mejoras estructurales hasta instalaciones de equipo.",
+		"meta": {
+		  "description": "Modernizamos plantas, almacenes y espacios de producción con mejoras estructurales, mecánicas y eléctricas que mejoran el tiempo de actividad y la seguridad.",
+		  "price_tag": "Desde $120k",
+		  "timeline": "10–20 semanas"
+		},
+		"overview": {
+		  "heading": "Actualizaciones de Precisión, Tiempo de Inactividad Mínimo",
+		  "paragraph": "El trabajo industrial exige confiabilidad. Planificamos ventanas de cierre, coordinamos oficios y organizamos instalaciones para mantener sus operaciones en movimiento. Desde estanterías y entrepisos hasta distribución de energía y bases de máquinas, ingeniamos para seguridad, cumplimiento de códigos y durabilidad a largo plazo."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Actualizaciones Industriales",
+		  "description": "Manténgase adelante con mejoras industriales que maximizan la eficiencia, la seguridad y la adaptabilidad para operaciones modernas.",
+		  "items": {
+			"automation_readiness": {
+			  "title": "Preparación para Automatización",
+			  "description": "Energía, datos y diseños de piso preparados para robótica y transportadores."
+			},
+			"esd_flooring": {
+			  "title": "ESD y Pisos Especializados",
+			  "description": "Sistemas de superficie para salas limpias, laboratorios y áreas de alto tráfico."
+			},
+			"energy_monitoring": {
+			  "title": "Monitoreo de Energía",
+			  "description": "Sub-medición y paneles para rastrear y reducir costos de servicios públicos."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Ingeniería para Rendimiento",
+		  "subtitle": "Cada actualización está diseñada para seguridad, mantenibilidad y tiempo de actividad, con documentación que su equipo de mantenimiento realmente usará.",
+		  "items": {
+			"structural_enhancements": {
+			  "title": "Mejoras Estructurales",
+			  "description": "Almohadillas de equipo, entrepisos y refuerzo sísmico."
+			},
+			"power_controls": {
+			  "title": "Energía y Controles",
+			  "description": "Paneles, alimentadores, coordinación PLC y etiquetado."
+			},
+			"process_utilities": {
+			  "title": "Utilidades de Procesos",
+			  "description": "Aire comprimido, vacío, gas y distribución de agua."
+			},
+			"safety_systems": {
+			  "title": "Sistemas de Seguridad",
+			  "description": "Guardias, paradas de emergencia, estaciones de lavado de ojos y señalización."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"site_survey": {
+			  "title": "Encuesta del Sitio",
+			  "desc": "Medir, escanear y documentar condiciones actuales."
+			},
+			"engineering": {
+			  "title": "Ingeniería",
+			  "desc": "Dibujos sellados y cálculos de carga."
+			},
+			"procurement": {
+			  "title": "Adquisición",
+			  "desc": "Artículos de largo plazo ordenados temprano para proteger el horario."
+			},
+			"installation": {
+			  "title": "Instalación",
+			  "desc": "Oficios coordinados, trabajo por turnos y permisos de trabajo en caliente."
+			},
+			"commissioning": {
+			  "title": "Puesta en Marcha",
+			  "desc": "Pruebas, manuales O&M y entrenamiento."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"live_operations": {
+			  "question": "¿Pueden trabajar durante operaciones en vivo?",
+			  "answer": "Sí. Coordinamos con producción para programar cierres y ventanas de trabajo seguras."
+			},
+			"stamped_engineering": {
+			  "question": "¿Proporcionan ingeniería sellada?",
+			  "answer": "Entregamos dibujos sellados por PE según lo requerido por la jurisdicción."
+			},
+			"owner_equipment": {
+			  "question": "¿Pueden instalar equipo proporcionado por el propietario?",
+			  "answer": "Absolutamente. Configuramos, anclamos y alineamos según especificaciones del fabricante."
+			},
+			"as_builts": {
+			  "question": "¿Actualizan as-builts?",
+			  "answer": "Sí, incluyendo líneas rojas y documentación digital O&M."
+			},
+			"safety_compliance": {
+			  "question": "¿Qué pasa con el cumplimiento de seguridad?",
+			  "answer": "Nuestros programas cumplen con requisitos OSHA y políticas específicas de su sitio."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Actualice con Confianza",
+		  "subheading": "Aumente el rendimiento y la seguridad sin sacrificar el tiempo de actividad.",
+		  "button": "Planear una Actualización"
+		}
+	  },
+	  "commercial_maintenance": {
+		"title": "Mantenimiento de Propiedades Comerciales",
+		"gold_title": "Proactivo. Confiable. A Tiempo.",
+		"subtitle": "Mantenga su propiedad comercial en condiciones impecables con nuestros servicios de mantenimiento. El mantenimiento regular y reparaciones oportunas mantienen su espacio profesional y operativo.",
+		"meta": {
+		  "description": "Desde mantenimiento preventivo hasta reparaciones de emergencia, protegemos su inversión y mantenemos su edificio funcionando sin problemas.",
+		  "price_tag": "Planes Personalizados",
+		  "timeline": "Ongoing"
+		},
+		"overview": {
+		  "heading": "Prevenga Problemas. Proteja el Tiempo de Actividad.",
+		  "paragraph": "Un edificio bien mantenido reduce costos y preserva el valor. Nuestros equipos manejan inspecciones programadas, trabajos menores y reparaciones de respuesta rápida, coordinados a través de SLAs claros y un punto de contacto único."
+		},
+		"trends": {
+		  "heading": "Últimas Prácticas de Mantenimiento Comercial",
+		  "description": "Aprenda cómo estrategias de mantenimiento proactivas extienden la vida útil del edificio, reducen costos y mejoran el rendimiento.",
+		  "items": {
+			"data_driven_pm": {
+			  "title": "Horarios de PM Basados en Datos",
+			  "description": "Intervalos basados en uso que reducen servicios innecesarios."
+			},
+			"remote_monitoring": {
+			  "title": "Monitoreo Remoto",
+			  "description": "Sensores para temperatura, fugas y estado de equipo."
+			},
+			"sustainable_upkeep": {
+			  "title": "Mantenimiento Sostenible",
+			  "description": "Limpieza verde, programas de filtros y reducción de residuos."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Todo lo que Necesita, Un Equipo",
+		  "subtitle": "Mantenemos sus espacios seguros, cumpliendo y luciendo impecables, sin interrumpir inquilinos u operaciones.",
+		  "items": {
+			"interior_exterior": {
+			  "title": "Interior y Exterior",
+			  "description": "Pintura, parches, puertas, acristalamiento y retoques de fachada."
+			},
+			"mep_support": {
+			  "title": "Soporte MEP",
+			  "description": "Reemplazo de accesorios de luz, cambios de filtros y reparaciones pequeñas."
+			},
+			"life_safety": {
+			  "title": "Preparación para Seguridad Vital",
+			  "description": "Luces de emergencia, señalización de salida y coordinación de extintores."
+			},
+			"vendor_management": {
+			  "title": "Gestión de Proveedores",
+			  "description": "Paisajismo, limpieza, control de plagas: un horario coordinado."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"assessment": {
+			  "title": "Evaluación",
+			  "desc": "Recorrido del sitio e inventario de activos."
+			},
+			"plan": {
+			  "title": "Plan",
+			  "desc": "Calendario PM, niveles de servicio y niveles de respuesta."
+			},
+			"mobilize": {
+			  "title": "Movilizar",
+			  "desc": "Incorporación, acceso a claves y configuración de comunicación."
+			},
+			"execute": {
+			  "title": "Ejecutar",
+			  "desc": "Cuidado rutinario, tickets e informes."
+			},
+			"review": {
+			  "title": "Revisión",
+			  "desc": "Rendimiento trimestral y optimización."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"support_24_7": {
+			  "question": "¿Ofrecen soporte 24/7?",
+			  "answer": "Sí. Respuesta de emergencia disponible según SLA."
+			},
+			"multi_properties": {
+			  "question": "¿Pueden manejar múltiples propiedades?",
+			  "answer": "Centralizamos informes y facturación en su portafolio."
+			},
+			"compliance_items": {
+			  "question": "¿Manejan ítems de cumplimiento?",
+			  "answer": "Coordinamos chequeos rutinarios y mantenemos documentación actualizada."
+			},
+			"tenant_tickets": {
+			  "question": "¿Cómo envían tickets los inquilinos?",
+			  "answer": "Proporcionamos un flujo de trabajo simple de portal/correo rastreado a SLAs."
+			},
+			"pricing_flexible": {
+			  "question": "¿Es flexible el precio?",
+			  "answer": "Sí: por llamada, retenedor o programas PM fijos."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Mantenga Su Edificio Funcionando",
+		  "subheading": "Planes de mantenimiento personalizados que protegen el tiempo de actividad y el valor.",
+		  "button": "Construir Mi Plan"
+		}
+	  },
+	  "restaurant_hospitality_renovations": {
+		"title": "Renovaciones de Restaurantes y Hospitalidad",
+		"gold_title": "Ambiente Cumple con Operaciones",
+		"subtitle": "Transforme su restaurante o venue de hospitalidad en un espacio acogedor. Creamos atmósferas que se alinean con su marca y cumplen estándares regulatorios.",
+		"meta": {
+		  "description": "Desde salones de comedor hasta cocinas BOH y amenidades para huéspedes, renovamos espacios de hospitalidad para experiencia, durabilidad y cumplimiento de códigos.",
+		  "price_tag": "Desde $150k",
+		  "timeline": "10–18 semanas"
+		},
+		"overview": {
+		  "heading": "Diseño para Huéspedes. Ingeniería para Servicio.",
+		  "paragraph": "Los espacios de hospitalidad deben impresionar a los huéspedes y trabajar duro para el personal. Optimizamos conteos de asientos, acústica, iluminación y caminos de servidores mientras construimos áreas BOH que son fáciles de limpiar, seguras y eficientes, todo cumpliendo con códigos de salud y fuego."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Renovaciones de Hospitalidad",
+		  "description": "Vea cómo las tendencias más nuevas en diseño de hospitalidad crean experiencias memorables de comedor y alojamiento para clientes.",
+		  "items": {
+			"open_kitchen": {
+			  "title": "Momentos de Cocina Abierta",
+			  "description": "Mostradores de chef y passthroughs que muestran el arte."
+			},
+			"flexible_seating": {
+			  "title": "Asientos Flexibles",
+			  "description": "Cabinas, banquetas y mesas móviles para diferentes tamaños de grupos."
+			},
+			"acoustic_softening": {
+			  "title": "Suavizado Acústico",
+			  "description": "Deflectores de techo y tratamientos de pared para conversación cómoda."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Atmósfera que Puede Probar",
+		  "subtitle": "Combinamos ambiente, durabilidad y cumplimiento para crear experiencias inolvidables para huéspedes, frente y detrás de la casa.",
+		  "items": {
+			"health_code_kitchens": {
+			  "title": "Cocinas Cumpliendo Códigos de Salud",
+			  "description": "Superficies NSF, coordinación de trampas de grasa y zonas de lavado."
+			},
+			"lighting_sound": {
+			  "title": "Iluminación y Sonido",
+			  "description": "Iluminación en capas y sintonización acústica para ambiente y claridad."
+			},
+			"durable_finishes": {
+			  "title": "Acabados Duraderos",
+			  "description": "Pisos antideslizantes y tapicería resistente a manchas."
+			},
+			"service_flow": {
+			  "title": "Flujo de Servicio",
+			  "description": "Caminos claros desde la línea de expo hasta mesas y bar."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"concept_narrative": {
+			  "title": "Concepto y Narrativa",
+			  "desc": "Traduzca su cocina y marca en espacio."
+			},
+			"layouts_seating": {
+			  "title": "Diseños y Asientos",
+			  "desc": "Optimice adyacencias FOH/BOH y capacidades."
+			},
+			"permits_health": {
+			  "title": "Permisos y Dept. de Salud",
+			  "desc": "Dibujos, submittals e inspecciones."
+			},
+			"build_fit_out": {
+			  "title": "Construcción y Ajuste",
+			  "desc": "MEP, acabados, carpintería y conjunto de equipo."
+			},
+			"training_launch": {
+			  "title": "Entrenamiento y Lanzamiento",
+			  "desc": "Recorrido, pendientes y soporte de apertura suave."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"health_dept": {
+			  "question": "¿Trabajan con requisitos del departamento de salud?",
+			  "answer": "Sí, coordinamos submittals, inspecciones y correcciones."
+			},
+			"partial_service": {
+			  "question": "¿Podemos mantener servicio parcial durante remodelación?",
+			  "answer": "A menudo sí con áreas por fases y cocinas temporales."
+			},
+			"kitchen_equipment": {
+			  "question": "¿Instalan equipo de cocina?",
+			  "answer": "Coordinamos oficios y conexiones finales según especificaciones."
+			},
+			"improve_acoustics": {
+			  "question": "¿Pueden mejorar la acústica?",
+			  "answer": "Diseñamos materiales y diseños para reducir tiempos de reverberación."
+			},
+			"ada": {
+			  "question": "¿Qué pasa con ADA?",
+			  "answer": "Aseguramos que baños, asientos y circulación cumplan estándares de accesibilidad."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Haga que Cada Asiento Sea el Mejor",
+		  "subheading": "Creemos un espacio al que los huéspedes regresen una y otra vez.",
+		  "button": "Comenzar Mi Renovación"
+		}
+	  },
+	  "commercial_building_additions": {
+		"title": "Adiciones a Edificios Comerciales",
+		"gold_title": "Expandir Sin Disrupción",
+		"subtitle": "Expanda su negocio con adiciones sin problemas al edificio: más oficina, almacenamiento o espacio operativo diseñado para integrarse con su estructura existente.",
+		"meta": {
+		  "description": "Desde esquemas hasta acero, entregamos adiciones que escalan sus operaciones, coinciden con su arquitectura y cumplen códigos.",
+		  "price_tag": "Desde $250k",
+		  "timeline": "4–8 meses"
+		},
+		"overview": {
+		  "heading": "Espacio para Crecer, Hecho Bien",
+		  "paragraph": "Ya sea agregando oficinas, almacenamiento o espacio de producción, manejamos zonificación, estructura y sistemas de edificio para asegurar una conexión sin problemas, funcional y visual, a su instalación actual."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Expansión Comercial",
+		  "description": "Descubra cómo las empresas expanden espacios con adiciones modernas, flexibles e integradas sin problemas.",
+		  "items": {
+			"pre_engineered": {
+			  "title": "Sistemas Pre-Ingenierados",
+			  "description": "Horarios más rápidos con marcos PEMB y sistemas de paneles."
+			},
+			"energy_tight_envelopes": {
+			  "title": "Envolturas Energéticas Ajustadas",
+			  "description": "Aislamiento de alto rendimiento y acristalamiento para OPEX más bajo."
+			},
+			"future_proofing": {
+			  "title": "A Prueba de Futuro",
+			  "description": "Paneles desmontables y stubs para fases de expansión posteriores."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Sin Problemas, Escalable, Cumpliendo",
+		  "subtitle": "Integramos estructura, MEP, seguridad vital y acabados para que su adición funcione como si siempre hubiera estado allí.",
+		  "items": {
+			"structural_integration": {
+			  "title": "Integración Estructural",
+			  "description": "Cimientos, conexiones y caminos de carga ingenierados según código."
+			},
+			"systems_expansion": {
+			  "title": "Expansión de Sistemas",
+			  "description": "Tonelaje HVAC, servicio eléctrico y rociadores escalados inteligentemente."
+			},
+			"exterior_continuity": {
+			  "title": "Continuidad Exterior",
+			  "description": "Revestimiento, techado y acristalamiento que coinciden con su apariencia existente."
+			},
+			"phased_construction": {
+			  "title": "Construcción por Fases",
+			  "description": "Acceso, acaparamiento y logística que lo mantienen operando."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"feasibility": {
+			  "title": "Factibilidad",
+			  "desc": "Chequeos de zonificación, utilidades y restricciones del sitio."
+			},
+			"design_engineering": {
+			  "title": "Diseño e Ingeniería",
+			  "desc": "Coordinación arquitectónica y estructural."
+			},
+			"permitting": {
+			  "title": "Permisos",
+			  "desc": "Submittals, revisiones y aprobaciones."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Trabajos de tierra, caparazón y ajuste."
+			},
+			"close_out": {
+			  "title": "Cierre",
+			  "desc": "CO, manuales y entrega de garantía."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"match_facade": {
+			  "question": "¿Pueden coincidir con nuestra fachada existente?",
+			  "answer": "Sí. Suministramos sistemas compatibles o proponemos actualizaciones de buen gusto en ambos volúmenes."
+			},
+			"utilities_expansion": {
+			  "question": "¿Manejan expansión de utilidades?",
+			  "answer": "Coordinamos con proveedores de utilidades y redimensionamos sistemas según sea necesario."
+			},
+			"minimize_disruption": {
+			  "question": "¿Cómo minimizan la disrupción?",
+			  "answer": "Planes de logística claros, particiones temporales y trabajo fuera de horas donde sea necesario."
+			},
+			"future_expansion": {
+			  "question": "¿Qué pasa con expansión futura?",
+			  "answer": "Podemos diseñar stubs estructurales y de servicio para habilitar crecimiento posterior."
+			},
+			"cost_phasing": {
+			  "question": "¿Proporcionan fases de costos?",
+			  "answer": "Sí: opciones para solo caparazón vs. ajuste completo."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Crezca Sin Mudarse",
+		  "subheading": "Agregue pies cuadrados inteligentes que se paguen solos.",
+		  "button": "Definir una Adición"
+		}
+	  },
+	  "sustainable_commercial_construction": {
+		"title": "Construcción Comercial Sostenible",
+		"gold_title": "Construya Verde. Ahorre Verde.",
+		"subtitle": "Adopte prácticas ecológicas con nuestros servicios de construcción sostenible. Usamos materiales energéticamente eficientes y diseños para reducir su huella ambiental.",
+		"meta": {
+		  "description": "Desde mejoras de envoltura hasta electrificación y renovables, entregamos edificios sostenibles que reducen costos y carbono.",
+		  "price_tag": "Desde $90k",
+		  "timeline": "8–16 semanas (dependiente del alcance)"
+		},
+		"overview": {
+		  "heading": "Sostenibilidad que Paga",
+		  "paragraph": "Los proyectos verdes no deberían ser conjeturas. Modelamos ROI, seleccionamos tecnologías probadas e instalamos sistemas que reducen utilidades, mejoran comodidad y apoyan metas ESG, sin comprometer la estética."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Construcción Sostenible",
+		  "description": "Explore métodos de construcción ecológicos que combinan sostenibilidad con ahorros de costos a largo plazo e innovación.",
+		  "items": {
+			"deep_energy_retrofits": {
+			  "title": "Retrofits de Energía Profunda",
+			  "description": "Envoltura, HVAC y controles sintonizados como un sistema único."
+			},
+			"electrification": {
+			  "title": "Electrificación",
+			  "description": "Bombas de calor e inducción cambiando de gas a eléctrico de alta eficiencia."
+			},
+			"on_site_renewables": {
+			  "title": "Renovables en Sitio",
+			  "description": "Preparación para PV solar, almacenamiento de baterías y carga EV."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Costos Más Bajos. Mayor Comodidad.",
+		  "subtitle": "Combinamos eficiencia, bienestar y durabilidad para que sus espacios rindan por décadas.",
+		  "items": {
+			"high_performance_envelope": {
+			  "title": "Envoltura de Alto Rendimiento",
+			  "description": "Aislamiento, sellado de aire y acristalamiento que reducen pérdidas."
+			},
+			"smart_controls": {
+			  "title": "Controles Inteligentes",
+			  "description": "Programación BAS, ventilación basada en CO₂ y sub-medición."
+			},
+			"water_stewardship": {
+			  "title": "Gestión del Agua",
+			  "description": "Accesorios de bajo flujo y detección de fugas para reducir uso."
+			},
+			"healthy_materials": {
+			  "title": "Materiales Saludables",
+			  "description": "Pinturas de bajo VOC, maderas FSC y acabados reciclables."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"audit_baseline": {
+			  "title": "Auditoría y Línea Base",
+			  "desc": "Revisión de utilidades y evaluación del sitio."
+			},
+			"energy_modeling": {
+			  "title": "Modelado de Energía",
+			  "desc": "Análisis de escenarios y pronóstico de ROI."
+			},
+			"scope_incentives": {
+			  "title": "Alcance e Incentivos",
+			  "desc": "Seleccione medidas y capture reembolsos."
+			},
+			"build_commission": {
+			  "title": "Construir y Poner en Marcha",
+			  "desc": "Instale, pruebe y verifique rendimiento."
+			},
+			"monitor_optimize": {
+			  "title": "Monitorear y Optimizar",
+			  "desc": "Ajuste post-ocupación e informes."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"lower_bills": {
+			  "question": "¿Esto realmente bajará las facturas?",
+			  "answer": "Sí: apuntamos medidas con payback claro y compartimos rangos de ahorros modelados."
+			},
+			"rebates": {
+			  "question": "¿Ayudan con reembolsos?",
+			  "answer": "Identificamos y procesamos incentivos para reducir costos iniciales."
+			},
+			"phase_improvements": {
+			  "question": "¿Podemos fasear mejoras?",
+			  "answer": "Absolutamente. Construimos mapas de ruta multi-año alineados a ciclos de capital."
+			},
+			"comfort": {
+			  "question": "¿Esto afecta la comodidad?",
+			  "answer": "Espere mejores temperaturas, calidad de aire y acústica."
+			},
+			"leed_required": {
+			  "question": "¿Es requerido LEED o similar?",
+			  "answer": "Certificación es opcional: podemos diseñar a estándares con o sin búsqueda formal."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Construya Más Verde, Opere Más Inteligente",
+		  "subheading": "Reduzca costos y carbono con actualizaciones probadas.",
+		  "button": "Planear un Proyecto Sostenible"
+		}
+	  }
+	},
+	"custom_details_services": {
+	  "custom_home_builds": {
+		"title": "Construcciones de Hogares Personalizados",
+		"gold_title": "Su Visión, Nuestra Artesanía",
+		"subtitle": "Cree su hogar de ensueño desde cero con nuestros servicios de construcción de hogares personalizados. Diseñado y construido según sus especificaciones exactas.",
+		"meta": {
+		  "description": "Damos vida a su hogar de ensueño con diseño de precisión y artesanía, creando una residencia que refleja su estilo de vida y visión.",
+		  "price_tag": "Desde $350k",
+		  "timeline": "6–12 meses"
+		},
+		"overview": {
+		  "heading": "Del Plano a la Realidad",
+		  "paragraph": "Construir un hogar personalizado es un viaje, y nos aseguramos de que sea tan emocionante como el resultado final. Desde los bocetos iniciales hasta la entrega de las llaves, cada elemento está adaptado a usted. Combinamos excelencia arquitectónica, materiales premium y gestión meticulosa de proyectos para entregar un hogar verdaderamente único."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño de Hogares Personalizados",
+		  "description": "Descubra los enfoques más nuevos en construcción de hogares personalizados que combinan personalización, sostenibilidad y diseño atemporal.",
+		  "items": {
+			"smart_home_integration": {
+			  "title": "Integración de Hogar Inteligente",
+			  "description": "Iluminación, seguridad y control climático automatizados."
+			},
+			"energy_efficient_design": {
+			  "title": "Diseño Energéticamente Eficiente",
+			  "description": "Estrategias pasivas y envolturas de alto rendimiento."
+			},
+			"multi_generational_layouts": {
+			  "title": "Diseños Multigeneracionales",
+			  "description": "Suites privadas y áreas comunes flexibles."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Adaptado a Su Estilo de Vida",
+		  "subtitle": "Cada pie cuadrado está diseñado con propósito, belleza y comodidad en mente.",
+		  "items": {
+			"custom_floor_plans": {
+			  "title": "Planos de Piso Personalizados",
+			  "description": "Diseños que coinciden con sus rutinas y flujo."
+			},
+			"premium_finishes": {
+			  "title": "Acabados Premium",
+			  "description": "Accesorios, superficies y hardware curados."
+			},
+			"outdoor_living": {
+			  "title": "Vida al Aire Libre",
+			  "description": "Patios, decks e integración de paisaje."
+			},
+			"structural_integrity": {
+			  "title": "Integridad Estructural",
+			  "description": "Marcos ingenierados para longevidad y seguridad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Definir programa, presupuesto y restricciones del sitio."
+			},
+			"design": {
+			  "title": "Diseño",
+			  "desc": "Planos, elevaciones y visualización 3D."
+			},
+			"selections": {
+			  "title": "Selecciones",
+			  "desc": "Materiales, accesorios, electrodomésticos y acabados."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construcción controlada de calidad con chequeos de hitos."
+			},
+			"handover": {
+			  "title": "Entrega",
+			  "desc": "Recorrido final, manuales y garantía."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"permits_inspections": {
+			  "question": "¿Manejan permisos e inspecciones?",
+			  "answer": "Sí. Manejamos todos los permisos, revisiones de planes e inspecciones con autoridades locales."
+			},
+			"bring_architect": {
+			  "question": "¿Puedo traer mi propio arquitecto?",
+			  "answer": "Absolutamente. Podemos colaborar o proporcionar servicios completos de diseño-construcción."
+			},
+			"budget_control": {
+			  "question": "¿Cómo controlan el presupuesto?",
+			  "answer": "Establecemos asignaciones, rastreamos órdenes de cambio y proporcionamos informes de costos transparentes."
+			},
+			"site_selection": {
+			  "question": "¿Ayudan con selección de sitio?",
+			  "answer": "Sí, podemos evaluar idoneidad de lote, utilidades y retrocesos antes de la compra."
+			},
+			"warranties": {
+			  "question": "¿Qué garantías están incluidas?",
+			  "answer": "Recibirá garantías estructurales, de mano de obra y del fabricante."
+			},
+			"changes_during_build": {
+			  "question": "¿Podemos hacer cambios durante la construcción?",
+			  "answer": "Sí. Seguimos un proceso de cambio documentado para manejar alcance, costo y horario."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Comience a Construir Su Hogar de Ensueño",
+		  "subheading": "Demos vida a su visión con nuestro equipo experto.",
+		  "button": "Reserve una Consulta"
+		}
+	  },
+	  "unique_architectural_features": {
+		"title": "Características Arquitectónicas Únicas",
+		"gold_title": "Haga una Declaración",
+		"subtitle": "Agregue elementos distintivos a su propiedad con nuestros servicios de características arquitectónicas, desde escaleras personalizadas hasta fachadas intrincadas.",
+		"meta": {
+		  "description": "Diseñamos y elaboramos elementos arquitectónicos destacados que definen su espacio y elevan experiencias cotidianas.",
+		  "price_tag": "Desde $15k",
+		  "timeline": "4–8 semanas"
+		},
+		"overview": {
+		  "heading": "Diseño que Define el Carácter",
+		  "paragraph": "Las características arquitectónicas son el alma del diseño de una propiedad. Creamos elementos personalizados que elevan la estética, agregan funcionalidad y crean una impresión duradera, detallados con precisión y construidos bellamente."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Características Arquitectónicas",
+		  "description": "Explore cómo detalles arquitectónicos personalizados como escaleras, fachadas y acabados únicos definen espacios de lujo modernos.",
+		  "items": {
+			"floating_staircases": {
+			  "title": "Escaleras Flotantes",
+			  "description": "Estructura mínima con impacto máximo."
+			},
+			"geometric_facades": {
+			  "title": "Fachadas Geométricas",
+			  "description": "Patrones paramétricos y revestimientos texturizados."
+			},
+			"sustainable_materials": {
+			  "title": "Materiales Sostenibles",
+			  "description": "Maderas FSC, metales reciclados, acabados de bajo VOC."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Elementos de Diseño Distintivos",
+		  "subtitle": "Características que mejoran tanto la belleza como la función.",
+		  "items": {
+			"signature_staircases": {
+			  "title": "Escaleras de Firma",
+			  "description": "Espiral, cantilever o escaleras de cinta, ingenieradas y cumpliendo códigos."
+			},
+			"architectural_facades": {
+			  "title": "Fachadas Arquitectónicas",
+			  "description": "Pantallas, parasoles y elevaciones articuladas."
+			},
+			"feature_walls": {
+			  "title": "Paredes Destacadas",
+			  "description": "Paredes de piedra, carpintería o relieve de yeso que anclan espacios."
+			},
+			"custom_metal_glass": {
+			  "title": "Metal y Vidrio Personalizados",
+			  "description": "Barandillas, marquesinas y particiones en detalles a medida."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Dirección estética, restricciones y revisión de códigos."
+			},
+			"design_engineering": {
+			  "title": "Diseño e Ingeniería",
+			  "desc": "Detalles, conexiones y cálculos de carga."
+			},
+			"fabrication": {
+			  "title": "Fabricación",
+			  "desc": "CNC, carpintería y procesos de acabado."
+			},
+			"installation": {
+			  "title": "Instalación",
+			  "desc": "Ajuste de precisión y protección del sitio."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"match_style": {
+			  "question": "¿Pueden coincidir con un estilo existente?",
+			  "answer": "Sí. Referenciamos su lenguaje arquitectónico y materiales para integración sin problemas."
+			},
+			"meet_code": {
+			  "question": "¿Estas características cumplen códigos?",
+			  "answer": "Todas las características están ingenieradas y construidas según códigos de construcción y seguridad aplicables."
+			},
+			"materials_used": {
+			  "question": "¿Qué materiales usan?",
+			  "description": "Maderas duras, acero, aluminio, vidrio, piedra y acabados especializados por diseño."
+			},
+			"fabrication_time": {
+			  "question": "¿Cuánto tiempo toma la fabricación?",
+			  "answer": "La mayoría de las piezas se fabrican en 3–6 semanas dependiendo de complejidad y acabados."
+			},
+			"shop_drawings": {
+			  "question": "¿Proporcionan dibujos de taller?",
+			  "answer": "Sí. Dibujos detallados y maquetas están incluidas para aprobación."
+			},
+			"integrated_lighting": {
+			  "question": "¿Puede integrarse iluminación?",
+			  "answer": "Absolutamente: podemos embeder iluminación lineal, de punto o retroiluminada para drama."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Agregue Brillantez Arquitectónica",
+		  "subheading": "Traiga carácter único a su espacio con nuestra expertise.",
+		  "button": "Comenzar"
+		}
+	  },
+	  "specialty_renovations": {
+		"title": "Renovaciones Especializadas",
+		"gold_title": "Espacios Tan Únicos Como Usted",
+		"subtitle": "Transforme espacios únicos con nuestros servicios de renovación especializada: cines en casa, bodegas de vino, estudios de arte y más.",
+		"meta": {
+		  "description": "Ejecutamos proyectos no convencionales, altamente personalizados que requieren expertise especializada y visión creativa.",
+		  "price_tag": "Desde $20k",
+		  "timeline": "4–16 semanas"
+		},
+		"overview": {
+		  "heading": "Transformaciones Únicas",
+		  "paragraph": "Ya sea cines de grado cinema, habitaciones de vino con control climático, salones de juegos o estudios de creadores, entregamos precisión, rendimiento y factor wow, sintonizados a cómo vive y crea."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Renovaciones Especializadas",
+		  "description": "Vea cómo renovaciones innovadoras transforman espacios únicos como cines en casa, bodegas de vino y estudios de arte.",
+		  "items": {
+			"luxury_entertainment_rooms": {
+			  "title": "Habitaciones de Entretenimiento de Lujo",
+			  "description": "Tratamientos acústicos, proyección y asientos escalonados."
+			},
+			"custom_wine_storage": {
+			  "title": "Almacenamiento de Vino Personalizado",
+			  "description": "Exhibiciones de vidrio, estanterías y control de humedad."
+			},
+			"creative_workspaces": {
+			  "title": "Espacios de Trabajo Creativos",
+			  "description": "Iluminación de tareas, pisos resilientes y paredes de almacenamiento."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Adaptado a Su Pasión",
+		  "subtitle": "Diseño, ingeniería y artesanía enfocados en rendimiento.",
+		  "items": {
+			"acoustic_engineering": {
+			  "title": "Ingeniería Acústica",
+			  "description": "Aislamiento, absorción y difusión para sonido prístino."
+			},
+			"environmental_control": {
+			  "title": "Control Ambiental",
+			  "description": "Sistemas precisos de temperatura y humedad donde sea necesario."
+			},
+			"custom_millwork": {
+			  "title": "Carpintería Personalizada",
+			  "description": "Incorporados, nichos y gabinetes de exhibición."
+			},
+			"integrated_av_lighting": {
+			  "title": "AV e Iluminación Integrados",
+			  "description": "Cableado oculto, sistemas de control e iluminación de escenas."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Programa, objetivos de rendimiento y metas estéticas."
+			},
+			"design": {
+			  "title": "Diseño",
+			  "desc": "Diseños, especificaciones y visualizaciones 3D."
+			},
+			"build": {
+			  "title": "Construcción",
+			  "desc": "Oficios especializados, puesta en marcha y sintonización."
+			},
+			"handover": {
+			  "title": "Entrega",
+			  "desc": "Entrenamiento, manuales y guía de mantenimiento."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"specialized_equipment": {
+			  "question": "¿Manejan equipo especializado?",
+			  "answer": "Sí. Coordinamos especificaciones del fabricante y proporcionamos energía/ventilación adecuada."
+			},
+			"multipurpose_rooms": {
+			  "question": "¿Pueden ser multipropósito las habitaciones?",
+			  "answer": "Absolutamente: diseñamos diseños flexibles y muebles convertibles donde se desee."
+			},
+			"noise_transfer": {
+			  "question": "¿Qué pasa con el ruido a habitaciones adyacentes?",
+			  "answer": "Usamos ensamblajes de aislamiento y puertas acústicas para limitar transferencia."
+			},
+			"wine_climate_control": {
+			  "question": "¿Proporcionan control climático para vino?",
+			  "answer": "Sí, incluyendo barreras de vapor, aislamiento y enfriamiento dedicado."
+			},
+			"smart_controls": {
+			  "question": "¿Pueden integrar controles inteligentes?",
+			  "answer": "Iluminación, AV, HVAC y persianas pueden unificarse bajo un sistema."
+			},
+			"permits": {
+			  "question": "¿Asisten con permisos?",
+			  "answer": "Sí, incluyendo aprobaciones eléctricas, mecánicas y estructurales."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Cree Su Espacio de Firma",
+		  "subheading": "Demos vida a su idea única de renovación.",
+		  "button": "Reserve una Consulta"
+		}
+	  },
+	  "custom_outdoor_structures": {
+		"title": "Estructuras Exteriores Personalizadas",
+		"gold_title": "Eleve la Vida al Aire Libre",
+		"subtitle": "Mejore su propiedad con pérgolas, gazebos, pabellones y cocinas al aire libre personalizadas.",
+		"meta": {
+		  "description": "Diseñamos y construimos estructuras exteriores que expanden su espacio habitable y crean momentos inolvidables.",
+		  "price_tag": "Desde $12k",
+		  "timeline": "3–10 semanas"
+		},
+		"overview": {
+		  "heading": "Su Patio Trasero, Reimaginado",
+		  "paragraph": "Desde salones sombreados hasta cocinas al aire libre dignas de chef, creamos estructuras duraderas y hermosas que hacen que el tiempo al aire libre sea effortless, todo el año."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Vida al Aire Libre",
+		  "description": "Descubra nuevas ideas para estructuras exteriores que expanden espacios habitables con comodidad, funcionalidad y estilo.",
+		  "items": {
+			"outdoor_kitchens": {
+			  "title": "Cocinas al Aire Libre",
+			  "description": "Parrillas, ahumadores, fregaderos, refrigeración y almacenamiento."
+			},
+			"covered_lounges": {
+			  "title": "Salones Cubiertos",
+			  "description": "Pérgolas y gazebos con iluminación y ventiladores integrados."
+			},
+			"fire_features": {
+			  "title": "Características de Fuego",
+			  "description": "Pozos de fuego y chimeneas para calidez y ambiente."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Construido para Comodidad y Durabilidad",
+		  "subtitle": "Construcción resistente al clima con los detalles que importan.",
+		  "items": {
+			"premium_materials": {
+			  "title": "Materiales Premium",
+			  "description": "Maderas duras, compuestos, mampostería y metales con recubrimiento en polvo."
+			},
+			"utility_integration": {
+			  "title": "Integración de Utilidades",
+			  "description": "Gas, agua y eléctrico enrutados de manera segura y permitidos."
+			},
+			"shade_weathering": {
+			  "title": "Sombra y Climatización",
+			  "description": "Techos con lamas, retráctiles y pantallas contra viento."
+			},
+			"lighting_audio": {
+			  "title": "Iluminación y Audio",
+			  "description": "Iluminación de bajo voltaje y altavoces clasificados para exteriores."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Casos de uso, dimensionamiento y restricciones del sitio."
+			},
+			"design": {
+			  "title": "Diseño",
+			  "desc": "Diseño, elevaciones y paletas de materiales."
+			},
+			"build": {
+			  "title": "Construcción",
+			  "desc": "Cimientos, enmarcado, acabados y utilidades."
+			},
+			"final_touches": {
+			  "title": "Toques Finales",
+			  "desc": "Asientos, macetas y sintonización de escena nocturna."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"weatherproof": {
+			  "question": "¿Son estas estructuras a prueba de clima?",
+			  "answer": "Están diseñadas para su clima con acabados duraderos y detalles de drenaje."
+			},
+			"add_utilities": {
+			  "question": "¿Pueden agregar utilidades?",
+			  "answer": "Sí: gas, agua y energía con zanjas y permisos adecuados."
+			},
+			"obtain_permits": {
+			  "question": "¿Obtienen permisos?",
+			  "answer": "Manejamos todas las aprobaciones municipales e inspecciones necesarias."
+			},
+			"uneven_yards": {
+			  "question": "¿Cómo manejan patios desiguales?",
+			  "answer": "Diseñamos cimientos, pasos y soluciones de retención para adaptarse al grado."
+			},
+			"maintenance": {
+			  "question": "¿Qué mantenimiento se requiere?",
+			  "answer": "Limpieza anual y mantenimiento menor de acabados mantienen todo luciendo nuevo."
+			},
+			"privacy_design": {
+			  "question": "¿Pueden diseñar para privacidad?",
+			  "answer": "Pantallas, plantación y estrategias de diseño pueden mejorar la privacidad sin volumen."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Transforme Su Espacio Exterior",
+		  "subheading": "Demos vida a su patio trasero de ensueño.",
+		  "button": "Comenzar"
+		}
+	  },
+	  "historical_restorations": {
+		"title": "Restauraciones Históricas",
+		"gold_title": "Preserve el Pasado, Abrace el Presente",
+		"subtitle": "Preserve el encanto de propiedades históricas con restauración fiel y modernización discreta.",
+		"meta": {
+		  "description": "Restauramos propiedades históricas con detalles precisos a la época mientras actualizamos para seguridad, comodidad y eficiencia.",
+		  "price_tag": "Desde $40k",
+		  "timeline": "3–8 meses"
+		},
+		"overview": {
+		  "heading": "Restauración con Respeto",
+		  "paragraph": "Cada propiedad histórica tiene una historia. Preservamos artesanía original e integridad arquitectónica, mientras integramos sistemas modernos que permanecen visualmente discretos."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Restauración Histórica",
+		  "description": "Aprenda cómo técnicas modernas de restauración preservan el patrimonio mientras mejoran eficiencia y comodidad.",
+		  "items": {
+			"material_matching": {
+			  "title": "Coincidencia de Materiales",
+			  "description": "Madera reclamada, yeso de lima y hardware de época."
+			},
+			"structural_reinforcement": {
+			  "title": "Refuerzo Estructural",
+			  "description": "Acero oculto, hermanamiento y costura de mampostería."
+			},
+			"discreet_amenities": {
+			  "title": "Amenidades Discretas",
+			  "description": "Cableado en pared, mini-splits y calefacción bajo piso."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Autenticidad Cumple con Funcionalidad",
+		  "subtitle": "Detalles fieles a la era con habitabilidad de hoy.",
+		  "items": {
+			"craft_preservation": {
+			  "title": "Preservación de Artesanía",
+			  "description": "Ventanas, molduras y piedra restauradas con cuidado."
+			},
+			"period_accurate_details": {
+			  "title": "Detalles Precisos a la Época",
+			  "description": "Perfiles, pinturas y accesorios investigados y replicados."
+			},
+			"life_safety_upgrades": {
+			  "title": "Actualizaciones de Seguridad Vital",
+			  "description": "Cableado, egreso y alarmas traídos a código actual."
+			},
+			"moisture_envelope": {
+			  "title": "Humedad y Envoltura",
+			  "description": "Impermeabilización y ventilación para proteger la estructura."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"assessment": {
+			  "title": "Evaluación",
+			  "desc": "Encuesta de condición e investigación archivística."
+			},
+			"design": {
+			  "title": "Diseño",
+			  "desc": "Alcance alineado con guías de preservación."
+			},
+			"restoration": {
+			  "title": "Restauración",
+			  "desc": "Técnicas artesanales y materiales compatibles."
+			},
+			"integration": {
+			  "title": "Integración",
+			  "desc": "Servicios modernos agregados con impacto visual mínimo."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"preservation_boards": {
+			  "question": "¿Trabajan con juntas de preservación?",
+			  "answer": "Sí. Coordinamos submittals, reuniones y revisiones del sitio."
+			},
+			"modern_amenities": {
+			  "question": "¿Pueden agregarse amenidades modernas?",
+			  "answer": "Sí: integramos HVAC, eléctrico y plomería sin dañar tela histórica."
+			},
+			"match_materials": {
+			  "question": "¿Cómo coinciden materiales?",
+			  "answer": "Suministramos materiales reclamados o comisionamos reproducciones artesanales."
+			},
+			"hazard_materials": {
+			  "question": "¿Qué pasa con pintura de plomo o asbesto?",
+			  "answer": "Seguimos protocolos EPA/OSHA y usamos socios licenciados en abatimiento."
+			},
+			"insulation_moisture": {
+			  "question": "¿Causará aislamiento problemas de humedad?",
+			  "answer": "Usamos ensamblajes abiertos al vapor y ventilación para prevenir daños."
+			},
+			"documentation": {
+			  "question": "¿Pueden documentar el proceso?",
+			  "answer": "Sí, logs de fotos e informes proporcionados para registros y subvenciones."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Restaure Historia con Cuidado",
+		  "subheading": "Preserve la belleza y valor de su propiedad histórica.",
+		  "button": "Programar una Consulta"
+		}
+	  },
+	  "custom_commercial_builds": {
+		"title": "Construcciones Comerciales Personalizadas",
+		"gold_title": "Espacios que Definen Su Marca",
+		"subtitle": "Destaque con un espacio comercial diseñado a medida, desde vitrinas únicas hasta instalaciones especializadas.",
+		"meta": {
+		  "description": "Diseñamos y construimos entornos comerciales únicos alineados con su marca y necesidades operativas.",
+		  "price_tag": "Desde $100k",
+		  "timeline": "4–10 meses"
+		},
+		"overview": {
+		  "heading": "Su Negocio, Su Espacio",
+		  "paragraph": "Desde hospitalidad hasta atención médica hasta oficinas creativas, creamos espacios que mejoran la experiencia, agilizan operaciones y encarnan su marca, desde concepto hasta gran apertura."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño Comercial Personalizado",
+		  "description": "Explore innovaciones en diseño en espacios comerciales personalizados que alinean branding, experiencia del cliente y funcionalidad.",
+		  "items": {
+			"experience_driven_design": {
+			  "title": "Diseño Impulsado por Experiencia",
+			  "description": "Puntos de contacto inmersivos y viajes del cliente."
+			},
+			"tech_integrated_spaces": {
+			  "title": "Espacios Integrados con Tecnología",
+			  "description": "BAS, AV e IT que trabajan juntos bellamente."
+			},
+			"sustainable_construction": {
+			  "title": "Construcción Sostenible",
+			  "description": "Materiales saludables y sistemas eficientes."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Construido para Negocios",
+		  "subtitle": "Diseño y ejecución que impulsan tráfico, compromiso y ROI.",
+		  "items": {
+			"custom_storefronts": {
+			  "title": "Vitrinas Personalizadas",
+			  "description": "Fachadas y entradas que hacen una primera impresión poderosa."
+			},
+			"specialized_facilities": {
+			  "title": "Instalaciones Especializadas",
+			  "description": "Laboratorios, estudios o clínicas cumpliendo criterios estrictos."
+			},
+			"flexible_layouts": {
+			  "title": "Diseños Flexibles",
+			  "description": "Espacios que se adaptan a nuevos programas y crecimiento."
+			},
+			"back_of_house_flow": {
+			  "title": "Flujo de Parte Trasera",
+			  "description": "Recepción, almacenamiento y caminos de personal optimizados."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"discovery": {
+			  "title": "Descubrimiento",
+			  "desc": "Marca, operaciones y audiencia objetivo."
+			},
+			"design": {
+			  "title": "Diseño",
+			  "desc": "Zonificación, planes de adyacencia y tableros de humor de materiales."
+			},
+			"permitting": {
+			  "title": "Permisos",
+			  "desc": "Submittals, revisiones y coordinación de salud/seguridad vital."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construcción controlada de calidad e inspecciones."
+			},
+			"turnover": {
+			  "title": "Transferencia",
+			  "desc": "Puesta en marcha, entrenamiento y soporte de lanzamiento."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"franchises": {
+			  "question": "¿Trabajan con franquicias?",
+			  "answer": "Sí: nos alineamos con estándares de marca mientras elevamos la experiencia local."
+			},
+			"deadlines": {
+			  "question": "¿Pueden cumplir plazos ajustados?",
+			  "answer": "Establecemos horarios de hitos y usamos oficios por fases para golpear fechas de lanzamiento."
+			},
+			"cost_management": {
+			  "question": "¿Cómo manejan costos?",
+			  "answer": "Ingeniería de valor, alternativos e informes transparentes mantienen presupuestos controlados."
+			},
+			"signage": {
+			  "question": "¿Manejan señalización?",
+			  "answer": "Sí, coordinamos señalización exterior/interior y aprobaciones locales."
+			},
+			"post_occupancy": {
+			  "question": "¿Qué pasa con soporte post-ocupación?",
+			  "answer": "Proporcionamos resolución de pendientes, entrenamiento y planes de mantenimiento ongoing."
+			},
+			"occupied_sites": {
+			  "question": "¿Pueden construir en sitios ocupados?",
+			  "answer": "Sí: planes de logística, acaparamiento y trabajo fuera de horas minimizan disrupción."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Construya Su Espacio de Firma",
+		  "subheading": "Construcciones comerciales personalizadas diseñadas para éxito.",
+		  "button": "Comenzar"
+		}
+	  }
+	},
+	"commercial_details_services": {
+	  "office_renovations": {
+		"title": "Renovaciones de Oficinas",
+		"gold_title": "Espacios de Trabajo que Inspiran",
+		"subtitle": "Cree un espacio de trabajo productivo e inspirador con nuestros servicios de renovación de oficinas. Diseñamos diseños que optimizan el espacio, integran tecnología y reflejan la identidad de su marca.",
+		"meta": {
+		  "description": "Diseñamos y renovamos oficinas que fomentan la colaboración, la eficiencia y la presencia de la marca. Desde diseños hasta integración de tecnología, cada detalle está construido para la productividad.",
+		  "price_tag": "Desde $50k",
+		  "timeline": "6–12 semanas"
+		},
+		"overview": {
+		  "heading": "Redefiniendo el Lugar de Trabajo Moderno",
+		  "paragraph": "Una oficina es más que escritorios y paredes: es el corazón de su negocio. Transformamos espacios desactualizados en entornos que motivan a los equipos, impresionan a los clientes y apoyan el crecimiento. Desde colaboración abierta hasta habitaciones de enfoque privadas y configuraciones híbridas, nuestros diseños equilibran rendimiento, comodidad y personalidad de la marca."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño de Oficinas",
+		  "description": "Explore las últimas innovaciones en espacios de oficina que impulsan la productividad, la colaboración y el bienestar de los empleados.",
+		  "items": {
+			"hybrid_work_zones": {
+			  "title": "Zonas de Trabajo Híbrido",
+			  "description": "Espacios diseñados para colaboración en oficina y necesidades de reuniones remotas."
+			},
+			"integrated_tech_walls": {
+			  "title": "Paredes Tecnológicas Integradas",
+			  "description": "Pantallas integradas, transmisión inalámbrica y pizarras inteligentes."
+			},
+			"biophilic_design": {
+			  "title": "Diseño Biofílico",
+			  "description": "Estrategias de luz natural, texturas naturales y vegetación viva."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Construido para Rendimiento y Comodidad",
+		  "subtitle": "Desde planificación ergonómica hasta interiores centrados en la marca, nuestras renovaciones de oficinas crean entornos donde la productividad y el bienestar prosperan juntos.",
+		  "items": {
+			"ergonomic_workstations": {
+			  "title": "Estaciones de Trabajo Ergonómicas",
+			  "description": "Escritorios ajustables en altura y caminos de circulación óptimos."
+			},
+			"acoustic_control": {
+			  "title": "Control Acústico",
+			  "description": "Particiones, paneles y tratamientos de techos que reducen el ruido."
+			},
+			"smart_lighting": {
+			  "title": "Iluminación Inteligente",
+			  "description": "Sistemas LED centrados en el humano con sensores de ocupación y luz diurna."
+			},
+			"brand_expression": {
+			  "title": "Expresión de Marca",
+			  "description": "Acabados personalizados, gráficos y señalización alineados con su identidad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Objetivos, flujos de trabajo, cultura y presupuesto."
+			},
+			"concept_design": {
+			  "title": "Diseño Conceptual",
+			  "desc": "Diseños de prueba, tableros de humor y vistas 3D."
+			},
+			"material_tech_spec": {
+			  "title": "Especificación de Materiales y Tecnología",
+			  "desc": "Acabados, muebles, AV e iluminación."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construcción por fases para minimizar disrupciones."
+			},
+			"handover": {
+			  "title": "Entrega",
+			  "desc": "Lista de pendientes, puesta en marcha y resumen de garantía."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"work_hours": {
+			  "question": "¿Puede el trabajo ocurrir durante horas laborales?",
+			  "answer": "Sí. Faseamos el trabajo y podemos programar después de horas para reducir disrupciones."
+			},
+			"furniture": {
+			  "question": "¿Suministran muebles?",
+			  "answer": "Podemos especificar, adquirir e instalar muebles ergonómicos que coincidan con el diseño."
+			},
+			"permits": {
+			  "question": "¿Manejan permisos?",
+			  "answer": "Sí, incluyendo dibujos MEP, coordinación de seguridad vital e inspecciones."
+			},
+			"hybrid_offices": {
+			  "question": "¿Pueden apoyar oficinas híbridas?",
+			  "answer": "Absolutamente: habitaciones de enfoque, áreas de reunión y espacios de conferencia listos para video."
+			},
+			"it_av": {
+			  "question": "¿Qué pasa con IT y AV?",
+			  "answer": "Coordinamos con sus proveedores o proporcionamos soluciones llave en mano."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Eleve Su Espacio de Oficina",
+		  "subheading": "Reserve una consulta y construya un espacio de trabajo que inspire.",
+		  "button": "Comenzar"
+		}
+	  },
+	  "retail_construction": {
+		"title": "Construcción de Espacios Comerciales",
+		"gold_title": "Diseñado para Vender",
+		"subtitle": "Construya un entorno comercial invitador que atraiga clientes y impulse ventas. Desde vitrinas hasta diseños interiores, creamos espacios adaptados a su negocio.",
+		"meta": {
+		  "description": "Creamos espacios comerciales centrados en el cliente con flujo de tráfico inteligente, exhibiciones orientadas a la marca y materiales duraderos que lucen genial bajo uso intenso.",
+		  "price_tag": "Desde $80k",
+		  "timeline": "8–14 semanas"
+		},
+		"overview": {
+		  "heading": "Comercio que Convierte",
+		  "paragraph": "Un gran diseño comercial guía a los clientes, cuenta la historia de su marca y convierte a los navegadores en compradores. Planificamos cada detalle, desde vitrinas y colas hasta iluminación y materiales, para que su tienda se sienta intuitiva, memorable y alineada con la marca."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Construcción Comercial",
+		  "description": "Descubra ideas modernas de diseño comercial que atraen clientes, mejoran experiencias de compra y elevan la presencia de la marca.",
+		  "items": {
+			"experience_first_layouts": {
+			  "title": "Diseños Priorizando la Experiencia",
+			  "description": "Zonas de demostración, barras de muestras y momentos fotogénicos."
+			},
+			"modular_fixtures": {
+			  "title": "Accesorios Modulares",
+			  "description": "Estantes y exhibiciones móviles para reinicios estacionales."
+			},
+			"omnichannel_touchpoints": {
+			  "title": "Puntos de Contacto Omnichannel",
+			  "description": "Mostradores de recogida, autopago y navegación habilitada por QR."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Merchandising Cumple con Ingeniería",
+		  "subtitle": "Combinamos merchandising visual con construcción duradera para entregar espacios que lucen increíbles y funcionan bajo tráfico.",
+		  "items": {
+			"customer_flow_mapping": {
+			  "title": "Mapeo de Flujo de Clientes",
+			  "description": "Planogramas y caminos de circulación que aumentan el tiempo de permanencia."
+			},
+			"lighting_for_product_pop": {
+			  "title": "Iluminación para Resaltar Productos",
+			  "description": "Iluminación rica en CRI que hace brillar colores y texturas."
+			},
+			"durable_finishes": {
+			  "title": "Acabados Duraderos",
+			  "description": "Sistemas de pisos y paredes resistentes a rayones y manchas."
+			},
+			"back_of_house_efficiency": {
+			  "title": "Eficiencia en la Parte Trasera",
+			  "description": "Almacén, POS y seguridad planificados para velocidad y seguridad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"brand_brief": {
+			  "title": "Resumen de Marca",
+			  "desc": "Entender perfil de cliente y ADN de la marca."
+			},
+			"concept_test_fit": {
+			  "title": "Concepto y Prueba de Ajuste",
+			  "desc": "Diagramas de adyacencia y zonificación de la tienda."
+			},
+			"detailing_permits": {
+			  "title": "Detallado y Permisos",
+			  "desc": "Carpintería, señalización y aprobaciones."
+			},
+			"build_out": {
+			  "title": "Construcción",
+			  "desc": "Demolición, instalaciones gruesas, acabados e instalación de accesorios."
+			},
+			"merch_launch": {
+			  "title": "Merchandising y Lanzamiento",
+			  "desc": "Merchandising final y soporte de apertura suave."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"launch_date": {
+			  "question": "¿Pueden cumplir con una fecha de lanzamiento estricta?",
+			  "answer": "Sí. Planificamos hacia atrás desde su lanzamiento y comprimimos horarios con oficios por fases cuando sea necesario."
+			},
+			"millwork": {
+			  "question": "¿Fabrican carpintería personalizada?",
+			  "answer": "Diseñamos y construimos accesorios personalizados o trabajamos con sus proveedores preferidos."
+			},
+			"signage_permits": {
+			  "question": "¿Coordinan señalización y permisos?",
+			  "answer": "Sí, incluyendo señalización exterior y aprobaciones municipales."
+			},
+			"remain_open": {
+			  "question": "¿Pueden las tiendas permanecer abiertas durante renovaciones?",
+			  "answer": "Podemos fasear y barricar la construcción para mantener el comercio donde sea factible."
+			},
+			"multi_location": {
+			  "question": "¿Implementan construcciones multi-ubicación?",
+			  "answer": "Estandarizamos detalles para escalar en su portafolio."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Abra una Tienda que Convierte",
+		  "subheading": "Diseñemos un espacio comercial que sus clientes amen.",
+		  "button": "Planear Mi Tienda"
+		}
+	  },
+	  "industrial_upgrades": {
+		"title": "Actualizaciones de Instalaciones Industriales",
+		"gold_title": "Construido para Rendimiento",
+		"subtitle": "Mejore la eficiencia y seguridad de su instalación industrial con nuestros servicios de actualización, desde mejoras estructurales hasta instalaciones de equipo.",
+		"meta": {
+		  "description": "Modernizamos plantas, almacenes y espacios de producción con mejoras estructurales, mecánicas y eléctricas que mejoran el tiempo de actividad y la seguridad.",
+		  "price_tag": "Desde $120k",
+		  "timeline": "10–20 semanas"
+		},
+		"overview": {
+		  "heading": "Actualizaciones de Precisión, Tiempo de Inactividad Mínimo",
+		  "paragraph": "El trabajo industrial exige confiabilidad. Planificamos ventanas de cierre, coordinamos oficios y organizamos instalaciones para mantener sus operaciones en movimiento. Desde estanterías y entrepisos hasta distribución de energía y bases de máquinas, ingeniamos para seguridad, cumplimiento de códigos y durabilidad a largo plazo."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Actualizaciones Industriales",
+		  "description": "Manténgase adelante con mejoras industriales que maximizan la eficiencia, la seguridad y la adaptabilidad para operaciones modernas.",
+		  "items": {
+			"automation_readiness": {
+			  "title": "Preparación para Automatización",
+			  "description": "Energía, datos y diseños de piso preparados para robótica y transportadores."
+			},
+			"esd_flooring": {
+			  "title": "ESD y Pisos Especializados",
+			  "description": "Sistemas de superficie para salas limpias, laboratorios y áreas de alto tráfico."
+			},
+			"energy_monitoring": {
+			  "title": "Monitoreo de Energía",
+			  "description": "Sub-medición y paneles para rastrear y reducir costos de servicios públicos."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Ingeniería para Rendimiento",
+		  "subtitle": "Cada actualización está diseñada para seguridad, mantenibilidad y tiempo de actividad, con documentación que su equipo de mantenimiento realmente usará.",
+		  "items": {
+			"structural_enhancements": {
+			  "title": "Mejoras Estructurales",
+			  "description": "Almohadillas de equipo, entrepisos y refuerzo sísmico."
+			},
+			"power_controls": {
+			  "title": "Energía y Controles",
+			  "description": "Paneles, alimentadores, coordinación PLC y etiquetado."
+			},
+			"process_utilities": {
+			  "title": "Utilidades de Procesos",
+			  "description": "Aire comprimido, vacío, gas y distribución de agua."
+			},
+			"safety_systems": {
+			  "title": "Sistemas de Seguridad",
+			  "description": "Guardias, paradas de emergencia, estaciones de lavado de ojos y señalización."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"site_survey": {
+			  "title": "Encuesta del Sitio",
+			  "desc": "Medir, escanear y documentar condiciones actuales."
+			},
+			"engineering": {
+			  "title": "Ingeniería",
+			  "desc": "Dibujos sellados y cálculos de carga."
+			},
+			"procurement": {
+			  "title": "Adquisición",
+			  "desc": "Artículos de largo plazo ordenados temprano para proteger el horario."
+			},
+			"installation": {
+			  "title": "Instalación",
+			  "desc": "Oficios coordinados, trabajo por turnos y permisos de trabajo en caliente."
+			},
+			"commissioning": {
+			  "title": "Puesta en Marcha",
+			  "desc": "Pruebas, manuales O&M y entrenamiento."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"live_operations": {
+			  "question": "¿Pueden trabajar durante operaciones en vivo?",
+			  "answer": "Sí. Coordinamos con producción para programar cierres y ventanas de trabajo seguras."
+			},
+			"stamped_engineering": {
+			  "question": "¿Proporcionan ingeniería sellada?",
+			  "answer": "Entregamos dibujos sellados por PE según lo requerido por la jurisdicción."
+			},
+			"owner_equipment": {
+			  "question": "¿Pueden instalar equipo proporcionado por el propietario?",
+			  "answer": "Absolutamente. Configuramos, anclamos y alineamos según especificaciones del fabricante."
+			},
+			"as_builts": {
+			  "question": "¿Actualizan as-builts?",
+			  "answer": "Sí, incluyendo líneas rojas y documentación digital O&M."
+			},
+			"safety_compliance": {
+			  "question": "¿Qué pasa con el cumplimiento de seguridad?",
+			  "answer": "Nuestros programas cumplen con requisitos OSHA y políticas específicas de su sitio."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Actualice con Confianza",
+		  "subheading": "Aumente el rendimiento y la seguridad sin sacrificar el tiempo de actividad.",
+		  "button": "Planear una Actualización"
+		}
+	  },
+	  "commercial_maintenance": {
+		"title": "Mantenimiento de Propiedades Comerciales",
+		"gold_title": "Proactivo. Confiable. A Tiempo.",
+		"subtitle": "Mantenga su propiedad comercial en condiciones impecables con nuestros servicios de mantenimiento. El mantenimiento regular y reparaciones oportunas mantienen su espacio profesional y operativo.",
+		"meta": {
+		  "description": "Desde mantenimiento preventivo hasta reparaciones de emergencia, protegemos su inversión y mantenemos su edificio funcionando sin problemas.",
+		  "price_tag": "Planes Personalizados",
+		  "timeline": "Ongoing"
+		},
+		"overview": {
+		  "heading": "Prevenga Problemas. Proteja el Tiempo de Actividad.",
+		  "paragraph": "Un edificio bien mantenido reduce costos y preserva el valor. Nuestros equipos manejan inspecciones programadas, trabajos menores y reparaciones de respuesta rápida, coordinados a través de SLAs claros y un punto de contacto único."
+		},
+		"trends": {
+		  "heading": "Últimas Prácticas de Mantenimiento Comercial",
+		  "description": "Aprenda cómo estrategias de mantenimiento proactivas extienden la vida útil del edificio, reducen costos y mejoran el rendimiento.",
+		  "items": {
+			"data_driven_pm": {
+			  "title": "Horarios de PM Basados en Datos",
+			  "description": "Intervalos basados en uso que reducen servicios innecesarios."
+			},
+			"remote_monitoring": {
+			  "title": "Monitoreo Remoto",
+			  "description": "Sensores para temperatura, fugas y estado de equipo."
+			},
+			"sustainable_upkeep": {
+			  "title": "Mantenimiento Sostenible",
+			  "description": "Limpieza verde, programas de filtros y reducción de residuos."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Todo lo que Necesita, Un Equipo",
+		  "subtitle": "Mantenemos sus espacios seguros, cumpliendo y luciendo impecables, sin interrumpir inquilinos u operaciones.",
+		  "items": {
+			"interior_exterior": {
+			  "title": "Interior y Exterior",
+			  "description": "Pintura, parches, puertas, acristalamiento y retoques de fachada."
+			},
+			"mep_support": {
+			  "title": "Soporte MEP",
+			  "description": "Reemplazo de accesorios de luz, cambios de filtros y reparaciones pequeñas."
+			},
+			"life_safety": {
+			  "title": "Preparación para Seguridad Vital",
+			  "description": "Luces de emergencia, señalización de salida y coordinación de extintores."
+			},
+			"vendor_management": {
+			  "title": "Gestión de Proveedores",
+			  "description": "Paisajismo, limpieza, control de plagas: un horario coordinado."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"assessment": {
+			  "title": "Evaluación",
+			  "desc": "Recorrido del sitio e inventario de activos."
+			},
+			"plan": {
+			  "title": "Plan",
+			  "desc": "Calendario PM, niveles de servicio y niveles de respuesta."
+			},
+			"mobilize": {
+			  "title": "Movilizar",
+			  "desc": "Incorporación, acceso a claves y configuración de comunicación."
+			},
+			"execute": {
+			  "title": "Ejecutar",
+			  "desc": "Cuidado rutinario, tickets e informes."
+			},
+			"review": {
+			  "title": "Revisión",
+			  "desc": "Rendimiento trimestral y optimización."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"support_24_7": {
+			  "question": "¿Ofrecen soporte 24/7?",
+			  "answer": "Sí. Respuesta de emergencia disponible según SLA."
+			},
+			"multi_properties": {
+			  "question": "¿Pueden manejar múltiples propiedades?",
+			  "answer": "Centralizamos informes y facturación en su portafolio."
+			},
+			"compliance_items": {
+			  "question": "¿Manejan ítems de cumplimiento?",
+			  "answer": "Coordinamos chequeos rutinarios y mantenemos documentación actualizada."
+			},
+			"tenant_tickets": {
+			  "question": "¿Cómo envían tickets los inquilinos?",
+			  "answer": "Proporcionamos un flujo de trabajo simple de portal/correo rastreado a SLAs."
+			},
+			"pricing_flexible": {
+			  "question": "¿Es flexible el precio?",
+			  "answer": "Sí: por llamada, retenedor o programas PM fijos."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Mantenga Su Edificio Funcionando",
+		  "subheading": "Planes de mantenimiento personalizados que protegen el tiempo de actividad y el valor.",
+		  "button": "Construir Mi Plan"
+		}
+	  },
+	  "restaurant_hospitality_renovations": {
+		"title": "Renovaciones de Restaurantes y Hospitalidad",
+		"gold_title": "Ambiente Cumple con Operaciones",
+		"subtitle": "Transforme su restaurante o venue de hospitalidad en un espacio acogedor. Creamos atmósferas que se alinean con su marca y cumplen estándares regulatorios.",
+		"meta": {
+		  "description": "Desde salones de comedor hasta cocinas BOH y amenidades para huéspedes, renovamos espacios de hospitalidad para experiencia, durabilidad y cumplimiento de códigos.",
+		  "price_tag": "Desde $150k",
+		  "timeline": "10–18 semanas"
+		},
+		"overview": {
+		  "heading": "Diseño para Huéspedes. Ingeniería para Servicio.",
+		  "paragraph": "Los espacios de hospitalidad deben impresionar a los huéspedes y trabajar duro para el personal. Optimizamos conteos de asientos, acústica, iluminación y caminos de servidores mientras construimos áreas BOH que son fáciles de limpiar, seguras y eficientes, todo cumpliendo con códigos de salud y fuego."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Renovaciones de Hospitalidad",
+		  "description": "Vea cómo las tendencias más nuevas en diseño de hospitalidad crean experiencias memorables de comedor y alojamiento para clientes.",
+		  "items": {
+			"open_kitchen": {
+			  "title": "Momentos de Cocina Abierta",
+			  "description": "Mostradores de chef y passthroughs que muestran el arte."
+			},
+			"flexible_seating": {
+			  "title": "Asientos Flexibles",
+			  "description": "Cabinas, banquetas y mesas móviles para diferentes tamaños de grupos."
+			},
+			"acoustic_softening": {
+			  "title": "Suavizado Acústico",
+			  "description": "Deflectores de techo y tratamientos de pared para conversación cómoda."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Atmósfera que Puede Probar",
+		  "subtitle": "Combinamos ambiente, durabilidad y cumplimiento para crear experiencias inolvidables para huéspedes, frente y detrás de la casa.",
+		  "items": {
+			"health_code_kitchens": {
+			  "title": "Cocinas Cumpliendo Códigos de Salud",
+			  "description": "Superficies NSF, coordinación de trampas de grasa y zonas de lavado."
+			},
+			"lighting_sound": {
+			  "title": "Iluminación y Sonido",
+			  "description": "Iluminación en capas y sintonización acústica para ambiente y claridad."
+			},
+			"durable_finishes": {
+			  "title": "Acabados Duraderos",
+			  "description": "Pisos antideslizantes y tapicería resistente a manchas."
+			},
+			"service_flow": {
+			  "title": "Flujo de Servicio",
+			  "description": "Caminos claros desde la línea de expo hasta mesas y bar."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"concept_narrative": {
+			  "title": "Concepto y Narrativa",
+			  "desc": "Traduzca su cocina y marca en espacio."
+			},
+			"layouts_seating": {
+			  "title": "Diseños y Asientos",
+			  "desc": "Optimice adyacencias FOH/BOH y capacidades."
+			},
+			"permits_health": {
+			  "title": "Permisos y Dept. de Salud",
+			  "desc": "Dibujos, submittals e inspecciones."
+			},
+			"build_fit_out": {
+			  "title": "Construcción y Ajuste",
+			  "desc": "MEP, acabados, carpintería y conjunto de equipo."
+			},
+			"training_launch": {
+			  "title": "Entrenamiento y Lanzamiento",
+			  "desc": "Recorrido, pendientes y soporte de apertura suave."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"health_dept": {
+			  "question": "¿Trabajan con requisitos del departamento de salud?",
+			  "answer": "Sí, coordinamos submittals, inspecciones y correcciones."
+			},
+			"partial_service": {
+			  "question": "¿Podemos mantener servicio parcial durante remodelación?",
+			  "answer": "A menudo sí con áreas por fases y cocinas temporales."
+			},
+			"kitchen_equipment": {
+			  "question": "¿Instalan equipo de cocina?",
+			  "answer": "Coordinamos oficios y conexiones finales según especificaciones."
+			},
+			"improve_acoustics": {
+			  "question": "¿Pueden mejorar la acústica?",
+			  "answer": "Diseñamos materiales y diseños para reducir tiempos de reverberación."
+			},
+			"ada": {
+			  "question": "¿Qué pasa con ADA?",
+			  "answer": "Aseguramos que baños, asientos y circulación cumplan estándares de accesibilidad."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Haga que Cada Asiento Sea el Mejor",
+		  "subheading": "Creemos un espacio al que los huéspedes regresen una y otra vez.",
+		  "button": "Comenzar Mi Renovación"
+		}
+	  },
+	  "commercial_building_additions": {
+		"title": "Adiciones a Edificios Comerciales",
+		"gold_title": "Expandir Sin Disrupción",
+		"subtitle": "Expanda su negocio con adiciones sin problemas al edificio: más oficina, almacenamiento o espacio operativo diseñado para integrarse con su estructura existente.",
+		"meta": {
+		  "description": "Desde esquemas hasta acero, entregamos adiciones que escalan sus operaciones, coinciden con su arquitectura y cumplen códigos.",
+		  "price_tag": "Desde $250k",
+		  "timeline": "4–8 meses"
+		},
+		"overview": {
+		  "heading": "Espacio para Crecer, Hecho Bien",
+		  "paragraph": "Ya sea agregando oficinas, almacenamiento o espacio de producción, manejamos zonificación, estructura y sistemas de edificio para asegurar una conexión sin problemas, funcional y visual, a su instalación actual."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Expansión Comercial",
+		  "description": "Descubra cómo las empresas expanden espacios con adiciones modernas, flexibles e integradas sin problemas.",
+		  "items": {
+			"pre_engineered": {
+			  "title": "Sistemas Pre-Ingenierados",
+			  "description": "Horarios más rápidos con marcos PEMB y sistemas de paneles."
+			},
+			"energy_tight_envelopes": {
+			  "title": "Envolturas Energéticas Ajustadas",
+			  "description": "Aislamiento de alto rendimiento y acristalamiento para OPEX más bajo."
+			},
+			"future_proofing": {
+			  "title": "A Prueba de Futuro",
+			  "description": "Paneles desmontables y stubs para fases de expansión posteriores."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Sin Problemas, Escalable, Cumpliendo",
+		  "subtitle": "Integramos estructura, MEP, seguridad vital y acabados para que su adición funcione como si siempre hubiera estado allí.",
+		  "items": {
+			"structural_integration": {
+			  "title": "Integración Estructural",
+			  "description": "Cimientos, conexiones y caminos de carga ingenierados según código."
+			},
+			"systems_expansion": {
+			  "title": "Expansión de Sistemas",
+			  "description": "Tonelaje HVAC, servicio eléctrico y rociadores escalados inteligentemente."
+			},
+			"exterior_continuity": {
+			  "title": "Continuidad Exterior",
+			  "description": "Revestimiento, techado y acristalamiento que coinciden con su apariencia existente."
+			},
+			"phased_construction": {
+			  "title": "Construcción por Fases",
+			  "description": "Acceso, acaparamiento y logística que lo mantienen operando."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"feasibility": {
+			  "title": "Factibilidad",
+			  "desc": "Chequeos de zonificación, utilidades y restricciones del sitio."
+			},
+			"design_engineering": {
+			  "title": "Diseño e Ingeniería",
+			  "desc": "Coordinación arquitectónica y estructural."
+			},
+			"permitting": {
+			  "title": "Permisos",
+			  "desc": "Submittals, revisiones y aprobaciones."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Trabajos de tierra, caparazón y ajuste."
+			},
+			"close_out": {
+			  "title": "Cierre",
+			  "desc": "CO, manuales y entrega de garantía."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"match_facade": {
+			  "question": "¿Pueden coincidir con nuestra fachada existente?",
+			  "answer": "Sí. Suministramos sistemas compatibles o proponemos actualizaciones de buen gusto en ambos volúmenes."
+			},
+			"utilities_expansion": {
+			  "question": "¿Manejan expansión de utilidades?",
+			  "answer": "Coordinamos con proveedores de utilidades y redimensionamos sistemas según sea necesario."
+			},
+			"minimize_disruption": {
+			  "question": "¿Cómo minimizan la disrupción?",
+			  "answer": "Planes de logística claros, particiones temporales y trabajo fuera de horas donde sea necesario."
+			},
+			"future_expansion": {
+			  "question": "¿Qué pasa con expansión futura?",
+			  "answer": "Podemos diseñar stubs estructurales y de servicio para habilitar crecimiento posterior."
+			},
+			"cost_phasing": {
+			  "question": "¿Proporcionan fases de costos?",
+			  "answer": "Sí: opciones para solo caparazón vs. ajuste completo."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Crezca Sin Mudarse",
+		  "subheading": "Agregue pies cuadrados inteligentes que se paguen solos.",
+		  "button": "Definir una Adición"
+		}
+	  },
+	  "sustainable_commercial_construction": {
+		"title": "Construcción Comercial Sostenible",
+		"gold_title": "Construya Verde. Ahorre Verde.",
+		"subtitle": "Adopte prácticas ecológicas con nuestros servicios de construcción sostenible. Usamos materiales energéticamente eficientes y diseños para reducir su huella ambiental.",
+		"meta": {
+		  "description": "Desde mejoras de envoltura hasta electrificación y renovables, entregamos edificios sostenibles que reducen costos y carbono.",
+		  "price_tag": "Desde $90k",
+		  "timeline": "8–16 semanas (dependiente del alcance)"
+		},
+		"overview": {
+		  "heading": "Sostenibilidad que Paga",
+		  "paragraph": "Los proyectos verdes no deberían ser conjeturas. Modelamos ROI, seleccionamos tecnologías probadas e instalamos sistemas que reducen utilidades, mejoran comodidad y apoyan metas ESG, sin comprometer la estética."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Construcción Sostenible",
+		  "description": "Explore métodos de construcción ecológicos que combinan sostenibilidad con ahorros de costos a largo plazo e innovación.",
+		  "items": {
+			"deep_energy_retrofits": {
+			  "title": "Retrofits de Energía Profunda",
+			  "description": "Envoltura, HVAC y controles sintonizados como un sistema único."
+			},
+			"electrification": {
+			  "title": "Electrificación",
+			  "description": "Bombas de calor e inducción cambiando de gas a eléctrico de alta eficiencia."
+			},
+			"on_site_renewables": {
+			  "title": "Renovables en Sitio",
+			  "description": "Preparación para PV solar, almacenamiento de baterías y carga EV."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Costos Más Bajos. Mayor Comodidad.",
+		  "subtitle": "Combinamos eficiencia, bienestar y durabilidad para que sus espacios rindan por décadas.",
+		  "items": {
+			"high_performance_envelope": {
+			  "title": "Envoltura de Alto Rendimiento",
+			  "description": "Aislamiento, sellado de aire y acristalamiento que reducen pérdidas."
+			},
+			"smart_controls": {
+			  "title": "Controles Inteligentes",
+			  "description": "Programación BAS, ventilación basada en CO₂ y sub-medición."
+			},
+			"water_stewardship": {
+			  "title": "Gestión del Agua",
+			  "description": "Accesorios de bajo flujo y detección de fugas para reducir uso."
+			},
+			"healthy_materials": {
+			  "title": "Materiales Saludables",
+			  "description": "Pinturas de bajo VOC, maderas FSC y acabados reciclables."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"audit_baseline": {
+			  "title": "Auditoría y Línea Base",
+			  "desc": "Revisión de utilidades y evaluación del sitio."
+			},
+			"energy_modeling": {
+			  "title": "Modelado de Energía",
+			  "desc": "Análisis de escenarios y pronóstico de ROI."
+			},
+			"scope_incentives": {
+			  "title": "Alcance e Incentivos",
+			  "desc": "Seleccione medidas y capture reembolsos."
+			},
+			"build_commission": {
+			  "title": "Construir y Poner en Marcha",
+			  "desc": "Instale, pruebe y verifique rendimiento."
+			},
+			"monitor_optimize": {
+			  "title": "Monitorear y Optimizar",
+			  "desc": "Ajuste post-ocupación e informes."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"lower_bills": {
+			  "question": "¿Esto realmente bajará las facturas?",
+			  "answer": "Sí: apuntamos medidas con payback claro y compartimos rangos de ahorros modelados."
+			},
+			"rebates": {
+			  "question": "¿Ayudan con reembolsos?",
+			  "answer": "Identificamos y procesamos incentivos para reducir costos iniciales."
+			},
+			"phase_improvements": {
+			  "question": "¿Podemos fasear mejoras?",
+			  "answer": "Absolutamente. Construimos mapas de ruta multi-año alineados a ciclos de capital."
+			},
+			"comfort": {
+			  "question": "¿Esto afecta la comodidad?",
+			  "answer": "Espere mejores temperaturas, calidad de aire y acústica."
+			},
+			"leed_required": {
+			  "question": "¿Es requerido LEED o similar?",
+			  "answer": "Certificación es opcional: podemos diseñar a estándares con o sin búsqueda formal."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Construya Más Verde, Opere Más Inteligente",
+		  "subheading": "Reduzca costos y carbono con actualizaciones probadas.",
+		  "button": "Planear un Proyecto Sostenible"
+		}
+	  }
+	},
+	"residential_details_services": {
+	  "kitchen_renovations": {
+		"title": "Renovaciones de Cocinas",
+		"gold_title": "Elaborado para Vivir",
+		"subtitle": "Transforme su espacio de cocina en un centro de estilo, comodidad y eficiencia. Desde diseños inteligentes hasta acabados de lujo, cada detalle está diseñado alrededor de cómo vive y entretiene.",
+		"meta": {
+		  "description": "Transforme su hogar con gabinetes personalizados, encimeras premium y electrodomésticos modernos. Experimente artesanía y diseño inigualables.",
+		  "price_tag": "Desde $25k",
+		  "timeline": "4-8 semanas"
+		},
+		"overview": {
+		  "heading": "Donde la Función Cumple con Diseño Impecable",
+		  "paragraph": "Nuestras renovaciones de cocinas van mucho más allá de una actualización cosmética: son transformaciones a gran escala diseñadas para mejorar la forma en que vive todos los días. Consideramos cuidadosamente el flujo de trabajo, soluciones de almacenamiento e iluminación para crear una cocina que funcione tan bellamente como luce. Ya sea que quiera un espacio moderno elegante, una cocina de granja cálida e invitadora o un paraíso de chef de alta gama, entregamos artesanía excepcional y materiales premium que resisten el paso del tiempo. Desde la primera consulta de diseño hasta la revisión final, nuestro proceso asegura que su nueva cocina refleje su estilo, mejore el valor de su hogar y se convierta en el verdadero corazón de su hogar."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño de Cocinas",
+		  "description": "Descubra las innovaciones más nuevas en cocinas que equilibran estilo, eficiencia y funcionalidad inteligente.",
+		  "items": {
+			"smart_appliances": {
+			  "title": "Electrodomésticos Inteligentes",
+			  "description": "Hornos, refrigeradores y lavavajillas habilitados para Wi-Fi para monitoreo, recetas y ahorros de energía."
+			},
+			"quartz_countertops": {
+			  "title": "Encimeras de Cuarzo",
+			  "description": "Superficies duraderas de bajo mantenimiento en colores y patrones atemporales."
+			},
+			"open_shelving": {
+			  "title": "Estantes Abiertos",
+			  "description": "Almacenamiento aireado que muestra vajilla y agrega profundidad visual."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Espacios Culinarios Diseñados Alrededor de Usted",
+		  "subtitle": "Desde diseños modernos elegantes hasta clásicos atemporales, creamos cocinas que combinan belleza, función y detalles personalizados, dándole un espacio donde cocinar, cenar y reunir se siente effortless e inspirador todos los días.",
+		  "items": {
+			"custom_cabinetry": {
+			  "title": "Gabinetes Personalizados",
+			  "description": "Construidos para ajustarse a su diseño con hardware premium."
+			},
+			"under_cabinet_lighting": {
+			  "title": "Iluminación Bajo Gabinetes",
+			  "description": "Iluminación de tareas que elimina sombras en encimeras."
+			},
+			"multi_purpose_island": {
+			  "title": "Isla Multipropósito",
+			  "description": "Asientos, almacenamiento, tomas de corriente y espacio de preparación en uno."
+			},
+			"soft_close_drawers": {
+			  "title": "Cajones de Cierre Suave",
+			  "description": "Deslizadores silenciosos y duraderos para una experiencia premium."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"initial_consultation": {
+			  "title": "Consulta Inicial",
+			  "desc": "Discutimos su visión..."
+			},
+			"3d_design_rendering": {
+			  "title": "Renderizado de Diseño 3D",
+			  "desc": "Vea su nueva cocina..."
+			},
+			"material_selection": {
+			  "title": "Selección de Materiales",
+			  "desc": "Elija gabinetes..."
+			},
+			"construction_phase": {
+			  "title": "Fase de Construcción",
+			  "desc": "Artesanos lo construyen."
+			},
+			"final_reveal": {
+			  "title": "Revelación Final",
+			  "desc": "Recorra su nueva cocina."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"duration": {
+			  "question": "¿Cuánto tiempo toma una renovación de cocina?",
+			  "answer": "La mayoría de los proyectos de cocina se completan en 4–8 semanas dependiendo de complejidad, características personalizadas y disponibilidad de materiales. Cambios grandes o estructurales pueden tomar más tiempo."
+			},
+			"layout": {
+			  "question": "¿Pueden trabajar con mi diseño de cocina existente?",
+			  "answer": "Sí. Podemos mejorar su diseño actual para mejor funcionalidad o crear una configuración completamente nueva para coincidir con su estilo de vida."
+			},
+			"permits_and_trades": {
+			  "question": "¿Manejan plomería, eléctrico y permisos?",
+			  "answer": "Absolutamente. Nuestros oficios licenciados manejan todo el trabajo necesario de plomería, eléctrico y permisos, asegurando cumplimiento con códigos de construcción locales."
+			},
+			"materials_durability": {
+			  "question": "¿Qué materiales recomiendan para durabilidad?",
+			  "answer": "Le guiamos a través de la elección de encimeras, gabinetes, pisos y acabados de alta calidad que coincidan con su estilo y resistan el uso diario."
+			},
+			"live_in": {
+			  "question": "¿Puedo vivir en mi hogar durante la renovación?",
+			  "answer": "En la mayoría de los casos, sí. Tomamos pasos para minimizar polvo, ruido y disrupción, y configuramos espacios temporales de cocina si es necesario."
+			},
+			"value_increase": {
+			  "question": "¿Una nueva cocina aumentará el valor de mi hogar?",
+			  "answer": "Sí, una remodelación de cocina bien planificada es una de las mejoras de hogar con mayor retorno, impulsando tanto el atractivo como el valor de reventa."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Cocinemos Algo Increíble",
+		  "subheading": "¿Listo para transformar su cocina? Programe su consulta hoy.",
+		  "button": "Programar Consulta"
+		}
+	  },
+	  "bathroom_renovations": {
+		"title": "Remodelación de Baños",
+		"gold_title": "Cree Su Spa Personal",
+		"subtitle": "Convierta su baño en un santuario de relajación y estilo. Ya sea un retiro spa sereno o un baño familiar funcional, diseñamos espacios que inspiran comodidad todos los días.",
+		"meta": {
+		  "description": "Actualice su baño con características similares a un spa, accesorios de alta gama y diseños atemporales para indulgencia cotidiana.",
+		  "price_tag": "Desde $15k",
+		  "timeline": "3-6 semanas"
+		},
+		"overview": {
+		  "heading": "Lujo y Accesibilidad en Armonía Perfecta",
+		  "paragraph": "Creemos que su baño debería ser más que un espacio funcional: debería ser un retiro. Nuestros servicios de remodelación de baños combinan diseño lujoso con características inteligentes y prácticas para crear un espacio que amará todos los días. Desde duchas inspiradas en spa y tinas de remojo hasta actualizaciones de accesibilidad como duchas sin barreras y barras de agarre, adaptamos cada detalle a sus necesidades. Nos enfocamos en artesanía de calidad, materiales resistentes a la humedad y diseños que maximizan tanto la belleza como la función para asegurar que su nuevo baño eleve su rutina diaria y agregue valor a su hogar."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Diseño de Baños",
+		  "description": "Explore conceptos modernos de baños que combinan relajación, lujo y uso inteligente del espacio.",
+		  "items": {
+			"rainfall_showers": {
+			  "title": "Duchas de Lluvia",
+			  "description": "Experiencias de ducha lujosas con múltiples patrones de rociado y tecnología de ahorro de agua."
+			},
+			"heated_floors": {
+			  "title": "Pisos Calefactados",
+			  "description": "Calefacción radiante en piso para comodidad y lujo en cualquier clima."
+			},
+			"floating_vanities": {
+			  "title": "Tocadores Flotantes",
+			  "description": "Diseños modernos que ahorran espacio y crean una sensación aérea y contemporánea."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Diseño Universal y Accesibilidad",
+		  "subtitle": "Diseñamos baños tan hermosos como funcionales: espacios pensados que combinan estilo, seguridad y facilidad de uso para todas las edades y habilidades, para que pueda disfrutar comodidad y confianza todos los días.",
+		  "items": {
+			"walk_in_showers": {
+			  "title": "Duchas Sin Barreras",
+			  "description": "Entrada sin barreras con superficies antideslizantes y opciones de asientos integrados."
+			},
+			"grab_bars": {
+			  "title": "Barras de Agarre",
+			  "description": "Barras de soporte elegantes y resistentes que se integran sin problemas con su diseño."
+			},
+			"comfort_height_fixtures": {
+			  "title": "Accesorios de Altura Cómoda",
+			  "description": "Inodoros y tocadores a alturas óptimas para uso más fácil."
+			},
+			"wide_doorways": {
+			  "title": "Puertas Anchas",
+			  "description": "Puntos de entrada accesibles que acomodan todas las necesidades de movilidad."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"design_consultation": {
+			  "title": "Consulta de Diseño",
+			  "desc": "Comparta sus ideas y objetivos."
+			},
+			"material_selection": {
+			  "title": "Selección de Materiales",
+			  "desc": "Elija azulejos, accesorios e iluminación."
+			},
+			"visualization_3d": {
+			  "title": "Visualización 3D",
+			  "desc": "Previsualice el espacio terminado."
+			},
+			"renovation": {
+			  "title": "Renovación",
+			  "desc": "Nuestro equipo lo hace realidad."
+			},
+			"final_inspection": {
+			  "title": "Inspección Final",
+			  "desc": "Asegure que cada detalle sea perfecto."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"luxury_accessible": {
+			  "question": "¿Ofrecen soluciones de baño tanto de lujo como accesibles?",
+			  "answer": "Sí. Diseñamos baños que equilibran elegancia con seguridad, incluyendo duchas sin barreras, accesorios de altura cómoda y pisos antideslizantes."
+			},
+			"timeline": {
+			  "question": "¿Cuál es el cronograma típico para una remodelación de baño?",
+			  "answer": "La mayoría de las remodelaciones de baños toman 3–6 semanas, dependiendo de tamaño, complejidad y personalización."
+			},
+			"small_spaces": {
+			  "question": "¿Pueden trabajar con espacios pequeños o incómodos?",
+			  "answer": "Absolutamente. Nos especializamos en diseños creativos y soluciones de almacenamiento que hacen que incluso baños pequeños se sientan espaciosos."
+			},
+			"eco_friendly": {
+			  "question": "¿Proporcionan opciones ecológicas?",
+			  "answer": "Sí. Podemos instalar accesorios de ahorro de agua, iluminación LED y materiales sostenibles para reducir el impacto ambiental."
+			},
+			"plumbing_electrical_updates": {
+			  "question": "¿Manejarán actualizaciones de plomería y eléctrico?",
+			  "answer": "Sí. Todo el trabajo es realizado por profesionales licenciados para asegurar seguridad y cumplimiento de códigos."
+			},
+			"spa_feel": {
+			  "question": "¿Cómo puedo hacer que mi baño se sienta más como un spa?",
+			  "answer": "Recomendamos características como cabezales de ducha de lluvia, pisos calefactados, tinas profundas de remojo y esquemas de iluminación calmantes."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Convierta Su Baño en un Spa",
+		  "subheading": "Reserve su consulta y entre en lujo.",
+		  "button": "Reserve Consulta"
+		}
+	  },
+	  "home_additions": {
+		"title": "Expanda Su Espacio Habitable con Facilidad",
+		"gold_title": "Integrado Sin Problemas",
+		"subtitle": "Expanda su hogar con nuevas habitaciones que se integren perfectamente en su estilo existente. Desde concepto hasta finalización, entregamos espacio extra sin sacrificar belleza o flujo.",
+		"meta": {
+		  "description": "Agregue dormitorios, salas de sol o nuevas áreas de vida que se integren sin problemas con el estilo y estructura de su hogar.",
+		  "price_tag": "Desde $40k",
+		  "timeline": "6-12 semanas"
+		},
+		"overview": {
+		  "heading": "Espacio que Crece con Usted",
+		  "paragraph": "Una adición de hogar es más que pies cuadrados extra: es una oportunidad para mejorar su estilo de vida y aumentar el valor de su propiedad. Diseñamos y construimos adiciones que se integran sin problemas con su hogar existente, tanto estructural como estilísticamente. Ya sea que necesite una cocina más grande, una sala de sol, una oficina en casa o una suite para suegros, nuestro equipo maneja cada aspecto desde diseño y permisos hasta construcción final. Nos enfocamos en luz natural, eficiencia energética y acabados de calidad para asegurar que su nuevo espacio se sienta como si siempre hubiera pertenecido. Nuestro objetivo es crear una experiencia de construcción sin estrés mientras entregamos una extensión impresionante y funcional de su hogar."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Adiciones de Hogares",
+		  "description": "Vea cómo las adiciones de hogares de hoy crean expansiones sin problemas que se integran perfectamente con estructuras existentes.",
+		  "items": {
+			"multi_generational_suites": {
+			  "title": "Suites Multigeneracionales",
+			  "description": "Combinaciones privadas de dormitorio/baño diseñadas para vida familiar extendida."
+			},
+			"energy_efficient_envelope": {
+			  "title": "Envoltura Energéticamente Eficiente",
+			  "description": "Aislamiento de alto R, ventanas avanzadas y sellado de aire ajustado."
+			},
+			"indoor_outdoor_flow": {
+			  "title": "Flujo Interior-Exterior",
+			  "description": "Deslizadores grandes y decks que conectan nuevas habitaciones al patio trasero."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Más Espacio para lo que Más Importa",
+		  "subtitle": "Nuestras adiciones de hogares se integran sin problemas con su arquitectura existente, dándole dormitorios extra, áreas de vida o espacios especiales que se sienten como si siempre hubieran estado allí, construidos con artesanía, comodidad y su estilo de vida en mente.",
+		  "items": {
+			"structural_engineering": {
+			  "title": "Ingeniería Estructural",
+			  "description": "Cálculos de carga y cimientos dimensionados para longevidad."
+			},
+			"matched_exterior_finishes": {
+			  "title": "Acabados Exteriores Coincidentes",
+			  "description": "Revestimiento, techado y molduras que se integran sin problemas."
+			},
+			"integrated_systems": {
+			  "title": "Sistemas Integrados",
+			  "description": "HVAC, eléctrico y plomería escalados para el nuevo footprint."
+			},
+			"sound_control": {
+			  "title": "Control de Sonido",
+			  "description": "Paredes/puertas aisladas para habitaciones tranquilas y cómodas."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Revisamos sus necesidades y diseño de propiedad."
+			},
+			"design_planning": {
+			  "title": "Diseño y Planificación",
+			  "desc": "Cree un plan que complemente su hogar."
+			},
+			"permitting": {
+			  "title": "Permisos",
+			  "desc": "Manejamos permisos y aprobaciones requeridos."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construimos la adición a estándares precisos."
+			},
+			"final_walkthrough": {
+			  "title": "Recorrido Final",
+			  "desc": "Inspeccione cada detalle para perfección."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"match_style": {
+			  "question": "¿La adición coincidirá con el estilo de mi hogar?",
+			  "answer": "Sí. Seleccionamos cuidadosamente materiales, acabados y detalles arquitectónicos para coincidir o mejorar su diseño existente."
+			},
+			"permits_inspections": {
+			  "question": "¿Manejan permisos e inspecciones?",
+			  "answer": "Absolutamente. Manejamos todos los permisos y coordinamos inspecciones para mantener su proyecto en pista."
+			},
+			"second_story": {
+			  "question": "¿Pueden construir una adición de segundo piso?",
+			  "answer": "Sí. Podemos construir hacia arriba o hacia afuera dependiendo de zonificación y factibilidad estructural."
+			},
+			"timeline": {
+			  "question": "¿Cuánto tiempo toma una adición de hogar?",
+			  "answer": "Los cronogramas varían, pero la mayoría de las adiciones se completan en 8–16 semanas dependiendo de complejidad."
+			},
+			"move_out": {
+			  "question": "¿Necesitaré mudarme durante la construcción?",
+			  "answer": "En la mayoría de los casos, puede quedarse en su hogar, aunque trabajo estructural mayor puede requerir reubicación temporal."
+			},
+			"resale_value": {
+			  "question": "¿Una adición aumenta el valor de reventa?",
+			  "answer": "Sí, adiciones bien diseñadas pueden mejorar significativamente el valor de reventa y atractivo para compradores."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Agregue Más Espacio Sin Mudarse",
+		  "subheading": "Expanda su hogar para ajustarse a su estilo de vida.",
+		  "button": "Solicitar Cotización"
+		}
+	  },
+	  "basement_finishing": {
+		"title": "Acabado de Sótanos",
+		"gold_title": "De Almacenamiento a Exhibición",
+		"subtitle": "Desbloquee el potencial oculto de su sótano. Ya sea un cine en casa, suite de invitados o espacio de trabajo, convertimos pies cuadrados no usados en sus habitaciones favoritas.",
+		"meta": {
+		  "description": "Maximice el potencial de su hogar con un sótano completamente terminado diseñado para vivir, trabajar o jugar.",
+		  "price_tag": "Desde $20k",
+		  "timeline": "5-9 semanas"
+		},
+		"overview": {
+		  "heading": "De Vacío a Extraordinario",
+		  "paragraph": "Su sótano está lleno de potencial, y podemos ayudarlo a desbloquearlo. Nuestros servicios de acabado de sótanos transforman espacio subutilizado en habitaciones funcionales e invitadoras. Desde cines en casa acogedores y áreas de entretenimiento hasta gimnasios, suites de invitados y oficinas en casa, creamos espacios que se ajustan a su estilo de vida. Abordamos impermeabilización, aislamiento e iluminación desde el principio para asegurar que su sótano sea cómodo todo el año. Con materiales duraderos, diseños inteligentes y atención a los detalles, convertimos su sótano en una extensión hermosa de su hogar, agregando tanto espacio habitable como valor a la propiedad."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Acabado de Sótanos",
+		  "description": "Descubra cómo los sótanos se transforman en áreas habitables versátiles, desde zonas de entretenimiento hasta suites de invitados.",
+		  "items": {
+			"home_theaters": {
+			  "title": "Cines en Casa",
+			  "description": "Tratamientos acústicos, proyección y opciones de asientos escalonados."
+			},
+			"daylight_egress": {
+			  "title": "Luz Diurna y Egreso",
+			  "description": "Ventanas más grandes, pozos y salidas cumpliendo códigos para seguridad y luz."
+			},
+			"wet_bars_kitchenettes": {
+			  "title": "Bares Húmedos y Cocinetas",
+			  "description": "Agregue fregaderos, mini-refrigeradores y almacenamiento para entretenimiento."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Transforme Su Sótano en un Destino",
+		  "subtitle": "De oscuro almacenamiento no usado a áreas de vida vibrantes, creamos sótanos que se ajustan a su estilo de vida, ya sea un cine en casa, suite de invitados, gimnasio o espacio de trabajo, cada detalle diseñado para comodidad, durabilidad y disfrute todo el año.",
+		  "items": {
+			"moisture_management": {
+			  "title": "Gestión de Humedad",
+			  "description": "Barreras de vapor, drenaje y soluciones de deshumidificación."
+			},
+			"insulated_subfloors": {
+			  "title": "Subpisos Aislados",
+			  "description": "Protección térmica y de humedad para pies más cálidos todo el año."
+			},
+			"code_compliance": {
+			  "title": "Cumplimiento de Códigos",
+			  "description": "Ventanas de egreso, detectores de humo/CO y alturas de techo adecuadas."
+			},
+			"flexible_zoning": {
+			  "title": "Zonificación Flexible",
+			  "description": "Áreas designadas para gimnasio, oficina, juego o invitados."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"assessment": {
+			  "title": "Evaluación",
+			  "desc": "Evalúe espacio y aborde preocupaciones de humedad."
+			},
+			"design_planning": {
+			  "title": "Planificación de Diseño",
+			  "desc": "Cree un diseño personalizado para sus necesidades."
+			},
+			"framing_insulation": {
+			  "title": "Enmarcado y Aislamiento",
+			  "desc": "Asegure comodidad y eficiencia."
+			},
+			"finishing_touches": {
+			  "title": "Toques de Acabado",
+			  "desc": "Instale pisos, iluminación y molduras."
+			},
+			"final_reveal": {
+			  "title": "Revelación Final",
+			  "desc": "Disfrute su nueva área habitable."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"waterproofing": {
+			  "question": "¿Manejan impermeabilización antes de finalizar?",
+			  "answer": "Sí. Aseguramos que el sótano esté completamente impermeabilizado para prevenir daños futuros."
+			},
+			"add_bath_kitchen": {
+			  "question": "¿Puedo agregar un baño o cocineta?",
+			  "answer": "Absolutamente. Podemos incorporar baños completos, bares húmedos o incluso cocinas completas."
+			},
+			"warm_winter": {
+			  "question": "¿Mi sótano será cálido en invierno?",
+			  "answer": "Sí. Usamos aislamiento, barreras de vapor y opciones de calefacción para hacerlo cómodo todo el año."
+			},
+			"duration": {
+			  "question": "¿Cuánto tiempo toma el acabado de sótano?",
+			  "answer": "Típicamente 6–10 semanas, dependiendo de alcance y complejidad."
+			},
+			"multi_purpose": {
+			  "question": "¿Pueden diseñar el espacio para múltiples propósitos?",
+			  "answer": "Sí. Podemos crear zonas para entretenimiento, trabajo, almacenamiento y más."
+			},
+			"value_increase": {
+			  "question": "¿Finalizar mi sótano aumenta el valor del hogar?",
+			  "answer": "Sí, un sótano terminado agrega pies cuadrados utilizables, lo que aumenta el valor de reventa."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Desbloquee el Potencial de Su Sótano",
+		  "subheading": "Creemos un espacio que amará pasar tiempo en él.",
+		  "button": "Comenzar"
+		}
+	  },
+	  "deck_patio_construction": {
+		"title": "Construcción de Decks y Patios",
+		"gold_title": "Vida al Aire Libre, Elevada",
+		"subtitle": "Traiga sus sueños de patio trasero a la vida con decks y patios impresionantes construidos para comodidad, belleza y disfrute duradero en cada estación.",
+		"meta": {
+		  "description": "Cree un escape exterior impresionante con decks y patios personalizados construidos para belleza, comodidad y durabilidad.",
+		  "price_tag": "Desde $12k",
+		  "timeline": "2-5 semanas"
+		},
+		"overview": {
+		  "heading": "Su Patio Trasero, Reimaginado",
+		  "paragraph": "Un gran espacio exterior es una extensión de su hogar: un lugar para relajarse, entretener y conectar con la naturaleza. Nuestros servicios de construcción de decks y patios combinan belleza y durabilidad, usando materiales de alta calidad que resisten los elementos. Ya sea que prefiera un deck de madera natural, un compuesto de bajo mantenimiento o un patio de piedra impresionante, personalizamos el diseño para ajustarse a su estilo de vida. También ofrecemos asientos integrados, iluminación, pérgolas y protección contra el clima para que pueda disfrutar su espacio todo el año. Cada detalle está planificado para comodidad, seguridad y atractivo visual."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Vida al Aire Libre",
+		  "description": "Encuentre inspiración en los últimos diseños de decks y patios que extienden comodidad y entretenimiento al exterior.",
+		  "items": {
+			"composite_decking_2_0": {
+			  "title": "Decking Compuesto 2.0",
+			  "description": "Tablas resistentes a la decoloración, de bajo mantenimiento con sujetadores ocultos."
+			},
+			"outdoor_kitchens_fire": {
+			  "title": "Cocinas al Aire Libre y Fuego",
+			  "description": "Parrillas integradas, espacio de preparación y características de fuego para entretenimiento."
+			},
+			"shade_weather_control": {
+			  "title": "Control de Sombra y Clima",
+			  "description": "Pérgolas, toldos retráctiles y detalles amigables con la lluvia."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Vida al Aire Libre, Perfeccionada",
+		  "subtitle": "Convierta su patio trasero en el espacio de reunión definitivo con decks y patios construidos para belleza, comodidad y durabilidad, diseñados para lounging, entretenimiento y hacer recuerdos en cada estación.",
+		  "items": {
+			"material_options": {
+			  "title": "Opciones de Materiales",
+			  "description": "Compuesto, madera dura, pavimentadoras y piedra natural."
+			},
+			"built_in_seating_planters": {
+			  "title": "Asientos y Macetas Integrados",
+			  "description": "Maximice la función con elementos integrados."
+			},
+			"low_voltage_lighting": {
+			  "title": "Iluminación de Bajo Voltaje",
+			  "description": "Escaleras, postes y caminos iluminados para seguridad."
+			},
+			"durable_railings": {
+			  "title": "Barandillas Duraderas",
+			  "description": "Sistemas de aluminio, cable o vidrio que resisten el clima."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Discuta su visión exterior y necesidades."
+			},
+			"design_layout": {
+			  "title": "Diseño y Diseño",
+			  "desc": "Planifique su área de vida exterior perfecta."
+			},
+			"material_selection": {
+			  "title": "Selección de Materiales",
+			  "desc": "Elija madera, compuesto o piedra."
+			},
+			"construction": {
+			  "title": "Construcción",
+			  "desc": "Construya expertamente su deck o patio."
+			},
+			"final_touches": {
+			  "title": "Toques Finales",
+			  "desc": "Agregue iluminación, barandillas o pérgolas."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"materials_offered": {
+			  "question": "¿Qué materiales ofrecen?",
+			  "answer": "Construimos con madera tratada a presión, decking compuesto, maderas duras, piedra y pavimentadoras."
+			},
+			"shade_weather": {
+			  "question": "¿Pueden agregar sombra o protección contra el clima?",
+			  "answer": "Sí. Podemos instalar pérgolas, techos, toldos retráctiles y pantallas de privacidad."
+			},
+			"lighting_installation": {
+			  "question": "¿Manejan instalación de iluminación?",
+			  "answer": "Absolutamente. Podemos integrar iluminación de deck y paisaje para seguridad y ambiente."
+			},
+			"lifespan": {
+			  "question": "¿Cuánto durará mi deck o patio?",
+			  "answer": "Con mantenimiento adecuado, decks de madera pueden durar 10–15 años, mientras que compuesto y piedra pueden durar décadas."
+			},
+			"permits": {
+			  "question": "¿Se encargan de permisos?",
+			  "answer": "Sí, manejamos todos los permisos e inspecciones."
+			},
+			"multi_level_decks": {
+			  "question": "¿Pueden construir decks multi-nivel?",
+			  "answer": "Sí. Diseños multi-escalonados pueden crear zonas distintas para cenar, lounging y entretenimiento."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Traiga Su Patio Trasero a la Vida",
+		  "subheading": "Comience su proyecto de deck o patio hoy.",
+		  "button": "Solicitar Consulta"
+		}
+	  },
+	  "whole_home_renovations": {
+		"title": "Renovaciones de Hogares Completos",
+		"gold_title": "Reimagine Cada Habitación",
+		"subtitle": "Dé a su hogar una transformación completa que refleje su estilo. De piso a techo, cada espacio se sentirá fresco, cohesivo y perfectamente usted.",
+		"meta": {
+		  "description": "De piso a techo, habitación a habitación, reimaginamos y reconstruimos para una transformación cohesiva y impresionante.",
+		  "price_tag": "Desde $100k",
+		  "timeline": "3-6 meses"
+		},
+		"overview": {
+		  "heading": "Una Visión, Cada Habitación",
+		  "paragraph": "Nuestras renovaciones de hogares completos son transformaciones completas: una oportunidad para repensar y rediseñar sus espacios habitables de arriba a abajo. Creamos un diseño cohesivo que fluye sin problemas de habitación a habitación, mientras abordamos necesidades prácticas como almacenamiento, iluminación y eficiencia energética. Desde actualizar cocinas y baños hasta refrescar pisos, pintura y accesorios en todo, manejamos cada detalle. Ya sea un refresco moderno, un clásico atemporal o un cambio completo de estilo, nuestro equipo experimentado asegura que su nuevo hogar refleje su gusto y mejore su estilo de vida."
+		},
+		"trends": {
+		  "heading": "Últimas Tendencias en Renovaciones de Hogares Completos",
+		  "description": "Aprenda cómo renovaciones a gran escala están redefiniendo hogares con diseño cohesivo, sostenibilidad y actualizaciones inteligentes.",
+		  "items": {
+			"open_concept_living": {
+			  "title": "Vida de Concepto Abierto",
+			  "description": "Cambios estructurales que crean espacios conectados llenos de luz."
+			},
+			"smart_home_integration": {
+			  "title": "Integración de Hogar Inteligente",
+			  "description": "Iluminación, clima y seguridad unificados en un ecosistema."
+			},
+			"high_performance_envelope": {
+			  "title": "Envoltura de Alto Rendimiento",
+			  "description": "Mejor aislamiento, ventanas y sellado de aire para comodidad y ahorros."
+			}
+		  }
+		},
+		"features": {
+		  "title": "Una Transformación Completa, Dentro y Fuera",
+		  "subtitle": "Reimagine su hogar de piso a techo con un diseño cohesivo que fluye a través de cada habitación, combinando su estilo personal con comodidades modernas, eficiencia energética y artesanía que resiste el paso del tiempo.",
+		  "items": {
+			"cohesive_design_language": {
+			  "title": "Lenguaje de Diseño Cohesivo",
+			  "description": "Acabados y detalles que fluyen consistentemente habitación a habitación."
+			},
+			"systems_upgrades": {
+			  "title": "Actualizaciones de Sistemas",
+			  "description": "Panel eléctrico, plomería y HVAC dimensionados para el nuevo plan."
+			},
+			"energy_efficiency": {
+			  "title": "Eficiencia Energética",
+			  "description": "Reemplazos de ventanas, aislamiento y sellado de aire en todo."
+			},
+			"phased_construction": {
+			  "title": "Construcción por Fases",
+			  "desc": "Planifique alrededor de ocupación con estrategias de vida temporal."
+			}
+		  }
+		},
+		"process": {
+		  "steps": {
+			"consultation": {
+			  "title": "Consulta",
+			  "desc": "Discuta objetivos, estilo y alcance."
+			},
+			"comprehensive_design": {
+			  "title": "Diseño Integral",
+			  "desc": "Planifique cada espacio para flujo y función."
+			},
+			"material_selection": {
+			  "title": "Selección de Materiales",
+			  "desc": "Elija acabados, accesorios y acentos."
+			},
+			"full_renovation": {
+			  "title": "Renovación Completa",
+			  "desc": "Ejecute la transformación completa del hogar."
+			},
+			"final_reveal": {
+			  "title": "Revelación Final",
+			  "desc": "Recorra su hermoso nuevo hogar."
+			}
+		  }
+		},
+		"faqs": {
+		  "items": {
+			"move_out": {
+			  "question": "¿Necesito mudarme durante la renovación?",
+			  "answer": "Para renovaciones mayores, reubicación temporal a menudo se recomienda, pero podemos trabajar en fases para minimizar disrupción."
+			},
+			"keep_existing_features": {
+			  "question": "¿Pueden mantener algunas características existentes?",
+			  "answer": "Sí. Podemos incorporar y restaurar elementos que ama mientras actualizamos el resto de su hogar."
+			},
+			"cohesive_look": {
+			  "question": "¿Cómo aseguran un aspecto cohesivo?",
+			  "answer": "Creamos un plan de diseño integral que une todos los espacios con colores, materiales y estilos consistentes."
+			},
+			"duration": {
+			  "question": "¿Cuánto tiempo toma una renovación de hogar completo?",
+			  "answer": "Los cronogramas varían, pero la mayoría toman 3–9 meses dependiendo de alcance y complejidad."
+			},
+			"permits_inspections": {
+			  "question": "¿Manejan permisos e inspecciones?",
+			  "answer": "Sí, nos encargamos de todos los permisos, aprobaciones e inspecciones requeridos."
+			},
+			"value_increase": {
+			  "question": "¿Una renovación completa aumenta el valor del hogar?",
+			  "answer": "Sí, especialmente al modernizar espacios desactualizados y mejorar funcionalidad."
+			}
+		  }
+		},
+		"cta": {
+		  "heading": "Reimagine Su Hogar",
+		  "subheading": "Hagamos que cada habitación sea su favorita.",
+		  "button": "Comenzar Su Renovación"
+		}
+	  }
 	}
-}
+  }
