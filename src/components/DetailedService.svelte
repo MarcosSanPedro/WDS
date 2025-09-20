@@ -10,9 +10,7 @@
 
 	let openFaq = $state<number | null>(null);
 
-	let data = _services[page.params.slug as keyof typeof _services];
-
-	console.log(data);
+	const data = $derived(_services[page.params.slug as keyof typeof _services]);
 
 	const materials = {
 		cabinetry: {
@@ -194,7 +192,7 @@
 			<div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
 				<!-- Material Selector & Details -->
 				<div>
-					<div class="mb-8 flex space-x-4">
+					<div class="mb-8 flex space-x-4 justify-center">
 						{#each Object.keys(materials) as key}
 							<button
 								class={`rounded-lg px-6 py-3 font-semibold transition-all duration-300 ${
