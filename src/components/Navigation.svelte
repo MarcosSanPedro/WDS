@@ -15,6 +15,7 @@
 	import { fade, fly } from 'svelte/transition';
 	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
+import { setLocale, localizeHref } from '$lib/paraglide/runtime';
 
 	// Build service dropdown items from service maps
 	import { _services as residentialServices } from '../routes/services/residential/[slug]/+page';
@@ -213,6 +214,16 @@
 			openDesktopMenu(id);
 		}
 	}
+
+// Locale handling
+let currentLocale: 'en' | 'es' = 'en';
+$: currentLocale = $page.url.pathname.startsWith('/es') ? 'es' : 'en';
+
+function switchLocale(locale: 'en' | 'es') {
+	if (locale !== currentLocale) {
+		setLocale(locale);
+	}
+}
 </script>
 
 <nav
@@ -223,7 +234,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex-shrink-0">
-				<a href="/" class="text-2xl font-bold text-white transition-colors hover:text-secondary">
+				<a href={localizeHref('/')} class="text-2xl font-bold text-white transition-colors hover:text-secondary">
 					{m['company.short_name']()}
 				</a>
 			</div>
@@ -232,7 +243,7 @@
 				{#each desktopNavItems as item (item.id)}
 					{#if item.type === 'link'}
 						<a
-							href={item.href}
+							href={localizeHref(item.href)}
 							class="rounded-lg px-2 py-1 text-white text-sm md:text-[15px] lg:text-base whitespace-nowrap transition-colors duration-200 hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 						>
 							{item.label()}
@@ -271,8 +282,8 @@
 										on:focusout={handleDesktopFocusOut}
 									>
 										{#if item.showCategoryLink !== false}
-											<a
-												href={item.href}
+									<a
+										href={localizeHref(item.href)}
 												class="block rounded-lg bg-[#1A365D] px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/20 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 												on:click={closeDesktopMenu}
 											>
@@ -283,8 +294,8 @@
 											{/if}
 										{/if}
 										{#each item.items as sub (sub.href)}
-											<a
-												href={sub.href}
+									<a
+										href={localizeHref(sub.href)}
 												class="block rounded-lg px-3 py-2 text-sm text-white/90 transition hover:bg-secondary/10 hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
 												on:click={closeDesktopMenu}
 											>
@@ -298,8 +309,30 @@
 					{/if}
 				{/each}
 
+				<!-- Desktop language switcher -->
+				<div class="flex items-center gap-1">
+					<button
+						type="button"
+						class={`rounded-lg px-2 py-1 text-xs md:text-[13px] font-semibold transition-colors duration-200 ${currentLocale === 'en' ? 'bg-secondary text-[#1A365D]' : 'text-white hover:text-secondary'}`}
+						on:click={() => switchLocale('en')}
+						aria-pressed={currentLocale === 'en'}
+						aria-label="Switch to English"
+					>
+						EN
+					</button>
+					<button
+						type="button"
+						class={`rounded-lg px-2 py-1 text-xs md:text-[13px] font-semibold transition-colors duration-200 ${currentLocale === 'es' ? 'bg-secondary text-[#1A365D]' : 'text-white hover:text-secondary'}`}
+						on:click={() => switchLocale('es')}
+						aria-pressed={currentLocale === 'es'}
+						aria-label="Cambiar a Español"
+					>
+						ES
+					</button>
+				</div>
+
 				<a
-					href={contactLink.href}
+					href={localizeHref(contactLink.href)}
 					class="rounded-lg bg-secondary px-4 md:px-5 lg:px-6 py-2 text-sm md:text-[15px] font-semibold text-[#1A365D] transition-all duration-200 hover:scale-105 hover:bg-secondary/90 focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-secondary"
 				>
 					{contactLink.label()}
@@ -354,6 +387,30 @@
 				</div>
 
 				<div class="flex-1 space-y-3 overflow-y-auto px-2 pb-6 sm:px-3">
+					<!-- Mobile language switcher -->
+					<div class="px-2">
+						<div class="inline-flex gap-2">
+							<button
+								type="button"
+								class={`rounded-lg px-3 py-2 text-sm font-semibold transition-colors duration-200 ${currentLocale === 'en' ? 'bg-secondary text-[#1A365D]' : 'text-white hover:text-secondary'}`}
+								on:click={() => switchLocale('en')}
+								aria-pressed={currentLocale === 'en'}
+								aria-label="Switch to English"
+							>
+								EN
+							</button>
+							<button
+								type="button"
+								class={`rounded-lg px-3 py-2 text-sm font-semibold transition-colors duration-200 ${currentLocale === 'es' ? 'bg-secondary text-[#1A365D]' : 'text-white hover:text-secondary'}`}
+								on:click={() => switchLocale('es')}
+								aria-pressed={currentLocale === 'es'}
+								aria-label="Cambiar a Español"
+							>
+								ES
+							</button>
+						</div>
+					</div>
+
 					{#each mobileSections as section, i (section.id)}
 						{#if section.type === 'link'}
 							<a
@@ -395,7 +452,8 @@
 														class="block rounded-lg px-3 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary/10 hover:text-white focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-secondary"
 														in:fly={{ y: -6, opacity: 0, duration: 180, easing: quintOut }}
 														out:fly={{ y: -6, opacity: 0, duration: 100 }}
-														on:click|preventDefault={() => handleNavigation(section.href)}
+									on:click|preventDefault={() => handleNavigation(localizeHref(section.href))}
+										on:click|preventDefault={() => handleNavigation(localizeHref(section.href))}
 													>
 														{section.label()}
 													</a>
@@ -409,7 +467,7 @@
 														class="block rounded-lg px-3 py-2 text-sm text-white/90 transition hover:bg-white/10"
 														in:fly={{ y: -6, opacity: 0, duration: 180, delay: j * 35, easing: quintOut }}
 														out:fly={{ y: -6, opacity: 0, duration: 100 }}
-														on:click|preventDefault={() => handleNavigation(item.href)}
+										on:click|preventDefault={() => handleNavigation(localizeHref(item.href))}
 													>
 														{item.label()}
 													</a>
